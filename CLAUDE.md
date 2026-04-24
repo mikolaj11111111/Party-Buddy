@@ -12,7 +12,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 - Wejście: klik myszą + push-to-talk (głos rozpoznaje literę "A/B/C/D" lub treść odpowiedzi)
 - AI prowadzący: predefiniowane szablony komentarzy + pre-generowane TTS z dysku
 - Sędzia: deterministyczny algorytm (porównanie litery + matching treści przez `rapidfuzz`)
-- Baza pytań: `data/questions.json` na MVP, migracja do SQLite + admin UI w v0.5
+- Baza pytań: `data/questions/<category>.json` (jeden plik na kategorię — `geography.json`, `history.json`, ...) na MVP. Migracja do SQLite + admin UI w v0.5.
 - Historia: jeden globalny profil w SQLite
 
 ## Stack

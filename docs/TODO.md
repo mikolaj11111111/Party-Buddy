@@ -13,6 +13,14 @@
 - [ ] Czy pre-generować TTS dla wszystkich tekstów pytań (mała baza = OK), czy tylko komentarzy
 - [ ] Czy po sesji pokazać statystyki per kategoria pytań
 
+## Decyzje do podjęcia (blokujące)
+
+- [ ] **Sposób budowania datasetu pytań** — wybrać:
+  - A) odblokować `Write` permission dla subagentów w `.claude/settings.json` na ścieżce `C:\Projekty\Part_Buddy\data\questions\*.json` i odpalić ponownie subagent
+  - B) wygenerować 180 pytań w głównej rozmowie (zje dużo kontekstu)
+  - C) dataset zostawić na później — najpierw skończyć M1 (SQLite/Ruff/Prettier)
+- [ ] **Reguła routowania pytań między kategoriami** dla nakładających się tematów (`popculture` ↔ `movies`/`music`/`internet_games`) — sub­agent zauważył ryzyko
+
 ## Post-MVP
 
 - [ ] [post-MVP] Admin UI do edycji pytań (v0.5)
@@ -36,4 +44,7 @@
 - [x] Decyzja: STT przez Groq API (słaby sprzęt)
 - [x] Decyzja: TTS Piper lokalnie
 - [x] Decyzja: bez spaCy na MVP (ABCD nie wymaga)
+- [x] Decyzja: SQLModel zamiast czystego SQLAlchemy (lepsza integracja z FastAPI)
+- [x] Decyzja: dataset pytań w `data/questions/<category>.json` (per kategoria) zamiast jednego pliku
 - [x] Utworzenie struktury docs/
+- [x] M1 częściowo: venv, requirements.txt, FastAPI hello-world, Vite scaffold, CORS, git init + remote + 3 commity

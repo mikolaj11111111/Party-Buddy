@@ -18,7 +18,14 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 - **Problem:** Plik zawiera nieaktualne info (desktop-first, spaCy obowiązkowo, AI tylko prowadzi/komentuje). Aktualne decyzje: web-only, bez spaCy na MVP, ABCD zamknięte.
 - **Wpływ:** średni — Claude może postępować zgodnie z nieaktualnymi rules przy braku jasnego kontekstu.
 - **Propozycja:** zsynchronizować `rules.md` z `CLAUDE.md` lub usunąć duplikujące sekcje.
-- **Status:** open
+- **Status:** fixed (2026-04-24, zsynchronizowane z `CLAUDE.md`)
+
+## Subagent Write blocked
+- **Lokalizacja:** uprawnienia Claude Code (settings)
+- **Problem:** Subagenci `general-purpose` nie mogą używać `Write` na `data/questions/*.json` mimo że parent może. Dwie próby wygenerowania datasetu skończyły się `Permission denied`.
+- **Wpływ:** średni — blokuje delegowanie zadań typu "wygeneruj duży zbiór plików" do subagentów; trzeba albo robić w głównej rozmowie (zżera kontekst) albo zmieniać settings.
+- **Propozycja:** dodać w `.claude/settings.json` regułę `"permissions": { "allow": ["Write(C:\\Projekty\\Part_Buddy\\data\\questions\\*.json)"] }` przed kolejną próbą.
+- **Status:** open (czeka na decyzję A/B/C w `docs/TODO.md`)
 
 ---
 

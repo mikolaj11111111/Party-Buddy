@@ -20,18 +20,21 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 ## Milestone'y
 
 ### M1 — Setup i kościec (2-3 dni)
-- [ ] Inicjalizacja venv backend, `requirements.txt`
-- [ ] Inicjalizacja Vite + React + TS
-- [ ] Hello-world FastAPI + SQLite + przykładowy endpoint
-- [ ] CORS, struktura `backend/app/`, `frontend/src/`
-- [ ] Konfiguracja Ruff i Prettier
-- [ ] Pierwszy commit, gałąź `main`
+- [x] Inicjalizacja venv (root) + `requirements.txt` (FastAPI 0.136.1, uvicorn 0.46.0, SQLModel 0.0.38)
+- [x] Inicjalizacja Vite + React + TS (`frontend/`, 153 paczek, 0 vulns)
+- [x] Hello-world FastAPI + struktura `backend/app/` (`/`, `/health`)
+- [x] CORS middleware (allow_origins=`http://localhost:5173`, methods explicit GET/POST/OPTIONS, headers Content-Type/Authorization)
+- [x] Pierwszy commit + branch `main` + remote `origin` (https://github.com/mikolaj11111111/Party-Buddy.git)
+- [ ] **SQLite + przykładowy endpoint z SQLModel** (smoke test ORM, dummy `Ping` model)
+- [ ] **Konfiguracja Ruff** (`pyproject.toml` z regułami formatowania/lintingu/sortowania importów)
+- [ ] **Konfiguracja Prettier** (`.prettierrc` w `frontend/`)
 
 ### M2 — Sędzia i baza pytań (3-4 dni)
-- [ ] Schema pytania w JSON (id, kategoria, treść, opcje ABCD, poprawna, aliasy treści)
-- [ ] `data/questions.json` z 30-50 pytaniami startowymi
+- [ ] Schema pytania w JSON (`id`, `category`, `difficulty`, `question`, `options{A..D}`, `correct_answer`, `explanation?`, `aliases?`)
+- [ ] `data/questions/<category>.json` — 11 plików per kategoria (geography, popculture, history, movies, music, science, internet_games, sport, technology, language_literature, general). Pierwsza partia: ~180 pytań. Docelowo 600-800 w kolejnych iteracjach.
+- [ ] Loader pytań z katalogu (zbiera wszystkie kategorie, waliduje schemat, wykrywa duplikaty `id`)
 - [ ] `core/judge.py`: porównanie litery + matching treści (rapidfuzz)
-- [ ] Testy jednostkowe sędziego (poprawne, błędne, literówki, wielkość liter)
+- [ ] Testy jednostkowe sędziego (poprawne, błędne, literówki, wielkość liter, aliasy)
 - [ ] Endpoint `POST /api/answer` (input: question_id + answer_text/letter)
 
 ### M3 — STT integracja (2-3 dni)
