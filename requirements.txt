@@ -1,0 +1,22 @@
+# Direct dependencies — pin exact versions.
+# Transitive deps installed automatically by pip; not listed here.
+# Aktualizuj ten plik za każdym razem, gdy dodajesz/usuwasz/zmieniasz wersję paczki.
+
+# --- M1: Backend kościec ---
+fastapi==0.136.1
+uvicorn[standard]==0.46.0
+sqlmodel==0.0.38
+
+# --- M2: Sędzia (do dodania) ---
+# rapidfuzz==<wersja>
+
+# --- M3: STT (do dodania) ---
+# groq==<wersja>
+# python-multipart==<wersja>   # FastAPI form/multipart upload
+
+# --- M4: TTS (do dodania) ---
+# piper-tts==<wersja>           # alternatywnie binarka Piper poza pip
+
+# --- Dev/quality (opcjonalnie, do dodania) ---
+# ruff==<wersja>
+# pytest==<wersja>

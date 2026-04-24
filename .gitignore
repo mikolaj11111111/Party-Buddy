@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sekrety i konfiguracja lokalna
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Dane lokalne (nie commitujemy bazy ani cache audio)
+data/*.db
+data/*.db-journal
+data/tts_cache/
+data/audio_uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.egg
+*.whl
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
