@@ -18,5 +18,5 @@ sqlmodel==0.0.38
 # piper-tts==<wersja>           # alternatywnie binarka Piper poza pip
 
 # --- Dev/quality (opcjonalnie, do dodania) ---
-# ruff==<wersja>
+ruff==0.15.12
 # pytest==<wersja>

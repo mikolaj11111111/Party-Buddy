@@ -17,8 +17,8 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 - **Lokalizacja:** `.claude/rules/rules.md`
 - **Problem:** Plik zawiera nieaktualne info (desktop-first, spaCy obowiązkowo, AI tylko prowadzi/komentuje). Aktualne decyzje: web-only, bez spaCy na MVP, ABCD zamknięte.
 - **Wpływ:** średni — Claude może postępować zgodnie z nieaktualnymi rules przy braku jasnego kontekstu.
-- **Propozycja:** zsynchronizować `rules.md` z `CLAUDE.md` lub usunąć duplikujące sekcje.
-- **Status:** fixed (2026-04-24, zsynchronizowane z `CLAUDE.md`)
+- **Propozycja:** zsynchronizować `rules.md` z `AGENTS.md` lub usunąć duplikujące sekcje.
+- **Status:** fixed (2026-04-24, zsynchronizowane z `AGENTS.md`)
 
 ## Subagent Write blocked
 - **Lokalizacja:** uprawnienia Claude Code (settings)

@@ -1,4 +1,4 @@
-# Part Buddy — kontekst projektu
+# Party Buddy — kontekst projektu
 
 Webowa platforma imprezowych gier z AI w roli prowadzącego (game master).
 MVP: portfolio-first, lokalne, niskokosztowe, polski język.

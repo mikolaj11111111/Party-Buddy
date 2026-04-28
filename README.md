@@ -1,8 +1,8 @@
-# Part Buddy
+# Party Buddy
 
 Webowa platforma imprezowych gier z AI prowadzącym.
 
-**Status:** wczesny development (przed-MVP, brak kodu — etap planowania).
+**Status:** wczesny development, M1 zakończone (setup i kościec).
 
 ## Stack MVP
 
@@ -17,11 +17,39 @@ Webowa platforma imprezowych gier z AI prowadzącym.
 - `frontend/` — React + Vite SPA
 - `data/` — pytania, baza SQLite, cache TTS (poza repo)
 - `docs/` — plan, TODO, ryzyka, decyzje
-- `CLAUDE.md` — kontekst projektu dla Claude Code
+- `AGENTS.md` — kontekst projektu dla agentów kodujących
 
 ## Uruchomienie
 
-TODO — uzupełnić po pierwszym milestone (setup backendu i frontendu).
+Backend:
+
+```powershell
+.\venv\Scripts\python.exe -m uvicorn backend.app.main:app --reload
+```
+
+Frontend:
+
+```powershell
+cd frontend
+npm.cmd run dev
+```
+
+## Quality checks
+
+Backend:
+
+```powershell
+.\venv\Scripts\python.exe -m ruff check backend
+.\venv\Scripts\python.exe -m ruff format --check backend
+```
+
+Frontend:
+
+```powershell
+cd frontend
+npm.cmd run lint
+npm.cmd run format:check
+```
 
 ## Licencja
 
