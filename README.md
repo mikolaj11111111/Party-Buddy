@@ -18,6 +18,7 @@ Webowa platforma imprezowych gier z AI prowadzącym.
 - `data/` — pytania, baza SQLite, cache TTS (poza repo)
 - `docs/` — plan, TODO, ryzyka, decyzje
 - `AGENTS.md` — kontekst projektu dla agentów kodujących
+- `.codex/skills/` — lokalne skille projektu
 
 ## Uruchomienie
 

@@ -54,6 +54,16 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 - Testy przed commitem
 - `docs/plan.md`, `docs/TODO.md`, `docs/risk.md` — pliki robocze, **commitowane** do repo
 
+## Lokalne rules dla agentów
+
+- Trzymaj się aktualnego scope MVP; rzeczy poza MVP zapisuj w `docs/TODO.md`, nie implementuj bez potrzeby.
+- Preferuj najprostsze rozwiązanie, które działa i pasuje do istniejącej architektury.
+- Przy większych zmianach pokaż krótki plan lub strukturę plików przed implementacją.
+- Nie dodawaj zależności, jeśli standard library albo obecny stack wystarczają.
+- Nie trzymaj logiki biznesowej w endpointach, komponentach UI ani entrypointach.
+- Aktualizuj dokumentację tylko po realnej zmianie projektu.
+- Lokalne skille projektu są w `.codex/skills/`.
+
 ## Architektura modułów (planowana)
 
 ```

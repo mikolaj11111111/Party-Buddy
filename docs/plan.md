@@ -35,6 +35,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [ ] Loader pytań z katalogu (zbiera wszystkie kategorie, waliduje schemat, wykrywa duplikaty `id`)
 - [ ] `core/judge.py`: porównanie litery + matching treści (rapidfuzz)
 - [ ] Testy jednostkowe sędziego (poprawne, błędne, literówki, wielkość liter, aliasy)
+- [ ] Schema odpowiedzi użytkownika dla `POST /api/answer`: request (`question_id`, `answer_letter?`, `answer_text?`, `input_method`) + response (`question_id`, `submitted_answer`, `matched_answer?`, `is_correct`, `correct_answer`, `explanation?`, `score_delta`)
 - [ ] Endpoint `POST /api/answer` (input: question_id + answer_text/letter)
 
 ### M3 — STT integracja (2-3 dni)
