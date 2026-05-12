@@ -1,0 +1,24 @@
+[tool.ruff]
+# Match the MVP runtime target from project docs.
+target-version = "py311"
+# Keep the same practical default used by Black/Ruff.
+line-length = 88
+# Treat repo-root packages like backend as local project code.
+src = ["."]
+
+[tool.ruff.lint]
+# E/F: basic errors, I: import sorting, UP: Python upgrades, B: common bugs.
+select = ["E", "F", "I", "UP", "B"]
+# FastAPI intentionally uses Depends(...) in endpoint default arguments.
+ignore = ["B008"]
+
+[tool.ruff.lint.isort]
+# Keep backend imports grouped as first-party, not third-party packages.
+known-first-party = ["backend"]
+
+[tool.ruff.format]
+# Enforce one consistent Python formatting style.
+quote-style = "double"
+indent-style = "space"
+# Avoid fighting Windows/Linux line endings during local development.
+line-ending = "auto"

@@ -15,17 +15,17 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 
 ## Stare regulaminy w `.claude/rules/rules.md`
 - **Lokalizacja:** `.claude/rules/rules.md`
-- **Problem:** Plik zawiera nieaktualne info (desktop-first, spaCy obowiązkowo, AI tylko prowadzi/komentuje). Aktualne decyzje: web-only, bez spaCy na MVP, ABCD zamknięte.
-- **Wpływ:** średni — Claude może postępować zgodnie z nieaktualnymi rules przy braku jasnego kontekstu.
-- **Propozycja:** zsynchronizować `rules.md` z `CLAUDE.md` lub usunąć duplikujące sekcje.
-- **Status:** fixed (2026-04-24, zsynchronizowane z `CLAUDE.md`)
+- **Problem:** Plik zawierał nieaktualne info (desktop-first, spaCy obowiązkowo, AI tylko prowadzi/komentuje). Aktualne decyzje: web-only, bez spaCy na MVP, ABCD zamknięte.
+- **Wpływ:** średni — agent mógł postępować zgodnie z nieaktualnymi rules przy braku jasnego kontekstu.
+- **Propozycja:** przenieść aktualne reguły do `AGENTS.md`, a lokalne skille do `.codex/skills/`.
+- **Status:** fixed (2026-05-12, `.claude/` zastąpione przez `AGENTS.md` + `.codex/skills/`)
 
 ## Subagent Write blocked
-- **Lokalizacja:** uprawnienia Claude Code (settings)
-- **Problem:** Subagenci `general-purpose` nie mogą używać `Write` na `data/questions/*.json` mimo że parent może. Dwie próby wygenerowania datasetu skończyły się `Permission denied`.
-- **Wpływ:** średni — blokuje delegowanie zadań typu "wygeneruj duży zbiór plików" do subagentów; trzeba albo robić w głównej rozmowie (zżera kontekst) albo zmieniać settings.
-- **Propozycja:** dodać w `.claude/settings.json` regułę `"permissions": { "allow": ["Write(C:\\Projekty\\Part_Buddy\\data\\questions\\*.json)"] }` przed kolejną próbą.
-- **Status:** open (czeka na decyzję A/B/C w `docs/TODO.md`)
+- **Lokalizacja:** stare uprawnienia Claude Code (settings)
+- **Problem:** Subagenci `general-purpose` nie mogli używać `Write` na `data/questions/*.json` mimo że parent mógł.
+- **Wpływ:** niski — projekt przeszedł na lokalne skille/rules dla Codex; dataset M2 zacznie się od małego ręcznego smoke-testu.
+- **Propozycja:** nie wracać do `.claude/settings.json`; jeśli pełny dataset będzie generowany agentowo, zrobić to etapami w aktualnym workflow.
+- **Status:** fixed (2026-05-12, migracja z `.claude/` do `AGENTS.md` + `.codex/skills/`)
 
 ---
 

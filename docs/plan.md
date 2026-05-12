@@ -1,6 +1,6 @@
 # Plan — MVP Part Buddy
 
-Status: **planowanie zakończone, przed startem implementacji**.
+Status: **M1 zakończone, gotowe do startu M2**.
 Estymata: 3-4 tygodnie pracy hobbystycznej.
 
 ## Cel MVP
@@ -25,9 +25,9 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [x] Hello-world FastAPI + struktura `backend/app/` (`/`, `/health`)
 - [x] CORS middleware (allow_origins=`http://localhost:5173`, methods explicit GET/POST/OPTIONS, headers Content-Type/Authorization)
 - [x] Pierwszy commit + branch `main` + remote `origin` (https://github.com/mikolaj11111111/Party-Buddy.git)
-- [ ] **SQLite + przykładowy endpoint z SQLModel** (smoke test ORM, dummy `Ping` model)
-- [ ] **Konfiguracja Ruff** (`pyproject.toml` z regułami formatowania/lintingu/sortowania importów)
-- [ ] **Konfiguracja Prettier** (`.prettierrc` w `frontend/`)
+- [x] **SQLite + przykładowy endpoint z SQLModel** (smoke test ORM, dummy `Ping` model)
+- [x] **Konfiguracja Ruff** (`pyproject.toml` z regułami formatowania/lintingu/sortowania importów)
+- [x] **Konfiguracja Prettier** (`.prettierrc` w `frontend/`)
 
 ### M2 — Sędzia i baza pytań (3-4 dni)
 - [ ] Schema pytania w JSON (`id`, `category`, `difficulty`, `question`, `options{A..D}`, `correct_answer`, `explanation?`, `aliases?`)
@@ -35,6 +35,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [ ] Loader pytań z katalogu (zbiera wszystkie kategorie, waliduje schemat, wykrywa duplikaty `id`)
 - [ ] `core/judge.py`: porównanie litery + matching treści (rapidfuzz)
 - [ ] Testy jednostkowe sędziego (poprawne, błędne, literówki, wielkość liter, aliasy)
+- [ ] Schema odpowiedzi użytkownika dla `POST /api/answer`: request (`question_id`, `answer_letter?`, `answer_text?`, `input_method`) + response (`question_id`, `submitted_answer`, `matched_answer?`, `is_correct`, `correct_answer`, `explanation?`, `score_delta`)
 - [ ] Endpoint `POST /api/answer` (input: question_id + answer_text/letter)
 
 ### M3 — STT integracja (2-3 dni)

@@ -7,18 +7,20 @@
 - [ ] Decyzja: WebSocket vs SSE dla push'u stanu gry (SSE prostszy jeśli komunikacja jednokierunkowa)
 - [ ] Format multipart vs base64 dla audio z frontendu
 - [ ] Limit długości nagrania głosowego (np. 5s — twardy cut)
+- [ ] Usunąć tymczasowy endpoint/model `Ping` po dodaniu prawdziwych modeli domenowych
 
 ## Pomysły / dyskusja
 
 - [ ] Czy pre-generować TTS dla wszystkich tekstów pytań (mała baza = OK), czy tylko komentarzy
 - [ ] Czy po sesji pokazać statystyki per kategoria pytań
+- [ ] Schema odpowiedzi: `is_correct` jest wyliczane przez backend/sędziego i zwracane w response, nie wysyłane przez klienta
 
 ## Decyzje do podjęcia (blokujące)
 
 - [ ] **Sposób budowania datasetu pytań** — wybrać:
-  - A) odblokować `Write` permission dla subagentów w `.claude/settings.json` na ścieżce `C:\Projekty\Part_Buddy\data\questions\*.json` i odpalić ponownie subagent
+  - A) użyć Codex agentów z lokalnymi skillami/rules projektu (`AGENTS.md` + `.codex/skills/`) do wygenerowania `data/questions/*.json`
   - B) wygenerować 180 pytań w głównej rozmowie (zje dużo kontekstu)
-  - C) dataset zostawić na później — najpierw skończyć M1 (SQLite/Ruff/Prettier)
+  - C) zacząć od małego ręcznego datasetu smoke-testowego (5-10 pytań), pełną partię zrobić później
 - [ ] **Reguła routowania pytań między kategoriami** dla nakładających się tematów (`popculture` ↔ `movies`/`music`/`internet_games`) — sub­agent zauważył ryzyko
 
 ## Post-MVP
@@ -47,4 +49,4 @@
 - [x] Decyzja: SQLModel zamiast czystego SQLAlchemy (lepsza integracja z FastAPI)
 - [x] Decyzja: dataset pytań w `data/questions/<category>.json` (per kategoria) zamiast jednego pliku
 - [x] Utworzenie struktury docs/
-- [x] M1 częściowo: venv, requirements.txt, FastAPI hello-world, Vite scaffold, CORS, git init + remote + 3 commity
+- [x] M1: venv, requirements.txt, FastAPI hello-world, CORS, SQLite/SQLModel smoke test, Ruff, Vite React TS, Prettier, git init + remote
