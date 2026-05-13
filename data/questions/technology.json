@@ -1,0 +1,517 @@
+[
+  {
+    "id": "tech_001",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Co oznacza skr?t USB?",
+    "options": {
+      "A": "Universal Serial Bus",
+      "B": "United System Binary",
+      "C": "User Storage Block",
+      "D": "Ultra Signal Band"
+    },
+    "correct_answer": "A",
+    "explanation": "USB to standard komunikacji i zasilania o nazwie Universal Serial Bus.",
+    "aliases": {
+      "A": [
+        "Universal Serial Bus",
+        "universal serial bus"
+      ],
+      "B": [
+        "United System Binary",
+        "united system binary"
+      ],
+      "C": [
+        "User Storage Block",
+        "user storage block"
+      ],
+      "D": [
+        "Ultra Signal Band",
+        "ultra signal band"
+      ]
+    }
+  },
+  {
+    "id": "tech_002",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Kt?ra firma stworzy?a system Android?",
+    "options": {
+      "A": "Apple",
+      "B": "Google",
+      "C": "Microsoft",
+      "D": "Nokia"
+    },
+    "correct_answer": "B",
+    "explanation": "Android jest rozwijany przez Google oraz spo?eczno?? projektu AOSP.",
+    "aliases": {
+      "A": [
+        "Apple",
+        "apple"
+      ],
+      "B": [
+        "Google",
+        "google"
+      ],
+      "C": [
+        "Microsoft",
+        "microsoft"
+      ],
+      "D": [
+        "Nokia",
+        "nokia"
+      ]
+    }
+  },
+  {
+    "id": "tech_003",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jaki znak jest u?ywany w adresach e-mail mi?dzy nazw? u?ytkownika a domen??",
+    "options": {
+      "A": "#",
+      "B": "&",
+      "C": "@",
+      "D": "%"
+    },
+    "correct_answer": "C",
+    "explanation": "Znak @ oddziela lokaln? cz??? adresu e-mail od domeny.",
+    "aliases": {
+      "A": [
+        "#"
+      ],
+      "B": [
+        "&",
+        ""
+      ],
+      "C": [
+        "@",
+        "",
+        "ma?pa",
+        "malpa",
+        "at"
+      ],
+      "D": [
+        "%",
+        ""
+      ]
+    }
+  },
+  {
+    "id": "tech_004",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Kt?ry protok?? jest podstaw? stron internetowych w przegl?darce?",
+    "options": {
+      "A": "FTP",
+      "B": "SMTP",
+      "C": "SSH",
+      "D": "HTTP"
+    },
+    "correct_answer": "D",
+    "explanation": "HTTP i jego szyfrowana wersja HTTPS s?u?? do przesy?ania stron WWW.",
+    "aliases": {
+      "A": [
+        "FTP",
+        "ftp"
+      ],
+      "B": [
+        "SMTP",
+        "smtp"
+      ],
+      "C": [
+        "SSH",
+        "ssh"
+      ],
+      "D": [
+        "HTTP",
+        "http"
+      ]
+    }
+  },
+  {
+    "id": "tech_005",
+    "category": "technology",
+    "difficulty": "hard",
+    "question": "Kt?ra jednostka jest wi?ksza: megabajt czy kilobajt?",
+    "options": {
+      "A": "Megabajt",
+      "B": "Kilobajt",
+      "C": "S? zawsze r?wne",
+      "D": "To jednostki czasu"
+    },
+    "correct_answer": "A",
+    "explanation": "Megabajt jest wi?kszy od kilobajta.",
+    "aliases": {
+      "A": [
+        "Megabajt",
+        "megabajt"
+      ],
+      "B": [
+        "Kilobajt",
+        "kilobajt"
+      ],
+      "C": [
+        "S? zawsze r?wne",
+        "sl zawsze rlwne"
+      ],
+      "D": [
+        "To jednostki czasu",
+        "to jednostki czasu"
+      ]
+    }
+  },
+  {
+    "id": "tech_006",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? urz?dzenie do wskazywania kursora na ekranie?",
+    "options": {
+      "A": "Klawiatura",
+      "B": "Mysz",
+      "C": "Router",
+      "D": "Monitor"
+    },
+    "correct_answer": "B",
+    "explanation": "Mysz komputerowa s?u?y do sterowania kursorem.",
+    "aliases": {
+      "A": [
+        "Klawiatura",
+        "klawiatura"
+      ],
+      "B": [
+        "Mysz",
+        "mysz"
+      ],
+      "C": [
+        "Router",
+        "router"
+      ],
+      "D": [
+        "Monitor",
+        "monitor"
+      ]
+    }
+  },
+  {
+    "id": "tech_007",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Kt?ry element komputera wykonuje wi?kszo?? oblicze? og?lnego przeznaczenia?",
+    "options": {
+      "A": "Dysk SSD",
+      "B": "Karta sieciowa",
+      "C": "Procesor",
+      "D": "Zasilacz"
+    },
+    "correct_answer": "C",
+    "explanation": "Procesor CPU wykonuje instrukcje program?w.",
+    "aliases": {
+      "A": [
+        "Dysk SSD",
+        "dysk ssd"
+      ],
+      "B": [
+        "Karta sieciowa",
+        "karta sieciowa"
+      ],
+      "C": [
+        "Procesor",
+        "procesor",
+        "cpu",
+        "procesor cpu"
+      ],
+      "D": [
+        "Zasilacz",
+        "zasilacz"
+      ]
+    }
+  },
+  {
+    "id": "tech_008",
+    "category": "technology",
+    "difficulty": "hard",
+    "question": "Kt?ry format pliku jest zwykle u?ywany do arkuszy kalkulacyjnych Excela?",
+    "options": {
+      "A": ".jpg",
+      "B": ".mp3",
+      "C": ".zip",
+      "D": ".xlsx"
+    },
+    "correct_answer": "D",
+    "explanation": "Pliki .xlsx s? standardowym formatem skoroszyt?w Excela.",
+    "aliases": {
+      "A": [
+        ".jpg"
+      ],
+      "B": [
+        ".mp3"
+      ],
+      "C": [
+        ".zip"
+      ],
+      "D": [
+        ".xlsx"
+      ]
+    }
+  },
+  {
+    "id": "tech_009",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Kt?ry system operacyjny rozwija Apple dla iPhone?a?",
+    "options": {
+      "A": "iOS",
+      "B": "Android",
+      "C": "Windows",
+      "D": "Linux"
+    },
+    "correct_answer": "A",
+    "explanation": "iPhone dzia?a pod kontrol? systemu iOS.",
+    "aliases": {
+      "A": [
+        "iOS",
+        "ios"
+      ],
+      "B": [
+        "Android",
+        "android"
+      ],
+      "C": [
+        "Windows",
+        "windows"
+      ],
+      "D": [
+        "Linux",
+        "linux"
+      ]
+    }
+  },
+  {
+    "id": "tech_010",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? technologia bezprzewodowa do kr?tkiego zasi?gu, u?ywana np. w s?uchawkach?",
+    "options": {
+      "A": "NFC",
+      "B": "Bluetooth",
+      "C": "Ethernet",
+      "D": "HDMI"
+    },
+    "correct_answer": "B",
+    "explanation": "Bluetooth s?u?y do bezprzewodowej komunikacji kr?tkiego zasi?gu.",
+    "aliases": {
+      "A": [
+        "NFC",
+        "nfc"
+      ],
+      "B": [
+        "Bluetooth",
+        "bluetooth"
+      ],
+      "C": [
+        "Ethernet",
+        "ethernet"
+      ],
+      "D": [
+        "HDMI",
+        "hdmi"
+      ]
+    }
+  },
+  {
+    "id": "tech_011",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Co robi kopia zapasowa danych?",
+    "options": {
+      "A": "Usuwa dane",
+      "B": "Szyfruje ekran",
+      "C": "Tworzy zapasow? kopi?",
+      "D": "Wy??cza internet"
+    },
+    "correct_answer": "C",
+    "explanation": "Backup tworzy kopi? danych na wypadek awarii lub utraty plik?w.",
+    "aliases": {
+      "A": [
+        "Usuwa dane",
+        "usuwa dane"
+      ],
+      "B": [
+        "Szyfruje ekran",
+        "szyfruje ekran"
+      ],
+      "C": [
+        "Tworzy zapasow? kopi?",
+        "tworzy zapasowl kopil",
+        "backup",
+        "kopia bezpiecze?stwa",
+        "kopia bezpieczenstwa"
+      ],
+      "D": [
+        "Wy??cza internet",
+        "wyllcza internet"
+      ]
+    }
+  },
+  {
+    "id": "tech_012",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Kt?ry j?zyk jest cz?sto u?ywany do stylowania stron WWW?",
+    "options": {
+      "A": "Python",
+      "B": "SQL",
+      "C": "C",
+      "D": "CSS"
+    },
+    "correct_answer": "D",
+    "explanation": "CSS opisuje wygl?d i uk?ad element?w na stronach internetowych.",
+    "aliases": {
+      "A": [
+        "Python",
+        "python"
+      ],
+      "B": [
+        "SQL",
+        "sql"
+      ],
+      "C": [
+        "C",
+        "c"
+      ],
+      "D": [
+        "CSS",
+        "css"
+      ]
+    }
+  },
+  {
+    "id": "tech_013",
+    "category": "technology",
+    "difficulty": "hard",
+    "question": "Co oznacza skr?t RAM?",
+    "options": {
+      "A": "Random Access Memory",
+      "B": "Read Archive Module",
+      "C": "Remote App Manager",
+      "D": "Rapid Audio Mode"
+    },
+    "correct_answer": "A",
+    "explanation": "RAM to pami?? o swobodnym dost?pie u?ywana przez dzia?aj?ce programy.",
+    "aliases": {
+      "A": [
+        "Random Access Memory",
+        "random access memory"
+      ],
+      "B": [
+        "Read Archive Module",
+        "read archive module"
+      ],
+      "C": [
+        "Remote App Manager",
+        "remote app manager"
+      ],
+      "D": [
+        "Rapid Audio Mode",
+        "rapid audio mode"
+      ]
+    }
+  },
+  {
+    "id": "tech_014",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Kt?re urz?dzenie ??czy domow? sie? z internetem?",
+    "options": {
+      "A": "Skaner",
+      "B": "Router",
+      "C": "Drukarka",
+      "D": "G?o?nik"
+    },
+    "correct_answer": "B",
+    "explanation": "Router kieruje ruchem mi?dzy sieci? lokaln? a internetem.",
+    "aliases": {
+      "A": [
+        "Skaner",
+        "skaner"
+      ],
+      "B": [
+        "Router",
+        "router"
+      ],
+      "C": [
+        "Drukarka",
+        "drukarka"
+      ],
+      "D": [
+        "G?o?nik",
+        "glolnik"
+      ]
+    }
+  },
+  {
+    "id": "tech_015",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Kt?ry typ ekranu sk?ada si? z organicznych diod elektroluminescencyjnych?",
+    "options": {
+      "A": "LCD",
+      "B": "CRT",
+      "C": "OLED",
+      "D": "E Ink"
+    },
+    "correct_answer": "C",
+    "explanation": "OLED u?ywa organicznych diod emituj?cych ?wiat?o.",
+    "aliases": {
+      "A": [
+        "LCD",
+        "lcd"
+      ],
+      "B": [
+        "CRT",
+        "crt"
+      ],
+      "C": [
+        "OLED",
+        "oled"
+      ],
+      "D": [
+        "E Ink",
+        "e ink"
+      ]
+    }
+  },
+  {
+    "id": "tech_016",
+    "category": "technology",
+    "difficulty": "hard",
+    "question": "Kt?ry algorytm kryptograficzny jest funkcj? skr?tu, a nie szyfrem blokowym?",
+    "options": {
+      "A": "AES",
+      "B": "RSA",
+      "C": "ChaCha20",
+      "D": "SHA-256"
+    },
+    "correct_answer": "D",
+    "explanation": "SHA-256 jest funkcj? skr?tu; nie s?u?y do odszyfrowywania danych.",
+    "aliases": {
+      "A": [
+        "AES",
+        "aes"
+      ],
+      "B": [
+        "RSA",
+        "rsa"
+      ],
+      "C": [
+        "ChaCha20",
+        "chacha20"
+      ],
+      "D": [
+        "SHA-256",
+        "sha-256"
+      ]
+    }
+  }
+]

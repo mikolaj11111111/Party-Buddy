@@ -1,0 +1,514 @@
+[
+  {
+    "id": "mus_001",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Kt?ry instrument ma zwykle 88 klawiszy?",
+    "options": {
+      "A": "Fortepian",
+      "B": "Gitara",
+      "C": "Saksofon",
+      "D": "Skrzypce"
+    },
+    "correct_answer": "A",
+    "explanation": "Standardowy fortepian ma 88 klawiszy.",
+    "aliases": {
+      "A": [
+        "Fortepian",
+        "fortepian"
+      ],
+      "B": [
+        "Gitara",
+        "gitara"
+      ],
+      "C": [
+        "Saksofon",
+        "saksofon"
+      ],
+      "D": [
+        "Skrzypce",
+        "skrzypce"
+      ]
+    }
+  },
+  {
+    "id": "mus_002",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Kt?ry kompozytor napisa? ?Cztery pory roku??",
+    "options": {
+      "A": "Mozart",
+      "B": "Antonio Vivaldi",
+      "C": "Bach",
+      "D": "Beethoven"
+    },
+    "correct_answer": "B",
+    "explanation": "?Cztery pory roku? to cykl koncert?w skrzypcowych Vivaldiego.",
+    "aliases": {
+      "A": [
+        "Mozart",
+        "mozart"
+      ],
+      "B": [
+        "Antonio Vivaldi",
+        "antonio vivaldi"
+      ],
+      "C": [
+        "Bach",
+        "bach"
+      ],
+      "D": [
+        "Beethoven",
+        "beethoven"
+      ]
+    }
+  },
+  {
+    "id": "mus_003",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? zesp?? Johna Lennona i Paula McCartneya?",
+    "options": {
+      "A": "The Rolling Stones",
+      "B": "Queen",
+      "C": "The Beatles",
+      "D": "U2"
+    },
+    "correct_answer": "C",
+    "explanation": "John Lennon i Paul McCartney byli cz?onkami The Beatles.",
+    "aliases": {
+      "A": [
+        "The Rolling Stones",
+        "the rolling stones"
+      ],
+      "B": [
+        "Queen",
+        "queen"
+      ],
+      "C": [
+        "The Beatles",
+        "the beatles"
+      ],
+      "D": [
+        "U2",
+        "u2"
+      ]
+    }
+  },
+  {
+    "id": "mus_004",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Kt?ry gatunek muzyczny narodzi? si? w Nowym Orleanie?",
+    "options": {
+      "A": "Blues",
+      "B": "Disco",
+      "C": "Techno",
+      "D": "Jazz"
+    },
+    "correct_answer": "D",
+    "explanation": "Jazz rozwija? si? na pocz?tku XX wieku w Nowym Orleanie.",
+    "aliases": {
+      "A": [
+        "Blues",
+        "blues"
+      ],
+      "B": [
+        "Disco",
+        "disco"
+      ],
+      "C": [
+        "Techno",
+        "techno"
+      ],
+      "D": [
+        "Jazz",
+        "jazz"
+      ]
+    }
+  },
+  {
+    "id": "mus_005",
+    "category": "music",
+    "difficulty": "hard",
+    "question": "Kt?ra piosenkarka jest znana jako ?Kr?lowa Popu??",
+    "options": {
+      "A": "Madonna",
+      "B": "Cher",
+      "C": "Beyonc?",
+      "D": "Celine Dion"
+    },
+    "correct_answer": "A",
+    "explanation": "Przydomek ?Kr?lowa Popu? najcz??ciej odnosi si? do Madonny.",
+    "aliases": {
+      "A": [
+        "Madonna",
+        "madonna"
+      ],
+      "B": [
+        "Cher",
+        "cher"
+      ],
+      "C": [
+        "Beyonc?",
+        "beyoncl"
+      ],
+      "D": [
+        "Celine Dion",
+        "celine dion"
+      ]
+    }
+  },
+  {
+    "id": "mus_006",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Ile strun ma standardowa gitara klasyczna?",
+    "options": {
+      "A": "Cztery",
+      "B": "Sze??",
+      "C": "Siedem",
+      "D": "Dwana?cie"
+    },
+    "correct_answer": "B",
+    "explanation": "Standardowa gitara klasyczna ma sze?? strun.",
+    "aliases": {
+      "A": [
+        "Cztery",
+        "cztery"
+      ],
+      "B": [
+        "Sze??",
+        "szell"
+      ],
+      "C": [
+        "Siedem",
+        "siedem"
+      ],
+      "D": [
+        "Dwana?cie",
+        "dwanalcie"
+      ]
+    }
+  },
+  {
+    "id": "mus_007",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Kt?ry polski kompozytor tworzy? mazurki i polonezy fortepianowe?",
+    "options": {
+      "A": "Stanis?aw Moniuszko",
+      "B": "Karol Szymanowski",
+      "C": "Fryderyk Chopin",
+      "D": "Henryk Wieniawski"
+    },
+    "correct_answer": "C",
+    "explanation": "Chopin jest szczeg?lnie znany z mazurk?w i polonez?w.",
+    "aliases": {
+      "A": [
+        "Stanis?aw Moniuszko",
+        "stanislaw moniuszko"
+      ],
+      "B": [
+        "Karol Szymanowski",
+        "karol szymanowski"
+      ],
+      "C": [
+        "Fryderyk Chopin",
+        "fryderyk chopin"
+      ],
+      "D": [
+        "Henryk Wieniawski",
+        "henryk wieniawski"
+      ]
+    }
+  },
+  {
+    "id": "mus_008",
+    "category": "music",
+    "difficulty": "hard",
+    "question": "Kt?ry album Pink Floyd ma pryzmat na ok?adce?",
+    "options": {
+      "A": "The Wall",
+      "B": "Wish You Were Here",
+      "C": "Animals",
+      "D": "The Dark Side of the Moon"
+    },
+    "correct_answer": "D",
+    "explanation": "Ok?adka ?The Dark Side of the Moon? przedstawia pryzmat rozszczepiaj?cy ?wiat?o.",
+    "aliases": {
+      "A": [
+        "The Wall",
+        "the wall"
+      ],
+      "B": [
+        "Wish You Were Here",
+        "wish you were here"
+      ],
+      "C": [
+        "Animals",
+        "animals"
+      ],
+      "D": [
+        "The Dark Side of the Moon",
+        "the dark side of the moon"
+      ]
+    }
+  },
+  {
+    "id": "mus_009",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Kt?ry wykonawca ?piewa? ?Billie Jean??",
+    "options": {
+      "A": "Michael Jackson",
+      "B": "Prince",
+      "C": "Stevie Wonder",
+      "D": "Lionel Richie"
+    },
+    "correct_answer": "A",
+    "explanation": "?Billie Jean? to przeb?j Michaela Jacksona z albumu ?Thriller?.",
+    "aliases": {
+      "A": [
+        "Michael Jackson",
+        "michael jackson"
+      ],
+      "B": [
+        "Prince",
+        "prince"
+      ],
+      "C": [
+        "Stevie Wonder",
+        "stevie wonder"
+      ],
+      "D": [
+        "Lionel Richie",
+        "lionel richie"
+      ]
+    }
+  },
+  {
+    "id": "mus_010",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Kt?ry zesp?? nagra? album ?Nevermind??",
+    "options": {
+      "A": "Pearl Jam",
+      "B": "Nirvana",
+      "C": "Metallica",
+      "D": "R.E.M."
+    },
+    "correct_answer": "B",
+    "explanation": "?Nevermind? to prze?omowy album Nirvany z 1991 roku.",
+    "aliases": {
+      "A": [
+        "Pearl Jam",
+        "pearl jam"
+      ],
+      "B": [
+        "Nirvana",
+        "nirvana"
+      ],
+      "C": [
+        "Metallica",
+        "metallica"
+      ],
+      "D": [
+        "R.E.M.",
+        "r.e.m."
+      ]
+    }
+  },
+  {
+    "id": "mus_011",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? najwy?szy standardowy g?os kobiecy?",
+    "options": {
+      "A": "Alt",
+      "B": "Tenor",
+      "C": "Sopran",
+      "D": "Bas"
+    },
+    "correct_answer": "C",
+    "explanation": "Sopran jest najwy?szym typowym g?osem kobiecym.",
+    "aliases": {
+      "A": [
+        "Alt",
+        "alt"
+      ],
+      "B": [
+        "Tenor",
+        "tenor"
+      ],
+      "C": [
+        "Sopran",
+        "sopran"
+      ],
+      "D": [
+        "Bas",
+        "bas"
+      ]
+    }
+  },
+  {
+    "id": "mus_012",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Kt?ry instrument jest podstaw? sekcji rytmicznej obok perkusji?",
+    "options": {
+      "A": "Flet",
+      "B": "Harfa",
+      "C": "Ob?j",
+      "D": "Gitara basowa"
+    },
+    "correct_answer": "D",
+    "explanation": "Gitara basowa cz?sto tworzy fundament rytmiczny i harmoniczny zespo?u.",
+    "aliases": {
+      "A": [
+        "Flet",
+        "flet"
+      ],
+      "B": [
+        "Harfa",
+        "harfa"
+      ],
+      "C": [
+        "Ob?j",
+        "oblj"
+      ],
+      "D": [
+        "Gitara basowa",
+        "gitara basowa"
+      ]
+    }
+  },
+  {
+    "id": "mus_013",
+    "category": "music",
+    "difficulty": "hard",
+    "question": "Kt?ry kompozytor by? g?uchy w p??niejszym okresie ?ycia?",
+    "options": {
+      "A": "Ludwig van Beethoven",
+      "B": "Joseph Haydn",
+      "C": "Giuseppe Verdi",
+      "D": "Claude Debussy"
+    },
+    "correct_answer": "A",
+    "explanation": "Beethoven komponowa? tak?e po znacznym pogorszeniu s?uchu.",
+    "aliases": {
+      "A": [
+        "Ludwig van Beethoven",
+        "ludwig van beethoven"
+      ],
+      "B": [
+        "Joseph Haydn",
+        "joseph haydn"
+      ],
+      "C": [
+        "Giuseppe Verdi",
+        "giuseppe verdi"
+      ],
+      "D": [
+        "Claude Debussy",
+        "claude debussy"
+      ]
+    }
+  },
+  {
+    "id": "mus_014",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Kt?ry serwis jest znany ze streamingu muzyki i zielonego logo?",
+    "options": {
+      "A": "Deezer",
+      "B": "Spotify",
+      "C": "SoundCloud",
+      "D": "Tidal"
+    },
+    "correct_answer": "B",
+    "explanation": "Spotify jest platform? streamingu muzyki kojarzon? z zielonym logo.",
+    "aliases": {
+      "A": [
+        "Deezer",
+        "deezer"
+      ],
+      "B": [
+        "Spotify",
+        "spotify"
+      ],
+      "C": [
+        "SoundCloud",
+        "soundcloud"
+      ],
+      "D": [
+        "Tidal",
+        "tidal"
+      ]
+    }
+  },
+  {
+    "id": "mus_015",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Kt?ry polski zesp?? nagra? piosenk? ?Autobiografia??",
+    "options": {
+      "A": "Lady Pank",
+      "B": "Maanam",
+      "C": "Perfect",
+      "D": "Budka Suflera"
+    },
+    "correct_answer": "C",
+    "explanation": "?Autobiografia? jest jednym z najbardziej znanych utwor?w zespo?u Perfect.",
+    "aliases": {
+      "A": [
+        "Lady Pank",
+        "lady pank"
+      ],
+      "B": [
+        "Maanam",
+        "maanam"
+      ],
+      "C": [
+        "Perfect",
+        "perfect"
+      ],
+      "D": [
+        "Budka Suflera",
+        "budka suflera"
+      ]
+    }
+  },
+  {
+    "id": "mus_016",
+    "category": "music",
+    "difficulty": "hard",
+    "question": "Kt?ry raper wyda? album ?The Marshall Mathers LP??",
+    "options": {
+      "A": "Jay-Z",
+      "B": "Kanye West",
+      "C": "Nas",
+      "D": "Eminem"
+    },
+    "correct_answer": "D",
+    "explanation": "?The Marshall Mathers LP? to album Eminema wydany w 2000 roku.",
+    "aliases": {
+      "A": [
+        "Jay-Z",
+        "jay-z"
+      ],
+      "B": [
+        "Kanye West",
+        "kanye west"
+      ],
+      "C": [
+        "Nas",
+        "nas"
+      ],
+      "D": [
+        "Eminem",
+        "eminem"
+      ]
+    }
+  }
+]

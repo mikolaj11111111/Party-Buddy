@@ -1,0 +1,513 @@
+[
+  {
+    "id": "mov_001",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Kt?ry film Jamesa Camerona opowiada o katastrofie statku z 1912 roku?",
+    "options": {
+      "A": "Titanic",
+      "B": "Avatar",
+      "C": "Terminator",
+      "D": "Otch?a?"
+    },
+    "correct_answer": "A",
+    "explanation": "?Titanic? przedstawia romans na tle katastrofy RMS Titanic.",
+    "aliases": {
+      "A": [
+        "Titanic",
+        "titanic"
+      ],
+      "B": [
+        "Avatar",
+        "avatar"
+      ],
+      "C": [
+        "Terminator",
+        "terminator"
+      ],
+      "D": [
+        "Otch?a?",
+        "otchlal"
+      ]
+    }
+  },
+  {
+    "id": "mov_002",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto wyre?yserowa? trylogi? filmow? ?W?adca Pier?cieni??",
+    "options": {
+      "A": "George Lucas",
+      "B": "Peter Jackson",
+      "C": "Ridley Scott",
+      "D": "James Cameron"
+    },
+    "correct_answer": "B",
+    "explanation": "Filmow? trylogi? ?W?adca Pier?cieni? wyre?yserowa? Peter Jackson.",
+    "aliases": {
+      "A": [
+        "George Lucas",
+        "george lucas"
+      ],
+      "B": [
+        "Peter Jackson",
+        "peter jackson"
+      ],
+      "C": [
+        "Ridley Scott",
+        "ridley scott"
+      ],
+      "D": [
+        "James Cameron",
+        "james cameron"
+      ]
+    }
+  },
+  {
+    "id": "mov_003",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? ch?opiec-czarodziej grany przez Daniela Radcliffe?a?",
+    "options": {
+      "A": "Ron Weasley",
+      "B": "Draco Malfoy",
+      "C": "Harry Potter",
+      "D": "Neville Longbottom"
+    },
+    "correct_answer": "C",
+    "explanation": "Daniel Radcliffe zagra? Harry?ego Pottera w ekranizacjach ksi??ek J.K. Rowling.",
+    "aliases": {
+      "A": [
+        "Ron Weasley",
+        "ron weasley"
+      ],
+      "B": [
+        "Draco Malfoy",
+        "draco malfoy"
+      ],
+      "C": [
+        "Harry Potter",
+        "harry potter"
+      ],
+      "D": [
+        "Neville Longbottom",
+        "neville longbottom"
+      ]
+    }
+  },
+  {
+    "id": "mov_004",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kt?ry film zdoby? Oscara dla najlepszego filmu w 2020 roku?",
+    "options": {
+      "A": "Joker",
+      "B": "1917",
+      "C": "Irlandczyk",
+      "D": "Parasite"
+    },
+    "correct_answer": "D",
+    "explanation": "?Parasite? Bonga Joon-ho zdoby? Oscara dla najlepszego filmu w 2020 roku.",
+    "aliases": {
+      "A": [
+        "Joker",
+        "joker"
+      ],
+      "B": [
+        "1917"
+      ],
+      "C": [
+        "Irlandczyk",
+        "irlandczyk"
+      ],
+      "D": [
+        "Parasite",
+        "parasite"
+      ]
+    }
+  },
+  {
+    "id": "mov_005",
+    "category": "movies",
+    "difficulty": "hard",
+    "question": "W kt?rym filmie pojawia si? cytat ?I?ll be back??",
+    "options": {
+      "A": "Terminator",
+      "B": "RoboCop",
+      "C": "Predator",
+      "D": "Szklana pu?apka"
+    },
+    "correct_answer": "A",
+    "explanation": "S?ynna kwestia Arnolda Schwarzeneggera pochodzi z filmu ?Terminator?.",
+    "aliases": {
+      "A": [
+        "Terminator",
+        "terminator"
+      ],
+      "B": [
+        "RoboCop",
+        "robocop"
+      ],
+      "C": [
+        "Predator",
+        "predator"
+      ],
+      "D": [
+        "Szklana pu?apka",
+        "szklana pulapka"
+      ]
+    }
+  },
+  {
+    "id": "mov_006",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Kt?ry animowany film Pixara opowiada o zabawkach Andy?ego?",
+    "options": {
+      "A": "Auta",
+      "B": "Toy Story",
+      "C": "Potwory i sp??ka",
+      "D": "W g?owie si? nie mie?ci"
+    },
+    "correct_answer": "B",
+    "explanation": "?Toy Story? skupia si? na zabawkach nale??cych do Andy?ego.",
+    "aliases": {
+      "A": [
+        "Auta",
+        "auta"
+      ],
+      "B": [
+        "Toy Story",
+        "toy story"
+      ],
+      "C": [
+        "Potwory i sp??ka",
+        "potwory i spllka"
+      ],
+      "D": [
+        "W g?owie si? nie mie?ci",
+        "w glowie sil nie mielci"
+      ]
+    }
+  },
+  {
+    "id": "mov_007",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kt?ra aktorka zagra?a g??wn? rol? w filmie ?Erin Brockovich??",
+    "options": {
+      "A": "Sandra Bullock",
+      "B": "Meryl Streep",
+      "C": "Julia Roberts",
+      "D": "Nicole Kidman"
+    },
+    "correct_answer": "C",
+    "explanation": "Julia Roberts zdoby?a Oscara za rol? Erin Brockovich.",
+    "aliases": {
+      "A": [
+        "Sandra Bullock",
+        "sandra bullock"
+      ],
+      "B": [
+        "Meryl Streep",
+        "meryl streep"
+      ],
+      "C": [
+        "Julia Roberts",
+        "julia roberts"
+      ],
+      "D": [
+        "Nicole Kidman",
+        "nicole kidman"
+      ]
+    }
+  },
+  {
+    "id": "mov_008",
+    "category": "movies",
+    "difficulty": "hard",
+    "question": "Kt?ry film Akiry Kurosawy zainspirowa? western ?Siedmiu wspania?ych??",
+    "options": {
+      "A": "Rashomon",
+      "B": "Stra? przyboczna",
+      "C": "Tron we krwi",
+      "D": "Siedmiu samuraj?w"
+    },
+    "correct_answer": "D",
+    "explanation": "?Siedmiu wspania?ych? jest westernow? adaptacj? ?Siedmiu samuraj?w?.",
+    "aliases": {
+      "A": [
+        "Rashomon",
+        "rashomon"
+      ],
+      "B": [
+        "Stra? przyboczna",
+        "stral przyboczna"
+      ],
+      "C": [
+        "Tron we krwi",
+        "tron we krwi"
+      ],
+      "D": [
+        "Siedmiu samuraj?w",
+        "siedmiu samurajlw"
+      ]
+    }
+  },
+  {
+    "id": "mov_009",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Kt?ry superbohater Marvela u?ywa tarczy z gwiazd??",
+    "options": {
+      "A": "Kapitan Ameryka",
+      "B": "Thor",
+      "C": "Hulk",
+      "D": "Doktor Strange"
+    },
+    "correct_answer": "A",
+    "explanation": "Kapitan Ameryka jest znany z okr?g?ej tarczy z gwiazd?.",
+    "aliases": {
+      "A": [
+        "Kapitan Ameryka",
+        "kapitan ameryka"
+      ],
+      "B": [
+        "Thor",
+        "thor"
+      ],
+      "C": [
+        "Hulk",
+        "hulk"
+      ],
+      "D": [
+        "Doktor Strange",
+        "doktor strange"
+      ]
+    }
+  },
+  {
+    "id": "mov_010",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto skomponowa? muzyk? do filmu ?Gwiezdne wojny??",
+    "options": {
+      "A": "Hans Zimmer",
+      "B": "John Williams",
+      "C": "Ennio Morricone",
+      "D": "Howard Shore"
+    },
+    "correct_answer": "B",
+    "explanation": "John Williams stworzy? rozpoznawalny motyw muzyczny ?Gwiezdnych wojen?.",
+    "aliases": {
+      "A": [
+        "Hans Zimmer",
+        "hans zimmer"
+      ],
+      "B": [
+        "John Williams",
+        "john williams"
+      ],
+      "C": [
+        "Ennio Morricone",
+        "ennio morricone"
+      ],
+      "D": [
+        "Howard Shore",
+        "howard shore"
+      ]
+    }
+  },
+  {
+    "id": "mov_011",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Kt?ry film Disneya ma bohaterki Els? i Ann??",
+    "options": {
+      "A": "Vaiana",
+      "B": "Zapl?tani",
+      "C": "Kraina lodu",
+      "D": "Mulan"
+    },
+    "correct_answer": "C",
+    "explanation": "Elsa i Anna s? siostrami w filmie ?Kraina lodu?.",
+    "aliases": {
+      "A": [
+        "Vaiana",
+        "vaiana"
+      ],
+      "B": [
+        "Zapl?tani",
+        "zaplltani"
+      ],
+      "C": [
+        "Kraina lodu",
+        "kraina lodu"
+      ],
+      "D": [
+        "Mulan",
+        "mulan"
+      ]
+    }
+  },
+  {
+    "id": "mov_012",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "W kt?rym filmie g??wny bohater wybiera mi?dzy czerwon? i niebiesk? pigu?k??",
+    "options": {
+      "A": "Incepcja",
+      "B": "Blade Runner",
+      "C": "Raport mniejszo?ci",
+      "D": "Matrix"
+    },
+    "correct_answer": "D",
+    "explanation": "Motyw czerwonej i niebieskiej pigu?ki pochodzi z filmu ?Matrix?.",
+    "aliases": {
+      "A": [
+        "Incepcja",
+        "incepcja"
+      ],
+      "B": [
+        "Blade Runner",
+        "blade runner"
+      ],
+      "C": [
+        "Raport mniejszo?ci",
+        "raport mniejszolci"
+      ],
+      "D": [
+        "Matrix",
+        "matrix"
+      ]
+    }
+  },
+  {
+    "id": "mov_013",
+    "category": "movies",
+    "difficulty": "hard",
+    "question": "Kt?ry polski re?yser nakr?ci? ?Id???",
+    "options": {
+      "A": "Pawe? Pawlikowski",
+      "B": "Andrzej Wajda",
+      "C": "Krzysztof Kie?lowski",
+      "D": "Agnieszka Holland"
+    },
+    "correct_answer": "A",
+    "explanation": "?Id?? wyre?yserowa? Pawe? Pawlikowski.",
+    "aliases": {
+      "A": [
+        "Pawe? Pawlikowski",
+        "pawel pawlikowski"
+      ],
+      "B": [
+        "Andrzej Wajda",
+        "andrzej wajda"
+      ],
+      "C": [
+        "Krzysztof Kie?lowski",
+        "krzysztof kiellowski"
+      ],
+      "D": [
+        "Agnieszka Holland",
+        "agnieszka holland"
+      ]
+    }
+  },
+  {
+    "id": "mov_014",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kt?ry aktor wcieli? si? w Jacka Sparrowa?",
+    "options": {
+      "A": "Orlando Bloom",
+      "B": "Johnny Depp",
+      "C": "Hugh Jackman",
+      "D": "Brad Pitt"
+    },
+    "correct_answer": "B",
+    "explanation": "Kapitan Jack Sparrow w serii ?Piraci z Karaib?w? jest rol? Johnny?ego Deppa.",
+    "aliases": {
+      "A": [
+        "Orlando Bloom",
+        "orlando bloom"
+      ],
+      "B": [
+        "Johnny Depp",
+        "johnny depp"
+      ],
+      "C": [
+        "Hugh Jackman",
+        "hugh jackman"
+      ],
+      "D": [
+        "Brad Pitt",
+        "brad pitt"
+      ]
+    }
+  },
+  {
+    "id": "mov_015",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? zielony bohater z bagien z animacji DreamWorks?",
+    "options": {
+      "A": "Madagaskar",
+      "B": "Kung Fu Panda",
+      "C": "Shrek",
+      "D": "Megamocny"
+    },
+    "correct_answer": "C",
+    "explanation": "Shrek jest zielonym ogrem i g??wn? postaci? filmu DreamWorks.",
+    "aliases": {
+      "A": [
+        "Madagaskar",
+        "madagaskar"
+      ],
+      "B": [
+        "Kung Fu Panda",
+        "kung fu panda"
+      ],
+      "C": [
+        "Shrek",
+        "shrek"
+      ],
+      "D": [
+        "Megamocny",
+        "megamocny"
+      ]
+    }
+  },
+  {
+    "id": "mov_016",
+    "category": "movies",
+    "difficulty": "hard",
+    "question": "Kt?ry film Christophera Nolana opowiada o ewakuacji wojsk alianckich z Francji w 1940 roku?",
+    "options": {
+      "A": "Tenet",
+      "B": "Interstellar",
+      "C": "Memento",
+      "D": "Dunkierka"
+    },
+    "correct_answer": "D",
+    "explanation": "?Dunkierka? przedstawia ewakuacj? wojsk alianckich podczas II wojny ?wiatowej.",
+    "aliases": {
+      "A": [
+        "Tenet",
+        "tenet"
+      ],
+      "B": [
+        "Interstellar",
+        "interstellar"
+      ],
+      "C": [
+        "Memento",
+        "memento"
+      ],
+      "D": [
+        "Dunkierka",
+        "dunkierka"
+      ]
+    }
+  }
+]

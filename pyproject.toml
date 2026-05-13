@@ -22,3 +22,7 @@ quote-style = "double"
 indent-style = "space"
 # Avoid fighting Windows/Linux line endings during local development.
 line-ending = "auto"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

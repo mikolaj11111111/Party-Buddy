@@ -1,0 +1,172 @@
+[
+  {
+    "id": "geo_001",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Jaka jest stolica Polski?",
+    "options": {
+      "A": "Kraków",
+      "B": "Warszawa",
+      "C": "Gdańsk",
+      "D": "Wrocław"
+    },
+    "correct_answer": "B",
+    "explanation": "Stolicą Polski jest Warszawa.",
+    "aliases": {
+      "B": ["warszawa", "wawa", "warsaw"]
+    }
+  },
+  {
+    "id": "geo_002",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Który ocean jest największy na Ziemi?",
+    "options": {
+      "A": "Ocean Atlantycki",
+      "B": "Ocean Indyjski",
+      "C": "Ocean Spokojny",
+      "D": "Ocean Arktyczny"
+    },
+    "correct_answer": "C",
+    "explanation": "Największym oceanem na Ziemi jest Ocean Spokojny, nazywany też Pacyfikiem.",
+    "aliases": {
+      "C": ["pacyfik", "ocean pacyficzny", "ocean spokojny"]
+    }
+  },
+  {
+    "id": "geo_003",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym kraju znajduje się Rzym?",
+    "options": {
+      "A": "Francja",
+      "B": "Hiszpania",
+      "C": "Grecja",
+      "D": "Włochy"
+    },
+    "correct_answer": "D",
+    "explanation": "Rzym jest stolicą Włoch.",
+    "aliases": {
+      "D": ["włochy", "wlochy", "italia", "italy"]
+    }
+  },
+  {
+    "id": "geo_004",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jak nazywa się najdłuższa rzeka Afryki?",
+    "options": {
+      "A": "Nil",
+      "B": "Kongo",
+      "C": "Niger",
+      "D": "Zambezi"
+    },
+    "correct_answer": "A",
+    "explanation": "Najdłuższą rzeką Afryki jest Nil.",
+    "aliases": {
+      "A": ["nil", "rzeka nil", "nile"]
+    }
+  },
+  {
+    "id": "geo_005",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "W którym państwie leży pustynia Atakama?",
+    "options": {
+      "A": "Chile",
+      "B": "Peru",
+      "C": "Argentyna",
+      "D": "Boliwia"
+    },
+    "correct_answer": "A",
+    "explanation": "Pustynia Atakama leży głównie w północnym Chile.",
+    "aliases": {
+      "A": ["chile", "czile"]
+    }
+  },
+  {
+    "id": "geo_006",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Jakie morze leży przy północnym wybrzeżu Polski?",
+    "options": {
+      "A": "Morze Czarne",
+      "B": "Morze Bałtyckie",
+      "C": "Morze Śródziemne",
+      "D": "Morze Północne"
+    },
+    "correct_answer": "B",
+    "explanation": "Północne wybrzeże Polski leży nad Morzem Bałtyckim.",
+    "aliases": {
+      "B": ["bałtyk", "baltyk", "morze bałtyckie", "morze baltyckie"]
+    }
+  },
+  {
+    "id": "geo_007",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jaka jest stolica Australii?",
+    "options": {
+      "A": "Sydney",
+      "B": "Melbourne",
+      "C": "Canberra",
+      "D": "Perth"
+    },
+    "correct_answer": "C",
+    "explanation": "Stolicą Australii jest Canberra.",
+    "aliases": {
+      "C": ["canberra", "kanbera"]
+    }
+  },
+  {
+    "id": "geo_008",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jak nazywa się długi łańcuch górski biegnący wzdłuż zachodniej części Ameryki Południowej?",
+    "options": {
+      "A": "Andy",
+      "B": "Alpy",
+      "C": "Kordyliery",
+      "D": "Himalaje"
+    },
+    "correct_answer": "A",
+    "explanation": "Andy ciągną się wzdłuż zachodniej części Ameryki Południowej.",
+    "aliases": {
+      "A": ["andy", "góry andy", "gory andy"]
+    }
+  },
+  {
+    "id": "geo_009",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "W którym państwie znajduje się solnisko Salar de Uyuni?",
+    "options": {
+      "A": "Chile",
+      "B": "Boliwia",
+      "C": "Peru",
+      "D": "Paragwaj"
+    },
+    "correct_answer": "B",
+    "explanation": "Salar de Uyuni znajduje się w Boliwii.",
+    "aliases": {
+      "B": ["boliwia", "bolivia"]
+    }
+  },
+  {
+    "id": "geo_010",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "W którym kraju znajduje się jezioro Bajkał?",
+    "options": {
+      "A": "Rosja",
+      "B": "Kazachstan",
+      "C": "Mongolia",
+      "D": "Chiny"
+    },
+    "correct_answer": "A",
+    "explanation": "Jezioro Bajkał znajduje się w Rosji, na Syberii.",
+    "aliases": {
+      "A": ["rosja", "russia", "federacja rosyjska"]
+    }
+  }
+]

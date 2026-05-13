@@ -8,7 +8,7 @@ uvicorn[standard]==0.46.0
 sqlmodel==0.0.38
 
 # --- M2: Sędzia (do dodania) ---
-# rapidfuzz==<wersja>
+rapidfuzz==3.14.5
 
 # --- M3: STT (do dodania) ---
 # groq==<wersja>
@@ -18,5 +18,6 @@ sqlmodel==0.0.38
 # piper-tts==<wersja>           # alternatywnie binarka Piper poza pip
 
 # --- Dev/quality (opcjonalnie, do dodania) ---
+httpx==0.28.1
 ruff==0.15.12
-# pytest==<wersja>
+pytest==9.0.3

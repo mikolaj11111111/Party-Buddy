@@ -42,6 +42,7 @@ Backend:
 ```powershell
 .\venv\Scripts\python.exe -m ruff check backend
 .\venv\Scripts\python.exe -m ruff format --check backend
+.\venv\Scripts\python.exe -m pytest
 ```
 
 Frontend:

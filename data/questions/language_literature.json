@@ -1,0 +1,510 @@
+[
+  {
+    "id": "lit_001",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto napisa? ?Pana Tadeusza??",
+    "options": {
+      "A": "Adam Mickiewicz",
+      "B": "Juliusz S?owacki",
+      "C": "Henryk Sienkiewicz",
+      "D": "Boles?aw Prus"
+    },
+    "correct_answer": "A",
+    "explanation": "?Pan Tadeusz? jest epopej? Adama Mickiewicza.",
+    "aliases": {
+      "A": [
+        "Adam Mickiewicz",
+        "adam mickiewicz"
+      ],
+      "B": [
+        "Juliusz S?owacki",
+        "juliusz slowacki"
+      ],
+      "C": [
+        "Henryk Sienkiewicz",
+        "henryk sienkiewicz"
+      ],
+      "D": [
+        "Boles?aw Prus",
+        "boleslaw prus"
+      ]
+    }
+  },
+  {
+    "id": "lit_002",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? ?rodek stylistyczny polegaj?cy na celowym wyolbrzymieniu?",
+    "options": {
+      "A": "Anafora",
+      "B": "Hiperbola",
+      "C": "Epitet",
+      "D": "Onomatopeja"
+    },
+    "correct_answer": "B",
+    "explanation": "Hiperbola to przesadne wyolbrzymienie cechy lub zjawiska.",
+    "aliases": {
+      "A": [
+        "Anafora",
+        "anafora"
+      ],
+      "B": [
+        "Hiperbola",
+        "hiperbola"
+      ],
+      "C": [
+        "Epitet",
+        "epitet"
+      ],
+      "D": [
+        "Onomatopeja",
+        "onomatopeja"
+      ]
+    }
+  },
+  {
+    "id": "lit_003",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kt?ra cz??? mowy odmienia si? przez przypadki i liczby oraz nazywa osoby, rzeczy lub zjawiska?",
+    "options": {
+      "A": "Czasownik",
+      "B": "Przys??wek",
+      "C": "Rzeczownik",
+      "D": "Sp?jnik"
+    },
+    "correct_answer": "C",
+    "explanation": "Rzeczownik nazywa osoby, rzeczy, miejsca, poj?cia i zjawiska.",
+    "aliases": {
+      "A": [
+        "Czasownik",
+        "czasownik"
+      ],
+      "B": [
+        "Przys??wek",
+        "przysllwek"
+      ],
+      "C": [
+        "Rzeczownik",
+        "rzeczownik"
+      ],
+      "D": [
+        "Sp?jnik",
+        "spljnik"
+      ]
+    }
+  },
+  {
+    "id": "lit_004",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto jest autorem powie?ci ?Lalka??",
+    "options": {
+      "A": "Eliza Orzeszkowa",
+      "B": "Stefan ?eromski",
+      "C": "Maria Konopnicka",
+      "D": "Boles?aw Prus"
+    },
+    "correct_answer": "D",
+    "explanation": "?Lalka? to powie?? Boles?awa Prusa.",
+    "aliases": {
+      "A": [
+        "Eliza Orzeszkowa",
+        "eliza orzeszkowa"
+      ],
+      "B": [
+        "Stefan ?eromski",
+        "stefan leromski"
+      ],
+      "C": [
+        "Maria Konopnicka",
+        "maria konopnicka"
+      ],
+      "D": [
+        "Boles?aw Prus",
+        "boleslaw prus"
+      ]
+    }
+  },
+  {
+    "id": "lit_005",
+    "category": "language_literature",
+    "difficulty": "hard",
+    "question": "Kt?ry pisarz stworzy? posta? Sherlocka Holmesa?",
+    "options": {
+      "A": "Arthur Conan Doyle",
+      "B": "Agatha Christie",
+      "C": "Edgar Allan Poe",
+      "D": "H.G. Wells"
+    },
+    "correct_answer": "A",
+    "explanation": "Sherlock Holmes jest bohaterem utwor?w Arthura Conana Doyle?a.",
+    "aliases": {
+      "A": [
+        "Arthur Conan Doyle",
+        "arthur conan doyle"
+      ],
+      "B": [
+        "Agatha Christie",
+        "agatha christie"
+      ],
+      "C": [
+        "Edgar Allan Poe",
+        "edgar allan poe"
+      ],
+      "D": [
+        "H.G. Wells",
+        "h.g. wells"
+      ]
+    }
+  },
+  {
+    "id": "lit_006",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Ile liter ma wsp??czesny polski alfabet?",
+    "options": {
+      "A": "23",
+      "B": "32",
+      "C": "35",
+      "D": "26"
+    },
+    "correct_answer": "B",
+    "explanation": "Polski alfabet szkolny liczy 32 litery.",
+    "aliases": {
+      "A": [
+        "23"
+      ],
+      "B": [
+        "32"
+      ],
+      "C": [
+        "35"
+      ],
+      "D": [
+        "26"
+      ]
+    }
+  },
+  {
+    "id": "lit_007",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? powt?rzenie tego samego s?owa na pocz?tku kolejnych wers?w lub zda??",
+    "options": {
+      "A": "Metafora",
+      "B": "Por?wnanie",
+      "C": "Anafora",
+      "D": "Ironia"
+    },
+    "correct_answer": "C",
+    "explanation": "Anafora polega na powtarzaniu pocz?tku kolejnych segment?w tekstu.",
+    "aliases": {
+      "A": [
+        "Metafora",
+        "metafora"
+      ],
+      "B": [
+        "Por?wnanie",
+        "porlwnanie"
+      ],
+      "C": [
+        "Anafora",
+        "anafora"
+      ],
+      "D": [
+        "Ironia",
+        "ironia"
+      ]
+    }
+  },
+  {
+    "id": "lit_008",
+    "category": "language_literature",
+    "difficulty": "hard",
+    "question": "Kt?ry noblista napisa? powie?? ?Quo vadis??",
+    "options": {
+      "A": "W?adys?aw Reymont",
+      "B": "Czes?aw Mi?osz",
+      "C": "Olga Tokarczuk",
+      "D": "Henryk Sienkiewicz"
+    },
+    "correct_answer": "D",
+    "explanation": "?Quo vadis? napisa? Henryk Sienkiewicz.",
+    "aliases": {
+      "A": [
+        "W?adys?aw Reymont",
+        "wladyslaw reymont"
+      ],
+      "B": [
+        "Czes?aw Mi?osz",
+        "czeslaw milosz"
+      ],
+      "C": [
+        "Olga Tokarczuk",
+        "olga tokarczuk"
+      ],
+      "D": [
+        "Henryk Sienkiewicz",
+        "henryk sienkiewicz"
+      ]
+    }
+  },
+  {
+    "id": "lit_009",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? znak ko?cz?cy zdanie pytaj?ce?",
+    "options": {
+      "A": "Znak zapytania",
+      "B": "Przecinek",
+      "C": "Dwukropek",
+      "D": "My?lnik"
+    },
+    "correct_answer": "A",
+    "explanation": "Zdanie pytaj?ce ko?czy si? znakiem zapytania.",
+    "aliases": {
+      "A": [
+        "Znak zapytania",
+        "znak zapytania"
+      ],
+      "B": [
+        "Przecinek",
+        "przecinek"
+      ],
+      "C": [
+        "Dwukropek",
+        "dwukropek"
+      ],
+      "D": [
+        "My?lnik",
+        "myllnik"
+      ]
+    }
+  },
+  {
+    "id": "lit_010",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kt?ry j?zyk nale?y do grupy j?zyk?w roma?skich?",
+    "options": {
+      "A": "Niemiecki",
+      "B": "Hiszpa?ski",
+      "C": "Polski",
+      "D": "Fi?ski"
+    },
+    "correct_answer": "B",
+    "explanation": "Hiszpa?ski wywodzi si? z ?aciny i nale?y do j?zyk?w roma?skich.",
+    "aliases": {
+      "A": [
+        "Niemiecki",
+        "niemiecki"
+      ],
+      "B": [
+        "Hiszpa?ski",
+        "hiszpalski"
+      ],
+      "C": [
+        "Polski",
+        "polski"
+      ],
+      "D": [
+        "Fi?ski",
+        "filski"
+      ]
+    }
+  },
+  {
+    "id": "lit_011",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto napisa? ?Ma?ego Ksi?cia??",
+    "options": {
+      "A": "J.R.R. Tolkien",
+      "B": "Mark Twain",
+      "C": "Antoine de Saint-Exup?ry",
+      "D": "Jules Verne"
+    },
+    "correct_answer": "C",
+    "explanation": "?Ma?ego Ksi?cia? napisa? Antoine de Saint-Exup?ry.",
+    "aliases": {
+      "A": [
+        "J.R.R. Tolkien",
+        "j.r.r. tolkien"
+      ],
+      "B": [
+        "Mark Twain",
+        "mark twain"
+      ],
+      "C": [
+        "Antoine de Saint-Exup?ry",
+        "antoine de saint-exuplry"
+      ],
+      "D": [
+        "Jules Verne",
+        "jules verne"
+      ]
+    }
+  },
+  {
+    "id": "lit_012",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? przeno?nia, czyli zestawienie s??w o znaczeniu niedos?ownym?",
+    "options": {
+      "A": "Rym",
+      "B": "Epitet",
+      "C": "Wykrzyknienie",
+      "D": "Metafora"
+    },
+    "correct_answer": "D",
+    "explanation": "Metafora przenosi znaczenie s??w poza ich dos?owny sens.",
+    "aliases": {
+      "A": [
+        "Rym",
+        "rym"
+      ],
+      "B": [
+        "Epitet",
+        "epitet"
+      ],
+      "C": [
+        "Wykrzyknienie",
+        "wykrzyknienie"
+      ],
+      "D": [
+        "Metafora",
+        "metafora"
+      ]
+    }
+  },
+  {
+    "id": "lit_013",
+    "category": "language_literature",
+    "difficulty": "hard",
+    "question": "Kt?ra powie?? zaczyna si? od zdania o wszystkich szcz??liwych rodzinach?",
+    "options": {
+      "A": "Anna Karenina",
+      "B": "Zbrodnia i kara",
+      "C": "Madame Bovary",
+      "D": "Duma i uprzedzenie"
+    },
+    "correct_answer": "A",
+    "explanation": "S?ynny pocz?tek ?Anny Kareniny? m?wi o szcz??liwych i nieszcz??liwych rodzinach.",
+    "aliases": {
+      "A": [
+        "Anna Karenina",
+        "anna karenina"
+      ],
+      "B": [
+        "Zbrodnia i kara",
+        "zbrodnia i kara"
+      ],
+      "C": [
+        "Madame Bovary",
+        "madame bovary"
+      ],
+      "D": [
+        "Duma i uprzedzenie",
+        "duma i uprzedzenie"
+      ]
+    }
+  },
+  {
+    "id": "lit_014",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kt?ry znak rozdziela elementy wyliczenia w zdaniu?",
+    "options": {
+      "A": "Kropka",
+      "B": "Przecinek",
+      "C": "Apostrof",
+      "D": "Cudzys??w"
+    },
+    "correct_answer": "B",
+    "explanation": "Przecinek cz?sto oddziela elementy wyliczenia.",
+    "aliases": {
+      "A": [
+        "Kropka",
+        "kropka"
+      ],
+      "B": [
+        "Przecinek",
+        "przecinek"
+      ],
+      "C": [
+        "Apostrof",
+        "apostrof"
+      ],
+      "D": [
+        "Cudzys??w",
+        "cudzysllw"
+      ]
+    }
+  },
+  {
+    "id": "lit_015",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kt?ry gatunek literacki jest kr?tkim utworem z mora?em?",
+    "options": {
+      "A": "Tragedia",
+      "B": "Epos",
+      "C": "Bajka",
+      "D": "Reporta?"
+    },
+    "correct_answer": "C",
+    "explanation": "Bajka literacka jest kr?tka i zwykle ko?czy si? mora?em.",
+    "aliases": {
+      "A": [
+        "Tragedia",
+        "tragedia"
+      ],
+      "B": [
+        "Epos",
+        "epos"
+      ],
+      "C": [
+        "Bajka",
+        "bajka"
+      ],
+      "D": [
+        "Reporta?",
+        "reportal"
+      ]
+    }
+  },
+  {
+    "id": "lit_016",
+    "category": "language_literature",
+    "difficulty": "hard",
+    "question": "Kto napisa? dramat ?Wesele??",
+    "options": {
+      "A": "Adam Mickiewicz",
+      "B": "Juliusz S?owacki",
+      "C": "Tadeusz R??ewicz",
+      "D": "Stanis?aw Wyspia?ski"
+    },
+    "correct_answer": "D",
+    "explanation": "?Wesele? jest dramatem Stanis?awa Wyspia?skiego.",
+    "aliases": {
+      "A": [
+        "Adam Mickiewicz",
+        "adam mickiewicz"
+      ],
+      "B": [
+        "Juliusz S?owacki",
+        "juliusz slowacki"
+      ],
+      "C": [
+        "Tadeusz R??ewicz",
+        "tadeusz rllewicz"
+      ],
+      "D": [
+        "Stanis?aw Wyspia?ski",
+        "stanislaw wyspialski"
+      ]
+    }
+  }
+]
