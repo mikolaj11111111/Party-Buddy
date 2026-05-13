@@ -1,6 +1,6 @@
 # Plan — MVP Part Buddy
 
-Status: **M1 zakończone, gotowe do startu M2**.
+Status: **M3 zakończone, gotowe do startu M4**.
 Estymata: 3-4 tygodnie pracy hobbystycznej.
 
 ## Cel MVP
@@ -10,7 +10,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 ## Kryteria sukcesu
 
 - [ ] Gra trivia rozgrywa pełną sesję (10 pytań, 15s/pytanie, scoring działa)
-- [ ] Push-to-talk poprawnie nagrywa i wysyła audio do Groq Whisper
+- [x] Push-to-talk poprawnie nagrywa i wysyła audio do Groq Whisper
 - [ ] Sędzia poprawnie ocenia: literę ("A"), treść ("Warszawa") i klik
 - [ ] AI prowadzący odtwarza pre-generowane komentarze (intro/correct/wrong/outro)
 - [ ] Hotseat działa: wybór 2-6 graczy, ranking sesji
@@ -39,10 +39,10 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [x] Endpoint `POST /api/answer` (input: question_id + answer_text/letter)
 
 ### M3 — STT integracja (2-3 dni)
-- [ ] `core/stt.py`: klient Groq Whisper API
-- [ ] Endpoint `POST /api/stt` (multipart audio → tekst)
-- [ ] Frontend: komponent `MicButton` (push-to-talk + MediaRecorder + WAV)
-- [ ] E2E: wciśnij mikrofon → wyślij audio → odbierz tekst → wyświetl
+- [x] `core/stt.py`: klient Groq Whisper API
+- [x] Endpoint `POST /api/stt` (multipart audio → tekst)
+- [x] Frontend: komponent `MicButton` (push-to-talk + MediaRecorder + webm upload)
+- [x] E2E: wciśnij mikrofon → wyślij audio → odbierz tekst → wyświetl
 
 ### M4 — TTS i komentarze (3-4 dni)
 - [ ] Instalacja Piper + polski model głosu

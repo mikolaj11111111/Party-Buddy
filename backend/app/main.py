@@ -6,6 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from backend.app.api.answer import router as answer_router
 from backend.app.api.ping import router as ping_router
+from backend.app.api.stt import router as stt_router
 from backend.app.db import init_db
 
 
@@ -19,7 +20,7 @@ app = FastAPI(title="Part Buddy API", version="0.0.1", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization"],
@@ -27,6 +28,7 @@ app.add_middleware(
 
 app.include_router(ping_router)
 app.include_router(answer_router)
+app.include_router(stt_router)
 
 
 @app.get("/")

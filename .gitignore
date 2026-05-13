@@ -44,6 +44,10 @@ data/audio_uploads/
 .DS_Store
 Thumbs.db
 
+# Local agent artifacts outside project Codex skills
+.agents/
+skills-lock.json
+
 # Build artifacts
 *.egg
 *.whl
