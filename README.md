@@ -2,7 +2,7 @@
 
 Webowa platforma imprezowych gier z AI prowadzącym.
 
-**Status:** wczesny development, M1 zakończone (setup i kościec).
+**Status:** wczesny development, M3 zakończone, gotowe do startu M4.
 
 ## Stack MVP
 
@@ -26,6 +26,12 @@ Backend:
 
 ```powershell
 .\venv\Scripts\python.exe -m uvicorn backend.app.main:app --reload
+```
+
+STT wymaga zmiennej w `.env`:
+
+```env
+GROQ_WHISPER_API=...
 ```
 
 Frontend:

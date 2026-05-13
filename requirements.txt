@@ -10,14 +10,13 @@ sqlmodel==0.0.38
 # --- M2: Sędzia (do dodania) ---
 rapidfuzz==3.14.5
 
-# --- M3: STT (do dodania) ---
-# groq==<wersja>
-# python-multipart==<wersja>   # FastAPI form/multipart upload
+# --- M3: STT ---
+httpx==0.28.1                  # HTTP client for Groq Whisper API + tests
+python-multipart==0.0.20       # FastAPI form/multipart upload
 
 # --- M4: TTS (do dodania) ---
 # piper-tts==<wersja>           # alternatywnie binarka Piper poza pip
 
-# --- Dev/quality (opcjonalnie, do dodania) ---
-httpx==0.28.1
+# --- Dev/quality ---
 ruff==0.15.12
 pytest==9.0.3

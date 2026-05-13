@@ -6,7 +6,6 @@
 - [ ] Wybór konkretnego polskiego głosu Piper (porównać `pl_PL-darkman-medium`, `pl_PL-gosia-medium`)
 - [ ] Decyzja: mp3 vs wav w cache TTS (wav prostszy, mp3 mniejszy)
 - [ ] Decyzja: WebSocket vs SSE dla push'u stanu gry (SSE prostszy jeśli komunikacja jednokierunkowa)
-- [ ] Format multipart vs base64 dla audio z frontendu
 - [ ] Limit długości nagrania głosowego (np. 5s — twardy cut)
 - [ ] Usunąć tymczasowy endpoint/model `Ping` po dodaniu prawdziwych modeli domenowych
 
@@ -50,4 +49,6 @@
 - [x] M2: wybrano mały ręczny dataset smoke-testowy i dodano `data/test_questions/geography.json` (10 pytań)
 - [x] M2: dodano pierwszy docelowy batch `data/questions/` (geography/history/science, 30 pytań)
 - [x] M2: rozszerzono `data/questions/` do pełnej pierwszej partii (11 kategorii, 181 pytań)
+- [x] Decyzja: audio z frontendu wysyłamy do STT jako `multipart/form-data`
+- [x] M3: STT E2E działa lokalnie (mikrofon → backend → Groq Whisper → tekst w frontendzie)
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest
