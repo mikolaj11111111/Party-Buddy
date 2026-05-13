@@ -1,0 +1,202 @@
+[
+  {
+    "id": "hist_001",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Kto był głównym inicjatorem i promotorem budowy Kanału Sueskiego?",
+    "options": {
+      "A": "Ferdinand de Lesseps",
+      "B": "Louis-Eugene Cavaignac",
+      "C": "John Milton",
+      "D": "Johann Lukas von Hildebrandt"
+    },
+    "correct_answer": "A",
+    "explanation": "Ferdinand de Lesseps kierował przedsięwzięciem budowy Kanału Sueskiego.",
+    "aliases": {
+      "A": ["ferdinand de lesseps", "lesseps"],
+      "B": ["louis eugene cavaignac", "cavaignac"],
+      "C": ["john milton", "milton"],
+      "D": ["johann lukas von hildebrandt", "hildebrandt"]
+    }
+  },
+  {
+    "id": "hist_002",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Jaka była przybliżona długość Titanica?",
+    "options": {
+      "A": "231 metrów",
+      "B": "269 metrów",
+      "C": "318 metrów",
+      "D": "252 metry"
+    },
+    "correct_answer": "B",
+    "explanation": "Titanic miał około 882 stóp, czyli w przybliżeniu 269 metrów długości.",
+    "aliases": {
+      "A": ["231 metrów", "231 metrow"],
+      "B": ["269 metrów", "269 metrow", "268,8 metra", "882 stopy", "882 ft"],
+      "C": ["318 metrów", "318 metrow"],
+      "D": ["252 metry"]
+    }
+  },
+  {
+    "id": "hist_003",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "W którym roku Turcy osmańscy zdobyli Konstantynopol?",
+    "options": {
+      "A": "1435",
+      "B": "1454",
+      "C": "1453",
+      "D": "1440"
+    },
+    "correct_answer": "C",
+    "explanation": "Upadek Konstantynopola nastąpił w 1453 roku.",
+    "aliases": {
+      "A": ["1435"],
+      "B": ["1454"],
+      "C": ["1453", "rok 1453"],
+      "D": ["1440"]
+    }
+  },
+  {
+    "id": "hist_004",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Henryk VIII był drugim monarchą której angielskiej dynastii?",
+    "options": {
+      "A": "Yorków",
+      "B": "Stuartów",
+      "C": "Lancasterów",
+      "D": "Tudorów"
+    },
+    "correct_answer": "D",
+    "explanation": "Henryk VIII należał do dynastii Tudorów.",
+    "aliases": {
+      "A": ["yorków", "yorkow", "york"],
+      "B": ["stuartów", "stuartow", "stuart"],
+      "C": ["lancasterów", "lancasterow", "lancaster"],
+      "D": ["tudorów", "tudorow", "tudor", "dynastia tudorów", "dynastia tudorow"]
+    }
+  },
+  {
+    "id": "hist_005",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Na które miasto, oprócz Hiroszimy, USA zrzuciły bombę atomową w 1945 roku?",
+    "options": {
+      "A": "Nagasaki",
+      "B": "Kawasaki",
+      "C": "Tokio",
+      "D": "Kagoshima"
+    },
+    "correct_answer": "A",
+    "explanation": "Drugim japońskim miastem zbombardowanym atomowo było Nagasaki.",
+    "aliases": {
+      "A": ["nagasaki"],
+      "B": ["kawasaki"],
+      "C": ["tokio", "tokyo"],
+      "D": ["kagoshima"]
+    }
+  },
+  {
+    "id": "hist_006",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Jaki region był pierwotnie głównym celem niemieckiej operacji Fall Blau w II wojnie światowej?",
+    "options": {
+      "A": "Stalingrad",
+      "B": "Kaukaz",
+      "C": "Krym",
+      "D": "Woroneż"
+    },
+    "correct_answer": "B",
+    "explanation": "Operacja Fall Blau miała doprowadzić między innymi do opanowania złóż ropy na Kaukazie.",
+    "aliases": {
+      "A": ["stalingrad"],
+      "B": ["kaukaz", "caucasus"],
+      "C": ["krym", "crimea"],
+      "D": ["woroneż", "woronez", "voronezh"]
+    }
+  },
+  {
+    "id": "hist_007",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Na której londyńskiej ulicy rozpoczął się Wielki Pożar Londynu w 1666 roku?",
+    "options": {
+      "A": "Baker Street",
+      "B": "Downing Street",
+      "C": "Pudding Lane",
+      "D": "Fleet Street"
+    },
+    "correct_answer": "C",
+    "explanation": "Pożar wybuchł w piekarni przy Pudding Lane.",
+    "aliases": {
+      "A": ["baker street"],
+      "B": ["downing street"],
+      "C": ["pudding lane"],
+      "D": ["fleet street"]
+    }
+  },
+  {
+    "id": "hist_008",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Który stan USA jako pierwszy ratyfikował Konstytucję Stanów Zjednoczonych?",
+    "options": {
+      "A": "Rhode Island",
+      "B": "Maine",
+      "C": "Wirginia",
+      "D": "Delaware"
+    },
+    "correct_answer": "D",
+    "explanation": "Delaware ratyfikował Konstytucję USA jako pierwszy stan, w 1787 roku.",
+    "aliases": {
+      "A": ["rhode island"],
+      "B": ["maine"],
+      "C": ["wirginia", "virginia"],
+      "D": ["delaware"]
+    }
+  },
+  {
+    "id": "hist_009",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Który fizyk był związany z niemieckim programem jądrowym w czasie II wojny światowej?",
+    "options": {
+      "A": "Werner Heisenberg",
+      "B": "John von Neumann",
+      "C": "Albert Einstein",
+      "D": "Max Planck"
+    },
+    "correct_answer": "A",
+    "explanation": "Werner Heisenberg pracował przy niemieckim programie jądrowym w czasie wojny.",
+    "aliases": {
+      "A": ["werner heisenberg", "heisenberg"],
+      "B": ["john von neumann", "von neumann"],
+      "C": ["albert einstein", "einstein"],
+      "D": ["max planck", "planck"]
+    }
+  },
+  {
+    "id": "hist_010",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Jak nazywał się pierwszy ssak wysłany na orbitę Ziemi?",
+    "options": {
+      "A": "Ham",
+      "B": "Lajka",
+      "C": "Baker",
+      "D": "Belka"
+    },
+    "correct_answer": "B",
+    "explanation": "Lajka poleciała na orbitę na pokładzie Sputnika 2 w 1957 roku.",
+    "aliases": {
+      "A": ["ham"],
+      "B": ["lajka", "laika"],
+      "C": ["baker"],
+      "D": ["belka"]
+    }
+  }
+]

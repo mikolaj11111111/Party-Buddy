@@ -2,6 +2,8 @@
 
 ## Otwarte — MVP
 
+- [ ] Rozszerzyć docelowy dataset `data/questions/` z 3 kategorii do pełnej pierwszej partii M2
+- [ ] Zdecydować, czy zostawić `data/test_questions/` po przejściu loadera i judge na `data/questions/`
 - [ ] Wybór konkretnego polskiego głosu Piper (porównać `pl_PL-darkman-medium`, `pl_PL-gosia-medium`)
 - [ ] Decyzja: mp3 vs wav w cache TTS (wav prostszy, mp3 mniejszy)
 - [ ] Decyzja: WebSocket vs SSE dla push'u stanu gry (SSE prostszy jeśli komunikacja jednokierunkowa)
@@ -17,10 +19,6 @@
 
 ## Decyzje do podjęcia (blokujące)
 
-- [ ] **Sposób budowania datasetu pytań** — wybrać:
-  - A) użyć Codex agentów z lokalnymi skillami/rules projektu (`AGENTS.md` + `.codex/skills/`) do wygenerowania `data/questions/*.json`
-  - B) wygenerować 180 pytań w głównej rozmowie (zje dużo kontekstu)
-  - C) zacząć od małego ręcznego datasetu smoke-testowego (5-10 pytań), pełną partię zrobić później
 - [ ] **Reguła routowania pytań między kategoriami** dla nakładających się tematów (`popculture` ↔ `movies`/`music`/`internet_games`) — sub­agent zauważył ryzyko
 
 ## Post-MVP
@@ -50,3 +48,5 @@
 - [x] Decyzja: dataset pytań w `data/questions/<category>.json` (per kategoria) zamiast jednego pliku
 - [x] Utworzenie struktury docs/
 - [x] M1: venv, requirements.txt, FastAPI hello-world, CORS, SQLite/SQLModel smoke test, Ruff, Vite React TS, Prettier, git init + remote
+- [x] M2: wybrano mały ręczny dataset smoke-testowy i dodano `data/test_questions/geography.json` (10 pytań)
+- [x] M2: dodano pierwszy docelowy batch `data/questions/` (geography/history/science, 30 pytań)

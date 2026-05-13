@@ -1,0 +1,202 @@
+[
+  {
+    "id": "geo_001",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Do którego królestwa należy Grenlandia?",
+    "options": {
+      "A": "Dania",
+      "B": "Szwecja",
+      "C": "Norwegia",
+      "D": "Wielka Brytania"
+    },
+    "correct_answer": "A",
+    "explanation": "Grenlandia jest autonomicznym terytorium wchodzącym w skład Królestwa Danii.",
+    "aliases": {
+      "A": ["dania", "królestwo danii", "krolestwo danii"],
+      "B": ["szwecja"],
+      "C": ["norwegia"],
+      "D": ["wielka brytania", "uk", "zjednoczone królestwo", "zjednoczone krolestwo"]
+    }
+  },
+  {
+    "id": "geo_002",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "W którym mieście w Kalifornii znajduje się siedziba sieci Panda Express?",
+    "options": {
+      "A": "Sacramento",
+      "B": "Rosemead",
+      "C": "Fresno",
+      "D": "San Diego"
+    },
+    "correct_answer": "B",
+    "explanation": "Panda Express ma siedzibę w Rosemead w stanie Kalifornia.",
+    "aliases": {
+      "A": ["sacramento"],
+      "B": ["rosemead", "rosemead kalifornia"],
+      "C": ["fresno"],
+      "D": ["san diego"]
+    }
+  },
+  {
+    "id": "geo_003",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "W którym z tych państw afrykańskich językiem urzędowym jest portugalski?",
+    "options": {
+      "A": "Botswana",
+      "B": "Gabon",
+      "C": "Mozambik",
+      "D": "Togo"
+    },
+    "correct_answer": "C",
+    "explanation": "Mozambik był kolonią portugalską, dlatego portugalski pozostaje tam językiem urzędowym.",
+    "aliases": {
+      "A": ["botswana"],
+      "B": ["gabon"],
+      "C": ["mozambik", "mozambique"],
+      "D": ["togo"]
+    }
+  },
+  {
+    "id": "geo_004",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Jak brzmi tytuł hymnu narodowego Kanady?",
+    "options": {
+      "A": "O Red Maple",
+      "B": "Leaf-Spangled Banner",
+      "C": "March of the Puck Drop",
+      "D": "O Canada"
+    },
+    "correct_answer": "D",
+    "explanation": "Hymn Kanady nosi tytuł \"O Canada\".",
+    "aliases": {
+      "A": ["o red maple"],
+      "B": ["leaf spangled banner"],
+      "C": ["march of the puck drop"],
+      "D": ["o canada", "oh canada", "hymn kanady"]
+    }
+  },
+  {
+    "id": "geo_005",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Która z tych wysp Morza Śródziemnego należy do Francji?",
+    "options": {
+      "A": "Korsyka",
+      "B": "Majorka",
+      "C": "Sardynia",
+      "D": "Malta"
+    },
+    "correct_answer": "A",
+    "explanation": "Korsyka jest francuską wyspą i regionem administracyjnym Francji.",
+    "aliases": {
+      "A": ["korsyka", "corsica"],
+      "B": ["majorka", "mallorca"],
+      "C": ["sardynia", "sardinia"],
+      "D": ["malta"]
+    }
+  },
+  {
+    "id": "geo_006",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jaka cieśnina łączy Ocean Atlantycki z Morzem Śródziemnym?",
+    "options": {
+      "A": "Cieśnina Bosfor",
+      "B": "Cieśnina Gibraltarska",
+      "C": "Cieśnina Dardanelska",
+      "D": "Kanał Sueski"
+    },
+    "correct_answer": "B",
+    "explanation": "Cieśnina Gibraltarska leży między Hiszpanią a Marokiem i łączy Atlantyk z Morzem Śródziemnym.",
+    "aliases": {
+      "A": ["bosfor", "cieśnina bosfor", "ciesnina bosfor"],
+      "B": ["cieśnina gibraltarska", "ciesnina gibraltarska", "gibraltar", "strait of gibraltar"],
+      "C": ["dardanele", "cieśnina dardanelska", "ciesnina dardanelska"],
+      "D": ["kanał sueski", "kanal sueski", "suez"]
+    }
+  },
+  {
+    "id": "geo_007",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym kraju leży Rio de Janeiro?",
+    "options": {
+      "A": "Peru",
+      "B": "Chile",
+      "C": "Brazylia",
+      "D": "Wenezuela"
+    },
+    "correct_answer": "C",
+    "explanation": "Rio de Janeiro jest jednym z najbardziej znanych miast Brazylii.",
+    "aliases": {
+      "A": ["peru"],
+      "B": ["chile"],
+      "C": ["brazylia", "brasil", "brazil"],
+      "D": ["wenezuela", "venezuela"]
+    }
+  },
+  {
+    "id": "geo_008",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Która z głównych wysp Japonii jest największa?",
+    "options": {
+      "A": "Hokkaido",
+      "B": "Sikoku",
+      "C": "Kiusiu",
+      "D": "Honsiu"
+    },
+    "correct_answer": "D",
+    "explanation": "Honsiu jest największą i najludniejszą wyspą Japonii.",
+    "aliases": {
+      "A": ["hokkaido"],
+      "B": ["sikoku", "shikoku"],
+      "C": ["kiusiu", "kyushu"],
+      "D": ["honsiu", "honshu"]
+    }
+  },
+  {
+    "id": "geo_009",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Które miasto w Teksasie jest znane jako \"Światowa Stolica Róż\"?",
+    "options": {
+      "A": "Tyler",
+      "B": "Austin",
+      "C": "Dallas",
+      "D": "Houston"
+    },
+    "correct_answer": "A",
+    "explanation": "Tyler w Teksasie jest kojarzone z uprawą róż i corocznym festiwalem róż.",
+    "aliases": {
+      "A": ["tyler", "tyler teksas", "tyler texas"],
+      "B": ["austin"],
+      "C": ["dallas"],
+      "D": ["houston"]
+    }
+  },
+  {
+    "id": "geo_010",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Jaka jest stolica Rumunii?",
+    "options": {
+      "A": "Bratysława",
+      "B": "Bukareszt",
+      "C": "Belgrad",
+      "D": "Budapeszt"
+    },
+    "correct_answer": "B",
+    "explanation": "Stolicą Rumunii jest Bukareszt.",
+    "aliases": {
+      "A": ["bratysława", "bratyslawa", "bratislava"],
+      "B": ["bukareszt", "bucharest"],
+      "C": ["belgrad", "belgrade"],
+      "D": ["budapeszt", "budapest"]
+    }
+  }
+]
