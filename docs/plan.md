@@ -34,7 +34,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [ ] `data/questions/<category>.json` — 11 plików per kategoria (geography, popculture, history, movies, music, science, internet_games, sport, technology, language_literature, general). Pierwsza partia: ~180 pytań. Docelowo 600-800 w kolejnych iteracjach.
 - [x] Loader pytań z katalogu (zbiera wszystkie kategorie, waliduje schemat, wykrywa duplikaty `id`)
 - [x] `core/judge.py`: porównanie litery + matching treści (rapidfuzz)
-- [ ] Testy jednostkowe sędziego (poprawne, błędne, literówki, wielkość liter, aliasy)
+- [x] Testy jednostkowe sędziego (poprawne, błędne, literówki, wielkość liter, aliasy)
 - [ ] Schema odpowiedzi użytkownika dla `POST /api/answer`: request (`question_id`, `answer_letter?`, `answer_text?`, `input_method`) + response (`question_id`, `submitted_answer`, `matched_answer?`, `is_correct`, `correct_answer`, `explanation?`, `score_delta`)
 - [ ] Endpoint `POST /api/answer` (input: question_id + answer_text/letter)
 

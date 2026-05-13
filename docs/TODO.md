@@ -50,3 +50,4 @@
 - [x] M1: venv, requirements.txt, FastAPI hello-world, CORS, SQLite/SQLModel smoke test, Ruff, Vite React TS, Prettier, git init + remote
 - [x] M2: wybrano mały ręczny dataset smoke-testowy i dodano `data/test_questions/geography.json` (10 pytań)
 - [x] M2: dodano pierwszy docelowy batch `data/questions/` (geography/history/science, 30 pytań)
+- [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

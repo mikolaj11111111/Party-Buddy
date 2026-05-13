@@ -27,6 +27,13 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 - **Propozycja:** nie wracać do `.claude/settings.json`; jeśli pełny dataset będzie generowany agentowo, zrobić to etapami w aktualnym workflow.
 - **Status:** fixed (2026-05-12, migracja z `.claude/` do `AGENTS.md` + `.codex/skills/`)
 
+## Licencja Open Trivia DB
+- **Lokalizacja:** `data/questions/SOURCES.md`
+- **Problem:** Pierwszy batch pytań bazuje na Open Trivia DB, które deklaruje CC BY-SA 4.0.
+- **Wpływ:** średni — publiczne użycie datasetu może wymagać atrybucji i zgodności z warunkami ShareAlike.
+- **Propozycja:** trzymać źródła w `SOURCES.md`; przed publikacją portfolio zdecydować, czy zostawić ten dataset, czy zastąpić pytaniami autorskimi.
+- **Status:** open
+
 ---
 
 ## Ryzyka znane (do monitorowania w trakcie MVP)

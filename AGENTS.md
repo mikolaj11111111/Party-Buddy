@@ -40,7 +40,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 
 ## Konwencje techniczne
 
-- Python: venv obowiązkowo, Ruff (format + lint + import sort)
+- Python: venv obowiązkowo, Ruff (format + lint + import sort), testy tylko przez pytest
 - TS/React: Prettier
 - Nazwy w kodzie po angielsku (zmienne, funkcje, klasy, komentarze)
 - Komunikacja z użytkownikiem po polsku
@@ -52,6 +52,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 - GitHub Flow: `main` zawsze stabilny, każda zmiana na osobnym branchu (`feat/`, `fix/`)
 - Plan przed dużymi zmianami → akceptacja → implementacja
 - Testy przed commitem
+- Testy backendu uruchamiaj przez `python -m pytest`, nie przez `unittest`
 - `docs/plan.md`, `docs/TODO.md`, `docs/risk.md` — pliki robocze, **commitowane** do repo
 
 ## Lokalne rules dla agentów
