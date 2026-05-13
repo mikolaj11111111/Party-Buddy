@@ -18,5 +18,6 @@ rapidfuzz==3.14.5
 # piper-tts==<wersja>           # alternatywnie binarka Piper poza pip
 
 # --- Dev/quality (opcjonalnie, do dodania) ---
+httpx==0.28.1
 ruff==0.15.12
 pytest==9.0.3

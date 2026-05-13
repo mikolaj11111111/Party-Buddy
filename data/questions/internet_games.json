@@ -1,0 +1,517 @@
+[
+  {
+    "id": "ig_001",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Kt?ra gra polega na budowaniu z blok?w i przetrwaniu w ?wiecie z creeperami?",
+    "options": {
+      "A": "Minecraft",
+      "B": "Fortnite",
+      "C": "Roblox",
+      "D": "Terraria"
+    },
+    "correct_answer": "A",
+    "explanation": "Minecraft ??czy budowanie z blok?w, eksploracj? i tryb przetrwania.",
+    "aliases": {
+      "A": [
+        "Minecraft",
+        "minecraft"
+      ],
+      "B": [
+        "Fortnite",
+        "fortnite"
+      ],
+      "C": [
+        "Roblox",
+        "roblox"
+      ],
+      "D": [
+        "Terraria",
+        "terraria"
+      ]
+    }
+  },
+  {
+    "id": "ig_002",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Kt?ra platforma kojarzy si? z transmisjami na ?ywo z gier?",
+    "options": {
+      "A": "Pinterest",
+      "B": "Twitch",
+      "C": "LinkedIn",
+      "D": "Vimeo"
+    },
+    "correct_answer": "B",
+    "explanation": "Twitch jest jedn? z g??wnych platform streamingu gier na ?ywo.",
+    "aliases": {
+      "A": [
+        "Pinterest",
+        "pinterest"
+      ],
+      "B": [
+        "Twitch",
+        "twitch"
+      ],
+      "C": [
+        "LinkedIn",
+        "linkedin"
+      ],
+      "D": [
+        "Vimeo",
+        "vimeo"
+      ]
+    }
+  },
+  {
+    "id": "ig_003",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? waluta w grze Fortnite?",
+    "options": {
+      "A": "Minecoins",
+      "B": "Robux",
+      "C": "V-dolce",
+      "D": "Kredyty FIFA"
+    },
+    "correct_answer": "C",
+    "explanation": "W Fortnite u?ywa si? waluty V-dolce do zakup?w kosmetycznych.",
+    "aliases": {
+      "A": [
+        "Minecoins",
+        "minecoins"
+      ],
+      "B": [
+        "Robux",
+        "robux"
+      ],
+      "C": [
+        "V-dolce",
+        "v-dolce",
+        "v bucks",
+        "v dolce"
+      ],
+      "D": [
+        "Kredyty FIFA",
+        "kredyty fifa"
+      ]
+    }
+  },
+  {
+    "id": "ig_004",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Kt?ra gra MOBA ma map? Summoner?s Rift?",
+    "options": {
+      "A": "Dota 2",
+      "B": "Smite",
+      "C": "Heroes of the Storm",
+      "D": "League of Legends"
+    },
+    "correct_answer": "D",
+    "explanation": "Summoner?s Rift to podstawowa mapa w League of Legends.",
+    "aliases": {
+      "A": [
+        "Dota 2",
+        "dota 2"
+      ],
+      "B": [
+        "Smite",
+        "smite"
+      ],
+      "C": [
+        "Heroes of the Storm",
+        "heroes of the storm"
+      ],
+      "D": [
+        "League of Legends",
+        "league of legends"
+      ]
+    }
+  },
+  {
+    "id": "ig_005",
+    "category": "internet_games",
+    "difficulty": "hard",
+    "question": "Kt?ra firma stworzy?a platform? Steam?",
+    "options": {
+      "A": "Valve",
+      "B": "Epic Games",
+      "C": "Ubisoft",
+      "D": "Electronic Arts"
+    },
+    "correct_answer": "A",
+    "explanation": "Steam zosta? stworzony i jest rozwijany przez Valve.",
+    "aliases": {
+      "A": [
+        "Valve",
+        "valve"
+      ],
+      "B": [
+        "Epic Games",
+        "epic games"
+      ],
+      "C": [
+        "Ubisoft",
+        "ubisoft"
+      ],
+      "D": [
+        "Electronic Arts",
+        "electronic arts"
+      ]
+    }
+  },
+  {
+    "id": "ig_006",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? sze?cienna konsola Nintendo z pocz?tku lat 2000?",
+    "options": {
+      "A": "Dreamcast",
+      "B": "GameCube",
+      "C": "Wii U",
+      "D": "Switch"
+    },
+    "correct_answer": "B",
+    "explanation": "Nintendo GameCube zadebiutowa?o na pocz?tku lat 2000.",
+    "aliases": {
+      "A": [
+        "Dreamcast",
+        "dreamcast"
+      ],
+      "B": [
+        "GameCube",
+        "gamecube"
+      ],
+      "C": [
+        "Wii U",
+        "wii u"
+      ],
+      "D": [
+        "Switch",
+        "switch"
+      ]
+    }
+  },
+  {
+    "id": "ig_007",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Kt?ra gra ma tryb Battle Royale i budowanie konstrukcji?",
+    "options": {
+      "A": "Apex Legends",
+      "B": "PUBG",
+      "C": "Fortnite",
+      "D": "Counter-Strike 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Fortnite wyr??nia si? po??czeniem battle royale i budowania.",
+    "aliases": {
+      "A": [
+        "Apex Legends",
+        "apex legends"
+      ],
+      "B": [
+        "PUBG",
+        "pubg"
+      ],
+      "C": [
+        "Fortnite",
+        "fortnite"
+      ],
+      "D": [
+        "Counter-Strike 2",
+        "counter-strike 2"
+      ]
+    }
+  },
+  {
+    "id": "ig_008",
+    "category": "internet_games",
+    "difficulty": "hard",
+    "question": "Kt?ry boss z Dark Souls zaczyna seri? od walki w azylu nieumar?ych?",
+    "options": {
+      "A": "Ornstein i Smough",
+      "B": "Sif",
+      "C": "Gwyn",
+      "D": "Asylum Demon"
+    },
+    "correct_answer": "D",
+    "explanation": "Asylum Demon jest pierwszym bossem w pocz?tkowej lokacji Dark Souls.",
+    "aliases": {
+      "A": [
+        "Ornstein i Smough",
+        "ornstein i smough"
+      ],
+      "B": [
+        "Sif",
+        "sif"
+      ],
+      "C": [
+        "Gwyn",
+        "gwyn"
+      ],
+      "D": [
+        "Asylum Demon",
+        "asylum demon"
+      ]
+    }
+  },
+  {
+    "id": "ig_009",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? awatar gracza w Roblox?",
+    "options": {
+      "A": "Robloxian",
+      "B": "Spartan",
+      "C": "Vault Boy",
+      "D": "Sims"
+    },
+    "correct_answer": "A",
+    "explanation": "Posta? gracza w Roblox bywa nazywana Robloxian.",
+    "aliases": {
+      "A": [
+        "Robloxian",
+        "robloxian"
+      ],
+      "B": [
+        "Spartan",
+        "spartan"
+      ],
+      "C": [
+        "Vault Boy",
+        "vault boy"
+      ],
+      "D": [
+        "Sims",
+        "sims"
+      ]
+    }
+  },
+  {
+    "id": "ig_010",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Kt?ry gatunek oznacza skr?t RPG?",
+    "options": {
+      "A": "Real-time Puzzle Game",
+      "B": "Role-playing game",
+      "C": "Rapid Platform Game",
+      "D": "Retro Party Game"
+    },
+    "correct_answer": "B",
+    "explanation": "RPG to gra fabularna, po angielsku role-playing game.",
+    "aliases": {
+      "A": [
+        "Real-time Puzzle Game",
+        "real-time puzzle game"
+      ],
+      "B": [
+        "Role-playing game",
+        "role-playing game",
+        "role playing game",
+        "gra fabularna"
+      ],
+      "C": [
+        "Rapid Platform Game",
+        "rapid platform game"
+      ],
+      "D": [
+        "Retro Party Game",
+        "retro party game"
+      ]
+    }
+  },
+  {
+    "id": "ig_011",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Kt?ra seria pi?karska EA zmieni?a nazw? z FIFA na EA Sports FC?",
+    "options": {
+      "A": "PES",
+      "B": "NBA Live",
+      "C": "EA Sports FC",
+      "D": "Madden NFL"
+    },
+    "correct_answer": "C",
+    "explanation": "Po zako?czeniu licencji FIFA seria EA kontynuowana jest jako EA Sports FC.",
+    "aliases": {
+      "A": [
+        "PES",
+        "pes"
+      ],
+      "B": [
+        "NBA Live",
+        "nba live"
+      ],
+      "C": [
+        "EA Sports FC",
+        "ea sports fc"
+      ],
+      "D": [
+        "Madden NFL",
+        "madden nfl"
+      ]
+    }
+  },
+  {
+    "id": "ig_012",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Kt?ra gra spo?eczno?ciowa ma zadania i impostor?w na statku kosmicznym?",
+    "options": {
+      "A": "Fall Guys",
+      "B": "Stardew Valley",
+      "C": "The Sims",
+      "D": "Among Us"
+    },
+    "correct_answer": "D",
+    "explanation": "Among Us polega na wykonywaniu zada? i wykrywaniu impostor?w.",
+    "aliases": {
+      "A": [
+        "Fall Guys",
+        "fall guys"
+      ],
+      "B": [
+        "Stardew Valley",
+        "stardew valley"
+      ],
+      "C": [
+        "The Sims",
+        "the sims"
+      ],
+      "D": [
+        "Among Us",
+        "among us"
+      ]
+    }
+  },
+  {
+    "id": "ig_013",
+    "category": "internet_games",
+    "difficulty": "hard",
+    "question": "Kt?re studio stworzy?o gr? ?The Witcher 3: Wild Hunt??",
+    "options": {
+      "A": "CD Projekt Red",
+      "B": "Techland",
+      "C": "11 bit studios",
+      "D": "People Can Fly"
+    },
+    "correct_answer": "A",
+    "explanation": "?Wied?min 3? zosta? stworzony przez CD Projekt Red.",
+    "aliases": {
+      "A": [
+        "CD Projekt Red",
+        "cd projekt red"
+      ],
+      "B": [
+        "Techland",
+        "techland"
+      ],
+      "C": [
+        "11 bit studios"
+      ],
+      "D": [
+        "People Can Fly",
+        "people can fly"
+      ]
+    }
+  },
+  {
+    "id": "ig_014",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa si? sklep z aplikacjami na Androidzie?",
+    "options": {
+      "A": "App Store",
+      "B": "Google Play",
+      "C": "Steam",
+      "D": "Microsoft Store"
+    },
+    "correct_answer": "B",
+    "explanation": "Google Play jest g??wnym sklepem z aplikacjami na Androida.",
+    "aliases": {
+      "A": [
+        "App Store",
+        "app store"
+      ],
+      "B": [
+        "Google Play",
+        "google play"
+      ],
+      "C": [
+        "Steam",
+        "steam"
+      ],
+      "D": [
+        "Microsoft Store",
+        "microsoft store"
+      ]
+    }
+  },
+  {
+    "id": "ig_015",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Kt?ra gra strategiczna Blizzarda ma rasy Terran, Zerg i Protoss?",
+    "options": {
+      "A": "Warcraft III",
+      "B": "Diablo II",
+      "C": "StarCraft",
+      "D": "Overwatch"
+    },
+    "correct_answer": "C",
+    "explanation": "StarCraft opiera si? na konflikcie Terran, Zerg?w i Protoss?w.",
+    "aliases": {
+      "A": [
+        "Warcraft III",
+        "warcraft iii"
+      ],
+      "B": [
+        "Diablo II",
+        "diablo ii"
+      ],
+      "C": [
+        "StarCraft",
+        "starcraft"
+      ],
+      "D": [
+        "Overwatch",
+        "overwatch"
+      ]
+    }
+  },
+  {
+    "id": "ig_016",
+    "category": "internet_games",
+    "difficulty": "hard",
+    "question": "Kt?ry termin oznacza kupowanie losowych wirtualnych nagr?d w grach?",
+    "options": {
+      "A": "Speedrun",
+      "B": "Patch note",
+      "C": "Matchmaking",
+      "D": "Loot box"
+    },
+    "correct_answer": "D",
+    "explanation": "Loot box to mechanizm losowej nagrody kupowanej lub zdobywanej w grze.",
+    "aliases": {
+      "A": [
+        "Speedrun",
+        "speedrun"
+      ],
+      "B": [
+        "Patch note",
+        "patch note"
+      ],
+      "C": [
+        "Matchmaking",
+        "matchmaking"
+      ],
+      "D": [
+        "Loot box",
+        "loot box"
+      ]
+    }
+  }
+]

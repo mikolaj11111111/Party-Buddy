@@ -1,0 +1,535 @@
+[
+  {
+    "id": "gen_001",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile dni ma rok przest?pny?",
+    "options": {
+      "A": "365",
+      "B": "366",
+      "C": "364",
+      "D": "367"
+    },
+    "correct_answer": "B",
+    "explanation": "Rok przest?pny ma 366 dni, bo luty ma wtedy 29 dni.",
+    "aliases": {
+      "A": [
+        "365"
+      ],
+      "B": [
+        "366"
+      ],
+      "C": [
+        "364"
+      ],
+      "D": [
+        "367"
+      ]
+    }
+  },
+  {
+    "id": "gen_002",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? najwi?kszy ocean na Ziemi?",
+    "options": {
+      "A": "Atlantycki",
+      "B": "Indyjski",
+      "C": "Spokojny",
+      "D": "Arktyczny"
+    },
+    "correct_answer": "C",
+    "explanation": "Ocean Spokojny, czyli Pacyfik, jest najwi?kszym oceanem ?wiata.",
+    "aliases": {
+      "A": [
+        "Atlantycki",
+        "atlantycki"
+      ],
+      "B": [
+        "Indyjski",
+        "indyjski"
+      ],
+      "C": [
+        "Spokojny",
+        "spokojny",
+        "pacyfik",
+        "ocean pacyficzny"
+      ],
+      "D": [
+        "Arktyczny",
+        "arktyczny"
+      ]
+    }
+  },
+  {
+    "id": "gen_003",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Kt?ry kolor powstaje z po??czenia niebieskiego i ???tego?",
+    "options": {
+      "A": "Czerwony",
+      "B": "Fioletowy",
+      "C": "Pomara?czowy",
+      "D": "Zielony"
+    },
+    "correct_answer": "D",
+    "explanation": "Po??czenie niebieskiego i ???tego daje kolor zielony w tradycyjnym mieszaniu farb.",
+    "aliases": {
+      "A": [
+        "Czerwony",
+        "czerwony"
+      ],
+      "B": [
+        "Fioletowy",
+        "fioletowy"
+      ],
+      "C": [
+        "Pomara?czowy",
+        "pomaralczowy"
+      ],
+      "D": [
+        "Zielony",
+        "zielony"
+      ]
+    }
+  },
+  {
+    "id": "gen_004",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Ile minut ma jedna godzina?",
+    "options": {
+      "A": "60",
+      "B": "90",
+      "C": "100",
+      "D": "45"
+    },
+    "correct_answer": "A",
+    "explanation": "Jedna godzina sk?ada si? z 60 minut.",
+    "aliases": {
+      "A": [
+        "60"
+      ],
+      "B": [
+        "90"
+      ],
+      "C": [
+        "100"
+      ],
+      "D": [
+        "45"
+      ]
+    }
+  },
+  {
+    "id": "gen_005",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Kt?re zwierz? jest symbolem organizacji WWF?",
+    "options": {
+      "A": "Tygrys",
+      "B": "Panda wielka",
+      "C": "Orze?",
+      "D": "Delfin"
+    },
+    "correct_answer": "B",
+    "explanation": "Logo WWF przedstawia pand? wielk?.",
+    "aliases": {
+      "A": [
+        "Tygrys",
+        "tygrys"
+      ],
+      "B": [
+        "Panda wielka",
+        "panda wielka"
+      ],
+      "C": [
+        "Orze?",
+        "orzel"
+      ],
+      "D": [
+        "Delfin",
+        "delfin"
+      ]
+    }
+  },
+  {
+    "id": "gen_006",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? waluta u?ywana w Japonii?",
+    "options": {
+      "A": "Won",
+      "B": "Juan",
+      "C": "Jen",
+      "D": "Ringgit"
+    },
+    "correct_answer": "C",
+    "explanation": "Walut? Japonii jest jen.",
+    "aliases": {
+      "A": [
+        "Won",
+        "won"
+      ],
+      "B": [
+        "Juan",
+        "juan"
+      ],
+      "C": [
+        "Jen",
+        "jen",
+        "yen",
+        "jpy"
+      ],
+      "D": [
+        "Ringgit",
+        "ringgit"
+      ]
+    }
+  },
+  {
+    "id": "gen_007",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Kt?ry miesi?c ma zwykle 28 dni?",
+    "options": {
+      "A": "Stycze?",
+      "B": "Marzec",
+      "C": "Kwiecie?",
+      "D": "Luty"
+    },
+    "correct_answer": "D",
+    "explanation": "Luty ma zwykle 28 dni, a w roku przest?pnym 29.",
+    "aliases": {
+      "A": [
+        "Stycze?",
+        "styczel"
+      ],
+      "B": [
+        "Marzec",
+        "marzec"
+      ],
+      "C": [
+        "Kwiecie?",
+        "kwieciel"
+      ],
+      "D": [
+        "Luty",
+        "luty"
+      ]
+    }
+  },
+  {
+    "id": "gen_008",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "Kt?ry pierwiastek chemiczny ma symbol Au?",
+    "options": {
+      "A": "Z?oto",
+      "B": "Srebro",
+      "C": "Mied?",
+      "D": "Glin"
+    },
+    "correct_answer": "A",
+    "explanation": "Symbol Au pochodzi od ?aci?skiej nazwy z?ota: aurum.",
+    "aliases": {
+      "A": [
+        "Z?oto",
+        "zloto",
+        "aurum"
+      ],
+      "B": [
+        "Srebro",
+        "srebro"
+      ],
+      "C": [
+        "Mied?",
+        "miedl"
+      ],
+      "D": [
+        "Glin",
+        "glin"
+      ]
+    }
+  },
+  {
+    "id": "gen_009",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Ile bok?w ma sze?ciok?t?",
+    "options": {
+      "A": "Pi??",
+      "B": "Sze??",
+      "C": "Siedem",
+      "D": "Osiem"
+    },
+    "correct_answer": "B",
+    "explanation": "Sze?ciok?t to figura o sze?ciu bokach.",
+    "aliases": {
+      "A": [
+        "Pi??",
+        "pill"
+      ],
+      "B": [
+        "Sze??",
+        "szell"
+      ],
+      "C": [
+        "Siedem",
+        "siedem"
+      ],
+      "D": [
+        "Osiem",
+        "osiem"
+      ]
+    }
+  },
+  {
+    "id": "gen_010",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Kt?ry kontynent le?y na biegunie po?udniowym?",
+    "options": {
+      "A": "Australia",
+      "B": "Europa",
+      "C": "Antarktyda",
+      "D": "Azja"
+    },
+    "correct_answer": "C",
+    "explanation": "Biegun po?udniowy znajduje si? na Antarktydzie.",
+    "aliases": {
+      "A": [
+        "Australia",
+        "australia"
+      ],
+      "B": [
+        "Europa",
+        "europa"
+      ],
+      "C": [
+        "Antarktyda",
+        "antarktyda"
+      ],
+      "D": [
+        "Azja",
+        "azja"
+      ]
+    }
+  },
+  {
+    "id": "gen_011",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? proces zamiany cieczy w gaz?",
+    "options": {
+      "A": "Topnienie",
+      "B": "Krzepni?cie",
+      "C": "Skraplanie",
+      "D": "Parowanie"
+    },
+    "correct_answer": "D",
+    "explanation": "Parowanie to przechodzenie cieczy w stan gazowy.",
+    "aliases": {
+      "A": [
+        "Topnienie",
+        "topnienie"
+      ],
+      "B": [
+        "Krzepni?cie",
+        "krzepnilcie"
+      ],
+      "C": [
+        "Skraplanie",
+        "skraplanie"
+      ],
+      "D": [
+        "Parowanie",
+        "parowanie"
+      ]
+    }
+  },
+  {
+    "id": "gen_012",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Kt?ry dzie? tygodnia nast?puje po pi?tku?",
+    "options": {
+      "A": "Sobota",
+      "B": "Czwartek",
+      "C": "Niedziela",
+      "D": "Poniedzia?ek"
+    },
+    "correct_answer": "A",
+    "explanation": "Po pi?tku nast?puje sobota.",
+    "aliases": {
+      "A": [
+        "Sobota",
+        "sobota"
+      ],
+      "B": [
+        "Czwartek",
+        "czwartek"
+      ],
+      "C": [
+        "Niedziela",
+        "niedziela"
+      ],
+      "D": [
+        "Poniedzia?ek",
+        "poniedzialek"
+      ]
+    }
+  },
+  {
+    "id": "gen_013",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa si? urz?dzenie do pomiaru temperatury?",
+    "options": {
+      "A": "Barometr",
+      "B": "Termometr",
+      "C": "Higrometr",
+      "D": "Anemometr"
+    },
+    "correct_answer": "B",
+    "explanation": "Termometr s?u?y do mierzenia temperatury.",
+    "aliases": {
+      "A": [
+        "Barometr",
+        "barometr"
+      ],
+      "B": [
+        "Termometr",
+        "termometr"
+      ],
+      "C": [
+        "Higrometr",
+        "higrometr"
+      ],
+      "D": [
+        "Anemometr",
+        "anemometr"
+      ]
+    }
+  },
+  {
+    "id": "gen_014",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "Kt?ra gra planszowa ma pola z nazwami ulic i kupowaniem nieruchomo?ci?",
+    "options": {
+      "A": "Scrabble",
+      "B": "Cluedo",
+      "C": "Monopoly",
+      "D": "Catan"
+    },
+    "correct_answer": "C",
+    "explanation": "Monopoly opiera si? na kupowaniu nieruchomo?ci i pobieraniu czynszu.",
+    "aliases": {
+      "A": [
+        "Scrabble",
+        "scrabble"
+      ],
+      "B": [
+        "Cluedo",
+        "cluedo"
+      ],
+      "C": [
+        "Monopoly",
+        "monopoly"
+      ],
+      "D": [
+        "Catan",
+        "catan"
+      ]
+    }
+  },
+  {
+    "id": "gen_015",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Kt?ra pora roku nast?puje po zimie?",
+    "options": {
+      "A": "Lato",
+      "B": "Jesie?",
+      "C": "Zima",
+      "D": "Wiosna"
+    },
+    "correct_answer": "D",
+    "explanation": "Po zimie nast?puje wiosna.",
+    "aliases": {
+      "A": [
+        "Lato",
+        "lato"
+      ],
+      "B": [
+        "Jesie?",
+        "jesiel"
+      ],
+      "C": [
+        "Zima",
+        "zima"
+      ],
+      "D": [
+        "Wiosna",
+        "wiosna"
+      ]
+    }
+  },
+  {
+    "id": "gen_016",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Ile wynosi suma k?t?w w tr?jk?cie p?askim?",
+    "options": {
+      "A": "180 stopni",
+      "B": "90 stopni",
+      "C": "270 stopni",
+      "D": "360 stopni"
+    },
+    "correct_answer": "A",
+    "explanation": "Suma k?t?w wewn?trznych tr?jk?ta w geometrii euklidesowej wynosi 180 stopni.",
+    "aliases": {
+      "A": [
+        "180 stopni"
+      ],
+      "B": [
+        "90 stopni"
+      ],
+      "C": [
+        "270 stopni"
+      ],
+      "D": [
+        "360 stopni"
+      ]
+    }
+  },
+  {
+    "id": "gen_017",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "Jak nazywa si? najmniejsza liczba pierwsza?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "correct_answer": "B",
+    "explanation": "Najmniejsz? liczb? pierwsz? jest 2; liczba 1 nie jest pierwsza.",
+    "aliases": {
+      "A": [
+        "1"
+      ],
+      "B": [
+        "2"
+      ],
+      "C": [
+        "3"
+      ],
+      "D": [
+        "0"
+      ]
+    }
+  }
+]

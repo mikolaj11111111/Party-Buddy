@@ -13,10 +13,23 @@
     "correct_answer": "A",
     "explanation": "Grenlandia jest autonomicznym terytorium wchodzącym w skład Królestwa Danii.",
     "aliases": {
-      "A": ["dania", "królestwo danii", "krolestwo danii"],
-      "B": ["szwecja"],
-      "C": ["norwegia"],
-      "D": ["wielka brytania", "uk", "zjednoczone królestwo", "zjednoczone krolestwo"]
+      "A": [
+        "dania",
+        "królestwo danii",
+        "krolestwo danii"
+      ],
+      "B": [
+        "szwecja"
+      ],
+      "C": [
+        "norwegia"
+      ],
+      "D": [
+        "wielka brytania",
+        "uk",
+        "zjednoczone królestwo",
+        "zjednoczone krolestwo"
+      ]
     }
   },
   {
@@ -33,10 +46,19 @@
     "correct_answer": "B",
     "explanation": "Panda Express ma siedzibę w Rosemead w stanie Kalifornia.",
     "aliases": {
-      "A": ["sacramento"],
-      "B": ["rosemead", "rosemead kalifornia"],
-      "C": ["fresno"],
-      "D": ["san diego"]
+      "A": [
+        "sacramento"
+      ],
+      "B": [
+        "rosemead",
+        "rosemead kalifornia"
+      ],
+      "C": [
+        "fresno"
+      ],
+      "D": [
+        "san diego"
+      ]
     }
   },
   {
@@ -53,10 +75,19 @@
     "correct_answer": "C",
     "explanation": "Mozambik był kolonią portugalską, dlatego portugalski pozostaje tam językiem urzędowym.",
     "aliases": {
-      "A": ["botswana"],
-      "B": ["gabon"],
-      "C": ["mozambik", "mozambique"],
-      "D": ["togo"]
+      "A": [
+        "botswana"
+      ],
+      "B": [
+        "gabon"
+      ],
+      "C": [
+        "mozambik",
+        "mozambique"
+      ],
+      "D": [
+        "togo"
+      ]
     }
   },
   {
@@ -73,10 +104,20 @@
     "correct_answer": "D",
     "explanation": "Hymn Kanady nosi tytuł \"O Canada\".",
     "aliases": {
-      "A": ["o red maple"],
-      "B": ["leaf spangled banner"],
-      "C": ["march of the puck drop"],
-      "D": ["o canada", "oh canada", "hymn kanady"]
+      "A": [
+        "o red maple"
+      ],
+      "B": [
+        "leaf spangled banner"
+      ],
+      "C": [
+        "march of the puck drop"
+      ],
+      "D": [
+        "o canada",
+        "oh canada",
+        "hymn kanady"
+      ]
     }
   },
   {
@@ -93,10 +134,21 @@
     "correct_answer": "A",
     "explanation": "Korsyka jest francuską wyspą i regionem administracyjnym Francji.",
     "aliases": {
-      "A": ["korsyka", "corsica"],
-      "B": ["majorka", "mallorca"],
-      "C": ["sardynia", "sardinia"],
-      "D": ["malta"]
+      "A": [
+        "korsyka",
+        "corsica"
+      ],
+      "B": [
+        "majorka",
+        "mallorca"
+      ],
+      "C": [
+        "sardynia",
+        "sardinia"
+      ],
+      "D": [
+        "malta"
+      ]
     }
   },
   {
@@ -113,10 +165,27 @@
     "correct_answer": "B",
     "explanation": "Cieśnina Gibraltarska leży między Hiszpanią a Marokiem i łączy Atlantyk z Morzem Śródziemnym.",
     "aliases": {
-      "A": ["bosfor", "cieśnina bosfor", "ciesnina bosfor"],
-      "B": ["cieśnina gibraltarska", "ciesnina gibraltarska", "gibraltar", "strait of gibraltar"],
-      "C": ["dardanele", "cieśnina dardanelska", "ciesnina dardanelska"],
-      "D": ["kanał sueski", "kanal sueski", "suez"]
+      "A": [
+        "bosfor",
+        "cieśnina bosfor",
+        "ciesnina bosfor"
+      ],
+      "B": [
+        "cieśnina gibraltarska",
+        "ciesnina gibraltarska",
+        "gibraltar",
+        "strait of gibraltar"
+      ],
+      "C": [
+        "dardanele",
+        "cieśnina dardanelska",
+        "ciesnina dardanelska"
+      ],
+      "D": [
+        "kanał sueski",
+        "kanal sueski",
+        "suez"
+      ]
     }
   },
   {
@@ -133,10 +202,21 @@
     "correct_answer": "C",
     "explanation": "Rio de Janeiro jest jednym z najbardziej znanych miast Brazylii.",
     "aliases": {
-      "A": ["peru"],
-      "B": ["chile"],
-      "C": ["brazylia", "brasil", "brazil"],
-      "D": ["wenezuela", "venezuela"]
+      "A": [
+        "peru"
+      ],
+      "B": [
+        "chile"
+      ],
+      "C": [
+        "brazylia",
+        "brasil",
+        "brazil"
+      ],
+      "D": [
+        "wenezuela",
+        "venezuela"
+      ]
     }
   },
   {
@@ -153,10 +233,21 @@
     "correct_answer": "D",
     "explanation": "Honsiu jest największą i najludniejszą wyspą Japonii.",
     "aliases": {
-      "A": ["hokkaido"],
-      "B": ["sikoku", "shikoku"],
-      "C": ["kiusiu", "kyushu"],
-      "D": ["honsiu", "honshu"]
+      "A": [
+        "hokkaido"
+      ],
+      "B": [
+        "sikoku",
+        "shikoku"
+      ],
+      "C": [
+        "kiusiu",
+        "kyushu"
+      ],
+      "D": [
+        "honsiu",
+        "honshu"
+      ]
     }
   },
   {
@@ -173,10 +264,20 @@
     "correct_answer": "A",
     "explanation": "Tyler w Teksasie jest kojarzone z uprawą róż i corocznym festiwalem róż.",
     "aliases": {
-      "A": ["tyler", "tyler teksas", "tyler texas"],
-      "B": ["austin"],
-      "C": ["dallas"],
-      "D": ["houston"]
+      "A": [
+        "tyler",
+        "tyler teksas",
+        "tyler texas"
+      ],
+      "B": [
+        "austin"
+      ],
+      "C": [
+        "dallas"
+      ],
+      "D": [
+        "houston"
+      ]
     }
   },
   {
@@ -193,10 +294,249 @@
     "correct_answer": "B",
     "explanation": "Stolicą Rumunii jest Bukareszt.",
     "aliases": {
-      "A": ["bratysława", "bratyslawa", "bratislava"],
-      "B": ["bukareszt", "bucharest"],
-      "C": ["belgrad", "belgrade"],
-      "D": ["budapeszt", "budapest"]
+      "A": [
+        "bratysława",
+        "bratyslawa",
+        "bratislava"
+      ],
+      "B": [
+        "bukareszt",
+        "bucharest"
+      ],
+      "C": [
+        "belgrad",
+        "belgrade"
+      ],
+      "D": [
+        "budapeszt",
+        "budapest"
+      ]
+    }
+  },
+  {
+    "id": "geo_011",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Kt?ra rzeka przep?ywa przez Warszaw??",
+    "options": {
+      "A": "Wis?a",
+      "B": "Odra",
+      "C": "Warta",
+      "D": "Bug"
+    },
+    "correct_answer": "A",
+    "explanation": "Warszawa le?y nad Wis??, najd?u?sz? rzek? Polski.",
+    "aliases": {
+      "A": [
+        "Wis?a",
+        "wisla"
+      ],
+      "B": [
+        "Odra",
+        "odra"
+      ],
+      "C": [
+        "Warta",
+        "warta"
+      ],
+      "D": [
+        "Bug",
+        "bug"
+      ]
+    }
+  },
+  {
+    "id": "geo_012",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Kt?re pa?stwo ma najd?u?sz? lini? brzegow? na ?wiecie?",
+    "options": {
+      "A": "Australia",
+      "B": "Kanada",
+      "C": "Indonezja",
+      "D": "Rosja"
+    },
+    "correct_answer": "B",
+    "explanation": "Najd?u?sz? lini? brzegow? ma Kanada, g??wnie dzi?ki wyspom Arktyki.",
+    "aliases": {
+      "A": [
+        "Australia",
+        "australia"
+      ],
+      "B": [
+        "Kanada",
+        "kanada"
+      ],
+      "C": [
+        "Indonezja",
+        "indonezja"
+      ],
+      "D": [
+        "Rosja",
+        "rosja"
+      ]
+    }
+  },
+  {
+    "id": "geo_013",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Stolic? kt?rego pa?stwa jest Praga?",
+    "options": {
+      "A": "S?owacji",
+      "B": "W?gier",
+      "C": "Czech",
+      "D": "Austrii"
+    },
+    "correct_answer": "C",
+    "explanation": "Praga jest stolic? Czech.",
+    "aliases": {
+      "A": [
+        "S?owacji",
+        "slowacji"
+      ],
+      "B": [
+        "W?gier",
+        "wlgier"
+      ],
+      "C": [
+        "Czech",
+        "czech",
+        "czechy",
+        "republika czeska"
+      ],
+      "D": [
+        "Austrii",
+        "austrii"
+      ]
+    }
+  },
+  {
+    "id": "geo_014",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Kt?re morze oddziela Europ? od Afryki P??nocnej?",
+    "options": {
+      "A": "Morze Czarne",
+      "B": "Morze P??nocne",
+      "C": "Morze Ba?tyckie",
+      "D": "Morze ?r?dziemne"
+    },
+    "correct_answer": "D",
+    "explanation": "Morze ?r?dziemne le?y mi?dzy po?udniow? Europ? a p??nocn? Afryk?.",
+    "aliases": {
+      "A": [
+        "Morze Czarne",
+        "morze czarne"
+      ],
+      "B": [
+        "Morze P??nocne",
+        "morze pllnocne"
+      ],
+      "C": [
+        "Morze Ba?tyckie",
+        "morze baltyckie"
+      ],
+      "D": [
+        "Morze ?r?dziemne",
+        "morze lrldziemne"
+      ]
+    }
+  },
+  {
+    "id": "geo_015",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "W kt?rym kraju znajduje si? pustynia Atakama?",
+    "options": {
+      "A": "Chile",
+      "B": "Peru",
+      "C": "Boliwia",
+      "D": "Argentyna"
+    },
+    "correct_answer": "A",
+    "explanation": "Pustynia Atakama le?y przede wszystkim w p??nocnym Chile.",
+    "aliases": {
+      "A": [
+        "Chile",
+        "chile"
+      ],
+      "B": [
+        "Peru",
+        "peru"
+      ],
+      "C": [
+        "Boliwia",
+        "boliwia"
+      ],
+      "D": [
+        "Argentyna",
+        "argentyna"
+      ]
+    }
+  },
+  {
+    "id": "geo_016",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Kt?re miasto jest stolic? Nowej Zelandii?",
+    "options": {
+      "A": "Auckland",
+      "B": "Wellington",
+      "C": "Christchurch",
+      "D": "Dunedin"
+    },
+    "correct_answer": "B",
+    "explanation": "Stolic? Nowej Zelandii jest Wellington, cho? Auckland jest wi?ksze.",
+    "aliases": {
+      "A": [
+        "Auckland",
+        "auckland"
+      ],
+      "B": [
+        "Wellington",
+        "wellington"
+      ],
+      "C": [
+        "Christchurch",
+        "christchurch"
+      ],
+      "D": [
+        "Dunedin",
+        "dunedin"
+      ]
+    }
+  },
+  {
+    "id": "geo_017",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Kt?ry kontynent jest najmniejszy pod wzgl?dem powierzchni?",
+    "options": {
+      "A": "Europa",
+      "B": "Antarktyda",
+      "C": "Australia",
+      "D": "Ameryka Po?udniowa"
+    },
+    "correct_answer": "C",
+    "explanation": "Australia jest najmniejszym kontynentem wed?ug klasycznego podzia?u szkolnego.",
+    "aliases": {
+      "A": [
+        "Europa",
+        "europa"
+      ],
+      "B": [
+        "Antarktyda",
+        "antarktyda"
+      ],
+      "C": [
+        "Australia",
+        "australia"
+      ],
+      "D": [
+        "Ameryka Po?udniowa",
+        "ameryka poludniowa"
+      ]
     }
   }
 ]

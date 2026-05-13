@@ -2,7 +2,6 @@
 
 ## Otwarte — MVP
 
-- [ ] Rozszerzyć docelowy dataset `data/questions/` z 3 kategorii do pełnej pierwszej partii M2
 - [ ] Zdecydować, czy zostawić `data/test_questions/` po przejściu loadera i judge na `data/questions/`
 - [ ] Wybór konkretnego polskiego głosu Piper (porównać `pl_PL-darkman-medium`, `pl_PL-gosia-medium`)
 - [ ] Decyzja: mp3 vs wav w cache TTS (wav prostszy, mp3 mniejszy)
@@ -50,4 +49,5 @@
 - [x] M1: venv, requirements.txt, FastAPI hello-world, CORS, SQLite/SQLModel smoke test, Ruff, Vite React TS, Prettier, git init + remote
 - [x] M2: wybrano mały ręczny dataset smoke-testowy i dodano `data/test_questions/geography.json` (10 pytań)
 - [x] M2: dodano pierwszy docelowy batch `data/questions/` (geography/history/science, 30 pytań)
+- [x] M2: rozszerzono `data/questions/` do pełnej pierwszej partii (11 kategorii, 181 pytań)
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest
