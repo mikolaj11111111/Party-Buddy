@@ -3,7 +3,7 @@
     "id": "sport_001",
     "category": "sport",
     "difficulty": "easy",
-    "question": "Ilu zawodnik?w jednej dru?yny gra jednocze?nie na boisku w pi?ce no?nej?",
+    "question": "Ilu zawodników jednej drużyny gra jednocześnie na boisku w piłce nożnej?",
     "options": {
       "A": "11",
       "B": "7",
@@ -11,7 +11,7 @@
       "D": "5"
     },
     "correct_answer": "A",
-    "explanation": "W pi?ce no?nej dru?yna gra jedenastoma zawodnikami, wliczaj?c bramkarza.",
+    "explanation": "W piłce nożnej drużyna gra jedenastoma zawodnikami, wliczając bramkarza.",
     "aliases": {
       "A": [
         "11"
@@ -31,7 +31,7 @@
     "id": "sport_002",
     "category": "sport",
     "difficulty": "medium",
-    "question": "Kt?ry turniej tenisowy rozgrywany jest na trawiastych kortach w Londynie?",
+    "question": "Który turniej tenisowy rozgrywany jest na trawiastych kortach w Londynie?",
     "options": {
       "A": "Roland Garros",
       "B": "Wimbledon",
@@ -39,7 +39,7 @@
       "D": "Australian Open"
     },
     "correct_answer": "B",
-    "explanation": "Wimbledon jest londy?skim turniejem wielkoszlemowym rozgrywanym na trawie.",
+    "explanation": "Wimbledon jest londyńskim turniejem wielkoszlemowym rozgrywanym na trawie.",
     "aliases": {
       "A": [
         "Roland Garros",
@@ -63,22 +63,22 @@
     "id": "sport_003",
     "category": "sport",
     "difficulty": "easy",
-    "question": "W jakim sporcie u?ywa si? kr??ka zwanego puckiem?",
+    "question": "W jakim sporcie używa się krążka zwanego puckiem?",
     "options": {
-      "A": "Koszyk?wka",
-      "B": "Siatk?wka",
+      "A": "Koszykówka",
+      "B": "Siatkówka",
       "C": "Hokej na lodzie",
       "D": "Baseball"
     },
     "correct_answer": "C",
-    "explanation": "Kr??ek, czyli puck, jest u?ywany w hokeju na lodzie.",
+    "explanation": "Krążek, czyli puck, jest używany w hokeju na lodzie.",
     "aliases": {
       "A": [
-        "Koszyk?wka",
+        "Koszykówka",
         "koszyklwka"
       ],
       "B": [
-        "Siatk?wka",
+        "Siatkówka",
         "siatklwka"
       ],
       "C": [
@@ -95,7 +95,7 @@
     "id": "sport_004",
     "category": "sport",
     "difficulty": "medium",
-    "question": "Ile punkt?w jest wart rzut za lini? 6,75 m w koszyk?wce FIBA?",
+    "question": "Ile punktów jest wart rzut za linię 6,75 m w koszykówce FIBA?",
     "options": {
       "A": "1",
       "B": "2",
@@ -103,7 +103,7 @@
       "D": "3"
     },
     "correct_answer": "D",
-    "explanation": "Rzut zza linii rzut?w za trzy punkty jest wart 3 punkty.",
+    "explanation": "Rzut zza linii rzutów za trzy punkty jest wart 3 punkty.",
     "aliases": {
       "A": [
         "1"
@@ -123,7 +123,7 @@
     "id": "sport_005",
     "category": "sport",
     "difficulty": "hard",
-    "question": "Kt?ry kraj wygra? pi?karskie mistrzostwa ?wiata m??czyzn w 2014 roku?",
+    "question": "Który kraj wygrać piłkarskie mistrzostwa świata młączyzn w 2014 roku?",
     "options": {
       "A": "Niemcy",
       "B": "Argentyna",
@@ -131,7 +131,7 @@
       "D": "Hiszpania"
     },
     "correct_answer": "A",
-    "explanation": "Niemcy pokona?y Argentyn? w finale mundialu 2014.",
+    "explanation": "Niemcy pokonały Argentynę w finale mundialu 2014.",
     "aliases": {
       "A": [
         "Niemcy",
@@ -155,15 +155,15 @@
     "id": "sport_006",
     "category": "sport",
     "difficulty": "easy",
-    "question": "Jak nazywa si? polski skoczek narciarski, czterokrotny mistrz olimpijski?",
+    "question": "Jak nazywa się polski skoczek narciarski, czterokrotny mistrz olimpijski?",
     "options": {
       "A": "Kamil Stoch",
       "B": "Robert Lewandowski",
-      "C": "Adam Ma?ysz",
-      "D": "Piotr ?y?a"
+      "C": "Adam Małysz",
+      "D": "Piotr Żyła"
     },
     "correct_answer": "A",
-    "explanation": "Kamil Stoch zdoby? cztery z?ote medale olimpijskie w skokach narciarskich.",
+    "explanation": "Kamil Stoch zdobył cztery złote medale olimpijskie w skokach narciarskich.",
     "aliases": {
       "A": [
         "Kamil Stoch",
@@ -174,11 +174,11 @@
         "robert lewandowski"
       ],
       "C": [
-        "Adam Ma?ysz",
+        "Adam Małysz",
         "adam malysz"
       ],
       "D": [
-        "Piotr ?y?a",
+        "Piotr Żyła",
         "piotr lyla"
       ]
     }
@@ -187,15 +187,15 @@
     "id": "sport_007",
     "category": "sport",
     "difficulty": "medium",
-    "question": "Kt?ry sport kojarzy si? z Tour de France?",
+    "question": "Który sport kojarzy się z Tour de France?",
     "options": {
       "A": "Lekkoatletyka",
       "B": "Kolarstwo",
       "C": "Narciarstwo",
-      "D": "?eglarstwo"
+      "D": "Żeglarstwo"
     },
     "correct_answer": "B",
-    "explanation": "Tour de France to najs?ynniejszy wieloetapowy wy?cig kolarski.",
+    "explanation": "Tour de France to najsąynniejszy wieloetapowy wyścig kolarski.",
     "aliases": {
       "A": [
         "Lekkoatletyka",
@@ -210,7 +210,7 @@
         "narciarstwo"
       ],
       "D": [
-        "?eglarstwo",
+        "Żeglarstwo",
         "leglarstwo"
       ]
     }
@@ -219,15 +219,15 @@
     "id": "sport_008",
     "category": "sport",
     "difficulty": "easy",
-    "question": "Ile set?w trzeba zwykle wygra? w siatkarskim meczu do trzech wygranych set?w?",
+    "question": "Ile setów trzeba zwykle wygrać w siatkarskim meczu do trzech wygranych setów?",
     "options": {
       "A": "Dwa",
       "B": "Cztery",
       "C": "Trzy",
-      "D": "Pi??"
+      "D": "Pięć"
     },
     "correct_answer": "C",
-    "explanation": "W typowym meczu siatkarskim wygrywa dru?yna, kt?ra pierwsza zdob?dzie trzy sety.",
+    "explanation": "W typowym meczu siatkarskim wygrywa drużyna, która pierwsza zdobędzie trzy sety.",
     "aliases": {
       "A": [
         "Dwa",
@@ -242,8 +242,8 @@
         "trzy"
       ],
       "D": [
-        "Pi??",
-        "pill"
+        "Pięć",
+        "pięć"
       ]
     }
   },
@@ -251,7 +251,7 @@
     "id": "sport_009",
     "category": "sport",
     "difficulty": "medium",
-    "question": "Kt?ry kierowca Formu?y 1 zdoby? siedem tytu??w mistrza ?wiata?",
+    "question": "Który kierowca Formuły 1 zdobył siedem tytułów mistrza świata?",
     "options": {
       "A": "Fernando Alonso",
       "B": "Sebastian Vettel",
@@ -259,7 +259,7 @@
       "D": "Lewis Hamilton"
     },
     "correct_answer": "D",
-    "explanation": "Lewis Hamilton ma siedem tytu??w mistrza ?wiata F1.",
+    "explanation": "Lewis Hamilton ma siedem tytułów mistrza świata F1.",
     "aliases": {
       "A": [
         "Fernando Alonso",
@@ -283,7 +283,7 @@
     "id": "sport_010",
     "category": "sport",
     "difficulty": "hard",
-    "question": "W kt?rym sporcie wyst?puj? style klasyczny i wolny?",
+    "question": "W którym sporcie występują style klasyczny i wolny?",
     "options": {
       "A": "Zapasy",
       "B": "Boks",
@@ -291,7 +291,7 @@
       "D": "Szermierka"
     },
     "correct_answer": "A",
-    "explanation": "Zapasy olimpijskie dziel? si? m.in. na styl klasyczny i wolny.",
+    "explanation": "Zapasy olimpijskie dzielą się m.in. na styl klasyczny i wolny.",
     "aliases": {
       "A": [
         "Zapasy",
@@ -315,15 +315,15 @@
     "id": "sport_011",
     "category": "sport",
     "difficulty": "easy",
-    "question": "Kt?ra dyscyplina u?ywa rakiety, lotki i siatki?",
+    "question": "Która dyscyplina używa rakiety, lotki i siatki?",
     "options": {
       "A": "Squash",
       "B": "Badminton",
-      "C": "Tenis sto?owy",
+      "C": "Tenis stołowy",
       "D": "Krykiet"
     },
     "correct_answer": "B",
-    "explanation": "Badminton polega na odbijaniu lotki rakietami przez siatk?.",
+    "explanation": "Badminton polega na odbijaniu lotki rakietami przez siatkę.",
     "aliases": {
       "A": [
         "Squash",
@@ -334,7 +334,7 @@
         "badminton"
       ],
       "C": [
-        "Tenis sto?owy",
+        "Tenis stołowy",
         "tenis stolowy"
       ],
       "D": [
@@ -347,18 +347,18 @@
     "id": "sport_012",
     "category": "sport",
     "difficulty": "medium",
-    "question": "Kt?ra reprezentacja pi?karska jest znana jako ?Canarinhos??",
+    "question": "Która reprezentacja piłkarska jest znana jako \"Canarinhos\"?",
     "options": {
-      "A": "W?ochy",
+      "A": "Włochy",
       "B": "Francja",
       "C": "Brazylia",
       "D": "Portugalia"
     },
     "correct_answer": "C",
-    "explanation": "Przydomek ?Canarinhos? odnosi si? do reprezentacji Brazylii.",
+    "explanation": "Przydomek \"Canarinhos\" odnosi się do reprezentacji Brazylii.",
     "aliases": {
       "A": [
-        "W?ochy",
+        "Włochy",
         "wlochy"
       ],
       "B": [
@@ -379,15 +379,15 @@
     "id": "sport_013",
     "category": "sport",
     "difficulty": "hard",
-    "question": "Jak nazywa si? wy?cig konny wchodz?cy w ameryka?sk? Potr?jn? Koron?, rozgrywany w Louisville?",
+    "question": "Jak nazywa się wyścig konny wchodzący w amerykańską Potrójną Koronę, rozgrywany w Louisville?",
     "options": {
       "A": "Preakness Stakes",
       "B": "Belmont Stakes",
-      "C": "Prix de l?Arc de Triomphe",
+      "C": "Prix de l'Arc de Triomphe",
       "D": "Kentucky Derby"
     },
     "correct_answer": "D",
-    "explanation": "Kentucky Derby odbywa si? w Louisville i jest cz??ci? ameryka?skiej Potr?jnej Korony.",
+    "explanation": "Kentucky Derby odbywa się w Louisville i jest częścią amerykańskiej Potrójnej Korony.",
     "aliases": {
       "A": [
         "Preakness Stakes",
@@ -398,7 +398,7 @@
         "belmont stakes"
       ],
       "C": [
-        "Prix de l?Arc de Triomphe",
+        "Prix de l'Arc de Triomphe",
         "prix de llarc de triomphe"
       ],
       "D": [
@@ -411,26 +411,26 @@
     "id": "sport_014",
     "category": "sport",
     "difficulty": "easy",
-    "question": "W kt?rym sporcie Robert Lewandowski jest napastnikiem?",
+    "question": "W którym sporcie Robert Lewandowski jest napastnikiem?",
     "options": {
-      "A": "Pi?ka no?na",
-      "B": "Pi?ka r?czna",
-      "C": "Koszyk?wka",
+      "A": "Piłka nożna",
+      "B": "Piłka ręczna",
+      "C": "Koszykówka",
       "D": "Hokej"
     },
     "correct_answer": "A",
-    "explanation": "Robert Lewandowski jest pi?karzem graj?cym na pozycji napastnika.",
+    "explanation": "Robert Lewandowski jest piłkarzem grającym na pozycji napastnika.",
     "aliases": {
       "A": [
-        "Pi?ka no?na",
+        "Piłka nożna",
         "pilka nolna"
       ],
       "B": [
-        "Pi?ka r?czna",
+        "Piłka ręczna",
         "pilka rlczna"
       ],
       "C": [
-        "Koszyk?wka",
+        "Koszykówka",
         "koszyklwka"
       ],
       "D": [
@@ -443,7 +443,7 @@
     "id": "sport_015",
     "category": "sport",
     "difficulty": "medium",
-    "question": "Jak nazywa si? najwa?niejszy fina? ligi NFL?",
+    "question": "Jak nazywa się najważniejszy finał ligi NFL?",
     "options": {
       "A": "World Series",
       "B": "Super Bowl",
@@ -451,7 +451,7 @@
       "D": "NBA Finals"
     },
     "correct_answer": "B",
-    "explanation": "Super Bowl jest fina?owym meczem sezonu NFL.",
+    "explanation": "Super Bowl jest finałowym meczem sezonu NFL.",
     "aliases": {
       "A": [
         "World Series",
@@ -475,18 +475,18 @@
     "id": "sport_016",
     "category": "sport",
     "difficulty": "hard",
-    "question": "Kt?ry sport olimpijski ??czy p?ywanie, kolarstwo i bieg?",
+    "question": "Który sport olimpijski łączy pżywanie, kolarstwo i bieg?",
     "options": {
-      "A": "Pi?ciob?j nowoczesny",
+      "A": "Pięciobój nowoczesny",
       "B": "Biathlon",
       "C": "Triathlon",
       "D": "Decathlon"
     },
     "correct_answer": "C",
-    "explanation": "Triathlon sk?ada si? z p?ywania, jazdy na rowerze i biegu.",
+    "explanation": "Triathlon składa się z pżywania, jazdy na rowerze i biegu.",
     "aliases": {
       "A": [
-        "Pi?ciob?j nowoczesny",
+        "Pięciobój nowoczesny",
         "pilcioblj nowoczesny"
       ],
       "B": [

@@ -3,7 +3,7 @@
     "id": "pop_001",
     "category": "popculture",
     "difficulty": "easy",
-    "question": "Kt?ra bohaterka jest g??wn? postaci? serii ?Igrzyska ?mierci??",
+    "question": "Która bohaterka jest główną postacią serii \"Igrzyska śmierci\"?",
     "options": {
       "A": "Hermiona Granger",
       "B": "Katniss Everdeen",
@@ -11,7 +11,7 @@
       "D": "Arya Stark"
     },
     "correct_answer": "B",
-    "explanation": "Katniss Everdeen jest narratork? i g??wn? bohaterk? serii Suzanne Collins.",
+    "explanation": "Katniss Everdeen jest narratorką i główną bohaterką serii Suzanne Collins.",
     "aliases": {
       "A": [
         "Hermiona Granger",
@@ -35,7 +35,7 @@
     "id": "pop_002",
     "category": "popculture",
     "difficulty": "medium",
-    "question": "Kt?ry zesp?? wykonuje piosenk? ?Bohemian Rhapsody??",
+    "question": "Który zespół wykonuje piosenkę \"Bohemian Rhapsody\"?",
     "options": {
       "A": "Queen",
       "B": "The Beatles",
@@ -43,7 +43,7 @@
       "D": "ABBA"
     },
     "correct_answer": "A",
-    "explanation": "?Bohemian Rhapsody? to jeden z najbardziej znanych utwor?w zespo?u Queen.",
+    "explanation": "\"Bohemian Rhapsody\" to jeden z najbardziej znanych utworów zespołu Queen.",
     "aliases": {
       "A": [
         "Queen",
@@ -67,7 +67,7 @@
     "id": "pop_003",
     "category": "popculture",
     "difficulty": "easy",
-    "question": "Jak nazywa si? szko?a magii z serii o Harrym Potterze?",
+    "question": "Jak nazywa się szkoła magii z serii o Harrym Potterze?",
     "options": {
       "A": "Beauxbatons",
       "B": "Durmstrang",
@@ -75,7 +75,7 @@
       "D": "Ilvermorny"
     },
     "correct_answer": "C",
-    "explanation": "Harry Potter uczy si? w Szkole Magii i Czarodziejstwa Hogwart.",
+    "explanation": "Harry Potter uczy się w Szkole Magii i Czarodziejstwa Hogwart.",
     "aliases": {
       "A": [
         "Beauxbatons",
@@ -99,7 +99,7 @@
     "id": "pop_004",
     "category": "popculture",
     "difficulty": "medium",
-    "question": "Kt?ry serial animowany przedstawia rodzin? z miasta Springfield?",
+    "question": "Który serial animowany przedstawia rodzinę z miasta Springfield?",
     "options": {
       "A": "Family Guy",
       "B": "Futurama",
@@ -107,7 +107,7 @@
       "D": "Simpsonowie"
     },
     "correct_answer": "D",
-    "explanation": "?Simpsonowie? opowiadaj? o rodzinie Simpson?w mieszkaj?cej w Springfield.",
+    "explanation": "\"Simpsonowie\" opowiadają o rodzinie Simpsonów mieszkającej w Springfield.",
     "aliases": {
       "A": [
         "Family Guy",
@@ -131,7 +131,7 @@
     "id": "pop_005",
     "category": "popculture",
     "difficulty": "hard",
-    "question": "Kt?ry artysta jest znany jako tw?rca alter ego Ziggy Stardust?",
+    "question": "Który artysta jest znany jako twórca alter ego Ziggy Stardust?",
     "options": {
       "A": "David Bowie",
       "B": "Prince",
@@ -139,7 +139,7 @@
       "D": "Freddie Mercury"
     },
     "correct_answer": "A",
-    "explanation": "Ziggy Stardust to sceniczne alter ego Davida Bowiego z pocz?tku lat 70.",
+    "explanation": "Ziggy Stardust to sceniczne alter ego Davida Bowiego z początku lat 70.",
     "aliases": {
       "A": [
         "David Bowie",
@@ -163,7 +163,7 @@
     "id": "pop_006",
     "category": "popculture",
     "difficulty": "easy",
-    "question": "Jak nazywa si? niebieski je? z gier Segi?",
+    "question": "Jak nazywa się niebieski jeż z gier Segi?",
     "options": {
       "A": "Crash",
       "B": "Sonic",
@@ -171,7 +171,7 @@
       "D": "Kirby"
     },
     "correct_answer": "B",
-    "explanation": "Sonic the Hedgehog jest maskotk? firmy Sega.",
+    "explanation": "Sonic the Hedgehog jest maskotką firmy Sega.",
     "aliases": {
       "A": [
         "Crash",
@@ -195,7 +195,7 @@
     "id": "pop_007",
     "category": "popculture",
     "difficulty": "medium",
-    "question": "Kt?ra marka zabawek jest znana z klock?w sk?adanych z wypustkami?",
+    "question": "Która marka zabawek jest znana z klocków składanych z wypustkami?",
     "options": {
       "A": "Hot Wheels",
       "B": "Barbie",
@@ -203,7 +203,7 @@
       "D": "Playmobil"
     },
     "correct_answer": "C",
-    "explanation": "LEGO produkuje charakterystyczne plastikowe klocki ??czone wypustkami.",
+    "explanation": "LEGO produkuje charakterystyczne plastikowe klocki łączone wypustkami.",
     "aliases": {
       "A": [
         "Hot Wheels",
@@ -227,7 +227,7 @@
     "id": "pop_008",
     "category": "popculture",
     "difficulty": "easy",
-    "question": "Kt?ry superbohater mieszka fikcyjnie w Gotham City?",
+    "question": "Który superbohater mieszka fikcyjnie w Gotham City?",
     "options": {
       "A": "Superman",
       "B": "Iron Man",
@@ -259,7 +259,7 @@
     "id": "pop_009",
     "category": "popculture",
     "difficulty": "medium",
-    "question": "Kto prowadzi? fikcyjny talk-show ?The Muppet Show? jako zielona ?aba?",
+    "question": "Kto prowadził fikcyjny talk-show \"The Muppet Show\" jako zielona żaba?",
     "options": {
       "A": "Kermit",
       "B": "Elmo",
@@ -267,12 +267,12 @@
       "D": "Fozzie"
     },
     "correct_answer": "A",
-    "explanation": "Kermit ?aba by? gospodarzem wielu segment?w ?The Muppet Show?.",
+    "explanation": "Kermit Żaba był gospodarzem wielu segmentów \"The Muppet Show\".",
     "aliases": {
       "A": [
         "Kermit",
         "kermit",
-        "kermit ?aba",
+        "kermit żaba",
         "kermit zaba"
       ],
       "B": [
@@ -293,7 +293,7 @@
     "id": "pop_010",
     "category": "popculture",
     "difficulty": "hard",
-    "question": "Kt?ra franczyza kojarzy si? z has?em ?May the Force be with you??",
+    "question": "Która franczyza kojarzy się z hasłem \"May the Force be with you\"?",
     "options": {
       "A": "Star Trek",
       "B": "Star Wars",
@@ -301,7 +301,7 @@
       "D": "Avatar"
     },
     "correct_answer": "B",
-    "explanation": "Fraza ?Niech Moc b?dzie z tob?? pochodzi z uniwersum Star Wars.",
+    "explanation": "Fraza \"Niech Moc będzie z tobą\" pochodzi z uniwersum Star Wars.",
     "aliases": {
       "A": [
         "Star Trek",
@@ -325,7 +325,7 @@
     "id": "pop_011",
     "category": "popculture",
     "difficulty": "easy",
-    "question": "Kt?ra posta? Disneya jest mysz? w czerwonych spodenkach?",
+    "question": "Która postać Disneya jest myszą w czerwonych spodenkach?",
     "options": {
       "A": "Kaczor Donald",
       "B": "Goofy",
@@ -333,7 +333,7 @@
       "D": "Pluto"
     },
     "correct_answer": "C",
-    "explanation": "Myszka Miki jest jedn? z najbardziej rozpoznawalnych postaci Disneya.",
+    "explanation": "Myszka Miki jest jedną z najbardziej rozpoznawalnych postaci Disneya.",
     "aliases": {
       "A": [
         "Kaczor Donald",
@@ -357,7 +357,7 @@
     "id": "pop_012",
     "category": "popculture",
     "difficulty": "medium",
-    "question": "Kt?ry reality show polega na ?ledzeniu uczestnik?w mieszkaj?cych w jednym domu?",
+    "question": "Który reality show polega na śledzeniu uczestników mieszkających w jednym domu?",
     "options": {
       "A": "MasterChef",
       "B": "Mam talent!",
@@ -365,7 +365,7 @@
       "D": "Big Brother"
     },
     "correct_answer": "D",
-    "explanation": "?Big Brother? opiera si? na obserwowaniu uczestnik?w zamkni?tych w domu.",
+    "explanation": "\"Big Brother\" opiera się na obserwowaniu uczestników zamkniętych w domu.",
     "aliases": {
       "A": [
         "MasterChef",
@@ -389,7 +389,7 @@
     "id": "pop_013",
     "category": "popculture",
     "difficulty": "hard",
-    "question": "Kt?ra piosenkarka wyda?a album ?1989??",
+    "question": "Która piosenkarka wydała album \"1989\"?",
     "options": {
       "A": "Taylor Swift",
       "B": "Adele",
@@ -397,7 +397,7 @@
       "D": "Lady Gaga"
     },
     "correct_answer": "A",
-    "explanation": "?1989? to album Taylor Swift wydany w 2014 roku.",
+    "explanation": "\"1989\" to album Taylor Swift wydany w 2014 roku.",
     "aliases": {
       "A": [
         "Taylor Swift",
@@ -421,7 +421,7 @@
     "id": "pop_014",
     "category": "popculture",
     "difficulty": "medium",
-    "question": "Kt?ry komiksowy ?wiat tworzy Avengers?",
+    "question": "Który komiksowy świat tworzy Avengers?",
     "options": {
       "A": "DC Comics",
       "B": "Marvel",
@@ -429,7 +429,7 @@
       "D": "Dark Horse"
     },
     "correct_answer": "B",
-    "explanation": "Avengers s? dru?yn? superbohater?w z komiks?w Marvela.",
+    "explanation": "Avengers są drużyną superbohaterów z komiksów Marvela.",
     "aliases": {
       "A": [
         "DC Comics",
@@ -454,7 +454,7 @@
     "id": "pop_015",
     "category": "popculture",
     "difficulty": "easy",
-    "question": "Jak nazywa si? ???ta rodzina z kresk?wki Matta Groeninga?",
+    "question": "Jak nazywa się żółta rodzina z kreskówki Matta Groeninga?",
     "options": {
       "A": "Flintstonowie",
       "B": "Jetsonowie",
@@ -462,7 +462,7 @@
       "D": "Griffinowie"
     },
     "correct_answer": "C",
-    "explanation": "Rodzina Simpson?w jest znana z ???tego wygl?du postaci.",
+    "explanation": "Rodzina Simpsonów jest znana z żółtego wyglądu postaci.",
     "aliases": {
       "A": [
         "Flintstonowie",
@@ -486,7 +486,7 @@
     "id": "pop_016",
     "category": "popculture",
     "difficulty": "medium",
-    "question": "Kt?ra platforma spopularyzowa?a kr?tkie pionowe filmiki z trendami tanecznymi?",
+    "question": "Która platforma spopularyzowała krótkie pionowe filmiki z trendami tanecznymi?",
     "options": {
       "A": "Netflix",
       "B": "Twitch",
@@ -494,7 +494,7 @@
       "D": "TikTok"
     },
     "correct_answer": "D",
-    "explanation": "TikTok jest kojarzony z kr?tkimi pionowymi filmami i viralowymi trendami.",
+    "explanation": "TikTok jest kojarzony z krótkimi pionowymi filmami i viralowymi trendami.",
     "aliases": {
       "A": [
         "Netflix",
@@ -518,7 +518,7 @@
     "id": "pop_017",
     "category": "popculture",
     "difficulty": "hard",
-    "question": "Kt?ry re?yser stworzy? serial ?Twin Peaks? razem z Markiem Frostem?",
+    "question": "Który reżyser stworzył serial \"Twin Peaks\" razem z Markiem Frostem?",
     "options": {
       "A": "David Lynch",
       "B": "Steven Spielberg",
@@ -526,7 +526,7 @@
       "D": "Christopher Nolan"
     },
     "correct_answer": "A",
-    "explanation": "?Twin Peaks? stworzyli David Lynch i Mark Frost.",
+    "explanation": "\"Twin Peaks\" stworzyli David Lynch i Mark Frost.",
     "aliases": {
       "A": [
         "David Lynch",

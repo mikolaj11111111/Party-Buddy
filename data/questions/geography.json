@@ -317,18 +317,18 @@
     "id": "geo_011",
     "category": "geography",
     "difficulty": "easy",
-    "question": "Kt?ra rzeka przep?ywa przez Warszaw??",
+    "question": "Która rzeka przepływa przez Warszawę?",
     "options": {
-      "A": "Wis?a",
+      "A": "Wisąa",
       "B": "Odra",
       "C": "Warta",
       "D": "Bug"
     },
     "correct_answer": "A",
-    "explanation": "Warszawa le?y nad Wis??, najd?u?sz? rzek? Polski.",
+    "explanation": "Warszawa leży nad Wisłą, najdłuższą rzeką Polski.",
     "aliases": {
       "A": [
-        "Wis?a",
+        "Wisąa",
         "wisla"
       ],
       "B": [
@@ -349,7 +349,7 @@
     "id": "geo_012",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Kt?re pa?stwo ma najd?u?sz? lini? brzegow? na ?wiecie?",
+    "question": "Które państwo ma najdłuższą linię brzegową na świecie?",
     "options": {
       "A": "Australia",
       "B": "Kanada",
@@ -357,7 +357,7 @@
       "D": "Rosja"
     },
     "correct_answer": "B",
-    "explanation": "Najd?u?sz? lini? brzegow? ma Kanada, g??wnie dzi?ki wyspom Arktyki.",
+    "explanation": "Najdłuższą linię brzegową ma Kanada, głównie dzięki wyspom Arktyki.",
     "aliases": {
       "A": [
         "Australia",
@@ -381,22 +381,22 @@
     "id": "geo_013",
     "category": "geography",
     "difficulty": "easy",
-    "question": "Stolic? kt?rego pa?stwa jest Praga?",
+    "question": "Stolicą którego państwa jest Praga?",
     "options": {
-      "A": "S?owacji",
-      "B": "W?gier",
+      "A": "Słowacji",
+      "B": "Węgier",
       "C": "Czech",
       "D": "Austrii"
     },
     "correct_answer": "C",
-    "explanation": "Praga jest stolic? Czech.",
+    "explanation": "Praga jest stolicą Czech.",
     "aliases": {
       "A": [
-        "S?owacji",
+        "Słowacji",
         "slowacji"
       ],
       "B": [
-        "W?gier",
+        "Węgier",
         "wlgier"
       ],
       "C": [
@@ -415,30 +415,30 @@
     "id": "geo_014",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Kt?re morze oddziela Europ? od Afryki P??nocnej?",
+    "question": "Które morze oddziela Europę od Afryki Północnej?",
     "options": {
       "A": "Morze Czarne",
-      "B": "Morze P??nocne",
-      "C": "Morze Ba?tyckie",
-      "D": "Morze ?r?dziemne"
+      "B": "Morze Północne",
+      "C": "Morze Bałtyckie",
+      "D": "Morze Śródziemne"
     },
     "correct_answer": "D",
-    "explanation": "Morze ?r?dziemne le?y mi?dzy po?udniow? Europ? a p??nocn? Afryk?.",
+    "explanation": "Morze Śródziemne leży między południową Europę a północną Afrykę.",
     "aliases": {
       "A": [
         "Morze Czarne",
         "morze czarne"
       ],
       "B": [
-        "Morze P??nocne",
+        "Morze Północne",
         "morze pllnocne"
       ],
       "C": [
-        "Morze Ba?tyckie",
+        "Morze Bałtyckie",
         "morze baltyckie"
       ],
       "D": [
-        "Morze ?r?dziemne",
+        "Morze Śródziemne",
         "morze lrldziemne"
       ]
     }
@@ -447,7 +447,7 @@
     "id": "geo_015",
     "category": "geography",
     "difficulty": "hard",
-    "question": "W kt?rym kraju znajduje si? pustynia Atakama?",
+    "question": "W którym kraju znajduje się pustynia Atakama?",
     "options": {
       "A": "Chile",
       "B": "Peru",
@@ -455,7 +455,7 @@
       "D": "Argentyna"
     },
     "correct_answer": "A",
-    "explanation": "Pustynia Atakama le?y przede wszystkim w p??nocnym Chile.",
+    "explanation": "Pustynia Atakama leży przede wszystkim w północnym Chile.",
     "aliases": {
       "A": [
         "Chile",
@@ -479,7 +479,7 @@
     "id": "geo_016",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Kt?re miasto jest stolic? Nowej Zelandii?",
+    "question": "Które miasto jest stolicą Nowej Zelandii?",
     "options": {
       "A": "Auckland",
       "B": "Wellington",
@@ -487,7 +487,7 @@
       "D": "Dunedin"
     },
     "correct_answer": "B",
-    "explanation": "Stolic? Nowej Zelandii jest Wellington, cho? Auckland jest wi?ksze.",
+    "explanation": "Stolicą Nowej Zelandii jest Wellington, choć Auckland jest większe.",
     "aliases": {
       "A": [
         "Auckland",
@@ -511,15 +511,15 @@
     "id": "geo_017",
     "category": "geography",
     "difficulty": "easy",
-    "question": "Kt?ry kontynent jest najmniejszy pod wzgl?dem powierzchni?",
+    "question": "Który kontynent jest najmniejszy pod względem powierzchni?",
     "options": {
       "A": "Europa",
       "B": "Antarktyda",
       "C": "Australia",
-      "D": "Ameryka Po?udniowa"
+      "D": "Ameryka Południowa"
     },
     "correct_answer": "C",
-    "explanation": "Australia jest najmniejszym kontynentem wed?ug klasycznego podzia?u szkolnego.",
+    "explanation": "Australia jest najmniejszym kontynentem według klasycznego podziału szkolnego.",
     "aliases": {
       "A": [
         "Europa",
@@ -534,7 +534,7 @@
         "australia"
       ],
       "D": [
-        "Ameryka Po?udniowa",
+        "Ameryka Południowa",
         "ameryka poludniowa"
       ]
     }

@@ -72,17 +72,27 @@ def test_controller_starts_session_and_hides_correct_answer() -> None:
         }
     )
 
-    assert [event.type for event in events] == ["session_started", "round_started"]
-    round_started = events[1].model_dump(mode="json")
+    assert [event.type for event in events] == ["session_started", "round_transition"]
+    transition = events[1].model_dump(mode="json")
+    assert transition["phase"] == "intro"
+    assert transition["next_active_player"]["player_name"] == "Ala"
+    assert transition["next_round_number"] == 1
+    assert transition["starts_at"] == "2026-01-01T12:00:03Z"
+    assert transition["transition_seconds"] == 3
+    assert transition["comment_id"] == "intro_001"
+    assert len(transition["comment_key"]) == 64
+
+    clock.advance(3)
+    round_started = controller.start_next_round_after_transition().model_dump(
+        mode="json"
+    )
     assert round_started["active_player"]["player_name"] == "Ala"
     assert round_started["question"]["id"] == "question_001"
     assert "correct_answer" not in round_started["question"]
-    assert round_started["deadline_at"] == "2026-01-01T12:00:15Z"
-    assert round_started["comment_id"] == "intro_001"
-    assert len(round_started["comment_key"]) == 64
+    assert round_started["deadline_at"] == "2026-01-01T12:00:18Z"
 
 
-def test_controller_submits_answer_and_starts_next_round() -> None:
+def test_controller_submits_answer_and_schedules_next_round_transition() -> None:
     clock = FakeClock()
     controller = GameSessionController(
         make_questions(2),
@@ -96,6 +106,8 @@ def test_controller_submits_answer_and_starts_next_round() -> None:
             "round_count": 2,
         }
     )
+    clock.advance(3)
+    controller.start_next_round_after_transition()
 
     events = controller.handle_payload(
         {
@@ -106,15 +118,25 @@ def test_controller_submits_answer_and_starts_next_round() -> None:
         }
     )
 
-    assert [event.type for event in events] == ["answer_result", "round_started"]
+    assert [event.type for event in events] == ["answer_result", "round_transition"]
     answer_result = events[0].model_dump(mode="json")
-    round_started = events[1].model_dump(mode="json")
+    transition = events[1].model_dump(mode="json")
     assert answer_result["is_correct"] is True
     assert answer_result["score_delta"] == 1
     assert answer_result["scoreboard"][0]["player_name"] == "Ala"
     assert answer_result["comment_id"] == "correct_001"
+    assert transition["phase"] == "between_rounds"
+    assert transition["next_active_player"]["player_name"] == "Bartek"
+    assert transition["next_round_number"] == 2
+    assert transition["starts_at"] == "2026-01-01T12:00:06Z"
+
+    clock.advance(3)
+    round_started = controller.start_next_round_after_transition().model_dump(
+        mode="json"
+    )
     assert round_started["active_player"]["player_name"] == "Bartek"
     assert round_started["question"]["id"] == "question_002"
+    assert round_started["deadline_at"] == "2026-01-01T12:00:21Z"
 
 
 def test_controller_resolves_timeout_and_finishes_session() -> None:
@@ -132,20 +154,30 @@ def test_controller_resolves_timeout_and_finishes_session() -> None:
             "round_seconds": 1,
         }
     )
+    clock.advance(3)
+    controller.start_next_round_after_transition()
 
     clock.advance(2)
     events = controller.handle_round_timeout()
 
-    assert [event.type for event in events] == ["answer_result", "session_finished"]
+    assert [event.type for event in events] == ["answer_result", "session_ending"]
     answer_result = events[0].model_dump(mode="json")
-    finished = events[1].model_dump(mode="json")
+    ending = events[1].model_dump(mode="json")
     assert answer_result["timed_out"] is True
     assert answer_result["input_method"] == "timeout"
     assert answer_result["is_correct"] is False
+    assert answer_result["comment_key"] is None
+    assert ending["ends_at"] == "2026-01-01T12:00:08Z"
+    assert ending["ending_seconds"] == 3
+    assert ending["comment_id"] == "outro_001"
+    assert len(ending["comment_key"]) == 64
+
+    clock.advance(3)
+    finished = controller.finish_session_after_ending().model_dump(mode="json")
     assert finished["winners"] == [
         {"player_id": "player_1", "player_name": "Ala", "score": 0}
     ]
-    assert finished["comment_id"] == "outro_001"
+    assert finished["comment_id"] is None
 
 
 def test_controller_rejects_answer_before_session_start() -> None:
@@ -169,30 +201,16 @@ def test_game_websocket_runs_one_round() -> None:
                 {
                     "type": "start_session",
                     "players": ["Ala"],
-                    "categories": ["general"],
+                    "categories": ["geography"],
                     "round_count": 1,
                     "round_seconds": 30,
                 }
             )
 
             session_started = websocket.receive_json()
-            round_started = websocket.receive_json()
-            question_id = round_started["question"]["id"]
-
-            websocket.send_json(
-                {
-                    "type": "submit_answer",
-                    "question_id": question_id,
-                    "input_method": "click",
-                    "answer_letter": "A",
-                }
-            )
-            answer_result = websocket.receive_json()
-            session_finished = websocket.receive_json()
+            intro = websocket.receive_json()
 
     assert session_started["type"] == "session_started"
-    assert round_started["type"] == "round_started"
-    assert "correct_answer" not in round_started["question"]
-    assert answer_result["type"] == "answer_result"
-    assert answer_result["question_id"] == question_id
-    assert session_finished["type"] == "session_finished"
+    assert intro["type"] == "round_transition"
+    assert intro["phase"] == "intro"
+    assert intro["transition_seconds"] == 3

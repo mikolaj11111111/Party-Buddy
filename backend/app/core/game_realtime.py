@@ -34,8 +34,10 @@ from backend.app.models.game_ws import (
     GamePlayerPayload,
     GameQuestionPayload,
     GameRoundStartedEvent,
+    GameRoundTransitionEvent,
     GameScorePayload,
     GameServerEvent,
+    GameSessionEndingEvent,
     GameSessionFinishedEvent,
     GameSessionStartedEvent,
     GameStartSessionMessage,
@@ -45,6 +47,8 @@ from backend.app.models.question import AnswerLetter, Question
 from backend.app.models.timestamps import utc_now
 
 QUESTION_RANDOM = SystemRandom()
+DEFAULT_SPEECH_SECONDS = 3
+DEFAULT_TRANSITION_SECONDS = 3
 
 
 class GameProtocolError(ValueError):
@@ -66,14 +70,19 @@ class GameSessionController:
         *,
         now: Callable[[], datetime] = utc_now,
         shuffle_questions: bool = True,
+        transition_seconds: int = DEFAULT_TRANSITION_SECONDS,
     ) -> None:
         """Prepare a controller with the question pool for one connection."""
 
         self._questions = questions
         self._now = now
         self._shuffle_questions = shuffle_questions
+        self._transition_seconds = transition_seconds
         self._session: GameSessionState | None = None
         self._deadline_at: datetime | None = None
+
+        if transition_seconds <= 0:
+            raise GameProtocolError("transition_seconds must be greater than zero")
 
     def handle_payload(self, payload: Any) -> list[GameServerEvent]:
         """Parse one client payload and return resulting server events."""
@@ -106,7 +115,10 @@ class GameSessionController:
 
         return [
             self._build_session_started_event(),
-            self._build_round_started_event(comment=get_intro_comment()),
+            self._build_round_transition_event(
+                phase="intro",
+                comment=get_intro_comment(),
+            ),
         ]
 
     def submit_answer(
@@ -119,6 +131,9 @@ class GameSessionController:
         question = session.current_question
         if question is None:
             raise GameProtocolError("game session has no active question")
+
+        if self._deadline_at is None:
+            raise GameProtocolError("round is not active", code="round_not_active")
 
         if question.id != message.question_id:
             raise GameProtocolError(
@@ -160,6 +175,16 @@ class GameSessionController:
             input_method="timeout",
             timed_out=True,
         )
+
+    def start_next_round_after_transition(self) -> GameRoundStartedEvent:
+        """Start the next round after the transition delay has elapsed."""
+
+        return self._build_round_started_event()
+
+    def finish_session_after_ending(self) -> GameSessionFinishedEvent:
+        """Emit final results after the outro speech delay has elapsed."""
+
+        return self._build_session_finished_event()
 
     def seconds_until_deadline(self) -> float | None:
         """Return seconds until active deadline, or None when idle/finished."""
@@ -267,9 +292,14 @@ class GameSessionController:
 
         session = self._require_session()
         self._deadline_at = None
-        answer_comment = get_answer_comment(
-            is_correct=answer_record.is_correct,
-            round_number=answer_record.round_number,
+        is_finished = session.status == "finished"
+        answer_comment = (
+            None
+            if is_finished
+            else get_answer_comment(
+                is_correct=answer_record.is_correct,
+                round_number=answer_record.round_number,
+            )
         )
         events: list[GameServerEvent] = [
             GameAnswerResultEvent(
@@ -289,17 +319,60 @@ class GameSessionController:
                 score_delta=answer_record.score_delta,
                 timed_out=timed_out,
                 scoreboard=self._scoreboard(),
-                comment_id=answer_comment.id,
-                comment_key=answer_comment.key,
+                comment_id=answer_comment.id if answer_comment else None,
+                comment_key=answer_comment.key if answer_comment else None,
             )
         ]
 
-        if session.status == "finished":
-            events.append(self._build_session_finished_event())
+        if is_finished:
+            events.append(self._build_session_ending_event())
         else:
-            events.append(self._build_round_started_event())
+            events.append(self._build_round_transition_event())
 
         return events
+
+    def _build_round_transition_event(
+        self,
+        *,
+        phase: str = "between_rounds",
+        comment: GameComment | None = None,
+    ) -> GameRoundTransitionEvent:
+        """Build the inter-round event shown before the next question starts."""
+
+        session = self._require_active_session()
+        player = session.current_player
+        if player is None:
+            raise GameProtocolError("game session has no next player")
+
+        return GameRoundTransitionEvent(
+            phase=phase,
+            session_id=session.session_id,
+            next_round_number=session.current_round_number,
+            next_active_player=_to_player_payload(player),
+            starts_at=self._now() + timedelta(seconds=self._transition_seconds),
+            transition_seconds=self._transition_seconds,
+            scoreboard=self._scoreboard(),
+            comment_id=comment.id if comment else None,
+            comment_key=comment.key if comment else None,
+        )
+
+    def _build_session_ending_event(self) -> GameSessionEndingEvent:
+        """Build the outro speech event shown before final results."""
+
+        session = self._require_session()
+        scoreboard = self._scoreboard()
+        top_score = scoreboard[0].score if scoreboard else 0
+        winners = [score for score in scoreboard if score.score == top_score]
+        comment = get_outro_comment()
+        return GameSessionEndingEvent(
+            session_id=session.session_id,
+            ends_at=self._now() + timedelta(seconds=DEFAULT_SPEECH_SECONDS),
+            ending_seconds=DEFAULT_SPEECH_SECONDS,
+            scoreboard=scoreboard,
+            winners=winners,
+            comment_id=comment.id,
+            comment_key=comment.key,
+        )
 
     def _build_session_finished_event(self) -> GameSessionFinishedEvent:
         """Build the final scoreboard event after all rounds finish."""
@@ -308,13 +381,10 @@ class GameSessionController:
         scoreboard = self._scoreboard()
         top_score = scoreboard[0].score if scoreboard else 0
         winners = [score for score in scoreboard if score.score == top_score]
-        comment = get_outro_comment()
         return GameSessionFinishedEvent(
             session_id=session.session_id,
             scoreboard=scoreboard,
             winners=winners,
-            comment_id=comment.id,
-            comment_key=comment.key,
         )
 
     def _scoreboard(self) -> list[GameScorePayload]:
@@ -347,11 +417,13 @@ class GameWebSocketConnection:
         questions_directory: Path = QUESTIONS_DIRECTORY,
         *,
         now: Callable[[], datetime] = utc_now,
+        transition_seconds: int = DEFAULT_TRANSITION_SECONDS,
     ) -> None:
         """Store dependencies needed by the connection handler."""
 
         self._questions_directory = questions_directory
         self._now = now
+        self._transition_seconds = transition_seconds
 
     async def run(self, websocket: WebSocket) -> None:
         """Accept a WebSocket and run the game message loop."""
@@ -368,7 +440,11 @@ class GameWebSocketConnection:
             await websocket.close(code=status.WS_1011_INTERNAL_ERROR)
             return
 
-        controller = GameSessionController(questions, now=self._now)
+        controller = GameSessionController(
+            questions,
+            now=self._now,
+            transition_seconds=self._transition_seconds,
+        )
         while True:
             try:
                 payload = await _receive_payload(websocket, controller)
@@ -382,7 +458,7 @@ class GameWebSocketConnection:
             except ValueError as error:
                 events = [GameErrorEvent(code="bad_json", message=str(error))]
 
-            await _send_events(websocket, events)
+            await _send_events(websocket, controller, events)
 
 
 def parse_game_client_message(payload: Any) -> GameClientMessage:
@@ -428,18 +504,32 @@ async def _receive_payload(
 
 async def _send_events(
     websocket: WebSocket,
+    controller: GameSessionController,
     events: list[GameServerEvent],
 ) -> None:
-    """Send all events in order over the WebSocket."""
+    """Send events and delay follow-up events for speech/transition screens."""
 
     for event in events:
         await _send_event(websocket, event)
+        if isinstance(event, GameRoundTransitionEvent):
+            await _wait_until(event.starts_at)
+            await _send_event(websocket, controller.start_next_round_after_transition())
+        if isinstance(event, GameSessionEndingEvent):
+            await _wait_until(event.ends_at)
+            await _send_event(websocket, controller.finish_session_after_ending())
 
 
 async def _send_event(websocket: WebSocket, event: GameServerEvent) -> None:
     """Serialize and send one server event."""
 
     await websocket.send_json(event.model_dump(mode="json"))
+
+
+async def _wait_until(starts_at: datetime) -> None:
+    """Sleep until the planned transition end timestamp."""
+
+    sleep_seconds = max((starts_at - utc_now()).total_seconds(), 0.0)
+    await asyncio.sleep(sleep_seconds)
 
 
 def _to_player_payload(player: GamePlayer) -> GamePlayerPayload:

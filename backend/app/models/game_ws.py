@@ -162,6 +162,34 @@ class GameAnswerResultEvent(SQLModel):
     comment_key: str | None = None
 
 
+class GameRoundTransitionEvent(SQLModel):
+    """Server event shown between a resolved answer and the next question."""
+
+    type: Literal["round_transition"] = "round_transition"
+    phase: Literal["intro", "between_rounds"] = "between_rounds"
+    session_id: str
+    next_round_number: int
+    next_active_player: GamePlayerPayload
+    starts_at: datetime
+    transition_seconds: int = Field(ge=1)
+    scoreboard: list[GameScorePayload]
+    comment_id: str | None = None
+    comment_key: str | None = None
+
+
+class GameSessionEndingEvent(SQLModel):
+    """Server event shown while the game-master outro is playing."""
+
+    type: Literal["session_ending"] = "session_ending"
+    session_id: str
+    ends_at: datetime
+    ending_seconds: int = Field(ge=1)
+    scoreboard: list[GameScorePayload]
+    winners: list[GameScorePayload]
+    comment_id: str | None = None
+    comment_key: str | None = None
+
+
 class GameSessionFinishedEvent(SQLModel):
     """Server event emitted when the final round is resolved."""
 
@@ -186,6 +214,8 @@ GameServerEvent: TypeAlias = (
     GameSessionStartedEvent
     | GameRoundStartedEvent
     | GameAnswerResultEvent
+    | GameRoundTransitionEvent
+    | GameSessionEndingEvent
     | GameSessionFinishedEvent
     | GameErrorEvent
 )

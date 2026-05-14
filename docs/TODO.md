@@ -55,4 +55,8 @@
 - [x] M5: dodano tabele SQLModel `Question`, `Session`, `Score`, `Profile`
 - [x] Decyzja: realtime gry przez jeden dwukierunkowy WebSocket `/ws/game`
 - [x] M5: dodano `/ws/game` z `deadline_at` zamiast wysyłania ticków timera
+- [x] M5: dodano frontendowe strony Menu, Setup, Game i Results pod `/ws/game`
+- [x] M5: dodano 15s timer pytania, 3s intro/outro i 3s przejścia między rundami
+- [x] M5: dodano ekran wyników z rankingiem hotseat
+- [x] M5: naprawiono polskie znaki w `data/questions/` i dodano test jakości datasetu na utracone markery `?`
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

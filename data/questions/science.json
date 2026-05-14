@@ -348,15 +348,15 @@
     "id": "sci_011",
     "category": "science",
     "difficulty": "easy",
-    "question": "Jaki gaz jest najliczniejszym sk?adnikiem ziemskiej atmosfery?",
+    "question": "Jaki gaz jest najliczniejszym składnikiem ziemskiej atmosfery?",
     "options": {
       "A": "Tlen",
       "B": "Azot",
-      "C": "Dwutlenek w?gla",
+      "C": "Dwutlenek węgla",
       "D": "Argon"
     },
     "correct_answer": "B",
-    "explanation": "Azot stanowi oko?o 78 procent obj?to?ci suchego powietrza.",
+    "explanation": "Azot stanowi około 78 procent objętości suchego powietrza.",
     "aliases": {
       "A": [
         "Tlen",
@@ -367,7 +367,7 @@
         "azot"
       ],
       "C": [
-        "Dwutlenek w?gla",
+        "Dwutlenek węgla",
         "dwutlenek wlgla"
       ],
       "D": [
@@ -380,7 +380,7 @@
     "id": "sci_012",
     "category": "science",
     "difficulty": "medium",
-    "question": "Kt?ra planeta Uk?adu S?onecznego ma najwi?ksz? mas??",
+    "question": "Która planeta Układu Słonecznego ma największą masę?",
     "options": {
       "A": "Jowisz",
       "B": "Saturn",
@@ -388,7 +388,7 @@
       "D": "Ziemia"
     },
     "correct_answer": "A",
-    "explanation": "Jowisz jest najwi?ksz? i najbardziej masywn? planet? Uk?adu S?onecznego.",
+    "explanation": "Jowisz jest największą i najbardziej masywną planetą Układu Słonecznego.",
     "aliases": {
       "A": [
         "Jowisz",
@@ -412,7 +412,7 @@
     "id": "sci_013",
     "category": "science",
     "difficulty": "easy",
-    "question": "Ile chromosom?w ma zwykle kom?rka somatyczna cz?owieka?",
+    "question": "Ile chromosomów ma zwykle komórka somatyczna człowieka?",
     "options": {
       "A": "23",
       "B": "44",
@@ -420,7 +420,7 @@
       "D": "48"
     },
     "correct_answer": "C",
-    "explanation": "Typowa kom?rka somatyczna cz?owieka ma 46 chromosom?w, czyli 23 pary.",
+    "explanation": "Typowa komórka somatyczna człowieka ma 46 chromosomów, czyli 23 pary.",
     "aliases": {
       "A": [
         "23"
@@ -440,22 +440,22 @@
     "id": "sci_014",
     "category": "science",
     "difficulty": "medium",
-    "question": "Jak nazywa si? proces, w kt?rym ro?liny wytwarzaj? cukry z udzia?em ?wiat?a?",
+    "question": "Jak nazywa się proces, w którym rośliny wytwarzają cukry z udziałem światła?",
     "options": {
       "A": "Fermentacja",
-      "B": "Oddychanie kom?rkowe",
+      "B": "Oddychanie komórkowe",
       "C": "Dyfuzja",
       "D": "Fotosynteza"
     },
     "correct_answer": "D",
-    "explanation": "Fotosynteza wykorzystuje energi? ?wiat?a do produkcji zwi?zk?w organicznych.",
+    "explanation": "Fotosynteza wykorzystuje energię światła do produkcji związków organicznych.",
     "aliases": {
       "A": [
         "Fermentacja",
         "fermentacja"
       ],
       "B": [
-        "Oddychanie kom?rkowe",
+        "Oddychanie komórkowe",
         "oddychanie komlrkowe"
       ],
       "C": [
@@ -472,7 +472,7 @@
     "id": "sci_015",
     "category": "science",
     "difficulty": "hard",
-    "question": "Kt?ra cz?stka elementarna ma ?adunek ujemny?",
+    "question": "Która cząstka elementarna ma ładunek ujemny?",
     "options": {
       "A": "Elektron",
       "B": "Proton",
@@ -480,7 +480,7 @@
       "D": "Pozyton"
     },
     "correct_answer": "A",
-    "explanation": "Elektron ma ujemny ?adunek elementarny.",
+    "explanation": "Elektron ma ujemny ładunek elementarny.",
     "aliases": {
       "A": [
         "Elektron",
@@ -504,7 +504,7 @@
     "id": "sci_016",
     "category": "science",
     "difficulty": "medium",
-    "question": "Jak nazywa si? jednostka oporu elektrycznego w uk?adzie SI?",
+    "question": "Jak nazywa się jednostka oporu elektrycznego w układzie SI?",
     "options": {
       "A": "Wat",
       "B": "Om",
@@ -512,7 +512,7 @@
       "D": "Amper"
     },
     "correct_answer": "B",
-    "explanation": "Jednostk? oporu elektrycznego jest om, oznaczany symbolem ?.",
+    "explanation": "Jednostką oporu elektrycznego jest om, oznaczany symbolem Ω.",
     "aliases": {
       "A": [
         "Wat",
@@ -537,22 +537,22 @@
     "id": "sci_017",
     "category": "science",
     "difficulty": "easy",
-    "question": "Kt?ry narz?d pompuje krew w organizmie cz?owieka?",
+    "question": "Który narząd pompuje krew w organizmie człowieka?",
     "options": {
-      "A": "P?uco",
-      "B": "W?troba",
+      "A": "Płuco",
+      "B": "Wątroba",
       "C": "Serce",
       "D": "Nerka"
     },
     "correct_answer": "C",
-    "explanation": "Serce dzia?a jak pompa uk?adu kr??enia.",
+    "explanation": "Serce działa jak pompa układu krążenia.",
     "aliases": {
       "A": [
-        "P?uco",
+        "Płuco",
         "pluco"
       ],
       "B": [
-        "W?troba",
+        "Wątroba",
         "wltroba"
       ],
       "C": [

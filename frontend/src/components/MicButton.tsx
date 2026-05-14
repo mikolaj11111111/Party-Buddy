@@ -3,7 +3,8 @@ import { useRef, useState } from 'react'
 import { transcribeAudio } from '../api/stt'
 
 type MicButtonProps = {
-  onTranscript: (text: string) => void
+  disabled?: boolean
+  onTranscript: (text: string) => void | Promise<void>
 }
 
 type MicState = 'idle' | 'recording' | 'uploading' | 'error'
@@ -34,7 +35,7 @@ const getRecordingErrorMessage = (recordingError: unknown) => {
       recordingError.name === 'NotAllowedError' ||
       recordingError.name === 'SecurityError'
     ) {
-      return 'Przegladarka zablokowala mikrofon. Sprawdz uprawnienia przy adresie strony.'
+      return 'Przeglądarka zablokowała mikrofon. Sprawdź uprawnienia przy adresie strony.'
     }
 
     if (recordingError.name === 'NotFoundError') {
@@ -42,23 +43,23 @@ const getRecordingErrorMessage = (recordingError: unknown) => {
     }
 
     if (recordingError.name === 'NotReadableError') {
-      return 'Mikrofon jest zajety przez inna aplikacje.'
+      return 'Mikrofon jest zajęty przez inną aplikację.'
     }
 
     if (recordingError.name === 'NotSupportedError') {
-      return 'Ta przegladarka nie obsluguje aktualnego formatu nagrywania.'
+      return 'Ta przeglądarka nie obsługuje aktualnego formatu nagrywania.'
     }
   }
 
   if (recordingError instanceof Error) {
-    return `Nie udalo sie uruchomic mikrofonu: ${recordingError.message}`
+    return `Nie udało się uruchomić mikrofonu: ${recordingError.message}`
   }
 
-  return 'Nie udalo sie uruchomic mikrofonu.'
+  return 'Nie udało się uruchomić mikrofonu.'
 }
 
 /** Record push-to-talk audio and submit it to STT after release. */
-export function MicButton({ onTranscript }: MicButtonProps) {
+export function MicButton({ disabled = false, onTranscript }: MicButtonProps) {
   const [state, setState] = useState<MicState>('idle')
   const [error, setError] = useState<string | null>(null)
   const recorderRef = useRef<MediaRecorder | null>(null)
@@ -73,7 +74,7 @@ export function MicButton({ onTranscript }: MicButtonProps) {
 
   // Request microphone access and start collecting audio chunks.
   const startRecording = async () => {
-    if (state !== 'idle' && state !== 'error') {
+    if (disabled || (state !== 'idle' && state !== 'error')) {
       return
     }
 
@@ -81,13 +82,13 @@ export function MicButton({ onTranscript }: MicButtonProps) {
 
     if (!navigator.mediaDevices?.getUserMedia) {
       setState('error')
-      setError('Ta przegladarka nie obsluguje nagrywania.')
+      setError('Ta przeglądarka nie obsługuje nagrywania.')
       return
     }
 
     if (typeof MediaRecorder === 'undefined') {
       setState('error')
-      setError('Ta przegladarka nie obsluguje MediaRecorder.')
+      setError('Ta przeglądarka nie obsługuje MediaRecorder.')
       return
     }
 
@@ -115,14 +116,14 @@ export function MicButton({ onTranscript }: MicButtonProps) {
         try {
           const audio = new Blob(chunksRef.current, { type: recorder.mimeType })
           const text = await transcribeAudio(audio)
-          onTranscript(text)
+          await onTranscript(text)
           setState('idle')
         } catch (requestError) {
           setState('error')
           setError(
             requestError instanceof Error
               ? requestError.message
-              : 'Nie udalo sie rozpoznac audio.',
+              : 'Nie udało się rozpoznać audio.',
           )
         }
       }
@@ -144,19 +145,20 @@ export function MicButton({ onTranscript }: MicButtonProps) {
   }
 
   const isBusy = state === 'recording' || state === 'uploading'
+  const isDisabled = disabled || state === 'uploading'
   const label =
     state === 'recording'
-      ? 'Pusc, aby wyslac'
+      ? 'Puść, aby wysłać'
       : state === 'uploading'
-        ? 'Wysylam...'
-        : 'Przytrzymaj i mow'
+        ? 'Wysyłam...'
+        : 'Przytrzymaj i mów'
 
   return (
     <div className="mic-panel">
       <button
         type="button"
         className={`mic-button mic-button--${state}`}
-        disabled={state === 'uploading'}
+        disabled={isDisabled}
         aria-pressed={state === 'recording'}
         onPointerDown={startRecording}
         onPointerUp={stopRecording}
@@ -168,7 +170,7 @@ export function MicButton({ onTranscript }: MicButtonProps) {
       </button>
       <div className="mic-status" aria-live="polite">
         {isBusy && state === 'recording' ? 'Nagrywam' : null}
-        {isBusy && state === 'uploading' ? 'Rozpoznaje' : null}
+        {isBusy && state === 'uploading' ? 'Rozpoznaję' : null}
         {state === 'error' ? error : null}
       </div>
     </div>

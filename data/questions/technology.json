@@ -3,7 +3,7 @@
     "id": "tech_001",
     "category": "technology",
     "difficulty": "easy",
-    "question": "Co oznacza skr?t USB?",
+    "question": "Co oznacza skrót USB?",
     "options": {
       "A": "Universal Serial Bus",
       "B": "United System Binary",
@@ -35,7 +35,7 @@
     "id": "tech_002",
     "category": "technology",
     "difficulty": "medium",
-    "question": "Kt?ra firma stworzy?a system Android?",
+    "question": "Która firma stworzyła system Android?",
     "options": {
       "A": "Apple",
       "B": "Google",
@@ -43,7 +43,7 @@
       "D": "Nokia"
     },
     "correct_answer": "B",
-    "explanation": "Android jest rozwijany przez Google oraz spo?eczno?? projektu AOSP.",
+    "explanation": "Android jest rozwijany przez Google oraz społeczność projektu AOSP.",
     "aliases": {
       "A": [
         "Apple",
@@ -67,7 +67,7 @@
     "id": "tech_003",
     "category": "technology",
     "difficulty": "easy",
-    "question": "Jaki znak jest u?ywany w adresach e-mail mi?dzy nazw? u?ytkownika a domen??",
+    "question": "Jaki znak jest używany w adresach e-mail między nazwą użytkownika a domeną?",
     "options": {
       "A": "#",
       "B": "&",
@@ -75,7 +75,7 @@
       "D": "%"
     },
     "correct_answer": "C",
-    "explanation": "Znak @ oddziela lokaln? cz??? adresu e-mail od domeny.",
+    "explanation": "Znak @ oddziela lokalną część adresu e-mail od domeny.",
     "aliases": {
       "A": [
         "#"
@@ -87,7 +87,7 @@
       "C": [
         "@",
         "",
-        "ma?pa",
+        "małpa",
         "malpa",
         "at"
       ],
@@ -101,7 +101,7 @@
     "id": "tech_004",
     "category": "technology",
     "difficulty": "medium",
-    "question": "Kt?ry protok?? jest podstaw? stron internetowych w przegl?darce?",
+    "question": "Który protokół jest podstawą stron internetowych w przeglądarce?",
     "options": {
       "A": "FTP",
       "B": "SMTP",
@@ -109,7 +109,7 @@
       "D": "HTTP"
     },
     "correct_answer": "D",
-    "explanation": "HTTP i jego szyfrowana wersja HTTPS s?u?? do przesy?ania stron WWW.",
+    "explanation": "HTTP i jego szyfrowana wersja HTTPS służą do przesyłania stron WWW.",
     "aliases": {
       "A": [
         "FTP",
@@ -133,15 +133,15 @@
     "id": "tech_005",
     "category": "technology",
     "difficulty": "hard",
-    "question": "Kt?ra jednostka jest wi?ksza: megabajt czy kilobajt?",
+    "question": "Która jednostka jest większa: megabajt czy kilobajt?",
     "options": {
       "A": "Megabajt",
       "B": "Kilobajt",
-      "C": "S? zawsze r?wne",
+      "C": "Są zawsze równe",
       "D": "To jednostki czasu"
     },
     "correct_answer": "A",
-    "explanation": "Megabajt jest wi?kszy od kilobajta.",
+    "explanation": "Megabajt jest większy od kilobajta.",
     "aliases": {
       "A": [
         "Megabajt",
@@ -152,7 +152,7 @@
         "kilobajt"
       ],
       "C": [
-        "S? zawsze r?wne",
+        "Są zawsze równe",
         "sl zawsze rlwne"
       ],
       "D": [
@@ -165,7 +165,7 @@
     "id": "tech_006",
     "category": "technology",
     "difficulty": "easy",
-    "question": "Jak nazywa si? urz?dzenie do wskazywania kursora na ekranie?",
+    "question": "Jak nazywa się urządzenie do wskazywania kursora na ekranie?",
     "options": {
       "A": "Klawiatura",
       "B": "Mysz",
@@ -173,7 +173,7 @@
       "D": "Monitor"
     },
     "correct_answer": "B",
-    "explanation": "Mysz komputerowa s?u?y do sterowania kursorem.",
+    "explanation": "Mysz komputerowa służy do sterowania kursorem.",
     "aliases": {
       "A": [
         "Klawiatura",
@@ -197,7 +197,7 @@
     "id": "tech_007",
     "category": "technology",
     "difficulty": "medium",
-    "question": "Kt?ry element komputera wykonuje wi?kszo?? oblicze? og?lnego przeznaczenia?",
+    "question": "Który element komputera wykonuje większość obliczeń ogólnego przeznaczenia?",
     "options": {
       "A": "Dysk SSD",
       "B": "Karta sieciowa",
@@ -205,7 +205,7 @@
       "D": "Zasilacz"
     },
     "correct_answer": "C",
-    "explanation": "Procesor CPU wykonuje instrukcje program?w.",
+    "explanation": "Procesor CPU wykonuje instrukcje programów.",
     "aliases": {
       "A": [
         "Dysk SSD",
@@ -231,7 +231,7 @@
     "id": "tech_008",
     "category": "technology",
     "difficulty": "hard",
-    "question": "Kt?ry format pliku jest zwykle u?ywany do arkuszy kalkulacyjnych Excela?",
+    "question": "Który format pliku jest zwykle używany do arkuszy kalkulacyjnych Excela?",
     "options": {
       "A": ".jpg",
       "B": ".mp3",
@@ -239,7 +239,7 @@
       "D": ".xlsx"
     },
     "correct_answer": "D",
-    "explanation": "Pliki .xlsx s? standardowym formatem skoroszyt?w Excela.",
+    "explanation": "Pliki .xlsx są standardowym formatem skoroszytów Excela.",
     "aliases": {
       "A": [
         ".jpg"
@@ -259,7 +259,7 @@
     "id": "tech_009",
     "category": "technology",
     "difficulty": "easy",
-    "question": "Kt?ry system operacyjny rozwija Apple dla iPhone?a?",
+    "question": "Który system operacyjny rozwija Apple dla iPhone'a?",
     "options": {
       "A": "iOS",
       "B": "Android",
@@ -267,7 +267,7 @@
       "D": "Linux"
     },
     "correct_answer": "A",
-    "explanation": "iPhone dzia?a pod kontrol? systemu iOS.",
+    "explanation": "iPhone działa pod kontrolę systemu iOS.",
     "aliases": {
       "A": [
         "iOS",
@@ -291,7 +291,7 @@
     "id": "tech_010",
     "category": "technology",
     "difficulty": "medium",
-    "question": "Jak nazywa si? technologia bezprzewodowa do kr?tkiego zasi?gu, u?ywana np. w s?uchawkach?",
+    "question": "Jak nazywa się technologia bezprzewodowa do krótkiego zasięgu, używana np. w słuchawkach?",
     "options": {
       "A": "NFC",
       "B": "Bluetooth",
@@ -299,7 +299,7 @@
       "D": "HDMI"
     },
     "correct_answer": "B",
-    "explanation": "Bluetooth s?u?y do bezprzewodowej komunikacji kr?tkiego zasi?gu.",
+    "explanation": "Bluetooth służy do bezprzewodowej komunikacji krótkiego zasięgu.",
     "aliases": {
       "A": [
         "NFC",
@@ -327,11 +327,11 @@
     "options": {
       "A": "Usuwa dane",
       "B": "Szyfruje ekran",
-      "C": "Tworzy zapasow? kopi?",
-      "D": "Wy??cza internet"
+      "C": "Tworzy zapasową kopię",
+      "D": "Wyłącza internet"
     },
     "correct_answer": "C",
-    "explanation": "Backup tworzy kopi? danych na wypadek awarii lub utraty plik?w.",
+    "explanation": "Backup tworzy kopię danych na wypadek awarii lub utraty plików.",
     "aliases": {
       "A": [
         "Usuwa dane",
@@ -342,14 +342,14 @@
         "szyfruje ekran"
       ],
       "C": [
-        "Tworzy zapasow? kopi?",
+        "Tworzy zapasową kopię",
         "tworzy zapasowl kopil",
         "backup",
-        "kopia bezpiecze?stwa",
+        "kopia bezpieczeństwa",
         "kopia bezpieczenstwa"
       ],
       "D": [
-        "Wy??cza internet",
+        "Wyłącza internet",
         "wyllcza internet"
       ]
     }
@@ -358,7 +358,7 @@
     "id": "tech_012",
     "category": "technology",
     "difficulty": "medium",
-    "question": "Kt?ry j?zyk jest cz?sto u?ywany do stylowania stron WWW?",
+    "question": "Który język jest często używany do stylowania stron WWW?",
     "options": {
       "A": "Python",
       "B": "SQL",
@@ -366,7 +366,7 @@
       "D": "CSS"
     },
     "correct_answer": "D",
-    "explanation": "CSS opisuje wygl?d i uk?ad element?w na stronach internetowych.",
+    "explanation": "CSS opisuje wygląd i układ elementów na stronach internetowych.",
     "aliases": {
       "A": [
         "Python",
@@ -390,7 +390,7 @@
     "id": "tech_013",
     "category": "technology",
     "difficulty": "hard",
-    "question": "Co oznacza skr?t RAM?",
+    "question": "Co oznacza skrót RAM?",
     "options": {
       "A": "Random Access Memory",
       "B": "Read Archive Module",
@@ -398,7 +398,7 @@
       "D": "Rapid Audio Mode"
     },
     "correct_answer": "A",
-    "explanation": "RAM to pami?? o swobodnym dost?pie u?ywana przez dzia?aj?ce programy.",
+    "explanation": "RAM to pamięć o swobodnym dostępie używana przez działające programy.",
     "aliases": {
       "A": [
         "Random Access Memory",
@@ -422,15 +422,15 @@
     "id": "tech_014",
     "category": "technology",
     "difficulty": "easy",
-    "question": "Kt?re urz?dzenie ??czy domow? sie? z internetem?",
+    "question": "Które urządzenie łączy domową sieć z internetem?",
     "options": {
       "A": "Skaner",
       "B": "Router",
       "C": "Drukarka",
-      "D": "G?o?nik"
+      "D": "Głośnik"
     },
     "correct_answer": "B",
-    "explanation": "Router kieruje ruchem mi?dzy sieci? lokaln? a internetem.",
+    "explanation": "Router kieruje ruchem między siecią lokalną a internetem.",
     "aliases": {
       "A": [
         "Skaner",
@@ -445,7 +445,7 @@
         "drukarka"
       ],
       "D": [
-        "G?o?nik",
+        "Głośnik",
         "glolnik"
       ]
     }
@@ -454,7 +454,7 @@
     "id": "tech_015",
     "category": "technology",
     "difficulty": "medium",
-    "question": "Kt?ry typ ekranu sk?ada si? z organicznych diod elektroluminescencyjnych?",
+    "question": "Który typ ekranu składa się z organicznych diod elektroluminescencyjnych?",
     "options": {
       "A": "LCD",
       "B": "CRT",
@@ -462,7 +462,7 @@
       "D": "E Ink"
     },
     "correct_answer": "C",
-    "explanation": "OLED u?ywa organicznych diod emituj?cych ?wiat?o.",
+    "explanation": "OLED używa organicznych diod emitujących światło.",
     "aliases": {
       "A": [
         "LCD",
@@ -486,7 +486,7 @@
     "id": "tech_016",
     "category": "technology",
     "difficulty": "hard",
-    "question": "Kt?ry algorytm kryptograficzny jest funkcj? skr?tu, a nie szyfrem blokowym?",
+    "question": "Który algorytm kryptograficzny jest funkcją skrótu, a nie szyfrem blokowym?",
     "options": {
       "A": "AES",
       "B": "RSA",
@@ -494,7 +494,7 @@
       "D": "SHA-256"
     },
     "correct_answer": "D",
-    "explanation": "SHA-256 jest funkcj? skr?tu; nie s?u?y do odszyfrowywania danych.",
+    "explanation": "SHA-256 jest funkcją skrótu; nie służy do odszyfrowywania danych.",
     "aliases": {
       "A": [
         "AES",

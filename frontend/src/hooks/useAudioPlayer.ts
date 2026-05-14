@@ -28,14 +28,14 @@ export function useAudioPlayer() {
       try {
         await new Promise<void>((resolve, reject) => {
           audio.onended = () => resolve()
-          audio.onerror = () => reject(new Error('Nie udalo sie odtworzyc audio.'))
+          audio.onerror = () => reject(new Error('Nie udało się odtworzyć audio.'))
           audio.play().catch(reject)
         })
       } catch (playbackError) {
         setError(
           playbackError instanceof Error
             ? playbackError.message
-            : 'Nie udalo sie odtworzyc audio.',
+            : 'Nie udało się odtworzyć audio.',
         )
       } finally {
         if (audioRef.current === audio) {
