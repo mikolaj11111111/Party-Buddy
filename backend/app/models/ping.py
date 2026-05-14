@@ -1,12 +1,8 @@
-from datetime import UTC, datetime
+from datetime import datetime
 
 from sqlmodel import Field, SQLModel
 
-
-def utc_now() -> datetime:
-    """Return the current UTC timestamp for SQLModel defaults."""
-
-    return datetime.now(UTC)
+from backend.app.models.timestamps import utc_now
 
 
 class Ping(SQLModel, table=True):

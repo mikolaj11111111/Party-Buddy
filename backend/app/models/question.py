@@ -1,25 +1,46 @@
-from typing import Literal
+from enum import StrEnum
 
 from pydantic import field_validator, model_validator
+from sqlalchemy import JSON, Column
 from sqlmodel import Field, SQLModel
 
-AnswerLetter = Literal["A", "B", "C", "D"]
-Difficulty = Literal["easy", "medium", "hard"]
 
-EXPECTED_OPTION_KEYS = {"A", "B", "C", "D"}
+class AnswerLetter(StrEnum):
+    """Allowed ABCD answer letters."""
+
+    A = "A"
+    B = "B"
+    C = "C"
+    D = "D"
 
 
-class Question(SQLModel):
-    """Validated ABCD trivia question loaded from JSON dataset files."""
+class Difficulty(StrEnum):
+    """Supported trivia question difficulty levels."""
 
-    id: str
-    category: str
-    difficulty: Difficulty
+    easy = "easy"
+    medium = "medium"
+    hard = "hard"
+
+
+EXPECTED_OPTION_KEYS = set(AnswerLetter)
+
+
+class Question(SQLModel, table=True):
+    """Validated ABCD trivia question stored in JSON files and SQLite."""
+
+    __tablename__ = "questions"
+
+    id: str = Field(primary_key=True, max_length=64)
+    category: str = Field(index=True, max_length=64)
+    difficulty: Difficulty = Field(index=True)
     question: str
-    options: dict[AnswerLetter, str]
-    correct_answer: AnswerLetter
+    options: dict[AnswerLetter, str] = Field(sa_column=Column(JSON, nullable=False))
+    correct_answer: AnswerLetter = Field(index=True)
     explanation: str | None = None
-    aliases: dict[AnswerLetter, list[str]] = Field(default_factory=dict)
+    aliases: dict[AnswerLetter, list[str]] = Field(
+        default_factory=dict,
+        sa_column=Column(JSON, nullable=False),
+    )
 
     @field_validator("id", "category", "question")
     @classmethod
