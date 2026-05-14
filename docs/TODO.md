@@ -59,4 +59,6 @@
 - [x] M5: dodano 15s timer pytania, 3s intro/outro i 3s przejścia między rundami
 - [x] M5: dodano ekran wyników z rankingiem hotseat
 - [x] M5: naprawiono polskie znaki w `data/questions/` i dodano test jakości datasetu na utracone markery `?`
+- [x] M6: dodano zapis zakończonej sesji do SQLite, endpoint `/api/history/sessions` i stronę historii w UI
+- [x] M6: uzupełniono README o uruchomienie backendu, frontendu i lokalny zapis historii
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

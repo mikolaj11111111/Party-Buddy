@@ -1,6 +1,6 @@
 # Plan — MVP Part Buddy
 
-Status: **M5 zakończone technicznie — game engine, WebSocket i UI gotowe**.
+Status: **M6 w trakcie — historia sesji zapisywana do SQLite i widoczna w UI**.
 Estymata: 3-4 tygodnie pracy hobbystycznej.
 
 ## Cel MVP
@@ -14,7 +14,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [ ] Sędzia poprawnie ocenia: literę ("A"), treść ("Warszawa") i klik
 - [x] AI prowadzący odtwarza pre-generowane komentarze (intro/correct/wrong/outro)
 - [ ] Hotseat działa: wybór 2-6 graczy, ranking sesji
-- [ ] Pełna sesja kończy się ekranem wyników i zapisem do SQLite
+- [x] Pełna sesja kończy się ekranem wyników i zapisem do SQLite
 - [ ] Latencja end-to-end (klik → audio response): <3s
 
 ## Milestone'y
@@ -61,11 +61,13 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [x] Ekran wyników z rankingiem hotseat
 
 ### M6 — Polish i historia (2-3 dni)
-- [ ] Strona historii sesji (lista, daty, top score)
+- [x] Strona historii sesji (lista, daty, top score)
 - [ ] Obsługa błędów (Groq down, brak mikrofonu, brak pytań)
-- [ ] README z instrukcją uruchomienia (backend + frontend + Piper)
+- [x] README z instrukcją uruchomienia (backend + frontend + Piper)
 - [ ] Nagranie krótkiego demo-video do portfolio
 - [ ] Tag `v0.1.0-mvp`
+
+- [] zaimplementowac ui z polecen chata(przegladarka), dodac wybor gry, potem kategorii(jesli gra tego wymaga), popracowac nad dzwiekem game mastera
 
 ## Zasady pracy w trakcie MVP
 

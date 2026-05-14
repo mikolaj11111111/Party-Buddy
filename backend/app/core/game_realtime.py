@@ -22,6 +22,7 @@ from backend.app.core.game_engine import (
     GameSessionState,
     create_game_session,
 )
+from backend.app.core.game_history import GameHistoryError, GameHistoryRecorder
 from backend.app.core.question_loader import (
     QuestionLoaderError,
     load_questions_from_directory,
@@ -80,6 +81,7 @@ class GameSessionController:
         self._transition_seconds = transition_seconds
         self._session: GameSessionState | None = None
         self._deadline_at: datetime | None = None
+        self._started_at: datetime | None = None
 
         if transition_seconds <= 0:
             raise GameProtocolError("transition_seconds must be greater than zero")
@@ -106,12 +108,14 @@ class GameSessionController:
             categories=message.categories,
             round_count=message.round_count,
         )
+        started_at = self._now()
         self._session = create_game_session(
             player_names=message.players,
             questions=selected_questions,
             round_count=message.round_count,
             round_seconds=message.round_seconds,
         )
+        self._started_at = started_at
 
         return [
             self._build_session_started_event(),
@@ -185,6 +189,24 @@ class GameSessionController:
         """Emit final results after the outro speech delay has elapsed."""
 
         return self._build_session_finished_event()
+
+    def finished_session_for_history(self) -> tuple[GameSessionState, datetime]:
+        """Return the finished session and its start time for persistence."""
+
+        session = self._require_session()
+        if session.status != "finished":
+            raise GameProtocolError(
+                "game session is not finished",
+                code="session_not_finished",
+            )
+
+        if self._started_at is None:
+            raise GameProtocolError(
+                "game session start time is missing",
+                code="session_start_missing",
+            )
+
+        return session, self._started_at
 
     def seconds_until_deadline(self) -> float | None:
         """Return seconds until active deadline, or None when idle/finished."""
@@ -418,12 +440,14 @@ class GameWebSocketConnection:
         *,
         now: Callable[[], datetime] = utc_now,
         transition_seconds: int = DEFAULT_TRANSITION_SECONDS,
+        history_recorder: GameHistoryRecorder | None = None,
     ) -> None:
         """Store dependencies needed by the connection handler."""
 
         self._questions_directory = questions_directory
         self._now = now
         self._transition_seconds = transition_seconds
+        self._history_recorder = history_recorder or GameHistoryRecorder()
 
     async def run(self, websocket: WebSocket) -> None:
         """Accept a WebSocket and run the game message loop."""
@@ -458,7 +482,12 @@ class GameWebSocketConnection:
             except ValueError as error:
                 events = [GameErrorEvent(code="bad_json", message=str(error))]
 
-            await _send_events(websocket, controller, events)
+            await _send_events(
+                websocket,
+                controller,
+                events,
+                self._history_recorder,
+            )
 
 
 def parse_game_client_message(payload: Any) -> GameClientMessage:
@@ -506,6 +535,7 @@ async def _send_events(
     websocket: WebSocket,
     controller: GameSessionController,
     events: list[GameServerEvent],
+    history_recorder: GameHistoryRecorder,
 ) -> None:
     """Send events and delay follow-up events for speech/transition screens."""
 
@@ -515,6 +545,12 @@ async def _send_events(
             await _wait_until(event.starts_at)
             await _send_event(websocket, controller.start_next_round_after_transition())
         if isinstance(event, GameSessionEndingEvent):
+            await _save_finished_history(
+                websocket,
+                controller,
+                history_recorder,
+                finished_at=event.ends_at,
+            )
             await _wait_until(event.ends_at)
             await _send_event(websocket, controller.finish_session_after_ending())
 
@@ -523,6 +559,29 @@ async def _send_event(websocket: WebSocket, event: GameServerEvent) -> None:
     """Serialize and send one server event."""
 
     await websocket.send_json(event.model_dump(mode="json"))
+
+
+async def _save_finished_history(
+    websocket: WebSocket,
+    controller: GameSessionController,
+    history_recorder: GameHistoryRecorder,
+    *,
+    finished_at: datetime,
+) -> None:
+    """Persist finished game history without interrupting final results."""
+
+    try:
+        game_session, started_at = controller.finished_session_for_history()
+        history_recorder.save_finished_session(
+            game_session,
+            started_at=started_at,
+            finished_at=finished_at,
+        )
+    except (GameHistoryError, GameProtocolError) as error:
+        await _send_event(
+            websocket,
+            GameErrorEvent(code="history_save_error", message=str(error)),
+        )
 
 
 async def _wait_until(starts_at: datetime) -> None:

@@ -10,6 +10,7 @@ from backend.app.models.game_ws import (
     GameStartSessionMessage,
     GameSubmitAnswerMessage,
 )
+from backend.app.models.history import GameHistoryScore, GameHistorySession
 from backend.app.models.ping import Ping
 from backend.app.models.profile import Profile
 from backend.app.models.question import Question
@@ -22,6 +23,8 @@ __all__ = [
     "AnswerResponse",
     "GameAnswerResultEvent",
     "GameErrorEvent",
+    "GameHistoryScore",
+    "GameHistorySession",
     "GameRoundStartedEvent",
     "GameRoundTransitionEvent",
     "GameSessionEndingEvent",

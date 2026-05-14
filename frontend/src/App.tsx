@@ -4,12 +4,13 @@ import './App.css'
 import { useGameSocket } from './hooks/useGameSocket'
 import { useAudioPlayer } from './hooks/useAudioPlayer'
 import { GamePage } from './pages/GamePage'
+import { HistoryPage } from './pages/HistoryPage'
 import { MenuPage } from './pages/MenuPage'
 import { ResultsPage } from './pages/ResultsPage'
 import { SetupPage } from './pages/SetupPage'
 import type { GameSessionConfig, SubmitAnswerPayload } from './types/game'
 
-type AppView = 'menu' | 'setup' | 'game' | 'results'
+type AppView = 'menu' | 'setup' | 'game' | 'results' | 'history'
 type SetupMode = 'solo' | 'hotseat'
 
 /** Root game app that switches between MVP screens. */
@@ -31,6 +32,10 @@ function App() {
   const selectMode = (mode: SetupMode) => {
     setSetupMode(mode)
     setView('setup')
+  }
+
+  const openHistory = () => {
+    setView('history')
   }
 
   const startGame = (config: GameSessionConfig) => {
@@ -56,7 +61,9 @@ function App() {
 
   return (
     <main className="app-shell">
-      {displayedView === 'menu' ? <MenuPage onSelectMode={selectMode} /> : null}
+      {displayedView === 'menu' ? (
+        <MenuPage onOpenHistory={openHistory} onSelectMode={selectMode} />
+      ) : null}
       {displayedView === 'setup' ? (
         <SetupPage mode={setupMode} onBack={resetToMenu} onStart={startGame} />
       ) : null}
@@ -76,6 +83,7 @@ function App() {
           onPlayAgain={playAgain}
         />
       ) : null}
+      {displayedView === 'history' ? <HistoryPage onBack={resetToMenu} /> : null}
     </main>
   )
 }

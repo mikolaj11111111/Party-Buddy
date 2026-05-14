@@ -1,11 +1,12 @@
 import heroImage from '../assets/hero.png'
 
 type MenuPageProps = {
+  onOpenHistory: () => void
   onSelectMode: (mode: 'solo' | 'hotseat') => void
 }
 
 /** First app screen for choosing the local trivia mode. */
-export function MenuPage({ onSelectMode }: MenuPageProps) {
+export function MenuPage({ onOpenHistory, onSelectMode }: MenuPageProps) {
   return (
     <section className="menu-layout">
       <div className="menu-copy">
@@ -29,6 +30,9 @@ export function MenuPage({ onSelectMode }: MenuPageProps) {
             <span className="mode-button__meta">2-6 graczy</span>
           </button>
         </div>
+        <button type="button" className="secondary-button" onClick={onOpenHistory}>
+          Historia
+        </button>
       </div>
       <div className="menu-visual" aria-hidden="true">
         <img src={heroImage} alt="" />
