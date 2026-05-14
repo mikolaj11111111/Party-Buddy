@@ -3,15 +3,12 @@
 ## Otwarte — MVP
 
 - [ ] Zdecydować, czy zostawić `data/test_questions/` po przejściu loadera i judge na `data/questions/`
-- [ ] Wybór konkretnego polskiego głosu Piper (porównać `pl_PL-darkman-medium`, `pl_PL-gosia-medium`)
-- [ ] Decyzja: mp3 vs wav w cache TTS (wav prostszy, mp3 mniejszy)
 - [ ] Decyzja: WebSocket vs SSE dla push'u stanu gry (SSE prostszy jeśli komunikacja jednokierunkowa)
 - [ ] Limit długości nagrania głosowego (np. 5s — twardy cut)
 - [ ] Usunąć tymczasowy endpoint/model `Ping` po dodaniu prawdziwych modeli domenowych
 
 ## Pomysły / dyskusja
 
-- [ ] Czy pre-generować TTS dla wszystkich tekstów pytań (mała baza = OK), czy tylko komentarzy
 - [ ] Czy po sesji pokazać statystyki per kategoria pytań
 - [ ] Schema odpowiedzi: `is_correct` jest wyliczane przez backend/sędziego i zwracane w response, nie wysyłane przez klienta
 
@@ -51,4 +48,8 @@
 - [x] M2: rozszerzono `data/questions/` do pełnej pierwszej partii (11 kategorii, 181 pytań)
 - [x] Decyzja: audio z frontendu wysyłamy do STT jako `multipart/form-data`
 - [x] M3: STT E2E działa lokalnie (mikrofon → backend → Groq Whisper → tekst w frontendzie)
+- [x] Decyzja: Piper używamy przez `piper-tts==1.4.2` i CLI `python -m piper` z forka `OHF-Voice/piper1-gpl`
+- [x] Decyzja: cache TTS zostaje w WAV, bez ffmpeg/MP3 na MVP
+- [x] Decyzja: TTS pre-generujemy tylko dla komentarzy prowadzącego, nie dla treści pytań
+- [x] M4: wygenerowano 27 komentarzy TTS do `data/tts_cache/` z domyślnym głosem `pl_PL-gosia-medium`
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

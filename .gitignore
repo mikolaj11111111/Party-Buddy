@@ -33,6 +33,7 @@ yarn-error.log*
 # Dane lokalne (nie commitujemy bazy ani cache audio)
 data/*.db
 data/*.db-journal
+data/voices/
 data/tts_cache/
 data/audio_uploads/
 

@@ -14,8 +14,8 @@ rapidfuzz==3.14.5
 httpx==0.28.1                  # HTTP client for Groq Whisper API + tests
 python-multipart==0.0.20       # FastAPI form/multipart upload
 
-# --- M4: TTS (do dodania) ---
-# piper-tts==<wersja>           # alternatywnie binarka Piper poza pip
+# --- M4: TTS ---
+piper-tts==1.4.2                # Local Piper CLI via python -m piper
 
 # --- Dev/quality ---
 ruff==0.15.12
