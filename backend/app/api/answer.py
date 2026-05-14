@@ -9,6 +9,8 @@ router = APIRouter(prefix="/api/answer", tags=["answer"])
 
 @router.post("", response_model=AnswerResponse)
 def submit_answer(answer_request: AnswerRequest) -> AnswerResponse:
+    """Accept one answer submission and return deterministic judge result."""
+
     try:
         return answer_question(answer_request)
     except QuestionNotFoundError as error:

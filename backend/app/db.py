@@ -14,6 +14,8 @@ engine = create_engine(
 
 
 def init_db() -> None:
+    """Create local SQLite tables for all registered SQLModel models."""
+
     DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     from backend.app import models  # noqa: F401
@@ -22,5 +24,7 @@ def init_db() -> None:
 
 
 def get_session() -> Generator[Session]:
+    """Yield one SQLModel session for FastAPI dependencies."""
+
     with Session(engine) as session:
         yield session

@@ -10,6 +10,8 @@ EXPECTED_OPTION_KEYS = {"A", "B", "C", "D"}
 
 
 class Question(SQLModel):
+    """Validated ABCD trivia question loaded from JSON dataset files."""
+
     id: str
     category: str
     difficulty: Difficulty
@@ -22,6 +24,8 @@ class Question(SQLModel):
     @field_validator("id", "category", "question")
     @classmethod
     def validate_required_text(cls, value: str) -> str:
+        """Reject required text fields that become empty after trimming."""
+
         value = value.strip()
         if not value:
             raise ValueError("must not be empty")
@@ -32,6 +36,8 @@ class Question(SQLModel):
     def validate_options(
         cls, value: dict[AnswerLetter, str]
     ) -> dict[AnswerLetter, str]:
+        """Ensure every question has exactly four non-empty ABCD options."""
+
         if set(value) != EXPECTED_OPTION_KEYS:
             raise ValueError("options must contain exactly A, B, C and D")
 
@@ -49,6 +55,8 @@ class Question(SQLModel):
     def validate_aliases(
         cls, value: dict[AnswerLetter, list[str]]
     ) -> dict[AnswerLetter, list[str]]:
+        """Keep only non-empty aliases attached to valid answer letters."""
+
         invalid_keys = set(value) - EXPECTED_OPTION_KEYS
         if invalid_keys:
             raise ValueError("aliases keys must be one of A, B, C or D")
@@ -63,6 +71,8 @@ class Question(SQLModel):
 
     @model_validator(mode="after")
     def validate_correct_answer_option(self) -> "Question":
+        """Ensure correct_answer points to one of the declared options."""
+
         if self.correct_answer not in self.options:
             raise ValueError("correct_answer must point to an existing option")
         return self

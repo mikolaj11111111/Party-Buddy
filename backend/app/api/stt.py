@@ -14,6 +14,8 @@ router = APIRouter(prefix="/api/stt", tags=["stt"])
 
 @router.post("", response_model=SttResponse)
 async def transcribe(file: UploadFile = File(...)) -> SttResponse:
+    """Accept uploaded audio and return text recognized by Groq Whisper."""
+
     audio_bytes = await file.read()
 
     try:

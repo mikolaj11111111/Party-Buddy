@@ -9,6 +9,8 @@ from backend.app.core.tts_templates import iter_tts_templates  # noqa: E402
 
 
 def main() -> None:
+    """Generate all configured TTS comment templates into the WAV cache."""
+
     for template in iter_tts_templates():
         result = synthesize_to_cache(template.text)
         status = "generated" if result.generated else "cached"

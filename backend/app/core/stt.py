@@ -12,23 +12,33 @@ MAX_AUDIO_BYTES = 25 * 1024 * 1024
 
 
 class SttError(RuntimeError):
+    """Base error for speech-to-text integration failures."""
+
     pass
 
 
 class SttConfigurationError(SttError):
+    """Raised when Groq STT configuration is missing or invalid."""
+
     pass
 
 
 class SttValidationError(SttError):
+    """Raised when an uploaded audio payload is not acceptable."""
+
     pass
 
 
 class SttUpstreamError(SttError):
+    """Raised when Groq STT request or response handling fails."""
+
     pass
 
 
 @dataclass(frozen=True)
 class SttConfig:
+    """Runtime settings for the Groq Whisper transcription call."""
+
     api_key: str
     model: str = DEFAULT_STT_MODEL
     language: str = DEFAULT_STT_LANGUAGE
@@ -38,10 +48,14 @@ class SttConfig:
 
 @dataclass(frozen=True)
 class SttResult:
+    """Recognized text returned by the STT integration."""
+
     text: str
 
 
 def get_stt_config() -> SttConfig:
+    """Build STT config from environment and project .env."""
+
     load_env_file()
 
     api_key = os.environ.get("GROQ_WHISPER_API")
@@ -64,6 +78,8 @@ def transcribe_audio(
     config: SttConfig | None = None,
     client: httpx.Client | None = None,
 ) -> SttResult:
+    """Send one audio file to Groq Whisper and return recognized text."""
+
     if not audio_bytes:
         raise SttValidationError("audio file must not be empty")
 

@@ -10,10 +10,14 @@ QUESTIONS_DIRECTORY = PROJECT_ROOT / "data" / "questions"
 
 
 class AnswerServiceError(ValueError):
+    """Base error for answer submission service failures."""
+
     pass
 
 
 class QuestionNotFoundError(AnswerServiceError):
+    """Raised when the submitted question id is not in the dataset."""
+
     pass
 
 
@@ -21,6 +25,8 @@ def answer_question(
     answer_request: AnswerRequest,
     questions_directory: Path = QUESTIONS_DIRECTORY,
 ) -> AnswerResponse:
+    """Find a question, judge the submitted answer, and build API response."""
+
     questions = load_questions_from_directory(questions_directory)
     question = next(
         (

@@ -5,6 +5,8 @@ from backend.app.db import PROJECT_ROOT
 
 
 def load_env_file(env_path: Path = PROJECT_ROOT / ".env") -> None:
+    """Load simple KEY=VALUE pairs from .env without overriding process env."""
+
     if not env_path.exists():
         return
 

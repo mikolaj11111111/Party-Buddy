@@ -13,6 +13,8 @@ from backend.app.db import init_db
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
+    """Initialize app resources before serving requests."""
+
     init_db()
     yield
 
@@ -35,9 +37,13 @@ app.include_router(tts_router)
 
 @app.get("/")
 def root() -> dict[str, str]:
+    """Return a small service identity payload."""
+
     return {"status": "ok", "service": "part-buddy", "version": "0.0.1"}
 
 
 @app.get("/health")
 def health() -> dict[str, str]:
+    """Return a lightweight health check response."""
+
     return {"status": "healthy"}

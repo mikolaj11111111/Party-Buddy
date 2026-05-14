@@ -52,4 +52,5 @@
 - [x] Decyzja: cache TTS zostaje w WAV, bez ffmpeg/MP3 na MVP
 - [x] Decyzja: TTS pre-generujemy tylko dla komentarzy prowadzącego, nie dla treści pytań
 - [x] M4: wygenerowano 27 komentarzy TTS do `data/tts_cache/` z domyślnym głosem `pl_PL-gosia-medium`
+- [x] M5: dodano `core/game_engine.py` ze stanem sesji, kolejką pytań, hotseat i scoringiem per gracz
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

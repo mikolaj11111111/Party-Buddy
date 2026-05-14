@@ -8,6 +8,7 @@ type MicButtonProps = {
 
 type MicState = 'idle' | 'recording' | 'uploading' | 'error'
 
+/** Pick the best MediaRecorder options supported by the browser. */
 const getRecorderOptions = (): MediaRecorderOptions | undefined => {
   const mimeTypes = [
     'audio/webm;codecs=opus',
@@ -26,6 +27,7 @@ const getRecorderOptions = (): MediaRecorderOptions | undefined => {
   return { mimeType }
 }
 
+/** Convert browser microphone failures into user-facing copy. */
 const getRecordingErrorMessage = (recordingError: unknown) => {
   if (recordingError instanceof DOMException) {
     if (
@@ -55,6 +57,7 @@ const getRecordingErrorMessage = (recordingError: unknown) => {
   return 'Nie udalo sie uruchomic mikrofonu.'
 }
 
+/** Record push-to-talk audio and submit it to STT after release. */
 export function MicButton({ onTranscript }: MicButtonProps) {
   const [state, setState] = useState<MicState>('idle')
   const [error, setError] = useState<string | null>(null)
@@ -62,11 +65,13 @@ export function MicButton({ onTranscript }: MicButtonProps) {
   const streamRef = useRef<MediaStream | null>(null)
   const chunksRef = useRef<BlobPart[]>([])
 
+  // Stop microphone tracks so the browser releases the device.
   const releaseStream = () => {
     streamRef.current?.getTracks().forEach((track) => track.stop())
     streamRef.current = null
   }
 
+  // Request microphone access and start collecting audio chunks.
   const startRecording = async () => {
     if (state !== 'idle' && state !== 'error') {
       return
@@ -131,6 +136,7 @@ export function MicButton({ onTranscript }: MicButtonProps) {
     }
   }
 
+  // Finish the current recording when the user releases the button.
   const stopRecording = () => {
     if (recorderRef.current?.state === 'recording') {
       recorderRef.current.stop()

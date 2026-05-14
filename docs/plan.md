@@ -1,6 +1,6 @@
 # Plan — MVP Part Buddy
 
-Status: **M4 zakończone technicznie, gotowe do odsłuchu głosu i startu M5**.
+Status: **M5 w trakcie — core game engine gotowy**.
 Estymata: 3-4 tygodnie pracy hobbystycznej.
 
 ## Cel MVP
@@ -53,7 +53,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [x] Frontend: hook `useAudioPlayer`, sekwencjonowanie wypowiedzi
 
 ### M5 — Game engine i UI (4-5 dni)
-- [ ] `core/game_engine.py`: stan sesji, kolejka pytań, scoring per gracz
+- [x] `core/game_engine.py`: stan sesji, kolejka pytań, scoring per gracz
 - [ ] Modele SQLModel: Question, Session, Score, Profile (jeden model = tabela DB + schema API)
 - [ ] WebSocket `/ws/game` (lub SSE) — push pytań, timera, komentarzy
 - [ ] React: strony Menu, Setup (wybór liczby graczy + nicki), Game, Results

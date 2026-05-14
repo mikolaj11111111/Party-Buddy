@@ -6,6 +6,7 @@ import { useAudioPlayer } from './hooks/useAudioPlayer'
 
 const INTRO_TTS_KEY = '87565612ac80dc0017c62c42ab957b7b97683e39783bdb4bb058e78031d8ee8b'
 
+/** Minimal local workbench for STT recording and TTS playback smoke tests. */
 function App() {
   const [transcript, setTranscript] = useState('')
   const audioPlayer = useAudioPlayer()

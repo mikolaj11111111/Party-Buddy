@@ -39,6 +39,8 @@ POLISH_CHARACTER_TRANSLATION = str.maketrans(
 
 @dataclass(frozen=True)
 class JudgeResult:
+    """Final answer evaluation returned by the deterministic judge."""
+
     question_id: str
     submitted_answer: str
     matched_answer: AnswerLetter | None
@@ -52,6 +54,8 @@ class JudgeResult:
 
 @dataclass(frozen=True)
 class AnswerCandidate:
+    """Normalized option or alias that can be matched against user input."""
+
     letter: AnswerLetter
     text: str
     normalized_text: str
@@ -65,6 +69,8 @@ def judge_answer(
     answer_text: str | None = None,
     fuzzy_threshold: float = FUZZY_MATCH_THRESHOLD,
 ) -> JudgeResult:
+    """Evaluate a letter or free-text answer against one ABCD question."""
+
     submitted_answer = _get_submitted_answer(answer_letter, answer_text)
 
     if answer_letter is not None:
@@ -107,6 +113,8 @@ def judge_answer(
 
 
 def parse_answer_letter(value: str) -> AnswerLetter | None:
+    """Extract a single ABCD answer letter from raw user or STT text."""
+
     normalized_value = normalize_answer_text(value)
     if normalized_value in LETTER_WORDS:
         return LETTER_WORDS[normalized_value]
@@ -123,6 +131,8 @@ def parse_answer_letter(value: str) -> AnswerLetter | None:
 
 
 def normalize_answer_text(value: str) -> str:
+    """Normalize text for deterministic matching across casing and diacritics."""
+
     translated_value = value.translate(POLISH_CHARACTER_TRANSLATION)
     normalized_value = unicodedata.normalize("NFKD", translated_value)
     without_diacritics = "".join(
@@ -136,6 +146,8 @@ def normalize_answer_text(value: str) -> str:
 
 
 def _get_submitted_answer(answer_letter: str | None, answer_text: str | None) -> str:
+    """Choose the user-visible answer value for the response payload."""
+
     if answer_letter is not None and answer_letter.strip():
         return answer_letter.strip()
 
@@ -146,6 +158,8 @@ def _get_submitted_answer(answer_letter: str | None, answer_text: str | None) ->
 
 
 def _build_answer_candidates(question: Question) -> list[AnswerCandidate]:
+    """Build normalized match candidates from options and aliases."""
+
     candidates: list[AnswerCandidate] = []
 
     for letter, option_text in question.options.items():
@@ -175,6 +189,8 @@ def _build_answer_candidates(question: Question) -> list[AnswerCandidate]:
 def _find_exact_candidate(
     normalized_answer: str, candidates: list[AnswerCandidate]
 ) -> AnswerCandidate | None:
+    """Return the candidate whose normalized text exactly matches input."""
+
     for candidate in candidates:
         if normalized_answer == candidate.normalized_text:
             return candidate
@@ -185,6 +201,8 @@ def _find_exact_candidate(
 def _find_fuzzy_candidate(
     normalized_answer: str, candidates: list[AnswerCandidate]
 ) -> tuple[AnswerCandidate | None, float]:
+    """Return the best fuzzy candidate and its RapidFuzz score."""
+
     best_candidate: AnswerCandidate | None = None
     best_score = 0.0
 
@@ -204,6 +222,8 @@ def _build_result(
     match_score: float,
     match_type: MatchType,
 ) -> JudgeResult:
+    """Convert a matched answer into the public judge result shape."""
+
     is_correct = matched_answer == question.correct_answer
 
     return JudgeResult(

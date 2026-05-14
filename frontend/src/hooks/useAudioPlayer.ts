@@ -2,11 +2,13 @@ import { useCallback, useRef, useState } from 'react'
 
 import { getTtsAudioUrl } from '../api/tts'
 
+/** Play cached TTS audio by key and expose simple playback state. */
 export function useAudioPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null)
   const [isPlaying, setIsPlaying] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
+  // Stop the active audio element and clear playback state.
   const stop = useCallback(() => {
     audioRef.current?.pause()
     audioRef.current = null
@@ -15,6 +17,7 @@ export function useAudioPlayer() {
 
   const playKey = useCallback(
     async (key: string) => {
+      // Play one cached TTS WAV file from the backend.
       stop()
       setError(null)
       setIsPlaying(true)
@@ -46,6 +49,7 @@ export function useAudioPlayer() {
 
   const playQueue = useCallback(
     async (keys: string[]) => {
+      // Play cached TTS files sequentially in the provided order.
       for (const key of keys) {
         await playKey(key)
       }
