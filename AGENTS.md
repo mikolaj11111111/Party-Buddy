@@ -23,7 +23,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 - **TTS:** Piper lokalnie (darmowy, offline, polski głos)
 - **Matching:** `rapidfuzz` + stdlib (bez spaCy na MVP — ABCD nie wymaga lematyzacji)
 - **Audio cache:** `data/tts_cache/`, klucz = hash(tekst + voice_id)
-- **Realtime:** WebSocket lub SSE (wybór per endpoint)
+- **Realtime:** WebSocket dla aktywnej gry (`/ws/game`, jeden kanał dwukierunkowy); HTTP zostaje dla STT/TTS/zasobów
 
 ## Świadomie poza MVP
 

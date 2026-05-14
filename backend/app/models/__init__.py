@@ -1,4 +1,13 @@
 from backend.app.models.answer import AnswerRequest, AnswerResponse
+from backend.app.models.game_ws import (
+    GameAnswerResultEvent,
+    GameErrorEvent,
+    GameRoundStartedEvent,
+    GameSessionFinishedEvent,
+    GameSessionStartedEvent,
+    GameStartSessionMessage,
+    GameSubmitAnswerMessage,
+)
 from backend.app.models.ping import Ping
 from backend.app.models.profile import Profile
 from backend.app.models.question import Question
@@ -9,6 +18,13 @@ from backend.app.models.stt import SttResponse
 __all__ = [
     "AnswerRequest",
     "AnswerResponse",
+    "GameAnswerResultEvent",
+    "GameErrorEvent",
+    "GameRoundStartedEvent",
+    "GameSessionFinishedEvent",
+    "GameSessionStartedEvent",
+    "GameStartSessionMessage",
+    "GameSubmitAnswerMessage",
     "Ping",
     "Profile",
     "Question",

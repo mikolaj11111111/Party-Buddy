@@ -57,3 +57,6 @@ skills-lock.json
 .coverage
 htmlcov/
 coverage.xml
+
+# My notes about project
+notes_about_project/

@@ -155,6 +155,27 @@ def test_session_finishes_after_last_round() -> None:
         session.submit_answer(answer_letter="A")
 
 
+def test_submit_timeout_records_wrong_answer_and_advances_turn() -> None:
+    session = create_game_session(
+        player_names=["Ala", "Bartek"],
+        questions=make_questions(10),
+    )
+
+    record = session.submit_timeout()
+
+    assert record.round_number == 1
+    assert record.player_id == "player_1"
+    assert record.question_id == "question_001"
+    assert record.submitted_answer == "timeout"
+    assert record.is_correct is False
+    assert record.score_delta == 0
+    assert session.scores["player_1"] == 0
+    assert session.current_player is not None
+    assert session.current_player.id == "player_2"
+    assert session.current_question is not None
+    assert session.current_question.id == "question_002"
+
+
 def test_scoreboard_orders_by_score_and_keeps_turn_order_for_ties() -> None:
     session = create_game_session(
         player_names=["Ala", "Bartek", "Celina"],

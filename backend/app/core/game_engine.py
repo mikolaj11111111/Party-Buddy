@@ -142,6 +142,33 @@ class GameSessionState:
         self._advance_turn()
         return answer_record
 
+    def submit_timeout(self) -> GameAnswerRecord:
+        """Record an unanswered turn as incorrect and advance the session."""
+
+        if self.status == "finished":
+            raise GameEngineError("game session is already finished")
+
+        question = self.current_question
+        player = self.current_player
+        if question is None or player is None:
+            raise GameEngineError("game session has no active turn")
+
+        answer_record = GameAnswerRecord(
+            round_number=self.current_round_number,
+            player_id=player.id,
+            player_name=player.name,
+            question_id=question.id,
+            submitted_answer="timeout",
+            matched_answer=None,
+            is_correct=False,
+            correct_answer=question.correct_answer,
+            explanation=question.explanation,
+            score_delta=0,
+        )
+        self.answer_history.append(answer_record)
+        self._advance_turn()
+        return answer_record
+
     def get_scoreboard(self) -> list[PlayerScore]:
         """Return players ordered by score descending and original turn order."""
 

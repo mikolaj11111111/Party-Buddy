@@ -3,7 +3,6 @@
 ## Otwarte — MVP
 
 - [ ] Zdecydować, czy zostawić `data/test_questions/` po przejściu loadera i judge na `data/questions/`
-- [ ] Decyzja: WebSocket vs SSE dla push'u stanu gry (SSE prostszy jeśli komunikacja jednokierunkowa)
 - [ ] Limit długości nagrania głosowego (np. 5s — twardy cut)
 - [ ] Usunąć tymczasowy endpoint/model `Ping` po dodaniu prawdziwych modeli domenowych
 
@@ -53,4 +52,7 @@
 - [x] Decyzja: TTS pre-generujemy tylko dla komentarzy prowadzącego, nie dla treści pytań
 - [x] M4: wygenerowano 27 komentarzy TTS do `data/tts_cache/` z domyślnym głosem `pl_PL-gosia-medium`
 - [x] M5: dodano `core/game_engine.py` ze stanem sesji, kolejką pytań, hotseat i scoringiem per gracz
+- [x] M5: dodano tabele SQLModel `Question`, `Session`, `Score`, `Profile`
+- [x] Decyzja: realtime gry przez jeden dwukierunkowy WebSocket `/ws/game`
+- [x] M5: dodano `/ws/game` z `deadline_at` zamiast wysyłania ticków timera
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

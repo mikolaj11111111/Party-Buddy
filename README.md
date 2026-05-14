@@ -2,7 +2,7 @@
 
 Webowa platforma imprezowych gier z AI prowadzącym.
 
-**Status:** wczesny development, M4 zakończone technicznie, gotowe do startu M5.
+**Status:** wczesny development, M5 w trakcie; backend gry i `/ws/game` gotowe, frontend gry przed implementacją.
 
 ## Stack MVP
 
