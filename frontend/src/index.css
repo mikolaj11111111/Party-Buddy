@@ -1,16 +1,16 @@
 :root {
-  --bg: #f7f7f4;
+  --bg: #f4f6f8;
   --panel-bg: #ffffff;
   --text: #525866;
   --text-strong: #111827;
   --muted: #6b7280;
   --border: #d8dce3;
-  --accent: #2563eb;
-  --focus: rgba(37, 99, 235, 0.26);
+  --accent: #0f766e;
+  --warning: #d97706;
+  --focus: rgba(15, 118, 110, 0.26);
   --button-bg: #ffffff;
   --button-text: #111827;
-  --danger: #dc2626;
-  --danger-bg: #fff5f5;
+  --danger: #be123c;
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 
   color: var(--text);
@@ -43,9 +43,13 @@ select {
 h1 {
   margin: 0;
   color: var(--text-strong);
-  font-size: 40px;
+  font-size: 48px;
   line-height: 1.12;
   font-weight: 750;
+  letter-spacing: 0;
+}
+
+h2 {
   letter-spacing: 0;
 }
 

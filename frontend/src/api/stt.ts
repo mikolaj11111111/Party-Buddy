@@ -1,9 +1,10 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000'
+import { API_BASE_URL } from './config'
 
 type SttResponse = {
   text: string
 }
 
+/** Upload one recorded audio blob and return recognized text. */
 export async function transcribeAudio(audio: Blob): Promise<string> {
   const formData = new FormData()
   formData.append('file', audio, 'answer.webm')

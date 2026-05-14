@@ -315,7 +315,7 @@
     "id": "hist_011",
     "category": "history",
     "difficulty": "easy",
-    "question": "W kt?rym roku rozpocz??a si? II wojna ?wiatowa?",
+    "question": "W którym roku rozpoczęła się II wojna światowa?",
     "options": {
       "A": "1918",
       "B": "1939",
@@ -323,7 +323,7 @@
       "D": "1945"
     },
     "correct_answer": "B",
-    "explanation": "II wojna ?wiatowa rozpocz??a si? 1 wrze?nia 1939 roku atakiem Niemiec na Polsk?.",
+    "explanation": "II wojna światowa rozpoczęła się 1 września 1939 roku atakiem Niemiec na Polskę.",
     "aliases": {
       "A": [
         "1918"
@@ -343,18 +343,18 @@
     "id": "hist_012",
     "category": "history",
     "difficulty": "medium",
-    "question": "Kt?ry w?adca Polski przyj?? chrzest w 966 roku?",
+    "question": "Który władca Polski przyjął chrzest w 966 roku?",
     "options": {
-      "A": "Boles?aw Chrobry",
+      "A": "Bolesław Chrobry",
       "B": "Kazimierz Wielki",
       "C": "Mieszko I",
-      "D": "W?adys?aw Jagie??o"
+      "D": "Władysław Jagiełło"
     },
     "correct_answer": "C",
-    "explanation": "Chrzest Mieszka I w 966 roku uznaje si? za pocz?tek chrystianizacji pa?stwa Piast?w.",
+    "explanation": "Chrzest Mieszka I w 966 roku uznaje się za początek chrystianizacji państwa Piastów.",
     "aliases": {
       "A": [
-        "Boles?aw Chrobry",
+        "Bolesław Chrobry",
         "boleslaw chrobry"
       ],
       "B": [
@@ -367,7 +367,7 @@
         "mieszko pierwszy"
       ],
       "D": [
-        "W?adys?aw Jagie??o",
+        "Władysław Jagiełło",
         "wladyslaw jagiello"
       ]
     }
@@ -376,15 +376,15 @@
     "id": "hist_013",
     "category": "history",
     "difficulty": "hard",
-    "question": "Kt?ry traktat zako?czy? I wojn? ?wiatow? z Niemcami?",
+    "question": "Który traktat zakończył I wojnę światową z Niemcami?",
     "options": {
       "A": "Traktat wersalski",
       "B": "Traktat ryski",
       "C": "Traktat z Maastricht",
-      "D": "Pok?j westfalski"
+      "D": "Pokój westfalski"
     },
     "correct_answer": "A",
-    "explanation": "Traktat wersalski podpisano w 1919 roku i regulowa? warunki pokoju z Niemcami.",
+    "explanation": "Traktat wersalski podpisano w 1919 roku i regulował warunki pokoju z Niemcami.",
     "aliases": {
       "A": [
         "Traktat wersalski",
@@ -399,7 +399,7 @@
         "traktat z maastricht"
       ],
       "D": [
-        "Pok?j westfalski",
+        "Pokój westfalski",
         "poklj westfalski"
       ]
     }
@@ -408,7 +408,7 @@
     "id": "hist_014",
     "category": "history",
     "difficulty": "medium",
-    "question": "Kto by? pierwszym prezydentem Stan?w Zjednoczonych?",
+    "question": "Kto był pierwszym prezydentem Stanów Zjednoczonych?",
     "options": {
       "A": "Thomas Jefferson",
       "B": "George Washington",
@@ -416,7 +416,7 @@
       "D": "John Adams"
     },
     "correct_answer": "B",
-    "explanation": "George Washington obj?? urz?d jako pierwszy prezydent USA w 1789 roku.",
+    "explanation": "George Washington objął urząd jako pierwszy prezydent USA w 1789 roku.",
     "aliases": {
       "A": [
         "Thomas Jefferson",
@@ -440,22 +440,22 @@
     "id": "hist_015",
     "category": "history",
     "difficulty": "easy",
-    "question": "W jakim mie?cie podpisano porozumienia sierpniowe w 1980 roku?",
+    "question": "W jakim mieście podpisano porozumienia sierpniowe w 1980 roku?",
     "options": {
-      "A": "Krak?w",
-      "B": "Pozna?",
+      "A": "Kraków",
+      "B": "Poznań",
       "C": "Warszawa",
-      "D": "Gda?sk"
+      "D": "Gdańsk"
     },
     "correct_answer": "D",
-    "explanation": "Najwa?niejsze porozumienie sierpniowe podpisano w Stoczni Gda?skiej.",
+    "explanation": "Najważniejsze porozumienie sierpniowe podpisano w Stoczni Gdańskiej.",
     "aliases": {
       "A": [
-        "Krak?w",
+        "Kraków",
         "kraklw"
       ],
       "B": [
-        "Pozna?",
+        "Poznań",
         "poznal"
       ],
       "C": [
@@ -463,7 +463,7 @@
         "warszawa"
       ],
       "D": [
-        "Gda?sk",
+        "Gdańsk",
         "gdalsk"
       ]
     }
@@ -472,22 +472,22 @@
     "id": "hist_016",
     "category": "history",
     "difficulty": "medium",
-    "question": "Kt?re imperium zbudowa?o Koloseum?",
+    "question": "Które imperium zbudowało Koloseum?",
     "options": {
       "A": "Imperium Rzymskie",
-      "B": "Imperium Osma?skie",
+      "B": "Imperium Osmańskie",
       "C": "Imperium Bizantyjskie",
       "D": "Imperium Perskie"
     },
     "correct_answer": "A",
-    "explanation": "Koloseum powsta?o w Rzymie za panowania dynastii Flawiusz?w.",
+    "explanation": "Koloseum powstało w Rzymie za panowania dynastii Flawiuszów.",
     "aliases": {
       "A": [
         "Imperium Rzymskie",
         "imperium rzymskie"
       ],
       "B": [
-        "Imperium Osma?skie",
+        "Imperium Osmańskie",
         "imperium osmalskie"
       ],
       "C": [
@@ -504,22 +504,22 @@
     "id": "hist_017",
     "category": "history",
     "difficulty": "hard",
-    "question": "Kt?ra bitwa z 1410 roku by?a jednym z najwi?kszych star? ?redniowiecznej Europy?",
+    "question": "Która bitwa z 1410 roku była jednym z największych starć średniowiecznej Europy?",
     "options": {
       "A": "Bitwa pod Hastings",
-      "B": "Bitwa pod Warn?",
+      "B": "Bitwa pod Warną",
       "C": "Bitwa pod Grunwaldem",
-      "D": "Bitwa pod Legnic?"
+      "D": "Bitwa pod Legnicą"
     },
     "correct_answer": "C",
-    "explanation": "Bitwa pod Grunwaldem odby?a si? 15 lipca 1410 roku.",
+    "explanation": "Bitwa pod Grunwaldem odbyła się 15 lipca 1410 roku.",
     "aliases": {
       "A": [
         "Bitwa pod Hastings",
         "bitwa pod hastings"
       ],
       "B": [
-        "Bitwa pod Warn?",
+        "Bitwa pod Warną",
         "bitwa pod warnl"
       ],
       "C": [
@@ -527,7 +527,7 @@
         "bitwa pod grunwaldem"
       ],
       "D": [
-        "Bitwa pod Legnic?",
+        "Bitwa pod Legnicą",
         "bitwa pod legnicl"
       ]
     }

@@ -3,22 +3,22 @@
     "id": "lit_001",
     "category": "language_literature",
     "difficulty": "easy",
-    "question": "Kto napisa? ?Pana Tadeusza??",
+    "question": "Kto napisał \"Pana Tadeusza\"?",
     "options": {
       "A": "Adam Mickiewicz",
-      "B": "Juliusz S?owacki",
+      "B": "Juliusz Słowacki",
       "C": "Henryk Sienkiewicz",
-      "D": "Boles?aw Prus"
+      "D": "Bolesław Prus"
     },
     "correct_answer": "A",
-    "explanation": "?Pan Tadeusz? jest epopej? Adama Mickiewicza.",
+    "explanation": "\"Pan Tadeusz\" jest epopeją Adama Mickiewicza.",
     "aliases": {
       "A": [
         "Adam Mickiewicz",
         "adam mickiewicz"
       ],
       "B": [
-        "Juliusz S?owacki",
+        "Juliusz Słowacki",
         "juliusz slowacki"
       ],
       "C": [
@@ -26,7 +26,7 @@
         "henryk sienkiewicz"
       ],
       "D": [
-        "Boles?aw Prus",
+        "Bolesław Prus",
         "boleslaw prus"
       ]
     }
@@ -35,7 +35,7 @@
     "id": "lit_002",
     "category": "language_literature",
     "difficulty": "medium",
-    "question": "Jak nazywa si? ?rodek stylistyczny polegaj?cy na celowym wyolbrzymieniu?",
+    "question": "Jak nazywa się środek stylistyczny polegający na celowym wyolbrzymieniu?",
     "options": {
       "A": "Anafora",
       "B": "Hiperbola",
@@ -67,22 +67,22 @@
     "id": "lit_003",
     "category": "language_literature",
     "difficulty": "easy",
-    "question": "Kt?ra cz??? mowy odmienia si? przez przypadki i liczby oraz nazywa osoby, rzeczy lub zjawiska?",
+    "question": "Która część mowy odmienia się przez przypadki i liczby oraz nazywa osoby, rzeczy lub zjawiska?",
     "options": {
       "A": "Czasownik",
-      "B": "Przys??wek",
+      "B": "Przysłówek",
       "C": "Rzeczownik",
-      "D": "Sp?jnik"
+      "D": "Spójnik"
     },
     "correct_answer": "C",
-    "explanation": "Rzeczownik nazywa osoby, rzeczy, miejsca, poj?cia i zjawiska.",
+    "explanation": "Rzeczownik nazywa osoby, rzeczy, miejsca, pojęcia i zjawiska.",
     "aliases": {
       "A": [
         "Czasownik",
         "czasownik"
       ],
       "B": [
-        "Przys??wek",
+        "Przysłówek",
         "przysllwek"
       ],
       "C": [
@@ -90,7 +90,7 @@
         "rzeczownik"
       ],
       "D": [
-        "Sp?jnik",
+        "Spójnik",
         "spljnik"
       ]
     }
@@ -99,22 +99,22 @@
     "id": "lit_004",
     "category": "language_literature",
     "difficulty": "medium",
-    "question": "Kto jest autorem powie?ci ?Lalka??",
+    "question": "Kto jest autorem powieści \"Lalka\"?",
     "options": {
       "A": "Eliza Orzeszkowa",
-      "B": "Stefan ?eromski",
+      "B": "Stefan Żeromski",
       "C": "Maria Konopnicka",
-      "D": "Boles?aw Prus"
+      "D": "Bolesław Prus"
     },
     "correct_answer": "D",
-    "explanation": "?Lalka? to powie?? Boles?awa Prusa.",
+    "explanation": "\"Lalka\" to powieść Bolesława Prusa.",
     "aliases": {
       "A": [
         "Eliza Orzeszkowa",
         "eliza orzeszkowa"
       ],
       "B": [
-        "Stefan ?eromski",
+        "Stefan Żeromski",
         "stefan leromski"
       ],
       "C": [
@@ -122,7 +122,7 @@
         "maria konopnicka"
       ],
       "D": [
-        "Boles?aw Prus",
+        "Bolesław Prus",
         "boleslaw prus"
       ]
     }
@@ -131,7 +131,7 @@
     "id": "lit_005",
     "category": "language_literature",
     "difficulty": "hard",
-    "question": "Kt?ry pisarz stworzy? posta? Sherlocka Holmesa?",
+    "question": "Który pisarz stworzył postać Sherlocka Holmesa?",
     "options": {
       "A": "Arthur Conan Doyle",
       "B": "Agatha Christie",
@@ -139,7 +139,7 @@
       "D": "H.G. Wells"
     },
     "correct_answer": "A",
-    "explanation": "Sherlock Holmes jest bohaterem utwor?w Arthura Conana Doyle?a.",
+    "explanation": "Sherlock Holmes jest bohaterem utworów Arthura Conana Doyle'a.",
     "aliases": {
       "A": [
         "Arthur Conan Doyle",
@@ -163,7 +163,7 @@
     "id": "lit_006",
     "category": "language_literature",
     "difficulty": "easy",
-    "question": "Ile liter ma wsp??czesny polski alfabet?",
+    "question": "Ile liter ma współczesny polski alfabet?",
     "options": {
       "A": "23",
       "B": "32",
@@ -191,22 +191,22 @@
     "id": "lit_007",
     "category": "language_literature",
     "difficulty": "medium",
-    "question": "Jak nazywa si? powt?rzenie tego samego s?owa na pocz?tku kolejnych wers?w lub zda??",
+    "question": "Jak nazywa się powtórzenie tego samego słowa na początku kolejnych wersów lub zdań?",
     "options": {
       "A": "Metafora",
-      "B": "Por?wnanie",
+      "B": "Porównanie",
       "C": "Anafora",
       "D": "Ironia"
     },
     "correct_answer": "C",
-    "explanation": "Anafora polega na powtarzaniu pocz?tku kolejnych segment?w tekstu.",
+    "explanation": "Anafora polega na powtarzaniu początku kolejnych segmentów tekstu.",
     "aliases": {
       "A": [
         "Metafora",
         "metafora"
       ],
       "B": [
-        "Por?wnanie",
+        "Porównanie",
         "porlwnanie"
       ],
       "C": [
@@ -223,22 +223,22 @@
     "id": "lit_008",
     "category": "language_literature",
     "difficulty": "hard",
-    "question": "Kt?ry noblista napisa? powie?? ?Quo vadis??",
+    "question": "Który noblista napisał powieść \"Quo vadis\"?",
     "options": {
-      "A": "W?adys?aw Reymont",
-      "B": "Czes?aw Mi?osz",
+      "A": "Władysław Reymont",
+      "B": "Czesąaw Miłosz",
       "C": "Olga Tokarczuk",
       "D": "Henryk Sienkiewicz"
     },
     "correct_answer": "D",
-    "explanation": "?Quo vadis? napisa? Henryk Sienkiewicz.",
+    "explanation": "\"Quo vadis\" napisał Henryk Sienkiewicz.",
     "aliases": {
       "A": [
-        "W?adys?aw Reymont",
+        "Władysław Reymont",
         "wladyslaw reymont"
       ],
       "B": [
-        "Czes?aw Mi?osz",
+        "Czesąaw Miłosz",
         "czeslaw milosz"
       ],
       "C": [
@@ -255,15 +255,15 @@
     "id": "lit_009",
     "category": "language_literature",
     "difficulty": "easy",
-    "question": "Jak nazywa si? znak ko?cz?cy zdanie pytaj?ce?",
+    "question": "Jak nazywa się znak kończący zdanie pytające?",
     "options": {
       "A": "Znak zapytania",
       "B": "Przecinek",
       "C": "Dwukropek",
-      "D": "My?lnik"
+      "D": "Myślnik"
     },
     "correct_answer": "A",
-    "explanation": "Zdanie pytaj?ce ko?czy si? znakiem zapytania.",
+    "explanation": "Zdanie pytające kończy się znakiem zapytania.",
     "aliases": {
       "A": [
         "Znak zapytania",
@@ -278,7 +278,7 @@
         "dwukropek"
       ],
       "D": [
-        "My?lnik",
+        "Myślnik",
         "myllnik"
       ]
     }
@@ -287,22 +287,22 @@
     "id": "lit_010",
     "category": "language_literature",
     "difficulty": "medium",
-    "question": "Kt?ry j?zyk nale?y do grupy j?zyk?w roma?skich?",
+    "question": "Który język należy do grupy języków romańskich?",
     "options": {
       "A": "Niemiecki",
-      "B": "Hiszpa?ski",
+      "B": "Hiszpański",
       "C": "Polski",
-      "D": "Fi?ski"
+      "D": "Fiński"
     },
     "correct_answer": "B",
-    "explanation": "Hiszpa?ski wywodzi si? z ?aciny i nale?y do j?zyk?w roma?skich.",
+    "explanation": "Hiszpański wywodzi się z łaciny i należy do języków romańskich.",
     "aliases": {
       "A": [
         "Niemiecki",
         "niemiecki"
       ],
       "B": [
-        "Hiszpa?ski",
+        "Hiszpański",
         "hiszpalski"
       ],
       "C": [
@@ -310,7 +310,7 @@
         "polski"
       ],
       "D": [
-        "Fi?ski",
+        "Fiński",
         "filski"
       ]
     }
@@ -319,15 +319,15 @@
     "id": "lit_011",
     "category": "language_literature",
     "difficulty": "easy",
-    "question": "Kto napisa? ?Ma?ego Ksi?cia??",
+    "question": "Kto napisał \"Małego Księcia\"?",
     "options": {
       "A": "J.R.R. Tolkien",
       "B": "Mark Twain",
-      "C": "Antoine de Saint-Exup?ry",
+      "C": "Antoine de Saint-Exupéry",
       "D": "Jules Verne"
     },
     "correct_answer": "C",
-    "explanation": "?Ma?ego Ksi?cia? napisa? Antoine de Saint-Exup?ry.",
+    "explanation": "\"Małego Księcia\" napisał Antoine de Saint-Exupéry.",
     "aliases": {
       "A": [
         "J.R.R. Tolkien",
@@ -338,7 +338,7 @@
         "mark twain"
       ],
       "C": [
-        "Antoine de Saint-Exup?ry",
+        "Antoine de Saint-Exupéry",
         "antoine de saint-exuplry"
       ],
       "D": [
@@ -351,7 +351,7 @@
     "id": "lit_012",
     "category": "language_literature",
     "difficulty": "medium",
-    "question": "Jak nazywa si? przeno?nia, czyli zestawienie s??w o znaczeniu niedos?ownym?",
+    "question": "Jak nazywa się przenośnia, czyli zestawienie słów o znaczeniu niedosłownym?",
     "options": {
       "A": "Rym",
       "B": "Epitet",
@@ -359,7 +359,7 @@
       "D": "Metafora"
     },
     "correct_answer": "D",
-    "explanation": "Metafora przenosi znaczenie s??w poza ich dos?owny sens.",
+    "explanation": "Metafora przenosi znaczenie słów poza ich dosłowny sens.",
     "aliases": {
       "A": [
         "Rym",
@@ -383,7 +383,7 @@
     "id": "lit_013",
     "category": "language_literature",
     "difficulty": "hard",
-    "question": "Kt?ra powie?? zaczyna si? od zdania o wszystkich szcz??liwych rodzinach?",
+    "question": "Która powieść zaczyna się od zdania o wszystkich szczęśliwych rodzinach?",
     "options": {
       "A": "Anna Karenina",
       "B": "Zbrodnia i kara",
@@ -391,7 +391,7 @@
       "D": "Duma i uprzedzenie"
     },
     "correct_answer": "A",
-    "explanation": "S?ynny pocz?tek ?Anny Kareniny? m?wi o szcz??liwych i nieszcz??liwych rodzinach.",
+    "explanation": "Słynny początek \"Anny Kareniny\" mówi o szczęśliwych i nieszczęśliwych rodzinach.",
     "aliases": {
       "A": [
         "Anna Karenina",
@@ -415,15 +415,15 @@
     "id": "lit_014",
     "category": "language_literature",
     "difficulty": "easy",
-    "question": "Kt?ry znak rozdziela elementy wyliczenia w zdaniu?",
+    "question": "Który znak rozdziela elementy wyliczenia w zdaniu?",
     "options": {
       "A": "Kropka",
       "B": "Przecinek",
       "C": "Apostrof",
-      "D": "Cudzys??w"
+      "D": "Cudzysłów"
     },
     "correct_answer": "B",
-    "explanation": "Przecinek cz?sto oddziela elementy wyliczenia.",
+    "explanation": "Przecinek często oddziela elementy wyliczenia.",
     "aliases": {
       "A": [
         "Kropka",
@@ -438,7 +438,7 @@
         "apostrof"
       ],
       "D": [
-        "Cudzys??w",
+        "Cudzysłów",
         "cudzysllw"
       ]
     }
@@ -447,15 +447,15 @@
     "id": "lit_015",
     "category": "language_literature",
     "difficulty": "medium",
-    "question": "Kt?ry gatunek literacki jest kr?tkim utworem z mora?em?",
+    "question": "Który gatunek literacki jest krótkim utworem z morałem?",
     "options": {
       "A": "Tragedia",
       "B": "Epos",
       "C": "Bajka",
-      "D": "Reporta?"
+      "D": "Reportaż"
     },
     "correct_answer": "C",
-    "explanation": "Bajka literacka jest kr?tka i zwykle ko?czy si? mora?em.",
+    "explanation": "Bajka literacka jest krótka i zwykle kończy się morałem.",
     "aliases": {
       "A": [
         "Tragedia",
@@ -470,7 +470,7 @@
         "bajka"
       ],
       "D": [
-        "Reporta?",
+        "Reportaż",
         "reportal"
       ]
     }
@@ -479,30 +479,30 @@
     "id": "lit_016",
     "category": "language_literature",
     "difficulty": "hard",
-    "question": "Kto napisa? dramat ?Wesele??",
+    "question": "Kto napisał dramat \"Wesele\"?",
     "options": {
       "A": "Adam Mickiewicz",
-      "B": "Juliusz S?owacki",
-      "C": "Tadeusz R??ewicz",
-      "D": "Stanis?aw Wyspia?ski"
+      "B": "Juliusz Słowacki",
+      "C": "Tadeusz Różewicz",
+      "D": "Stanisąaw Wyspiański"
     },
     "correct_answer": "D",
-    "explanation": "?Wesele? jest dramatem Stanis?awa Wyspia?skiego.",
+    "explanation": "\"Wesele\" jest dramatem Stanisława Wyspiańskiego.",
     "aliases": {
       "A": [
         "Adam Mickiewicz",
         "adam mickiewicz"
       ],
       "B": [
-        "Juliusz S?owacki",
+        "Juliusz Słowacki",
         "juliusz slowacki"
       ],
       "C": [
-        "Tadeusz R??ewicz",
+        "Tadeusz Różewicz",
         "tadeusz rllewicz"
       ],
       "D": [
-        "Stanis?aw Wyspia?ski",
+        "Stanisąaw Wyspiański",
         "stanislaw wyspialski"
       ]
     }

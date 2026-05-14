@@ -7,10 +7,14 @@ from backend.app.models.question import Question
 
 
 class QuestionLoaderError(ValueError):
+    """Raised when question JSON files cannot be loaded or validated."""
+
     pass
 
 
 def load_questions_from_directory(directory: Path) -> list[Question]:
+    """Load and validate all question JSON files from one directory."""
+
     if not directory.exists():
         raise QuestionLoaderError(f"questions directory does not exist: {directory}")
 
@@ -37,6 +41,8 @@ def load_questions_from_directory(directory: Path) -> list[Question]:
 
 
 def _load_questions_file(file_path: Path) -> list[Question]:
+    """Load and validate one JSON file containing a list of questions."""
+
     try:
         raw_questions = json.loads(file_path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as error:

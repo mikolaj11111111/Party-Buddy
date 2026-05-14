@@ -5,6 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from backend.app.api.answer import router as answer_router
+from backend.app.api.game import router as game_router
 from backend.app.api.ping import router as ping_router
 from backend.app.api.stt import router as stt_router
 from backend.app.api.tts import router as tts_router
@@ -13,6 +14,8 @@ from backend.app.db import init_db
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
+    """Initialize app resources before serving requests."""
+
     init_db()
     yield
 
@@ -29,15 +32,20 @@ app.add_middleware(
 
 app.include_router(ping_router)
 app.include_router(answer_router)
+app.include_router(game_router)
 app.include_router(stt_router)
 app.include_router(tts_router)
 
 
 @app.get("/")
 def root() -> dict[str, str]:
+    """Return a small service identity payload."""
+
     return {"status": "ok", "service": "part-buddy", "version": "0.0.1"}
 
 
 @app.get("/health")
 def health() -> dict[str, str]:
+    """Return a lightweight health check response."""
+
     return {"status": "healthy"}

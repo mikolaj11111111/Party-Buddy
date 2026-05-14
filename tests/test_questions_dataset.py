@@ -50,6 +50,46 @@ def test_questions_dataset_has_balanced_correct_answers_per_category() -> None:
         assert max(answers.values()) <= 6
 
 
+def test_questions_dataset_has_no_lost_polish_character_markers() -> None:
+    questions = load_questions_from_directory(QUESTIONS_DIR)
+
+    broken_fields: list[str] = []
+    for question in questions:
+        checked_question_text = question.question.rstrip()
+        if checked_question_text.endswith("?"):
+            checked_question_text = checked_question_text[:-1]
+
+        if "?" in checked_question_text:
+            broken_fields.append(f"{question.id}.question")
+
+        for letter, option in question.options.items():
+            if "?" in option:
+                broken_fields.append(f"{question.id}.options.{letter}")
+
+        if question.explanation and "?" in question.explanation:
+            broken_fields.append(f"{question.id}.explanation")
+
+        if question.aliases:
+            for letter, aliases in question.aliases.items():
+                for alias in aliases:
+                    if "?" in alias:
+                        broken_fields.append(f"{question.id}.aliases.{letter}")
+
+    assert broken_fields == []
+
+
+def test_questions_dataset_questions_end_with_question_mark() -> None:
+    questions = load_questions_from_directory(QUESTIONS_DIR)
+
+    invalid_question_ids = [
+        question.id
+        for question in questions
+        if not question.question.rstrip().endswith("?")
+    ]
+
+    assert invalid_question_ids == []
+
+
 def test_questions_dataset_has_sources_file() -> None:
     sources_path = QUESTIONS_DIR / "SOURCES.md"
 

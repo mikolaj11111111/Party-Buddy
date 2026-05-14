@@ -3,6 +3,8 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class TtsTemplate:
+    """One pre-generated game-master comment template."""
+
     id: str
     text: str
 
@@ -41,4 +43,6 @@ COMMENT_TEMPLATES: tuple[TtsTemplate, ...] = (
 
 
 def iter_tts_templates() -> tuple[TtsTemplate, ...]:
+    """Return all comment templates that should be pre-generated."""
+
     return COMMENT_TEMPLATES

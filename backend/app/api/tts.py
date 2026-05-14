@@ -12,6 +12,8 @@ router = APIRouter(prefix="/api/tts", tags=["tts"])
 
 @router.get("", response_class=FileResponse)
 def get_tts_audio(key: str = Query(min_length=64, max_length=64)) -> FileResponse:
+    """Return one pre-generated WAV file by TTS cache key."""
+
     try:
         audio_path = resolve_cached_audio_path(key)
     except TtsValidationError as error:

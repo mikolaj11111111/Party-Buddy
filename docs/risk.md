@@ -13,19 +13,19 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 
 ---
 
-## Stare regulaminy w `.claude/rules/rules.md`
-- **Lokalizacja:** `.claude/rules/rules.md`
+## Stare regulaminy po migracji do `AGENTS.md`
+- **Lokalizacja:** historyczny ruleset sprzed migracji; aktualne reguły są w `AGENTS.md`
 - **Problem:** Plik zawierał nieaktualne info (desktop-first, spaCy obowiązkowo, AI tylko prowadzi/komentuje). Aktualne decyzje: web-only, bez spaCy na MVP, ABCD zamknięte.
 - **Wpływ:** średni — agent mógł postępować zgodnie z nieaktualnymi rules przy braku jasnego kontekstu.
-- **Propozycja:** przenieść aktualne reguły do `AGENTS.md`, a lokalne skille do `.codex/skills/`.
-- **Status:** fixed (2026-05-12, `.claude/` zastąpione przez `AGENTS.md` + `.codex/skills/`)
+- **Propozycja:** trzymać aktualne reguły w `AGENTS.md`, a lokalne skille w `.codex/skills/`.
+- **Status:** fixed (2026-05-12, rules przeniesione do `AGENTS.md` + `.codex/skills/`)
 
 ## Subagent Write blocked
-- **Lokalizacja:** stare uprawnienia Claude Code (settings)
+- **Lokalizacja:** historyczne ustawienia poprzedniego narzędzia
 - **Problem:** Subagenci `general-purpose` nie mogli używać `Write` na `data/questions/*.json` mimo że parent mógł.
 - **Wpływ:** niski — projekt przeszedł na lokalne skille/rules dla Codex; dataset M2 zacznie się od małego ręcznego smoke-testu.
-- **Propozycja:** nie wracać do `.claude/settings.json`; jeśli pełny dataset będzie generowany agentowo, zrobić to etapami w aktualnym workflow.
-- **Status:** fixed (2026-05-12, migracja z `.claude/` do `AGENTS.md` + `.codex/skills/`)
+- **Propozycja:** jeśli pełny dataset będzie generowany agentowo, robić to etapami w aktualnym workflow.
+- **Status:** fixed (2026-05-12, migracja do `AGENTS.md` + `.codex/skills/`)
 
 ## Licencja Open Trivia DB
 - **Lokalizacja:** `data/questions/SOURCES.md`
@@ -39,6 +39,13 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 - **Problem:** `piper-tts==1.4.2` wskazuje na fork `OHF-Voice/piper1-gpl` z licencją GPL-3.0-or-later.
 - **Wpływ:** średni — prywatne/lokalne portfolio jest OK, ale publiczna dystrybucja produktu wymaga ponownej analizy licencji.
 - **Propozycja:** przed publicznym releasem zdecydować, czy zostawić Piper, czy przejść na inną TTS opcję/licencję.
+- **Status:** open
+
+## Sesja gry WebSocket tylko w pamięci
+- **Lokalizacja:** `backend/app/core/game_realtime.py`
+- **Problem:** Aktywna sesja gry żyje tylko w jednym połączeniu WebSocket; odświeżenie strony lub rozłączenie resetuje bieżącą rozgrywkę.
+- **Wpływ:** niski w lokalnym MVP, średni przy późniejszym multiplayer/reconnect.
+- **Propozycja:** w MVP zapisać wynik końcowy do SQLite; reconnect i odtwarzanie aktywnej sesji zostawić poza MVP albo na v0.5+.
 - **Status:** open
 
 ---

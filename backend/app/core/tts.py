@@ -16,27 +16,39 @@ TTS_KEY_PATTERN = re.compile(r"^[a-f0-9]{64}$")
 
 
 class TtsError(RuntimeError):
+    """Base error for text-to-speech generation and cache failures."""
+
     pass
 
 
 class TtsConfigurationError(TtsError):
+    """Raised when Piper voice files or settings are missing."""
+
     pass
 
 
 class TtsValidationError(TtsError):
+    """Raised when requested TTS input or cache key is invalid."""
+
     pass
 
 
 class TtsSynthesisError(TtsError):
+    """Raised when Piper fails to generate a usable WAV file."""
+
     pass
 
 
 class TtsCacheMissError(TtsError):
+    """Raised when a requested generated WAV file is absent from cache."""
+
     pass
 
 
 @dataclass(frozen=True)
 class TtsConfig:
+    """Runtime settings for Piper synthesis and WAV cache location."""
+
     voice_id: str
     model_path: Path
     config_path: Path
@@ -47,12 +59,16 @@ class TtsConfig:
 
 @dataclass(frozen=True)
 class TtsResult:
+    """Result of resolving or generating one cached TTS file."""
+
     key: str
     audio_path: Path
     generated: bool
 
 
 def get_tts_config(voice_id: str | None = None) -> TtsConfig:
+    """Build TTS config from environment with a project default voice."""
+
     load_env_file()
 
     selected_voice_id = (
@@ -71,6 +87,8 @@ def get_tts_config(voice_id: str | None = None) -> TtsConfig:
 
 
 def validate_tts_text(text: str) -> str:
+    """Normalize and validate text before synthesis or cache hashing."""
+
     normalized_text = " ".join(text.strip().split())
     if not normalized_text:
         raise TtsValidationError("TTS text must not be empty")
@@ -82,6 +100,8 @@ def validate_tts_text(text: str) -> str:
 
 
 def build_tts_cache_key(text: str, voice_id: str) -> str:
+    """Create a stable cache key from normalized text and voice id."""
+
     normalized_text = validate_tts_text(text)
     payload = f"{voice_id}\n{normalized_text}".encode()
     return hashlib.sha256(payload).hexdigest()
@@ -91,6 +111,8 @@ def resolve_cached_audio_path(
     key: str,
     cache_dir: Path = TTS_CACHE_DIRECTORY,
 ) -> Path:
+    """Resolve a cache key to an existing WAV path inside cache_dir."""
+
     if not TTS_KEY_PATTERN.fullmatch(key):
         raise TtsValidationError("invalid TTS cache key")
 
@@ -109,6 +131,8 @@ def synthesize_to_cache(
     text: str,
     config: TtsConfig | None = None,
 ) -> TtsResult:
+    """Generate a WAV with Piper unless the same text+voice is cached."""
+
     tts_config = config or get_tts_config()
     normalized_text = validate_tts_text(text)
     _validate_tts_config(tts_config)
@@ -156,6 +180,8 @@ def synthesize_to_cache(
 
 
 def _validate_tts_config(config: TtsConfig) -> None:
+    """Ensure required Piper model and config files exist on disk."""
+
     if not config.model_path.exists():
         raise TtsConfigurationError(f"Piper voice model not found: {config.model_path}")
 
