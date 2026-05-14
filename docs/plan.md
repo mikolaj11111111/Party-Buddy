@@ -1,6 +1,6 @@
 # Plan — MVP Part Buddy
 
-Status: **M3 zakończone, gotowe do startu M4**.
+Status: **M4 zakończone technicznie, gotowe do odsłuchu głosu i startu M5**.
 Estymata: 3-4 tygodnie pracy hobbystycznej.
 
 ## Cel MVP
@@ -12,7 +12,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [ ] Gra trivia rozgrywa pełną sesję (10 pytań, 15s/pytanie, scoring działa)
 - [x] Push-to-talk poprawnie nagrywa i wysyła audio do Groq Whisper
 - [ ] Sędzia poprawnie ocenia: literę ("A"), treść ("Warszawa") i klik
-- [ ] AI prowadzący odtwarza pre-generowane komentarze (intro/correct/wrong/outro)
+- [x] AI prowadzący odtwarza pre-generowane komentarze (intro/correct/wrong/outro)
 - [ ] Hotseat działa: wybór 2-6 graczy, ranking sesji
 - [ ] Pełna sesja kończy się ekranem wyników i zapisem do SQLite
 - [ ] Latencja end-to-end (klik → audio response): <3s
@@ -45,12 +45,12 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [x] E2E: wciśnij mikrofon → wyślij audio → odbierz tekst → wyświetl
 
 ### M4 — TTS i komentarze (3-4 dni)
-- [ ] Instalacja Piper + polski model głosu
-- [ ] `core/tts.py`: wrapper + cache na dysk (hash text+voice → mp3/wav)
-- [ ] Słownik szablonów komentarzy (intro, correct x10, wrong x10, partial x5, outro)
-- [ ] Skrypt pre-generujący wszystkie szablony do `data/tts_cache/`
-- [ ] Endpoint `GET /api/tts?key=...` zwracający audio z cache
-- [ ] Frontend: hook `useAudioPlayer`, sekwencjonowanie wypowiedzi
+- [x] Instalacja Piper + polski model głosu
+- [x] `core/tts.py`: wrapper + cache na dysk (hash text+voice → WAV)
+- [x] Słownik szablonów komentarzy (intro, correct x10, wrong x10, partial x5, outro)
+- [x] Skrypt pre-generujący wszystkie szablony do `data/tts_cache/`
+- [x] Endpoint `GET /api/tts?key=...` zwracający audio z cache
+- [x] Frontend: hook `useAudioPlayer`, sekwencjonowanie wypowiedzi
 
 ### M5 — Game engine i UI (4-5 dni)
 - [ ] `core/game_engine.py`: stan sesji, kolejka pytań, scoring per gracz

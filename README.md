@@ -2,7 +2,7 @@
 
 Webowa platforma imprezowych gier z AI prowadzącym.
 
-**Status:** wczesny development, M3 zakończone, gotowe do startu M4.
+**Status:** wczesny development, M4 zakończone technicznie, gotowe do startu M5.
 
 ## Stack MVP
 
@@ -32,6 +32,21 @@ STT wymaga zmiennej w `.env`:
 
 ```env
 GROQ_WHISPER_API=...
+```
+
+TTS używa Piper (`piper-tts==1.4.2`) i domyślnego głosu `pl_PL-gosia-medium`.
+Modele głosu trzymaj lokalnie w `data/voices/`, a cache audio w `data/tts_cache/`.
+
+Pobranie głosów:
+
+```powershell
+.\venv\Scripts\python.exe -m piper.download_voices --download-dir data\voices pl_PL-gosia-medium pl_PL-darkman-medium
+```
+
+Pregeneracja komentarzy:
+
+```powershell
+.\venv\Scripts\python.exe scripts\pregenerate_tts.py
 ```
 
 Frontend:

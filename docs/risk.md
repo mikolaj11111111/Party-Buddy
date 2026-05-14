@@ -34,6 +34,13 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 - **Propozycja:** trzymać źródła w `SOURCES.md`; przed publikacją portfolio zdecydować, czy zostawić ten dataset, czy zastąpić pytaniami autorskimi.
 - **Status:** open
 
+## Licencja Piper GPL-3.0
+- **Lokalizacja:** `requirements.txt`, `backend/app/core/tts.py`
+- **Problem:** `piper-tts==1.4.2` wskazuje na fork `OHF-Voice/piper1-gpl` z licencją GPL-3.0-or-later.
+- **Wpływ:** średni — prywatne/lokalne portfolio jest OK, ale publiczna dystrybucja produktu wymaga ponownej analizy licencji.
+- **Propozycja:** przed publicznym releasem zdecydować, czy zostawić Piper, czy przejść na inną TTS opcję/licencję.
+- **Status:** open
+
 ---
 
 ## Ryzyka znane (do monitorowania w trakcie MVP)
@@ -49,8 +56,8 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 - **Lokalizacja:** `core/tts.py`
 - **Problem:** Piper polski może brzmieć robotycznie. Może być za słabe na "AI prowadzącego".
 - **Wpływ:** średni — wpływa na odbiór emocjonalny gry.
-- **Propozycja:** test w M4. Fallback: ElevenLabs free tier do pre-generacji (nie real-time).
-- **Status:** planned (test w M4)
+- **Propozycja:** odsłuchać próbki `pl_PL-gosia-medium` i `pl_PL-darkman-medium`; fallback: ElevenLabs free tier do pre-generacji (nie real-time).
+- **Status:** open (próbki wygenerowane w M4)
 
 ### Latencja end-to-end
 - **Lokalizacja:** architektura ogólna
