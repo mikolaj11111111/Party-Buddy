@@ -537,7 +537,7 @@
     "id": "sci_017",
     "category": "science",
     "difficulty": "easy",
-    "question": "Który narząd pompuje krew w organizmie człowieka?",
+    "question": "Który narząd odpowiada głównie za wymianę gazową podczas oddychania?",
     "options": {
       "A": "Płuco",
       "B": "Wątroba",
@@ -564,5 +564,607 @@
         "nerka"
       ]
     }
+  },
+  {
+    "id": "sci_018",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Którą planetą od Słońca jest Ziemia?",
+    "options": {
+      "A": "Trzecią",
+      "B": "Pierwszą",
+      "C": "Piątą",
+      "D": "Siódmą"
+    },
+    "correct_answer": "A",
+    "explanation": "Ziemia jest trzecią planetą od Słońca."
+  },
+  {
+    "id": "sci_019",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jaki gaz dominuje w atmosferze Ziemi?",
+    "options": {
+      "A": "Tlen",
+      "B": "Azot",
+      "C": "Dwutlenek węgla",
+      "D": "Hel"
+    },
+    "correct_answer": "B",
+    "explanation": "Największą część atmosfery Ziemi stanowi azot."
+  },
+  {
+    "id": "sci_020",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Ile nóg ma typowy owad?",
+    "options": {
+      "A": "Cztery",
+      "B": "Osiem",
+      "C": "Sześć",
+      "D": "Dziesięć"
+    },
+    "correct_answer": "C",
+    "explanation": "Owady mają sześć nóg."
+  },
+  {
+    "id": "sci_021",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jak nazywa się proces wytwarzania pokarmu przez rośliny z użyciem światła?",
+    "options": {
+      "A": "Parowanie",
+      "B": "Fermentacja",
+      "C": "Kondensacja",
+      "D": "Fotosynteza"
+    },
+    "correct_answer": "D",
+    "explanation": "Rośliny wykorzystują fotosyntezę do wytwarzania związków organicznych."
+  },
+  {
+    "id": "sci_022",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jak nazywa się podstawowa jednostka budowy pierwiastka chemicznego?",
+    "options": {
+      "A": "Atom",
+      "B": "Tkanka",
+      "C": "Narząd",
+      "D": "Komórka"
+    },
+    "correct_answer": "A",
+    "explanation": "Atom jest podstawową jednostką pierwiastka chemicznego."
+  },
+  {
+    "id": "sci_023",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Który narząd pompuje krew w organizmie człowieka?",
+    "options": {
+      "A": "Serce",
+      "B": "Płuca",
+      "C": "Wątroba",
+      "D": "Nerki"
+    },
+    "correct_answer": "B",
+    "explanation": "Płuca odpowiadają za wymianę gazową podczas oddychania."
+  },
+  {
+    "id": "sci_024",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jaka siła przyciąga ciała do Ziemi?",
+    "options": {
+      "A": "Tarcie",
+      "B": "Magnetyzm",
+      "C": "Grawitacja",
+      "D": "Sprężystość"
+    },
+    "correct_answer": "C",
+    "explanation": "Grawitacja przyciąga ciała do Ziemi."
+  },
+  {
+    "id": "sci_025",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Która planeta jest znana z wyraźnych pierścieni?",
+    "options": {
+      "A": "Mars",
+      "B": "Wenus",
+      "C": "Merkury",
+      "D": "Saturn"
+    },
+    "correct_answer": "D",
+    "explanation": "Saturn jest znany z rozbudowanego układu pierścieni."
+  },
+  {
+    "id": "sci_026",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Co oznacza wzór chemiczny H2O?",
+    "options": {
+      "A": "Woda",
+      "B": "Tlen",
+      "C": "Sól",
+      "D": "Azot"
+    },
+    "correct_answer": "A",
+    "explanation": "H2O to wzór chemiczny wody."
+  },
+  {
+    "id": "sci_027",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Który metal jest ciekły w temperaturze pokojowej?",
+    "options": {
+      "A": "Żelazo",
+      "B": "Rtęć",
+      "C": "Miedź",
+      "D": "Aluminium"
+    },
+    "correct_answer": "B",
+    "explanation": "Rtęć jest metalem ciekłym w temperaturze pokojowej."
+  },
+  {
+    "id": "sci_028",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jak nazywa się jednostka natężenia prądu elektrycznego?",
+    "options": {
+      "A": "Wolt",
+      "B": "Om",
+      "C": "Amper",
+      "D": "Wat"
+    },
+    "correct_answer": "C",
+    "explanation": "Jednostką natężenia prądu elektrycznego jest amper."
+  },
+  {
+    "id": "sci_029",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Który układ ciała odpowiada za przesyłanie impulsów nerwowych?",
+    "options": {
+      "A": "Układ pokarmowy",
+      "B": "Układ oddechowy",
+      "C": "Układ krwionośny",
+      "D": "Układ nerwowy"
+    },
+    "correct_answer": "D",
+    "explanation": "Układ nerwowy odpowiada za przesyłanie impulsów nerwowych."
+  },
+  {
+    "id": "sci_030",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jak nazywa się naturalny satelita Ziemi?",
+    "options": {
+      "A": "Mars",
+      "B": "Wenus",
+      "C": "Słońce",
+      "D": "Księżyc"
+    },
+    "correct_answer": "D",
+    "explanation": "Księżyc jest naturalnym satelitą Ziemi."
+  },
+  {
+    "id": "sci_031",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jaki pierwiastek ma symbol chemiczny O?",
+    "options": {
+      "A": "Tlen",
+      "B": "Wodór",
+      "C": "Azot",
+      "D": "Węgiel"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Tlen."
+  },
+  {
+    "id": "sci_032",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jaki ruch Ziemi powoduje następstwo dnia i nocy?",
+    "options": {
+      "A": "Obrót wokół własnej osi",
+      "B": "Krążenie wokół Słońca",
+      "C": "Ruch Księżyca",
+      "D": "Pływy oceaniczne"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Obrót wokół własnej osi."
+  },
+  {
+    "id": "sci_033",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jaka jest jednostka siły w układzie SI?",
+    "options": {
+      "A": "Newton",
+      "B": "Dżul",
+      "C": "Wolt",
+      "D": "Paskal"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Newton."
+  },
+  {
+    "id": "sci_034",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Co przechowuje informację genetyczną komórek?",
+    "options": {
+      "A": "DNA",
+      "B": "Chlorofil",
+      "C": "Insulina",
+      "D": "Hemoglobina"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to DNA."
+  },
+  {
+    "id": "sci_035",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Który narząd filtruje krew i produkuje mocz?",
+    "options": {
+      "A": "Nerka",
+      "B": "Serce",
+      "C": "Płuco",
+      "D": "Żołądek"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Nerka."
+  },
+  {
+    "id": "sci_036",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Co w próżni porusza się z największą możliwą prędkością?",
+    "options": {
+      "A": "Światło",
+      "B": "Dźwięk",
+      "C": "Woda",
+      "D": "Pył"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Światło."
+  },
+  {
+    "id": "sci_037",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jaki odczyn ma roztwór o pH mniejszym niż 7?",
+    "options": {
+      "A": "Kwasowy",
+      "B": "Zasadowy",
+      "C": "Obojętny",
+      "D": "Słony"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Kwasowy."
+  },
+  {
+    "id": "sci_038",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jaki jest największy narząd człowieka?",
+    "options": {
+      "A": "Wątroba",
+      "B": "Skóra",
+      "C": "Serce",
+      "D": "Płuco"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Skóra."
+  },
+  {
+    "id": "sci_039",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Która planeta jest nazywana Czerwoną Planetą?",
+    "options": {
+      "A": "Wenus",
+      "B": "Mars",
+      "C": "Jowisz",
+      "D": "Merkury"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Mars."
+  },
+  {
+    "id": "sci_040",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "W jakiej temperaturze wrze woda przy normalnym ciśnieniu?",
+    "options": {
+      "A": "0 stopni Celsjusza",
+      "B": "100 stopni Celsjusza",
+      "C": "50 stopni Celsjusza",
+      "D": "200 stopni Celsjusza"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to 100 stopni Celsjusza."
+  },
+  {
+    "id": "sci_041",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Która cząstka elementarna ma dodatni ładunek w atomie?",
+    "options": {
+      "A": "Elektron",
+      "B": "Proton",
+      "C": "Neutron",
+      "D": "Foton"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Proton."
+  },
+  {
+    "id": "sci_042",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jaki gaz pobierają rośliny w procesie fotosyntezy?",
+    "options": {
+      "A": "Tlen",
+      "B": "Dwutlenek węgla",
+      "C": "Hel",
+      "D": "Azot"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Dwutlenek węgla."
+  },
+  {
+    "id": "sci_043",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Co chroni mózg człowieka?",
+    "options": {
+      "A": "Żebra",
+      "B": "Czaszka",
+      "C": "Miednica",
+      "D": "Mostek"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Czaszka."
+  },
+  {
+    "id": "sci_044",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "W której galaktyce znajduje się Układ Słoneczny?",
+    "options": {
+      "A": "Andromedy",
+      "B": "Droga Mleczna",
+      "C": "Sombrero",
+      "D": "Wir"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Droga Mleczna."
+  },
+  {
+    "id": "sci_045",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jak nazywa się przejście pary wodnej w ciecz?",
+    "options": {
+      "A": "Parowanie",
+      "B": "Topnienie",
+      "C": "Skraplanie",
+      "D": "Sublimacja"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Skraplanie."
+  },
+  {
+    "id": "sci_046",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jaka skala jest często używana do opisu magnitudy trzęsień ziemi?",
+    "options": {
+      "A": "Beauforta",
+      "B": "Celsjusza",
+      "C": "Richtera",
+      "D": "Mohsa"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Richtera."
+  },
+  {
+    "id": "sci_047",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Które komórki krwi przenoszą tlen?",
+    "options": {
+      "A": "Płytki krwi",
+      "B": "Leukocyty",
+      "C": "Erytrocyty",
+      "D": "Neurony"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Erytrocyty."
+  },
+  {
+    "id": "sci_048",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jak nazywają się dwa końce magnesu?",
+    "options": {
+      "A": "Krawędzie",
+      "B": "Osie",
+      "C": "Bieguny",
+      "D": "Warstwy"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Bieguny."
+  },
+  {
+    "id": "sci_049",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jaka jest jednostka częstotliwości?",
+    "options": {
+      "A": "Wolt",
+      "B": "Amper",
+      "C": "Herc",
+      "D": "Om"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Herc."
+  },
+  {
+    "id": "sci_050",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Która planeta jest najmniejsza w Układzie Słonecznym?",
+    "options": {
+      "A": "Mars",
+      "B": "Wenus",
+      "C": "Merkury",
+      "D": "Neptun"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Merkury."
+  },
+  {
+    "id": "sci_051",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Która witamina powstaje w skórze pod wpływem światła słonecznego?",
+    "options": {
+      "A": "Witamina A",
+      "B": "Witamina C",
+      "C": "Witamina D",
+      "D": "Witamina K"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Witamina D."
+  },
+  {
+    "id": "sci_052",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jaki gaz jest potrzebny do spalania?",
+    "options": {
+      "A": "Azot",
+      "B": "Hel",
+      "C": "Tlen",
+      "D": "Argon"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Tlen."
+  },
+  {
+    "id": "sci_053",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jaki pierwiastek ma symbol chemiczny Na?",
+    "options": {
+      "A": "Potas",
+      "B": "Neon",
+      "C": "Nikiel",
+      "D": "Sód"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Sód."
+  },
+  {
+    "id": "sci_054",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Która planeta jest największa w Układzie Słonecznym?",
+    "options": {
+      "A": "Ziemia",
+      "B": "Saturn",
+      "C": "Neptun",
+      "D": "Jowisz"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Jowisz."
+  },
+  {
+    "id": "sci_055",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Ile par chromosomów ma zwykle człowiek?",
+    "options": {
+      "A": "22",
+      "B": "24",
+      "C": "46",
+      "D": "23"
+    },
+    "correct_answer": "D",
+    "explanation": "Człowiek ma zwykle 23 pary chromosomów."
+  },
+  {
+    "id": "sci_056",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Jak nazywa się organellum często określane jako centrum energetyczne komórki?",
+    "options": {
+      "A": "Jądro komórkowe",
+      "B": "Rybosom",
+      "C": "Lizosom",
+      "D": "Mitochondrium"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Mitochondrium."
+  },
+  {
+    "id": "sci_057",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Który uczony sformułował prawo powszechnego ciążenia?",
+    "options": {
+      "A": "Einstein",
+      "B": "Darwin",
+      "C": "Galileusz",
+      "D": "Newton"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Newton."
+  },
+  {
+    "id": "sci_058",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jaki stan skupienia ma określoną objętość, ale nie ma własnego kształtu?",
+    "options": {
+      "A": "Gaz",
+      "B": "Plazma",
+      "C": "Ciało stałe",
+      "D": "Ciecz"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Ciecz."
+  },
+  {
+    "id": "sci_059",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Jak nazywa się układ atomów połączonych wiązaniami chemicznymi?",
+    "options": {
+      "A": "Jon",
+      "B": "Izotop",
+      "C": "Pierwiastek",
+      "D": "Cząsteczka"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Cząsteczka."
+  },
+  {
+    "id": "sci_060",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "W czym dźwięk zwykle rozchodzi się najszybciej?",
+    "options": {
+      "A": "W próżni",
+      "B": "W gazach",
+      "C": "W cieczach",
+      "D": "W ciałach stałych"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to W ciałach stałych."
   }
 ]

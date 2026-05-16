@@ -17,13 +17,13 @@ EXPECTED_CATEGORIES = {
     "language_literature",
     "general",
 }
-MIN_TOTAL_QUESTIONS = 180
-MAX_TOTAL_QUESTIONS = 181
-MIN_CATEGORY_QUESTIONS = 16
-MAX_CATEGORY_QUESTIONS = 17
+MIN_TOTAL_QUESTIONS = 660
+MAX_TOTAL_QUESTIONS = 660
+MIN_CATEGORY_QUESTIONS = 60
+MAX_CATEGORY_QUESTIONS = 60
 
 
-def test_questions_dataset_has_full_m2_batch() -> None:
+def test_questions_dataset_has_expanded_trivia_batch() -> None:
     questions = load_questions_from_directory(QUESTIONS_DIR)
 
     category_counts = Counter(question.category for question in questions)
@@ -47,7 +47,7 @@ def test_questions_dataset_has_balanced_correct_answers_per_category() -> None:
         )
 
         assert set(answers) == {"A", "B", "C", "D"}
-        assert max(answers.values()) <= 6
+        assert max(answers.values()) <= 15
 
 
 def test_questions_dataset_has_no_lost_polish_character_markers() -> None:
@@ -76,6 +76,41 @@ def test_questions_dataset_has_no_lost_polish_character_markers() -> None:
                         broken_fields.append(f"{question.id}.aliases.{letter}")
 
     assert broken_fields == []
+
+
+def test_questions_dataset_has_no_cyrillic_characters() -> None:
+    questions = load_questions_from_directory(QUESTIONS_DIR)
+
+    broken_fields: list[str] = []
+    for question in questions:
+        checked_fields = [
+            ("question", question.question),
+            ("explanation", question.explanation or ""),
+        ]
+        checked_fields.extend(
+            (f"options.{letter}", option) for letter, option in question.options.items()
+        )
+
+        for field_name, value in checked_fields:
+            if any("\u0400" <= character <= "\u04ff" for character in value):
+                broken_fields.append(f"{question.id}.{field_name}")
+
+    assert broken_fields == []
+
+
+def test_questions_dataset_has_unique_question_texts() -> None:
+    questions = load_questions_from_directory(QUESTIONS_DIR)
+
+    question_text_counts = Counter(
+        question.question.casefold() for question in questions
+    )
+    duplicate_questions = [
+        question_text
+        for question_text, count in question_text_counts.items()
+        if count > 1
+    ]
+
+    assert duplicate_questions == []
 
 
 def test_questions_dataset_questions_end_with_question_mark() -> None:

@@ -509,5 +509,621 @@
         "dunkierka"
       ]
     }
+  },
+  {
+    "id": "mov_017",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto wyreżyserował film Titanic z 1997 roku?",
+    "options": {
+      "A": "James Cameron",
+      "B": "Steven Spielberg",
+      "C": "Ridley Scott",
+      "D": "Peter Jackson"
+    },
+    "correct_answer": "A",
+    "explanation": "Titanica z 1997 roku wyreżyserował James Cameron."
+  },
+  {
+    "id": "mov_018",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Który film animowany Pixara opowiada o zabawkach Andy'ego?",
+    "options": {
+      "A": "Auta",
+      "B": "Toy Story",
+      "C": "Iniemamocni",
+      "D": "Odlot"
+    },
+    "correct_answer": "B",
+    "explanation": "Toy Story opowiada o zabawkach należących do Andy'ego."
+  },
+  {
+    "id": "mov_019",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak nazywa się archeolog grany przez Harrisona Forda?",
+    "options": {
+      "A": "Han Solo",
+      "B": "Rick Deckard",
+      "C": "Indiana Jones",
+      "D": "Jack Ryan"
+    },
+    "correct_answer": "C",
+    "explanation": "Harrison Ford grał archeologa Indianę Jonesa."
+  },
+  {
+    "id": "mov_020",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "W której serii filmowej występuje Darth Vader?",
+    "options": {
+      "A": "Star Trek",
+      "B": "Matrix",
+      "C": "Obcy",
+      "D": "Gwiezdne wojny"
+    },
+    "correct_answer": "D",
+    "explanation": "Darth Vader występuje w serii Gwiezdne wojny."
+  },
+  {
+    "id": "mov_021",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto grał Jacka Sparrowa w serii Piraci z Karaibów?",
+    "options": {
+      "A": "Johnny Depp",
+      "B": "Orlando Bloom",
+      "C": "Brad Pitt",
+      "D": "Tom Cruise"
+    },
+    "correct_answer": "A",
+    "explanation": "Jacka Sparrowa grał Johnny Depp."
+  },
+  {
+    "id": "mov_022",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Który film animowany ma bohatera o imieniu Simba?",
+    "options": {
+      "A": "Mulan",
+      "B": "Król Lew",
+      "C": "Pocahontas",
+      "D": "Tarzan"
+    },
+    "correct_answer": "B",
+    "explanation": "Simba jest bohaterem filmu Król Lew."
+  },
+  {
+    "id": "mov_023",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Który reżyser stworzył film Pulp Fiction?",
+    "options": {
+      "A": "Martin Scorsese",
+      "B": "David Fincher",
+      "C": "Quentin Tarantino",
+      "D": "Christopher Nolan"
+    },
+    "correct_answer": "C",
+    "explanation": "Pulp Fiction wyreżyserował Quentin Tarantino."
+  },
+  {
+    "id": "mov_024",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak nazywa się filmowy czarodziej z blizną na czole?",
+    "options": {
+      "A": "Merlin",
+      "B": "Gandalf",
+      "C": "Dumbledore",
+      "D": "Harry Potter"
+    },
+    "correct_answer": "D",
+    "explanation": "Harry Potter jest czarodziejem znanym z blizny na czole."
+  },
+  {
+    "id": "mov_025",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Która seria filmowa opowiada o pierścieniu władzy?",
+    "options": {
+      "A": "Władca Pierścieni",
+      "B": "Zmierzch",
+      "C": "Avatar",
+      "D": "Mission Impossible"
+    },
+    "correct_answer": "A",
+    "explanation": "Władca Pierścieni opowiada o wyprawie związanej z pierścieniem władzy."
+  },
+  {
+    "id": "mov_026",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Który film science fiction z 1999 roku przedstawia bohatera o imieniu Neo?",
+    "options": {
+      "A": "Blade Runner",
+      "B": "Matrix",
+      "C": "Terminator",
+      "D": "Raport mniejszości"
+    },
+    "correct_answer": "B",
+    "explanation": "Neo jest głównym bohaterem filmu Matrix."
+  },
+  {
+    "id": "mov_027",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Który reżyser stworzył filmy Szczęki i E.T.?",
+    "options": {
+      "A": "George Lucas",
+      "B": "Tim Burton",
+      "C": "Steven Spielberg",
+      "D": "James Cameron"
+    },
+    "correct_answer": "C",
+    "explanation": "Szczęki i E.T. wyreżyserował Steven Spielberg."
+  },
+  {
+    "id": "mov_028",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Jak nazywa się statek kosmiczny Hana Solo?",
+    "options": {
+      "A": "Enterprise",
+      "B": "Nostromo",
+      "C": "Discovery",
+      "D": "Sokół Millennium"
+    },
+    "correct_answer": "D",
+    "explanation": "Han Solo pilotuje Sokoła Millennium."
+  },
+  {
+    "id": "mov_029",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Który film Disneya opowiada o siostrach Elsie i Annie?",
+    "options": {
+      "A": "Kraina lodu",
+      "B": "Vaiana",
+      "C": "Zaplątani",
+      "D": "Merida Waleczna"
+    },
+    "correct_answer": "A",
+    "explanation": "Kraina lodu opowiada między innymi o Elsie i Annie."
+  },
+  {
+    "id": "mov_030",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Która aktorka grała Hermionę w filmach o Harrym Potterze?",
+    "options": {
+      "A": "Emma Stone",
+      "B": "Emma Watson",
+      "C": "Keira Knightley",
+      "D": "Natalie Portman"
+    },
+    "correct_answer": "B",
+    "explanation": "Hermionę Granger w filmach o Harrym Potterze grała Emma Watson."
+  },
+  {
+    "id": "mov_031",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "W jakim mieście rozgrywa się akcja filmu Casablanca?",
+    "options": {
+      "A": "Casablanca",
+      "B": "Paryż",
+      "C": "Londyn",
+      "D": "Rzym"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Casablanca."
+  },
+  {
+    "id": "mov_032",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto wyreżyserował film Incepcja?",
+    "options": {
+      "A": "Christopher Nolan",
+      "B": "James Cameron",
+      "C": "Steven Spielberg",
+      "D": "Ridley Scott"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Christopher Nolan."
+  },
+  {
+    "id": "mov_033",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak nazywa się bokser grany przez Sylvestra Stallone'a?",
+    "options": {
+      "A": "Rocky",
+      "B": "Rambo",
+      "C": "Apollo",
+      "D": "Drago"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Rocky."
+  },
+  {
+    "id": "mov_034",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Który film opowiada o parku z odtworzonymi dinozaurami?",
+    "options": {
+      "A": "Jurassic Park",
+      "B": "King Kong",
+      "C": "Godzilla",
+      "D": "Avatar"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Jurassic Park."
+  },
+  {
+    "id": "mov_035",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto zagrał Jokera w filmie Mroczny Rycerz?",
+    "options": {
+      "A": "Heath Ledger",
+      "B": "Joaquin Phoenix",
+      "C": "Jack Nicholson",
+      "D": "Jared Leto"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Heath Ledger."
+  },
+  {
+    "id": "mov_036",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak ma na imię bohaterka Czarnoksiężnika z Oz?",
+    "options": {
+      "A": "Dorotka",
+      "B": "Alicja",
+      "C": "Wendy",
+      "D": "Elsa"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Dorotka."
+  },
+  {
+    "id": "mov_037",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Który aktor zagrał Forresta Gumpa?",
+    "options": {
+      "A": "Tom Hanks",
+      "B": "Brad Pitt",
+      "C": "Tom Cruise",
+      "D": "Matt Damon"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Tom Hanks."
+  },
+  {
+    "id": "mov_038",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Jak nazywa się rodzina mafijna z filmu Ojciec chrzestny?",
+    "options": {
+      "A": "Soprano",
+      "B": "Corleone",
+      "C": "Montana",
+      "D": "Tattaglia"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Corleone."
+  },
+  {
+    "id": "mov_039",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak nazywa się księżyc, na którym rozgrywa się Avatar?",
+    "options": {
+      "A": "Endor",
+      "B": "Pandora",
+      "C": "Tatooine",
+      "D": "Krypton"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Pandora."
+  },
+  {
+    "id": "mov_040",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Który film Spielberga opowiada o atakach rekina?",
+    "options": {
+      "A": "E.T.",
+      "B": "Szczęki",
+      "C": "Terminal",
+      "D": "Monachium"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Szczęki."
+  },
+  {
+    "id": "mov_041",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jakim gatunkiem filmowym jest La La Land?",
+    "options": {
+      "A": "Horrorem",
+      "B": "Musicalem",
+      "C": "Westernem",
+      "D": "Thrillerem"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Musicalem."
+  },
+  {
+    "id": "mov_042",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Który aktor jako pierwszy zagrał Jamesa Bonda w oficjalnej serii filmowej?",
+    "options": {
+      "A": "Roger Moore",
+      "B": "Sean Connery",
+      "C": "Pierce Brosnan",
+      "D": "Daniel Craig"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Sean Connery."
+  },
+  {
+    "id": "mov_043",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jaki jest polski tytuł filmu Frozen?",
+    "options": {
+      "A": "Vaiana",
+      "B": "Kraina lodu",
+      "C": "Zaplątani",
+      "D": "Merida Waleczna"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Kraina lodu."
+  },
+  {
+    "id": "mov_044",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jaki samochód służy jako wehikuł czasu w Powrocie do przyszłości?",
+    "options": {
+      "A": "Ford Mustang",
+      "B": "DeLorean",
+      "C": "Volkswagen Beetle",
+      "D": "Dodge Charger"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to DeLorean."
+  },
+  {
+    "id": "mov_045",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Jak nazywa się statek z filmu Obcy?",
+    "options": {
+      "A": "Discovery",
+      "B": "Enterprise",
+      "C": "Nostromo",
+      "D": "Millennium Falcon"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Nostromo."
+  },
+  {
+    "id": "mov_046",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "W jakim miejscu osadzona jest akcja Skazanych na Shawshank?",
+    "options": {
+      "A": "W hotelu",
+      "B": "Na statku",
+      "C": "W więzieniu",
+      "D": "W szpitalu"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to W więzieniu."
+  },
+  {
+    "id": "mov_047",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak nazywa się fikcyjne państwo z filmu Czarna Pantera?",
+    "options": {
+      "A": "Latveria",
+      "B": "Genovia",
+      "C": "Wakanda",
+      "D": "Zamunda"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Wakanda."
+  },
+  {
+    "id": "mov_048",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Z jakim świętem związany jest film Coco?",
+    "options": {
+      "A": "Boże Narodzenie",
+      "B": "Halloween",
+      "C": "Día de Muertos",
+      "D": "Wielkanoc"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Día de Muertos."
+  },
+  {
+    "id": "mov_049",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Który aktor zagrał Maximusa w Gladiatorze?",
+    "options": {
+      "A": "Mel Gibson",
+      "B": "Sean Bean",
+      "C": "Russell Crowe",
+      "D": "Keanu Reeves"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Russell Crowe."
+  },
+  {
+    "id": "mov_050",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Na jakiej planecie rozgrywa się duża część Diuny?",
+    "options": {
+      "A": "Caladan",
+      "B": "Giedi Prime",
+      "C": "Arrakis",
+      "D": "Coruscant"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Arrakis."
+  },
+  {
+    "id": "mov_051",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Z którego kraju pochodzi film Parasite?",
+    "options": {
+      "A": "Japonia",
+      "B": "Chiny",
+      "C": "Korea Południowa",
+      "D": "Tajlandia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Korea Południowa."
+  },
+  {
+    "id": "mov_052",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Kim są główni bohaterowie filmu Top Gun?",
+    "options": {
+      "A": "Lekarzami",
+      "B": "Detektywami",
+      "C": "Pilotami",
+      "D": "Kucharzami"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Pilotami."
+  },
+  {
+    "id": "mov_053",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto wyreżyserował film Interstellar?",
+    "options": {
+      "A": "David Fincher",
+      "B": "Denis Villeneuve",
+      "C": "George Lucas",
+      "D": "Christopher Nolan"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Christopher Nolan."
+  },
+  {
+    "id": "mov_054",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Z którego filmu pochodzi hasło I'll be back?",
+    "options": {
+      "A": "RoboCop",
+      "B": "Predator",
+      "C": "Matrix",
+      "D": "Terminator"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Terminator."
+  },
+  {
+    "id": "mov_055",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Którą pigułkę wybiera Neo, by poznać prawdę w Matrixie?",
+    "options": {
+      "A": "Niebieską",
+      "B": "Zieloną",
+      "C": "Żółtą",
+      "D": "Czerwoną"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Czerwoną."
+  },
+  {
+    "id": "mov_056",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Z jakiego kraju pochodzi film Amelia?",
+    "options": {
+      "A": "Włochy",
+      "B": "Hiszpania",
+      "C": "Niemcy",
+      "D": "Francja"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Francja."
+  },
+  {
+    "id": "mov_057",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Które studio stworzyło Spirited Away?",
+    "options": {
+      "A": "Pixar",
+      "B": "DreamWorks",
+      "C": "Laika",
+      "D": "Studio Ghibli"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Studio Ghibli."
+  },
+  {
+    "id": "mov_058",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "Kto wyreżyserował filmową trylogię Władca Pierścieni?",
+    "options": {
+      "A": "George Lucas",
+      "B": "Chris Columbus",
+      "C": "Tim Burton",
+      "D": "Peter Jackson"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Peter Jackson."
+  },
+  {
+    "id": "mov_059",
+    "category": "movies",
+    "difficulty": "easy",
+    "question": "Jak ma na imię chłopiec z filmu Kevin sam w domu?",
+    "options": {
+      "A": "Alex",
+      "B": "Max",
+      "C": "Charlie",
+      "D": "Kevin"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Kevin."
+  },
+  {
+    "id": "mov_060",
+    "category": "movies",
+    "difficulty": "medium",
+    "question": "O kim opowiada film Oppenheimer?",
+    "options": {
+      "A": "O wynalazcy telefonu",
+      "B": "O pierwszym astronaucie",
+      "C": "O założycielu Apple",
+      "D": "O twórcy bomby atomowej"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to O twórcy bomby atomowej."
   }
 ]

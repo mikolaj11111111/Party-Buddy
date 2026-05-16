@@ -163,7 +163,7 @@
     "id": "mus_006",
     "category": "music",
     "difficulty": "easy",
-    "question": "Ile strun ma standardowa gitara klasyczna?",
+    "question": "Jak nazywa się duży zespół instrumentalny prowadzony przez dyrygenta?",
     "options": {
       "A": "Cztery",
       "B": "Sześć",
@@ -510,5 +510,621 @@
         "eminem"
       ]
     }
+  },
+  {
+    "id": "mus_017",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Ile strun ma standardowa gitara klasyczna?",
+    "options": {
+      "A": "Orkiestra",
+      "B": "Chór",
+      "C": "Duet",
+      "D": "Kwartet"
+    },
+    "correct_answer": "A",
+    "explanation": "Duży zespół instrumentalny prowadzony przez dyrygenta to orkiestra."
+  },
+  {
+    "id": "mus_018",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Który kompozytor stworzył cykl Cztery pory roku?",
+    "options": {
+      "A": "Jan Sebastian Bach",
+      "B": "Antonio Vivaldi",
+      "C": "Wolfgang Amadeus Mozart",
+      "D": "Ludwig van Beethoven"
+    },
+    "correct_answer": "B",
+    "explanation": "Cztery pory roku skomponował Antonio Vivaldi."
+  },
+  {
+    "id": "mus_019",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się klawiszowy instrument z młoteczkami uderzającymi w struny?",
+    "options": {
+      "A": "Organy",
+      "B": "Akordeon",
+      "C": "Fortepian",
+      "D": "Flet"
+    },
+    "correct_answer": "C",
+    "explanation": "Fortepian ma mechanizm młoteczkowy uderzający w struny."
+  },
+  {
+    "id": "mus_020",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Który zespół nagrał album Abbey Road?",
+    "options": {
+      "A": "Pink Floyd",
+      "B": "Queen",
+      "C": "The Doors",
+      "D": "The Beatles"
+    },
+    "correct_answer": "D",
+    "explanation": "Abbey Road to album zespołu The Beatles."
+  },
+  {
+    "id": "mus_021",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Który polski kompozytor nosił imię Fryderyk?",
+    "options": {
+      "A": "Chopin",
+      "B": "Moniuszko",
+      "C": "Lutosławski",
+      "D": "Penderecki"
+    },
+    "correct_answer": "A",
+    "explanation": "Fryderyk Chopin jest jednym z najbardziej znanych polskich kompozytorów."
+  },
+  {
+    "id": "mus_022",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Który instrument ma smyczek i cztery struny?",
+    "options": {
+      "A": "Trąbka",
+      "B": "Skrzypce",
+      "C": "Bęben",
+      "D": "Flet"
+    },
+    "correct_answer": "B",
+    "explanation": "Skrzypce mają cztery struny i gra się na nich smyczkiem."
+  },
+  {
+    "id": "mus_023",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Która piosenkarka jest często nazywana Queen of Pop?",
+    "options": {
+      "A": "Adele",
+      "B": "Beyoncé",
+      "C": "Madonna",
+      "D": "Rihanna"
+    },
+    "correct_answer": "C",
+    "explanation": "Madonna jest często określana jako Queen of Pop."
+  },
+  {
+    "id": "mus_024",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Jaki gatunek muzyczny narodził się w Nowym Orleanie?",
+    "options": {
+      "A": "Techno",
+      "B": "Disco",
+      "C": "Reggae",
+      "D": "Jazz"
+    },
+    "correct_answer": "D",
+    "explanation": "Jazz narodził się w środowisku muzycznym Nowego Orleanu."
+  },
+  {
+    "id": "mus_025",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Który zespół miał wokalistę Freddiego Mercury'ego?",
+    "options": {
+      "A": "Queen",
+      "B": "U2",
+      "C": "Nirvana",
+      "D": "Coldplay"
+    },
+    "correct_answer": "A",
+    "explanation": "Freddie Mercury był wokalistą zespołu Queen."
+  },
+  {
+    "id": "mus_026",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Jak nazywa się urządzenie utrzymujące tempo w muzyce?",
+    "options": {
+      "A": "Kamerton",
+      "B": "Metronom",
+      "C": "Mikser",
+      "D": "Sampler"
+    },
+    "correct_answer": "B",
+    "explanation": "Metronom pomaga utrzymać równe tempo."
+  },
+  {
+    "id": "mus_027",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Który instrument dęty blaszany ma suwak?",
+    "options": {
+      "A": "Trąbka",
+      "B": "Waltornia",
+      "C": "Puzon",
+      "D": "Tuba"
+    },
+    "correct_answer": "C",
+    "explanation": "Puzon jest instrumentem dętym blaszanym z suwakiem."
+  },
+  {
+    "id": "mus_028",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się zapis dźwięków na pięciolinii?",
+    "options": {
+      "A": "Akordy",
+      "B": "Skale",
+      "C": "Takty",
+      "D": "Nuty"
+    },
+    "correct_answer": "D",
+    "explanation": "Nuty służą do zapisu dźwięków na pięciolinii."
+  },
+  {
+    "id": "mus_029",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Jak nazywa się najwyższy głos kobiecy?",
+    "options": {
+      "A": "Sopran",
+      "B": "Alt",
+      "C": "Tenor",
+      "D": "Bas"
+    },
+    "correct_answer": "A",
+    "explanation": "Sopran jest najwyższym głosem kobiecym."
+  },
+  {
+    "id": "mus_030",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Który gatunek łączy rapowane partie wokalne z beatem?",
+    "options": {
+      "A": "Opera",
+      "B": "Hip-hop",
+      "C": "Country",
+      "D": "Polka"
+    },
+    "correct_answer": "B",
+    "explanation": "Hip-hop często łączy rapowane partie z beatem."
+  },
+  {
+    "id": "mus_031",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak brzmi pierwsza sylaba solmizacyjna gamy?",
+    "options": {
+      "A": "Do",
+      "B": "Re",
+      "C": "Mi",
+      "D": "Fa"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Do."
+  },
+  {
+    "id": "mus_032",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Który instrument ma czarne i białe klawisze?",
+    "options": {
+      "A": "Fortepian",
+      "B": "Skrzypce",
+      "C": "Trąbka",
+      "D": "Perkusja"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Fortepian."
+  },
+  {
+    "id": "mus_033",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Z którym krajem kojarzy się narodziny reggae?",
+    "options": {
+      "A": "Jamajka",
+      "B": "Włochy",
+      "C": "Francja",
+      "D": "Norwegia"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Jamajka."
+  },
+  {
+    "id": "mus_034",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Kto jest znany jako Król Popu?",
+    "options": {
+      "A": "Michael Jackson",
+      "B": "Elvis Presley",
+      "C": "Prince",
+      "D": "Sting"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Michael Jackson."
+  },
+  {
+    "id": "mus_035",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Który kompozytor tworzył mimo postępującej utraty słuchu?",
+    "options": {
+      "A": "Ludwig van Beethoven",
+      "B": "Antonio Vivaldi",
+      "C": "Franz Schubert",
+      "D": "Johann Strauss"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Ludwig van Beethoven."
+  },
+  {
+    "id": "mus_036",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jaki skrót oznacza uderzenia na minutę w tempie muzycznym?",
+    "options": {
+      "A": "BPM",
+      "B": "MP3",
+      "C": "USB",
+      "D": "GPS"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to BPM."
+  },
+  {
+    "id": "mus_037",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się grupa osób śpiewających razem?",
+    "options": {
+      "A": "Chór",
+      "B": "Kwartet",
+      "C": "Orkiestra",
+      "D": "Zespół rockowy"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Chór."
+  },
+  {
+    "id": "mus_038",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jaki jest tytuł hymnu Polski?",
+    "options": {
+      "A": "Rota",
+      "B": "Mazurek Dąbrowskiego",
+      "C": "Bogurodzica",
+      "D": "Oda do radości"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Mazurek Dąbrowskiego."
+  },
+  {
+    "id": "mus_039",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Jak nazywa się akord złożony z trzech dźwięków?",
+    "options": {
+      "A": "Duola",
+      "B": "Trójdźwięk",
+      "C": "Oktawa",
+      "D": "Interwał"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Trójdźwięk."
+  },
+  {
+    "id": "mus_040",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Ile strun ma standardowa gitara basowa?",
+    "options": {
+      "A": "Sześć",
+      "B": "Cztery",
+      "C": "Pięć",
+      "D": "Osiem"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Cztery."
+  },
+  {
+    "id": "mus_041",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Który instrument często kojarzy się z jazzem?",
+    "options": {
+      "A": "Harfa",
+      "B": "Saksofon",
+      "C": "Mandolina",
+      "D": "Dudy"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Saksofon."
+  },
+  {
+    "id": "mus_042",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Z jaką epoką muzyczną kojarzy się Jan Sebastian Bach?",
+    "options": {
+      "A": "Romantyzm",
+      "B": "Barok",
+      "C": "Klasycyzm",
+      "D": "Modernizm"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Barok."
+  },
+  {
+    "id": "mus_043",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Kto był wokalistą zespołu Nirvana?",
+    "options": {
+      "A": "Dave Grohl",
+      "B": "Kurt Cobain",
+      "C": "Eddie Vedder",
+      "D": "Axl Rose"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Kurt Cobain."
+  },
+  {
+    "id": "mus_044",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Jakie metrum jest typowe dla walca?",
+    "options": {
+      "A": "2/4",
+      "B": "3/4",
+      "C": "4/4",
+      "D": "5/4"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to 3/4."
+  },
+  {
+    "id": "mus_045",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się teatralny utwór muzyczny wykonywany głównie śpiewem?",
+    "options": {
+      "A": "Balet",
+      "B": "Koncert",
+      "C": "Opera",
+      "D": "Sonata"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Opera."
+  },
+  {
+    "id": "mus_046",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Kto w klubie miksuje nagrania muzyczne?",
+    "options": {
+      "A": "Reżyser",
+      "B": "Konferansjer",
+      "C": "DJ",
+      "D": "Operator"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to DJ."
+  },
+  {
+    "id": "mus_047",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Jaki klucz muzyczny najczęściej zapisuje wyższe partie melodii?",
+    "options": {
+      "A": "Basowy",
+      "B": "Altowy",
+      "C": "Wiolinowy",
+      "D": "Perkusyjny"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Wiolinowy."
+  },
+  {
+    "id": "mus_048",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się znana nagroda muzyczna przyznawana w USA?",
+    "options": {
+      "A": "Oscar",
+      "B": "Emmy",
+      "C": "Grammy",
+      "D": "Złota Palma"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Grammy."
+  },
+  {
+    "id": "mus_049",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Do jakiej grupy instrumentów należy perkusja?",
+    "options": {
+      "A": "Smyczkowych",
+      "B": "Dętych",
+      "C": "Percusyjnych",
+      "D": "Klawiszowych"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Percusyjnych."
+  },
+  {
+    "id": "mus_050",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Kto prowadzi orkiestrę podczas koncertu?",
+    "options": {
+      "A": "Solista",
+      "B": "Kompozytor",
+      "C": "Dyrygent",
+      "D": "Realizator"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Dyrygent."
+  },
+  {
+    "id": "mus_051",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Z którym instrumentem najmocniej kojarzy się Fryderyk Chopin?",
+    "options": {
+      "A": "Skrzypce",
+      "B": "Trąbka",
+      "C": "Fortepian",
+      "D": "Perkusja"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Fortepian."
+  },
+  {
+    "id": "mus_052",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Z którego kraju wywodzi się blues?",
+    "options": {
+      "A": "Australia",
+      "B": "Kanada",
+      "C": "Stany Zjednoczone",
+      "D": "Irlandia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Stany Zjednoczone."
+  },
+  {
+    "id": "mus_053",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się najniższy głos męski?",
+    "options": {
+      "A": "Sopran",
+      "B": "Alt",
+      "C": "Tenor",
+      "D": "Bas"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Bas."
+  },
+  {
+    "id": "mus_054",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Na jakim instrumencie gra się ustami, przesuwając powietrze przez stroiki?",
+    "options": {
+      "A": "Flet",
+      "B": "Trąbka",
+      "C": "Obój",
+      "D": "Harmonijka ustna"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Harmonijka ustna."
+  },
+  {
+    "id": "mus_055",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "W którym mieście urodził się Wolfgang Amadeus Mozart?",
+    "options": {
+      "A": "Wiedeń",
+      "B": "Praga",
+      "C": "Berlin",
+      "D": "Salzburg"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Salzburg."
+  },
+  {
+    "id": "mus_056",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jaki element jest szczególnie ważny w hip-hopie?",
+    "options": {
+      "A": "Aria",
+      "B": "Fuga",
+      "C": "Walc",
+      "D": "Rap"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Rap."
+  },
+  {
+    "id": "mus_057",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Do jakiej grupy instrumentów należą skrzypce?",
+    "options": {
+      "A": "Dętych",
+      "B": "Perkusyjnych",
+      "C": "Elektronicznych",
+      "D": "Smyczkowych"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Smyczkowych."
+  },
+  {
+    "id": "mus_058",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Z którego kraju pochodzi zespół ABBA?",
+    "options": {
+      "A": "Norwegia",
+      "B": "Dania",
+      "C": "Finlandia",
+      "D": "Szwecja"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Szwecja."
+  },
+  {
+    "id": "mus_059",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się dodatkowy utwór grany po owacjach publiczności?",
+    "options": {
+      "A": "Intro",
+      "B": "Refren",
+      "C": "Mostek",
+      "D": "Bis"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Bis."
+  },
+  {
+    "id": "mus_060",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Jak nazywa się piosenka śpiewana dziecku do snu?",
+    "options": {
+      "A": "Hymn",
+      "B": "Marsz",
+      "C": "Opera",
+      "D": "Kołysanka"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Kołysanka."
   }
 ]

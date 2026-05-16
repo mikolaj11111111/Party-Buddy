@@ -315,7 +315,7 @@
     "id": "hist_011",
     "category": "history",
     "difficulty": "easy",
-    "question": "W którym roku rozpoczęła się II wojna światowa?",
+    "question": "W którym roku zakończyła się II wojna światowa?",
     "options": {
       "A": "1918",
       "B": "1939",
@@ -531,5 +531,607 @@
         "bitwa pod legnicl"
       ]
     }
+  },
+  {
+    "id": "hist_018",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Kto był pierwszym królem Polski?",
+    "options": {
+      "A": "Bolesław Chrobry",
+      "B": "Mieszko I",
+      "C": "Kazimierz Wielki",
+      "D": "Władysław Jagiełło"
+    },
+    "correct_answer": "A",
+    "explanation": "Bolesław Chrobry został koronowany na pierwszego króla Polski."
+  },
+  {
+    "id": "hist_019",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym roku rozpoczęła się II wojna światowa?",
+    "options": {
+      "A": "1939",
+      "B": "1945",
+      "C": "1918",
+      "D": "1989"
+    },
+    "correct_answer": "B",
+    "explanation": "II wojna światowa zakończyła się w 1945 roku."
+  },
+  {
+    "id": "hist_020",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Który mur dzielił miasto w czasie zimnej wojny?",
+    "options": {
+      "A": "Mur Hadriana",
+      "B": "Wielki Mur Chiński",
+      "C": "Mur Berliński",
+      "D": "Mur Kremlowski"
+    },
+    "correct_answer": "C",
+    "explanation": "Mur Berliński dzielił Berlin w czasie zimnej wojny."
+  },
+  {
+    "id": "hist_021",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Kto był przywódcą ZSRR podczas większości II wojny światowej?",
+    "options": {
+      "A": "Włodzimierz Lenin",
+      "B": "Michaił Gorbaczow",
+      "C": "Nikita Chruszczow",
+      "D": "Józef Stalin"
+    },
+    "correct_answer": "D",
+    "explanation": "Józef Stalin kierował ZSRR podczas większości II wojny światowej."
+  },
+  {
+    "id": "hist_022",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Które miasto było stolicą Cesarstwa Wschodniorzymskiego?",
+    "options": {
+      "A": "Konstantynopol",
+      "B": "Ateny",
+      "C": "Aleksandria",
+      "D": "Antiochia"
+    },
+    "correct_answer": "A",
+    "explanation": "Stolicą Cesarstwa Wschodniorzymskiego był Konstantynopol."
+  },
+  {
+    "id": "hist_023",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym roku Polska przyjęła chrzest?",
+    "options": {
+      "A": "1000",
+      "B": "966",
+      "C": "1025",
+      "D": "1138"
+    },
+    "correct_answer": "B",
+    "explanation": "Chrzest Polski datuje się na 966 rok."
+  },
+  {
+    "id": "hist_024",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Jak nazywała się epoka w Europie następująca po średniowieczu?",
+    "options": {
+      "A": "Barok",
+      "B": "Oświecenie",
+      "C": "Renesans",
+      "D": "Romantyzm"
+    },
+    "correct_answer": "C",
+    "explanation": "Po średniowieczu w Europie nastąpił renesans."
+  },
+  {
+    "id": "hist_025",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Które wydarzenie z 1789 roku stało się symbolem początku rewolucji francuskiej?",
+    "options": {
+      "A": "Koronacja Napoleona",
+      "B": "Bitwa pod Waterloo",
+      "C": "Kongres wiedeński",
+      "D": "Zdobycie Bastylii"
+    },
+    "correct_answer": "D",
+    "explanation": "Zdobycie Bastylii w 1789 roku jest symbolem początku rewolucji francuskiej."
+  },
+  {
+    "id": "hist_026",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Kto opublikował dzieło o teorii heliocentrycznej w 1543 roku?",
+    "options": {
+      "A": "Mikołaj Kopernik",
+      "B": "Galileusz",
+      "C": "Johannes Kepler",
+      "D": "Isaac Newton"
+    },
+    "correct_answer": "A",
+    "explanation": "Mikołaj Kopernik opublikował swoje dzieło o heliocentryzmie w 1543 roku."
+  },
+  {
+    "id": "hist_027",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Które starożytne państwo zbudowało piramidy w Gizie?",
+    "options": {
+      "A": "Persja",
+      "B": "Egipt",
+      "C": "Grecja",
+      "D": "Rzym"
+    },
+    "correct_answer": "B",
+    "explanation": "Piramidy w Gizie powstały w starożytnym Egipcie."
+  },
+  {
+    "id": "hist_028",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Który prezydent USA jest najmocniej kojarzony z wojną secesyjną?",
+    "options": {
+      "A": "George Washington",
+      "B": "Thomas Jefferson",
+      "C": "Abraham Lincoln",
+      "D": "John Adams"
+    },
+    "correct_answer": "C",
+    "explanation": "Abraham Lincoln był prezydentem USA w czasie wojny secesyjnej."
+  },
+  {
+    "id": "hist_029",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "W którym roku upadł Mur Berliński?",
+    "options": {
+      "A": "1979",
+      "B": "1991",
+      "C": "1980",
+      "D": "1989"
+    },
+    "correct_answer": "D",
+    "explanation": "Mur Berliński upadł w 1989 roku."
+  },
+  {
+    "id": "hist_030",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Jaka dynastia rządziła Polską przed Jagiellonami?",
+    "options": {
+      "A": "Wazowie",
+      "B": "Sasi",
+      "C": "Andegawenowie",
+      "D": "Piastowie"
+    },
+    "correct_answer": "D",
+    "explanation": "Przed Jagiellonami najważniejszą dynastią w Polsce byli Piastowie."
+  },
+  {
+    "id": "hist_031",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Który polski król dowodził wojskami pod Grunwaldem?",
+    "options": {
+      "A": "Władysław Jagiełło",
+      "B": "Kazimierz Wielki",
+      "C": "Jan III Sobieski",
+      "D": "Zygmunt III Waza"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Władysław Jagiełło."
+  },
+  {
+    "id": "hist_032",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym roku Krzysztof Kolumb dotarł do Ameryki?",
+    "options": {
+      "A": "1492",
+      "B": "1410",
+      "C": "1776",
+      "D": "1914"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to 1492."
+  },
+  {
+    "id": "hist_033",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "W którym kraju bracia Wright wykonali pierwszy udany lot samolotem?",
+    "options": {
+      "A": "Stany Zjednoczone",
+      "B": "Francja",
+      "C": "Wielka Brytania",
+      "D": "Niemcy"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Stany Zjednoczone."
+  },
+  {
+    "id": "hist_034",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "W którym kraju podpisano Wielką Kartę Swobód w 1215 roku?",
+    "options": {
+      "A": "Anglia",
+      "B": "Francja",
+      "C": "Hiszpania",
+      "D": "Polska"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Anglia."
+  },
+  {
+    "id": "hist_035",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym mieście zamordowano Juliusza Cezara?",
+    "options": {
+      "A": "Rzym",
+      "B": "Ateny",
+      "C": "Kartagina",
+      "D": "Aleksandria"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Rzym."
+  },
+  {
+    "id": "hist_036",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W której bitwie Napoleon został ostatecznie pokonany w 1815 roku?",
+    "options": {
+      "A": "Waterloo",
+      "B": "Austerlitz",
+      "C": "Borodino",
+      "D": "Trafalgar"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Waterloo."
+  },
+  {
+    "id": "hist_037",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "W którym roku uchwalono Konstytucję 3 maja?",
+    "options": {
+      "A": "1791",
+      "B": "1772",
+      "C": "1830",
+      "D": "1918"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to 1791."
+  },
+  {
+    "id": "hist_038",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Kto był cesarzem Francuzów na początku XIX wieku?",
+    "options": {
+      "A": "Ludwik XIV",
+      "B": "Napoleon Bonaparte",
+      "C": "Karol Wielki",
+      "D": "Juliusz Cezar"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Napoleon Bonaparte."
+  },
+  {
+    "id": "hist_039",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Które dwa państwa symbolizowały główne bloki zimnej wojny?",
+    "options": {
+      "A": "Francja i Niemcy",
+      "B": "USA i ZSRR",
+      "C": "Polska i Czechy",
+      "D": "Włochy i Hiszpania"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to USA i ZSRR."
+  },
+  {
+    "id": "hist_040",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym mieście powstała Solidarność w 1980 roku?",
+    "options": {
+      "A": "Warszawa",
+      "B": "Gdańsk",
+      "C": "Kraków",
+      "D": "Wrocław"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Gdańsk."
+  },
+  {
+    "id": "hist_041",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Która dynastia rządziła Rosją do rewolucji 1917 roku?",
+    "options": {
+      "A": "Habsburgowie",
+      "B": "Romanowowie",
+      "C": "Burbonowie",
+      "D": "Jagiellonowie"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Romanowowie."
+  },
+  {
+    "id": "hist_042",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Która poprawka do konstytucji USA zniosła niewolnictwo?",
+    "options": {
+      "A": "Pierwsza",
+      "B": "Trzynasta",
+      "C": "Druga",
+      "D": "Dziesiąta"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Trzynasta."
+  },
+  {
+    "id": "hist_043",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Który władca został koronowany na cesarza w 800 roku?",
+    "options": {
+      "A": "Otton I",
+      "B": "Karol Wielki",
+      "C": "Fryderyk Barbarossa",
+      "D": "Justynian"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Karol Wielki."
+  },
+  {
+    "id": "hist_044",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym roku rozpoczęła się I wojna światowa?",
+    "options": {
+      "A": "1905",
+      "B": "1914",
+      "C": "1939",
+      "D": "1945"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to 1914."
+  },
+  {
+    "id": "hist_045",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Który król przeniósł dwór królewski z Krakowa do Warszawy?",
+    "options": {
+      "A": "Stefan Batory",
+      "B": "Jan Kazimierz",
+      "C": "Zygmunt III Waza",
+      "D": "August II Mocny"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Zygmunt III Waza."
+  },
+  {
+    "id": "hist_046",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Kto dowodził wojskami polskimi pod Wiedniem w 1683 roku?",
+    "options": {
+      "A": "Bolesław Chrobry",
+      "B": "Józef Piłsudski",
+      "C": "Jan III Sobieski",
+      "D": "Tadeusz Kościuszko"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Jan III Sobieski."
+  },
+  {
+    "id": "hist_047",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Kto był pierwszym kanclerzem zjednoczonych Niemiec?",
+    "options": {
+      "A": "Wilhelm II",
+      "B": "Fryderyk II",
+      "C": "Otto von Bismarck",
+      "D": "Konrad Adenauer"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Otto von Bismarck."
+  },
+  {
+    "id": "hist_048",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Jak nazywała się epoka wielkich wypraw morskich Europy?",
+    "options": {
+      "A": "Reformacja",
+      "B": "Oświecenie",
+      "C": "Wielkie odkrycia geograficzne",
+      "D": "Romantyzm"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Wielkie odkrycia geograficzne."
+  },
+  {
+    "id": "hist_049",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym roku ogłoszono Deklarację Niepodległości Stanów Zjednoczonych?",
+    "options": {
+      "A": "1492",
+      "B": "1789",
+      "C": "1776",
+      "D": "1812"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to 1776."
+  },
+  {
+    "id": "hist_050",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Która królowa Egiptu była związana z Juliuszem Cezarem i Markiem Antoniuszem?",
+    "options": {
+      "A": "Nefertiti",
+      "B": "Hatszepsut",
+      "C": "Kleopatra",
+      "D": "Izis"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Kleopatra."
+  },
+  {
+    "id": "hist_051",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Z jakim wynalazkiem kojarzy się Jan Gutenberg?",
+    "options": {
+      "A": "Kompas",
+      "B": "Proch",
+      "C": "Druk ruchomą czcionką",
+      "D": "Termometr"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Druk ruchomą czcionką."
+  },
+  {
+    "id": "hist_052",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Między którymi państwami toczyła się wojna stuletnia?",
+    "options": {
+      "A": "Hiszpanią i Portugalią",
+      "B": "Rosją i Szwecją",
+      "C": "Anglią i Francją",
+      "D": "Polską i Litwą"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Anglią i Francją."
+  },
+  {
+    "id": "hist_053",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Kto był pierwszym człowiekiem w kosmosie?",
+    "options": {
+      "A": "Neil Armstrong",
+      "B": "John Glenn",
+      "C": "Alan Shepard",
+      "D": "Jurij Gagarin"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Jurij Gagarin."
+  },
+  {
+    "id": "hist_054",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Z którym imperium wiąże się pojęcie Pax Romana?",
+    "options": {
+      "A": "Perskim",
+      "B": "Osmańskim",
+      "C": "Brytyjskim",
+      "D": "Rzymskim"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Rzymskim."
+  },
+  {
+    "id": "hist_055",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym roku wybuchło powstanie warszawskie?",
+    "options": {
+      "A": "1918",
+      "B": "1939",
+      "C": "1943",
+      "D": "1944"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to 1944."
+  },
+  {
+    "id": "hist_056",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Która dynastia panowała w Polsce po wygaśnięciu głównej linii Piastów?",
+    "options": {
+      "A": "Wazowie",
+      "B": "Sasi",
+      "C": "Andegawenowie",
+      "D": "Jagiellonowie"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Jagiellonowie."
+  },
+  {
+    "id": "hist_057",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "W którym roku ludzie po raz pierwszy wylądowali na Księżycu?",
+    "options": {
+      "A": "1945",
+      "B": "1957",
+      "C": "1972",
+      "D": "1969"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to 1969."
+  },
+  {
+    "id": "hist_058",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Kto zapoczątkował reformację wystąpieniem z 1517 roku?",
+    "options": {
+      "A": "Jan Hus",
+      "B": "Erazm z Rotterdamu",
+      "C": "Kalwin",
+      "D": "Marcin Luter"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Marcin Luter."
+  },
+  {
+    "id": "hist_059",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "W którym roku utworzono Układ Warszawski?",
+    "options": {
+      "A": "1945",
+      "B": "1949",
+      "C": "1968",
+      "D": "1955"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to 1955."
+  },
+  {
+    "id": "hist_060",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Z którą cywilizacją wiąże się Kodeks Hammurabiego?",
+    "options": {
+      "A": "Asyryjską",
+      "B": "Egipską",
+      "C": "Grecką",
+      "D": "Babilońską"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Babilońską."
   }
 ]

@@ -67,9 +67,17 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [ ] Nagranie krótkiego demo-video do portfolio
 - [ ] Tag `v0.1.0-mvp`
 
+### Poprawki
 - [x] zaimplementowac ui do animacji: motion, komponenty ui: material ui, state management: zustand (mały slice: przejścia ekranów, MUI theme/przyciski menu, Zustand dla nawigacji)
 - [x] dodac wybor gry
 - [x] potem kategorii(jesli gra tego wymaga)
+- [x] zwiekszyc baze pytań do gry trivia do 660 pytań (60 na kategorię)
+- [] poprawic blad w histori gier, zamiast liczba punktow/liczba pytan jest liczba punktow/liczba punktow
+- [] dodać baze do gry 5 sekund
+- [] dodać baze do gry wisielec
+- [] dodać ui do gry 5 sekund
+- [] dodać ui do gry wisielec
+
 - [] popracowac nad dzwiekem game mastera
 
 ## Zasady pracy w trakcie MVP

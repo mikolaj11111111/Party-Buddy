@@ -24,6 +24,6 @@ Used API endpoints for the initial seed batch:
 
 License note: Open Trivia Database states that all API data is available under the Creative Commons Attribution-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-sa/4.0/
 
-Expansion note: The rest of this M2 batch was locally authored in Polish as short ABCD trivia questions. Facts were checked against broadly available reference sources where needed, especially Wikidata/Wikipedia pages and official/common reference pages for stable facts. No long source passages were copied; question wording, explanations, distractors, and speech aliases are original local text.
+Expansion note: The rest of this M2 batch and the later 660-question trivia expansion were locally authored in Polish as short ABCD trivia questions. Facts were checked against broadly available reference sources where needed, especially Wikidata/Wikipedia pages and official/common reference pages for stable facts. No long source passages were copied; question wording, explanations, distractors, and speech aliases are original local text.
 
 Transformation note for Open Trivia Database seed items: Questions and answers were translated into Polish, paraphrased for the local ABCD trivia format, and given locally written Polish explanations and speech aliases. A few distractors were adjusted to be clearer in Polish.

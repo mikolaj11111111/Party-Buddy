@@ -506,5 +506,621 @@
         "stanislaw wyspialski"
       ]
     }
+  },
+  {
+    "id": "lit_017",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto napisał Pana Tadeusza?",
+    "options": {
+      "A": "Adam Mickiewicz",
+      "B": "Juliusz Słowacki",
+      "C": "Henryk Sienkiewicz",
+      "D": "Bolesław Prus"
+    },
+    "correct_answer": "A",
+    "explanation": "Pan Tadeusz jest dziełem Adama Mickiewicza."
+  },
+  {
+    "id": "lit_018",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się wyraz o przeciwnym znaczeniu?",
+    "options": {
+      "A": "Synonim",
+      "B": "Antonim",
+      "C": "Homofon",
+      "D": "Neologizm"
+    },
+    "correct_answer": "B",
+    "explanation": "Antonim to wyraz o znaczeniu przeciwnym."
+  },
+  {
+    "id": "lit_019",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto napisał Lalkę?",
+    "options": {
+      "A": "Stefan Żeromski",
+      "B": "Eliza Orzeszkowa",
+      "C": "Bolesław Prus",
+      "D": "Maria Konopnicka"
+    },
+    "correct_answer": "C",
+    "explanation": "Lalkę napisał Bolesław Prus."
+  },
+  {
+    "id": "lit_020",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się część mowy określająca czynność lub stan?",
+    "options": {
+      "A": "Rzeczownik",
+      "B": "Przymiotnik",
+      "C": "Przysłówek",
+      "D": "Czasownik"
+    },
+    "correct_answer": "D",
+    "explanation": "Czasownik określa czynność lub stan."
+  },
+  {
+    "id": "lit_021",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto jest autorem Małego Księcia?",
+    "options": {
+      "A": "Antoine de Saint-Exupéry",
+      "B": "Jules Verne",
+      "C": "Victor Hugo",
+      "D": "Albert Camus"
+    },
+    "correct_answer": "A",
+    "explanation": "Małego Księcia napisał Antoine de Saint-Exupéry."
+  },
+  {
+    "id": "lit_022",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jak nazywa się przenośnia bez słów jak lub niczym?",
+    "options": {
+      "A": "Epitet",
+      "B": "Metafora",
+      "C": "Onomatopeja",
+      "D": "Apostrofa"
+    },
+    "correct_answer": "B",
+    "explanation": "Metafora jest przenośnym zestawieniem znaczeń bez prostego porównania."
+  },
+  {
+    "id": "lit_023",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Który znak interpunkcyjny bywa mocniejszy od przecinka i słabszy od kropki?",
+    "options": {
+      "A": "Myślnik",
+      "B": "Dwukropek",
+      "C": "Średnik",
+      "D": "Cudzysłów"
+    },
+    "correct_answer": "C",
+    "explanation": "Średnik rozdziela części wypowiedzenia mocniej niż przecinek."
+  },
+  {
+    "id": "lit_024",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto napisał Romea i Julię?",
+    "options": {
+      "A": "Charles Dickens",
+      "B": "Miguel de Cervantes",
+      "C": "Dante Alighieri",
+      "D": "William Shakespeare"
+    },
+    "correct_answer": "D",
+    "explanation": "Romea i Julię napisał William Shakespeare."
+  },
+  {
+    "id": "lit_025",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się jedna linia tekstu w wierszu?",
+    "options": {
+      "A": "Wers",
+      "B": "Akapit",
+      "C": "Rozdział",
+      "D": "Przypis"
+    },
+    "correct_answer": "A",
+    "explanation": "Jedna linia tekstu w wierszu to wers."
+  },
+  {
+    "id": "lit_026",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się krótka opowieść z morałem?",
+    "options": {
+      "A": "Powieść",
+      "B": "Bajka",
+      "C": "Reportaż",
+      "D": "Felieton"
+    },
+    "correct_answer": "B",
+    "explanation": "Bajka często kończy się morałem."
+  },
+  {
+    "id": "lit_027",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto napisał Quo vadis?",
+    "options": {
+      "A": "Bolesław Prus",
+      "B": "Adam Mickiewicz",
+      "C": "Henryk Sienkiewicz",
+      "D": "Juliusz Słowacki"
+    },
+    "correct_answer": "C",
+    "explanation": "Quo vadis napisał Henryk Sienkiewicz."
+  },
+  {
+    "id": "lit_028",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jak nazywa się zbiór zasad budowy zdań i odmiany wyrazów?",
+    "options": {
+      "A": "Fonetyka",
+      "B": "Ortografia",
+      "C": "Retoryka",
+      "D": "Gramatyka"
+    },
+    "correct_answer": "D",
+    "explanation": "Gramatyka opisuje zasady budowy języka."
+  },
+  {
+    "id": "lit_029",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się wyraz o takim samym lub podobnym znaczeniu?",
+    "options": {
+      "A": "Synonim",
+      "B": "Antonim",
+      "C": "Archaizm",
+      "D": "Dialektyzm"
+    },
+    "correct_answer": "A",
+    "explanation": "Synonim ma takie samo lub podobne znaczenie."
+  },
+  {
+    "id": "lit_030",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Który język używa cyrylicy w podstawowym zapisie?",
+    "options": {
+      "A": "Francuski",
+      "B": "Rosyjski",
+      "C": "Hiszpański",
+      "D": "Włoski"
+    },
+    "correct_answer": "B",
+    "explanation": "Rosyjski jest zapisywany cyrylicą."
+  },
+  {
+    "id": "lit_031",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto napisał Treny?",
+    "options": {
+      "A": "Jan Kochanowski",
+      "B": "Adam Mickiewicz",
+      "C": "Juliusz Słowacki",
+      "D": "Stanisław Wyspiański"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Jan Kochanowski."
+  },
+  {
+    "id": "lit_032",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jaka część mowy nazywa osoby, rzeczy i zjawiska?",
+    "options": {
+      "A": "Rzeczownik",
+      "B": "Czasownik",
+      "C": "Przysłówek",
+      "D": "Spójnik"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Rzeczownik."
+  },
+  {
+    "id": "lit_033",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się określenie rzeczownika, często przymiotnikowe?",
+    "options": {
+      "A": "Epitet",
+      "B": "Metafora",
+      "C": "Apostrofa",
+      "D": "Refren"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Epitet."
+  },
+  {
+    "id": "lit_034",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto napisał Hobbita?",
+    "options": {
+      "A": "J.R.R. Tolkien",
+      "B": "C.S. Lewis",
+      "C": "J.K. Rowling",
+      "D": "George Orwell"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to J.R.R. Tolkien."
+  },
+  {
+    "id": "lit_035",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jak nazywa się uroczysty zwrot rozpoczynający utwór?",
+    "options": {
+      "A": "Inwokacja",
+      "B": "Puenta",
+      "C": "Dedykacja",
+      "D": "Didaskalia"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Inwokacja."
+  },
+  {
+    "id": "lit_036",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto opowiada wydarzenia w utworze epickim?",
+    "options": {
+      "A": "Narrator",
+      "B": "Bohater drugoplanowy",
+      "C": "Czytelnik",
+      "D": "Recenzent"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Narrator."
+  },
+  {
+    "id": "lit_037",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Ile wersów ma klasyczny sonet?",
+    "options": {
+      "A": "Czternaście",
+      "B": "Dziesięć",
+      "C": "Dwanaście",
+      "D": "Dwadzieścia"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Czternaście."
+  },
+  {
+    "id": "lit_038",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się wyraz naśladujący dźwięk?",
+    "options": {
+      "A": "Epitet",
+      "B": "Onomatopeja",
+      "C": "Neologizm",
+      "D": "Synonim"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Onomatopeja."
+  },
+  {
+    "id": "lit_039",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto napisał Przedwiośnie?",
+    "options": {
+      "A": "Bolesław Prus",
+      "B": "Stefan Żeromski",
+      "C": "Henryk Sienkiewicz",
+      "D": "Eliza Orzeszkowa"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Stefan Żeromski."
+  },
+  {
+    "id": "lit_040",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Kto napisał Akademię Pana Kleksa?",
+    "options": {
+      "A": "Julian Tuwim",
+      "B": "Jan Brzechwa",
+      "C": "Maria Konopnicka",
+      "D": "Czesław Miłosz"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Jan Brzechwa."
+  },
+  {
+    "id": "lit_041",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jaki rodzaj literacki jest przeznaczony głównie do wystawiania na scenie?",
+    "options": {
+      "A": "Liryka",
+      "B": "Dramat",
+      "C": "Epika",
+      "D": "Reportaż"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Dramat."
+  },
+  {
+    "id": "lit_042",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jaki czas opisuje czynności wykonane przed chwilą mówienia?",
+    "options": {
+      "A": "Czas przyszły",
+      "B": "Czas przeszły",
+      "C": "Czas teraźniejszy",
+      "D": "Tryb rozkazujący"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Czas przeszły."
+  },
+  {
+    "id": "lit_043",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się rozmowa dwóch lub więcej postaci?",
+    "options": {
+      "A": "Monolog",
+      "B": "Dialog",
+      "C": "Opis",
+      "D": "Didaskalia"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Dialog."
+  },
+  {
+    "id": "lit_044",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto napisał Balladynę?",
+    "options": {
+      "A": "Adam Mickiewicz",
+      "B": "Juliusz Słowacki",
+      "C": "Aleksander Fredro",
+      "D": "Bolesław Leśmian"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Juliusz Słowacki."
+  },
+  {
+    "id": "lit_045",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jaki rodzaj literacki ma narratora i fabułę?",
+    "options": {
+      "A": "Liryka",
+      "B": "Dramat",
+      "C": "Epika",
+      "D": "Satyra"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Epika."
+  },
+  {
+    "id": "lit_046",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się podobne brzmienie końcówek wersów?",
+    "options": {
+      "A": "Akapit",
+      "B": "Prolog",
+      "C": "Rym",
+      "D": "Dialog"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Rym."
+  },
+  {
+    "id": "lit_047",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się zbiór zasad poprawnej pisowni?",
+    "options": {
+      "A": "Fonetyka",
+      "B": "Składnia",
+      "C": "Ortografia",
+      "D": "Retoryka"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Ortografia."
+  },
+  {
+    "id": "lit_048",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto napisał Dziady?",
+    "options": {
+      "A": "Henryk Sienkiewicz",
+      "B": "Bolesław Prus",
+      "C": "Adam Mickiewicz",
+      "D": "Stanisław Lem"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Adam Mickiewicz."
+  },
+  {
+    "id": "lit_049",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się nowo utworzony wyraz?",
+    "options": {
+      "A": "Archaizm",
+      "B": "Antonim",
+      "C": "Neologizm",
+      "D": "Epitet"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Neologizm."
+  },
+  {
+    "id": "lit_050",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Jak nazywa się osoba mówiąca w wierszu?",
+    "options": {
+      "A": "Narrator",
+      "B": "Autor",
+      "C": "Podmiot liryczny",
+      "D": "Czytelnik"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Podmiot liryczny."
+  },
+  {
+    "id": "lit_051",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się wstępna część utworu?",
+    "options": {
+      "A": "Epilog",
+      "B": "Przypis",
+      "C": "Prolog",
+      "D": "Indeks"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Prolog."
+  },
+  {
+    "id": "lit_052",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto napisał Don Kichota?",
+    "options": {
+      "A": "Dante Alighieri",
+      "B": "William Shakespeare",
+      "C": "Miguel de Cervantes",
+      "D": "Franz Kafka"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Miguel de Cervantes."
+  },
+  {
+    "id": "lit_053",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się wyróżnienie jednej sylaby w wyrazie?",
+    "options": {
+      "A": "Rym",
+      "B": "Dialog",
+      "C": "Refren",
+      "D": "Akcent"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Akcent."
+  },
+  {
+    "id": "lit_054",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jaki gatunek opisuje prawdziwe wydarzenia metodami literackimi i dziennikarskimi?",
+    "options": {
+      "A": "Bajka",
+      "B": "Baśń",
+      "C": "Sonet",
+      "D": "Reportaż"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Reportaż."
+  },
+  {
+    "id": "lit_055",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jaka część mowy określa czasownik?",
+    "options": {
+      "A": "Rzeczownik",
+      "B": "Przymiotnik",
+      "C": "Spójnik",
+      "D": "Przysłówek"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Przysłówek."
+  },
+  {
+    "id": "lit_056",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się wyraz przestarzały?",
+    "options": {
+      "A": "Neologizm",
+      "B": "Synonim",
+      "C": "Antonim",
+      "D": "Archaizm"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Archaizm."
+  },
+  {
+    "id": "lit_057",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Jak nazywa się końcowa część utworu dopowiadająca losy postaci?",
+    "options": {
+      "A": "Prolog",
+      "B": "Przedmowa",
+      "C": "Rozdział",
+      "D": "Epilog"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Epilog."
+  },
+  {
+    "id": "lit_058",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Z czego zwykle składa się dramat?",
+    "options": {
+      "A": "Z przepisów",
+      "B": "Z haseł",
+      "C": "Z tabel",
+      "D": "Z aktów i scen"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Z aktów i scen."
+  },
+  {
+    "id": "lit_059",
+    "category": "language_literature",
+    "difficulty": "medium",
+    "question": "Kto napisał Pana Wołodyjowskiego?",
+    "options": {
+      "A": "Adam Mickiewicz",
+      "B": "Bolesław Prus",
+      "C": "Stefan Żeromski",
+      "D": "Henryk Sienkiewicz"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Henryk Sienkiewicz."
+  },
+  {
+    "id": "lit_060",
+    "category": "language_literature",
+    "difficulty": "easy",
+    "question": "Czego używa się na początku nazw własnych w języku polskim?",
+    "options": {
+      "A": "Przecinka",
+      "B": "Małej litery",
+      "C": "Myślnika",
+      "D": "Wielkiej litery"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Wielkiej litery."
   }
 ]

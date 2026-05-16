@@ -513,5 +513,621 @@
         "sha-256"
       ]
     }
+  },
+  {
+    "id": "tech_017",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Co oznacza skrót CPU?",
+    "options": {
+      "A": "Centralna jednostka przetwarzająca",
+      "B": "Karta graficzna",
+      "C": "Dysk zewnętrzny",
+      "D": "Pamięć podręczna"
+    },
+    "correct_answer": "A",
+    "explanation": "CPU to centralna jednostka przetwarzająca komputera."
+  },
+  {
+    "id": "tech_018",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jak nazywa się pamięć tymczasowa komputera?",
+    "options": {
+      "A": "SSD",
+      "B": "RAM",
+      "C": "BIOS",
+      "D": "GPU"
+    },
+    "correct_answer": "B",
+    "explanation": "RAM przechowuje dane używane tymczasowo przez działające programy."
+  },
+  {
+    "id": "tech_019",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Który system operacyjny rozwija Apple dla komputerów Mac?",
+    "options": {
+      "A": "Windows",
+      "B": "Ubuntu",
+      "C": "macOS",
+      "D": "Android"
+    },
+    "correct_answer": "C",
+    "explanation": "Komputery Mac działają na systemie macOS rozwijanym przez Apple."
+  },
+  {
+    "id": "tech_020",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Jak nazywa się adres liczbowy urządzenia w sieci?",
+    "options": {
+      "A": "Adres MAC",
+      "B": "URL",
+      "C": "DNS",
+      "D": "Adres IP"
+    },
+    "correct_answer": "D",
+    "explanation": "Adres IP identyfikuje urządzenie w sieci IP."
+  },
+  {
+    "id": "tech_021",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Który port jest standardowo używany przez HTTPS?",
+    "options": {
+      "A": "443",
+      "B": "80",
+      "C": "22",
+      "D": "25"
+    },
+    "correct_answer": "A",
+    "explanation": "HTTPS standardowo używa portu 443."
+  },
+  {
+    "id": "tech_022",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Jak nazywa się baza danych przechowująca dane w tabelach?",
+    "options": {
+      "A": "Grafowa",
+      "B": "Relacyjna",
+      "C": "Dokumentowa",
+      "D": "Czasoszeregowa"
+    },
+    "correct_answer": "B",
+    "explanation": "Baza relacyjna organizuje dane w tabelach."
+  },
+  {
+    "id": "tech_023",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Co oznacza skrót GPU?",
+    "options": {
+      "A": "Dysk twardy",
+      "B": "Karta sieciowa",
+      "C": "Procesor graficzny",
+      "D": "Zasilacz"
+    },
+    "correct_answer": "C",
+    "explanation": "GPU to procesor graficzny."
+  },
+  {
+    "id": "tech_024",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jak nazywa się system kontroli wersji używany w tym projekcie?",
+    "options": {
+      "A": "Docker",
+      "B": "SQLite",
+      "C": "Vite",
+      "D": "Git"
+    },
+    "correct_answer": "D",
+    "explanation": "Git jest systemem kontroli wersji używanym w projekcie."
+  },
+  {
+    "id": "tech_025",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Który format danych jest często używany w API i ma pary klucz-wartość?",
+    "options": {
+      "A": "JSON",
+      "B": "PNG",
+      "C": "MP3",
+      "D": "WAV"
+    },
+    "correct_answer": "A",
+    "explanation": "JSON jest popularnym formatem wymiany danych w API."
+  },
+  {
+    "id": "tech_026",
+    "category": "technology",
+    "difficulty": "hard",
+    "question": "Jak nazywa się technika szyfrowania z parą kluczy publiczny-prywatny?",
+    "options": {
+      "A": "Kompresja stratna",
+      "B": "Kryptografia asymetryczna",
+      "C": "Renderowanie",
+      "D": "Cache"
+    },
+    "correct_answer": "B",
+    "explanation": "Kryptografia asymetryczna używa pary kluczy publicznego i prywatnego."
+  },
+  {
+    "id": "tech_027",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Który język styluje wygląd stron internetowych?",
+    "options": {
+      "A": "SQL",
+      "B": "Python",
+      "C": "CSS",
+      "D": "Bash"
+    },
+    "correct_answer": "C",
+    "explanation": "CSS odpowiada za wygląd i styl stron internetowych."
+  },
+  {
+    "id": "tech_028",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Jak nazywa się środowisko uruchomieniowe JavaScript poza przeglądarką?",
+    "options": {
+      "A": "Django",
+      "B": "FastAPI",
+      "C": "React",
+      "D": "Node.js"
+    },
+    "correct_answer": "D",
+    "explanation": "Node.js pozwala uruchamiać JavaScript poza przeglądarką."
+  },
+  {
+    "id": "tech_029",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Co oznacza skrót URL?",
+    "options": {
+      "A": "Jednolity lokalizator zasobu",
+      "B": "Uniwersalny rekord logowania",
+      "C": "Ukryty rejestr licencji",
+      "D": "Uproszczony ruch lokalny"
+    },
+    "correct_answer": "A",
+    "explanation": "URL oznacza jednolity lokalizator zasobu."
+  },
+  {
+    "id": "tech_030",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jak nazywa się kopia danych służąca do odtworzenia po awarii?",
+    "options": {
+      "A": "Cookie",
+      "B": "Kopia zapasowa",
+      "C": "Token",
+      "D": "Cache"
+    },
+    "correct_answer": "B",
+    "explanation": "Kopia zapasowa pomaga odtworzyć dane po awarii."
+  },
+  {
+    "id": "tech_031",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Do czego służy HTML?",
+    "options": {
+      "A": "Do struktury stron internetowych",
+      "B": "Do chłodzenia procesora",
+      "C": "Do ładowania baterii",
+      "D": "Do drukowania zdjęć"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Do struktury stron internetowych."
+  },
+  {
+    "id": "tech_032",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jaki typ dysku wykorzystuje pamięć flash i nie ma ruchomych talerzy?",
+    "options": {
+      "A": "SSD",
+      "B": "HDD",
+      "C": "DVD",
+      "D": "Taśma magnetyczna"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to SSD."
+  },
+  {
+    "id": "tech_033",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Co łączy różne sieci komputerowe i kieruje pakiety?",
+    "options": {
+      "A": "Router",
+      "B": "Monitor",
+      "C": "Klawiatura",
+      "D": "Głośnik"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Router."
+  },
+  {
+    "id": "tech_034",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Czym jest API?",
+    "options": {
+      "A": "Interfejsem do komunikacji programów",
+      "B": "Kartą graficzną",
+      "C": "Systemem plików",
+      "D": "Typem ekranu"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Interfejsem do komunikacji programów."
+  },
+  {
+    "id": "tech_035",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Do czego służy cache?",
+    "options": {
+      "A": "Do szybkiego przechowywania kopii danych",
+      "B": "Do usuwania systemu",
+      "C": "Do zasilania komputera",
+      "D": "Do mierzenia temperatury"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Do szybkiego przechowywania kopii danych."
+  },
+  {
+    "id": "tech_036",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Co filtruje ruch sieciowy zgodnie z regułami bezpieczeństwa?",
+    "options": {
+      "A": "Zapora sieciowa",
+      "B": "Edytor tekstu",
+      "C": "Monitor",
+      "D": "Drukarka"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Zapora sieciowa."
+  },
+  {
+    "id": "tech_037",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Co oznacza open source?",
+    "options": {
+      "A": "Kod źródłowy jest dostępny",
+      "B": "Program działa tylko offline",
+      "C": "Plik jest zaszyfrowany",
+      "D": "Sprzęt jest nowy"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Kod źródłowy jest dostępny."
+  },
+  {
+    "id": "tech_038",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Do czego służy SQL?",
+    "options": {
+      "A": "Do kompresji zdjęć",
+      "B": "Do pracy z bazami danych",
+      "C": "Do nagrywania dźwięku",
+      "D": "Do rysowania ikon"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Do pracy z bazami danych."
+  },
+  {
+    "id": "tech_039",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jaka technologia służy do krótkiego bezprzewodowego łączenia urządzeń?",
+    "options": {
+      "A": "Ethernet",
+      "B": "Bluetooth",
+      "C": "HDMI",
+      "D": "VGA"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Bluetooth."
+  },
+  {
+    "id": "tech_040",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Czym jest cloud computing?",
+    "options": {
+      "A": "Lokalną drukarką",
+      "B": "Zdalnym korzystaniem z zasobów serwerowych",
+      "C": "Typem kabla",
+      "D": "Formatem obrazu"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Zdalnym korzystaniem z zasobów serwerowych."
+  },
+  {
+    "id": "tech_041",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Co oznacza 2FA?",
+    "options": {
+      "A": "Dwurdzeniowy procesor",
+      "B": "Dwuskładnikowe uwierzytelnianie",
+      "C": "Drugi format audio",
+      "D": "Dwie funkcje aplikacji"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Dwuskładnikowe uwierzytelnianie."
+  },
+  {
+    "id": "tech_042",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jak nazywają się dane opisujące inne dane?",
+    "options": {
+      "A": "Hasła",
+      "B": "Metadane",
+      "C": "Pliki tymczasowe",
+      "D": "Ikony"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Metadane."
+  },
+  {
+    "id": "tech_043",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Jak nazywa się oprogramowanie zapisane w urządzeniu sprzętowym?",
+    "options": {
+      "A": "Spreadsheet",
+      "B": "Firmware",
+      "C": "Wallpaper",
+      "D": "Plugin"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Firmware."
+  },
+  {
+    "id": "tech_044",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jaki protokół jest podstawą komunikacji stron WWW?",
+    "options": {
+      "A": "SMTP",
+      "B": "HTTP",
+      "C": "POP3",
+      "D": "SSH"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to HTTP."
+  },
+  {
+    "id": "tech_045",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Jaka cecha RAM odróżnia ją od dysku po utracie zasilania?",
+    "options": {
+      "A": "Jest optyczna",
+      "B": "Jest papierowa",
+      "C": "Jest ulotna",
+      "D": "Jest mechaniczna"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Jest ulotna."
+  },
+  {
+    "id": "tech_046",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Czym jest IDE?",
+    "options": {
+      "A": "Typem baterii",
+      "B": "Formatem zdjęcia",
+      "C": "Środowiskiem programistycznym",
+      "D": "Kablem sieciowym"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Środowiskiem programistycznym."
+  },
+  {
+    "id": "tech_047",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Co zamienia nazwy domen na adresy IP?",
+    "options": {
+      "A": "BIOS",
+      "B": "GPU",
+      "C": "DNS",
+      "D": "USB"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to DNS."
+  },
+  {
+    "id": "tech_048",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jaki standard często służy do podłączania urządzeń peryferyjnych?",
+    "options": {
+      "A": "SMTP",
+      "B": "PNG",
+      "C": "USB",
+      "D": "HTTP"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to USB."
+  },
+  {
+    "id": "tech_049",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Co chroni dane przez przekształcenie ich w nieczytelną formę bez klucza?",
+    "options": {
+      "A": "Kompresja",
+      "B": "Defragmentacja",
+      "C": "Szyfrowanie",
+      "D": "Renderowanie"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Szyfrowanie."
+  },
+  {
+    "id": "tech_050",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Gdzie w Git przechowuje się historię projektu?",
+    "options": {
+      "A": "W karcie graficznej",
+      "B": "W arkuszu kalkulacyjnym",
+      "C": "W repozytorium",
+      "D": "W BIOS-ie"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to W repozytorium."
+  },
+  {
+    "id": "tech_051",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Co robi kompilator?",
+    "options": {
+      "A": "Chłodzi procesor",
+      "B": "Łączy monitory",
+      "C": "Tłumaczy kod źródłowy",
+      "D": "Formatuje pendrive"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Tłumaczy kod źródłowy."
+  },
+  {
+    "id": "tech_052",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jak nazywa się najmniejszy punkt obrazu cyfrowego?",
+    "options": {
+      "A": "Bajt",
+      "B": "Bit",
+      "C": "Piksel",
+      "D": "Folder"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Piksel."
+  },
+  {
+    "id": "tech_053",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Co w bazie danych przyspiesza wyszukiwanie po wybranych kolumnach?",
+    "options": {
+      "A": "Komentarz",
+      "B": "Hasło",
+      "C": "Ikona",
+      "D": "Indeks"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Indeks."
+  },
+  {
+    "id": "tech_054",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Z czym kojarzy się Docker?",
+    "options": {
+      "A": "Edytorem grafiki",
+      "B": "Systemem pocztowym",
+      "C": "Przeglądarką",
+      "D": "Kontenerami aplikacji"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Kontenerami aplikacji."
+  },
+  {
+    "id": "tech_055",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jaką podstawę ma system binarny?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "16",
+      "D": "2"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to 2."
+  },
+  {
+    "id": "tech_056",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Czym jest malware?",
+    "options": {
+      "A": "Nową wersją aplikacji",
+      "B": "Kopią zapasową",
+      "C": "Typem monitora",
+      "D": "Złośliwym oprogramowaniem"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Złośliwym oprogramowaniem."
+  },
+  {
+    "id": "tech_057",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "Z czym kojarzy się REST w programowaniu?",
+    "options": {
+      "A": "Typem procesora",
+      "B": "Systemem dźwięku",
+      "C": "Formatem zdjęć",
+      "D": "Stylem projektowania API"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Stylem projektowania API."
+  },
+  {
+    "id": "tech_058",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Jakie rozszerzenie zwykle mają pliki JSON?",
+    "options": {
+      "A": ".txt",
+      "B": ".exe",
+      "C": ".png",
+      "D": ".json"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to .json."
+  },
+  {
+    "id": "tech_059",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Co oznacza localhost?",
+    "options": {
+      "A": "Publiczny serwer DNS",
+      "B": "Losową domenę",
+      "C": "Adres routera",
+      "D": "Własną maszynę lokalną"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Własną maszynę lokalną."
+  },
+  {
+    "id": "tech_060",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "Czym jest commit w Git?",
+    "options": {
+      "A": "Nowym monitorem",
+      "B": "Typem kabla",
+      "C": "Hasłem administratora",
+      "D": "Zapisem zmian w historii"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Zapisem zmian w historii."
   }
 ]

@@ -513,5 +513,621 @@
         "loot box"
       ]
     }
+  },
+  {
+    "id": "ig_017",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "W której grze buduje się świat z bloków i walczy z Creeperami?",
+    "options": {
+      "A": "Minecraft",
+      "B": "Roblox",
+      "C": "Terraria",
+      "D": "Stardew Valley"
+    },
+    "correct_answer": "A",
+    "explanation": "Creepery są charakterystycznymi przeciwnikami z gry Minecraft."
+  },
+  {
+    "id": "ig_018",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa się platforma Valve do dystrybucji gier PC?",
+    "options": {
+      "A": "Origin",
+      "B": "Steam",
+      "C": "Epic Games Store",
+      "D": "GOG"
+    },
+    "correct_answer": "B",
+    "explanation": "Steam to platforma dystrybucji gier prowadzona przez Valve."
+  },
+  {
+    "id": "ig_019",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Która gra battle royale ma tańce i tryb budowania?",
+    "options": {
+      "A": "PUBG",
+      "B": "Apex Legends",
+      "C": "Fortnite",
+      "D": "Valorant"
+    },
+    "correct_answer": "C",
+    "explanation": "Fortnite jest znany z trybu battle royale, budowania i tańców."
+  },
+  {
+    "id": "ig_020",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Który serwis służy głównie do streamingu gier na żywo?",
+    "options": {
+      "A": "Pinterest",
+      "B": "Dropbox",
+      "C": "Medium",
+      "D": "Twitch"
+    },
+    "correct_answer": "D",
+    "explanation": "Twitch jest serwisem kojarzonym ze streamingiem gier na żywo."
+  },
+  {
+    "id": "ig_021",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa się hydraulik z klasycznych gier Nintendo?",
+    "options": {
+      "A": "Mario",
+      "B": "Sonic",
+      "C": "Kirby",
+      "D": "Link"
+    },
+    "correct_answer": "A",
+    "explanation": "Mario jest jedną z najbardziej znanych postaci Nintendo."
+  },
+  {
+    "id": "ig_022",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Która seria gier piłkarskich zmieniła nazwę z FIFA na EA Sports FC?",
+    "options": {
+      "A": "PES",
+      "B": "EA Sports FC",
+      "C": "Football Manager",
+      "D": "Rocket League"
+    },
+    "correct_answer": "B",
+    "explanation": "Seria piłkarska EA po zakończeniu marki FIFA działa jako EA Sports FC."
+  },
+  {
+    "id": "ig_023",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "W której grze występuje mapa Summoner's Rift?",
+    "options": {
+      "A": "Dota 2",
+      "B": "Smite",
+      "C": "League of Legends",
+      "D": "Heroes of the Storm"
+    },
+    "correct_answer": "C",
+    "explanation": "Summoner's Rift to najbardziej znana mapa z League of Legends."
+  },
+  {
+    "id": "ig_024",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa się gra logiczna z klockami spadającymi z góry?",
+    "options": {
+      "A": "Pac-Man",
+      "B": "Snake",
+      "C": "Minesweeper",
+      "D": "Tetris"
+    },
+    "correct_answer": "D",
+    "explanation": "Tetris polega na układaniu spadających klocków."
+  },
+  {
+    "id": "ig_025",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Który skrót oznacza postać niezależną w grach?",
+    "options": {
+      "A": "NPC",
+      "B": "FPS",
+      "C": "DLC",
+      "D": "RPG"
+    },
+    "correct_answer": "A",
+    "explanation": "NPC oznacza postać niezależną sterowaną przez grę."
+  },
+  {
+    "id": "ig_026",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa się popularna encyklopedia internetowa tworzona przez użytkowników?",
+    "options": {
+      "A": "Reddit",
+      "B": "Wikipedia",
+      "C": "Discord",
+      "D": "Trello"
+    },
+    "correct_answer": "B",
+    "explanation": "Wikipedia to internetowa encyklopedia współtworzona przez użytkowników."
+  },
+  {
+    "id": "ig_027",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Który skrót oznacza bezpieczną wersję protokołu HTTP?",
+    "options": {
+      "A": "FTP",
+      "B": "SMTP",
+      "C": "HTTPS",
+      "D": "DNS"
+    },
+    "correct_answer": "C",
+    "explanation": "HTTPS to wersja HTTP używająca szyfrowania."
+  },
+  {
+    "id": "ig_028",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa się krótki obrazek lub filmik powielany w internecie jako żart?",
+    "options": {
+      "A": "Link",
+      "B": "Cookie",
+      "C": "Hashtag",
+      "D": "Mem"
+    },
+    "correct_answer": "D",
+    "explanation": "Mem internetowy to powielany żart w formie obrazu, tekstu lub filmu."
+  },
+  {
+    "id": "ig_029",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "W której serii gier występują Pokémony?",
+    "options": {
+      "A": "Pokémon",
+      "B": "Final Fantasy",
+      "C": "The Sims",
+      "D": "Civilization"
+    },
+    "correct_answer": "A",
+    "explanation": "Pokémony występują w serii gier Pokémon."
+  },
+  {
+    "id": "ig_030",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa się tryb gry, w którym wielu graczy gra razem przez sieć?",
+    "options": {
+      "A": "Tutorial",
+      "B": "Multiplayer",
+      "C": "Sandbox",
+      "D": "Speedrun"
+    },
+    "correct_answer": "B",
+    "explanation": "Multiplayer oznacza rozgrywkę dla wielu graczy."
+  },
+  {
+    "id": "ig_031",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Co robi DNS w internecie?",
+    "options": {
+      "A": "Tłumaczy nazwy domen na adresy IP",
+      "B": "Przyspiesza kartę graficzną",
+      "C": "Ładuje baterię",
+      "D": "Formatuje dysk"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Tłumaczy nazwy domen na adresy IP."
+  },
+  {
+    "id": "ig_032",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Do czego najczęściej służy Discord?",
+    "options": {
+      "A": "Komunikacji tekstowej i głosowej",
+      "B": "Edytowania zdjęć",
+      "C": "Przelewów bankowych",
+      "D": "Pisania dokumentów"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Komunikacji tekstowej i głosowej."
+  },
+  {
+    "id": "ig_033",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Która platforma pozwala użytkownikom tworzyć i grać w gry innych osób?",
+    "options": {
+      "A": "Roblox",
+      "B": "Spotify",
+      "C": "Netflix",
+      "D": "Kindle"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Roblox."
+  },
+  {
+    "id": "ig_034",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jaka rola w Among Us wykonuje sabotowanie i eliminacje?",
+    "options": {
+      "A": "Impostor",
+      "B": "Crewmate",
+      "C": "Builder",
+      "D": "Healer"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Impostor."
+  },
+  {
+    "id": "ig_035",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Co oznacza skrót RPG w grach?",
+    "options": {
+      "A": "Gra fabularna",
+      "B": "Gra wyścigowa",
+      "C": "Gra karciana",
+      "D": "Gra sportowa"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Gra fabularna."
+  },
+  {
+    "id": "ig_036",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Co oznacza skrót DLC?",
+    "options": {
+      "A": "Zawartość do pobrania",
+      "B": "Tryb dla dwóch graczy",
+      "C": "Zapis w chmurze",
+      "D": "Ranking graczy"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Zawartość do pobrania."
+  },
+  {
+    "id": "ig_037",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Do czego służą zapisy w chmurze w grach?",
+    "options": {
+      "A": "Do przechowywania postępu online",
+      "B": "Do zmiany języka gry",
+      "C": "Do obniżenia grafiki",
+      "D": "Do resetowania konsoli"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Do przechowywania postępu online."
+  },
+  {
+    "id": "ig_038",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Do czego służy GitHub?",
+    "options": {
+      "A": "Głównie do streamingu",
+      "B": "Do hostowania kodu i współpracy",
+      "C": "Do montażu filmów",
+      "D": "Do tworzenia muzyki"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Do hostowania kodu i współpracy."
+  },
+  {
+    "id": "ig_039",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak zwykle zaczyna się bezpieczny adres strony internetowej?",
+    "options": {
+      "A": "ftp://",
+      "B": "https://",
+      "C": "mailto:",
+      "D": "file://"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to https://."
+  },
+  {
+    "id": "ig_040",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Co oznacza skrót LAN?",
+    "options": {
+      "A": "Długi adres sieciowy",
+      "B": "Lokalna sieć komputerowa",
+      "C": "Losowy algorytm nazw",
+      "D": "Licencja aplikacji"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Lokalna sieć komputerowa."
+  },
+  {
+    "id": "ig_041",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywa się piekielny wymiar w Minecrafcie?",
+    "options": {
+      "A": "End",
+      "B": "Nether",
+      "C": "Skyblock",
+      "D": "Overworld"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Nether."
+  },
+  {
+    "id": "ig_042",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jak nazywają się odznaki za wykonanie zadań w grach na Steamie?",
+    "options": {
+      "A": "Skórki",
+      "B": "Osiągnięcia",
+      "C": "Serwery",
+      "D": "Hashtagi"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Osiągnięcia."
+  },
+  {
+    "id": "ig_043",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Co mierzy ping w grach online?",
+    "options": {
+      "A": "Liczbę klatek",
+      "B": "Opóźnienie połączenia",
+      "C": "Jasność ekranu",
+      "D": "Głośność"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Opóźnienie połączenia."
+  },
+  {
+    "id": "ig_044",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Do czego służy CAPTCHA?",
+    "options": {
+      "A": "Do zapisu gry",
+      "B": "Do sprawdzenia, czy użytkownik jest człowiekiem",
+      "C": "Do kompresji tekstur",
+      "D": "Do wyboru serwera"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Do sprawdzenia, czy użytkownik jest człowiekiem."
+  },
+  {
+    "id": "ig_045",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Która aplikacja jest przeglądarką internetową?",
+    "options": {
+      "A": "Excel",
+      "B": "Photoshop",
+      "C": "Chrome",
+      "D": "Steam"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Chrome."
+  },
+  {
+    "id": "ig_046",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jaki znak występuje w adresie e-mail między nazwą użytkownika a domeną?",
+    "options": {
+      "A": "#",
+      "B": "&",
+      "C": "@",
+      "D": "%"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to @."
+  },
+  {
+    "id": "ig_047",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Co oznacza skrót MMO w grach?",
+    "options": {
+      "A": "Tryb lokalny",
+      "B": "Gra mobilna",
+      "C": "Gra online dla wielu graczy",
+      "D": "Edytor map"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Gra online dla wielu graczy."
+  },
+  {
+    "id": "ig_048",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Co oznacza speedrun?",
+    "options": {
+      "A": "Grę bez dźwięku",
+      "B": "Grę na telefonie",
+      "C": "Jak najszybsze ukończenie gry",
+      "D": "Tryb treningowy"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Jak najszybsze ukończenie gry."
+  },
+  {
+    "id": "ig_049",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Czym jest serwer w grach online?",
+    "options": {
+      "A": "Kontrolerem",
+      "B": "Skórką",
+      "C": "Komputerem obsługującym rozgrywkę",
+      "D": "Ekranem ładowania"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Komputerem obsługującym rozgrywkę."
+  },
+  {
+    "id": "ig_050",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Czym jest bug w oprogramowaniu?",
+    "options": {
+      "A": "Nagrodą",
+      "B": "Hasłem",
+      "C": "Błędem programu",
+      "D": "Trybem gry"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Błędem programu."
+  },
+  {
+    "id": "ig_051",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Czym jest patch do gry?",
+    "options": {
+      "A": "Kontrolerem",
+      "B": "Konsolą",
+      "C": "Aktualizacją poprawiającą grę",
+      "D": "Pudełkiem"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Aktualizacją poprawiającą grę."
+  },
+  {
+    "id": "ig_052",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Czym jest LAN party?",
+    "options": {
+      "A": "Turniejem szachowym",
+      "B": "Podcastem",
+      "C": "Spotkaniem graczy w jednej sieci lokalnej",
+      "D": "Sklepem z grami"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Spotkaniem graczy w jednej sieci lokalnej."
+  },
+  {
+    "id": "ig_053",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Czym jest cookie w przeglądarce?",
+    "options": {
+      "A": "Programem antywirusowym",
+      "B": "Grafiką 3D",
+      "C": "Konsolą",
+      "D": "Małym plikiem z danymi strony"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Małym plikiem z danymi strony."
+  },
+  {
+    "id": "ig_054",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Co daje uwierzytelnianie dwuskładnikowe?",
+    "options": {
+      "A": "Większy monitor",
+      "B": "Szybszy internet",
+      "C": "Lepszą grafikę",
+      "D": "Dodatkową warstwę bezpieczeństwa"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Dodatkową warstwę bezpieczeństwa."
+  },
+  {
+    "id": "ig_055",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Z czym kojarzy się battle pass w grach?",
+    "options": {
+      "A": "Kartą dźwiękową",
+      "B": "Edytorem tekstu",
+      "C": "Systemem operacyjnym",
+      "D": "Systemem nagród sezonowych"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Systemem nagród sezonowych."
+  },
+  {
+    "id": "ig_056",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Czym jest loot box?",
+    "options": {
+      "A": "Mapą świata",
+      "B": "Kontrolerem gry",
+      "C": "Programem pocztowym",
+      "D": "Losową paczką nagród"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Losową paczką nagród."
+  },
+  {
+    "id": "ig_057",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Czym jest avatar w grze lub internecie?",
+    "options": {
+      "A": "Kodem błędu",
+      "B": "Typem kabla",
+      "C": "Gatunkiem muzyki",
+      "D": "Reprezentacją użytkownika"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Reprezentacją użytkownika."
+  },
+  {
+    "id": "ig_058",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "question": "Czym jest mod do gry?",
+    "options": {
+      "A": "Zapisem ekranu",
+      "B": "Regulaminem sklepu",
+      "C": "Oficjalnym trailerem",
+      "D": "Modyfikacją gry"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Modyfikacją gry."
+  },
+  {
+    "id": "ig_059",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Co oznacza lag w grze online?",
+    "options": {
+      "A": "Nową postać",
+      "B": "Tryb nocny",
+      "C": "Skrót klawiszowy",
+      "D": "Opóźnienie działania"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Opóźnienie działania."
+  },
+  {
+    "id": "ig_060",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "question": "Jaki znak rozpoczyna hashtag?",
+    "options": {
+      "A": "@",
+      "B": "&",
+      "C": "*",
+      "D": "#"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to #."
   }
 ]
