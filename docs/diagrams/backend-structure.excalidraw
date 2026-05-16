@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "excalidraw",
   "version": 2,
   "source": "https://excalidraw.com",
@@ -845,13 +845,13 @@
       "updated": 1,
       "link": null,
       "locked": false,
-      "text": "data/questions/*.json\n11 category files",
+      "text": "data/trivia/questions/*.json\n11 category files",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": null,
-      "originalText": "data/questions/*.json\n11 category files",
+      "originalText": "data/trivia/questions/*.json\n11 category files",
       "lineHeight": 1.25,
       "baseline": 56
     },

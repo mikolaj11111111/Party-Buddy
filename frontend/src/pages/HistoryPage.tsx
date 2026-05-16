@@ -107,7 +107,7 @@ export function HistoryPage({ onBack }: HistoryPageProps) {
                   <li key={player.player_id}>
                     <span>{player.player_name}</span>
                     <span>
-                      {player.score} / {player.correct_answers}
+                      {player.score} / {player.answered_questions}
                     </span>
                   </li>
                 ))}

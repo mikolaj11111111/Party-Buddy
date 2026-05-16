@@ -3,7 +3,7 @@ from pathlib import Path
 
 from backend.app.core.question_loader import load_questions_from_directory
 
-QUESTIONS_DIR = Path("data/questions")
+QUESTIONS_DIR = Path("data/trivia/questions")
 EXPECTED_CATEGORIES = {
     "geography",
     "history",

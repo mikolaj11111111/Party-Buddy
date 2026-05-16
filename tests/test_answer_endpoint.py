@@ -7,7 +7,7 @@ from backend.app.main import app
 
 
 def test_answer_endpoint_accepts_correct_letter() -> None:
-    question = load_questions_from_directory(Path("data/questions"))[0]
+    question = load_questions_from_directory(Path("data/trivia/questions"))[0]
 
     with TestClient(app) as client:
         response = client.post(
@@ -29,7 +29,7 @@ def test_answer_endpoint_accepts_correct_letter() -> None:
 
 
 def test_answer_endpoint_accepts_correct_text() -> None:
-    question = load_questions_from_directory(Path("data/questions"))[0]
+    question = load_questions_from_directory(Path("data/trivia/questions"))[0]
     answer_text = question.options[question.correct_answer]
 
     with TestClient(app) as client:
@@ -63,7 +63,7 @@ def test_answer_endpoint_returns_404_for_unknown_question() -> None:
 
 
 def test_answer_endpoint_returns_422_for_missing_answer() -> None:
-    question = load_questions_from_directory(Path("data/questions"))[0]
+    question = load_questions_from_directory(Path("data/trivia/questions"))[0]
 
     with TestClient(app) as client:
         response = client.post(

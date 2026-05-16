@@ -72,10 +72,17 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [x] dodac wybor gry
 - [x] potem kategorii(jesli gra tego wymaga)
 - [x] zwiekszyc baze pytań do gry trivia do 660 pytań (60 na kategorię)
-- [] poprawic blad w histori gier, zamiast liczba punktow/liczba pytan jest liczba punktow/liczba punktow
+- [x] poprawic blad w histori gier, zamiast liczba punktow/liczba pytan jest liczba punktow/liczba punktow
+
+- [x] poprawic sciezki w kodzie - dane do gry trivia powinny byc w data/trivia/questions/, testowe dla trivii w data/trivia/test_questions
+
+
+### 5 sekund
 - [] dodać baze do gry 5 sekund
-- [] dodać baze do gry wisielec
 - [] dodać ui do gry 5 sekund
+
+### Wisielec
+- [] dodać baze do gry wisielec
 - [] dodać ui do gry wisielec
 
 - [] popracowac nad dzwiekem game mastera

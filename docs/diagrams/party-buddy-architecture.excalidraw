@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "excalidraw",
   "version": 2,
   "source": "https://excalidraw.com",
@@ -1126,13 +1126,13 @@
       "updated": 1,
       "link": null,
       "locked": false,
-      "text": "data/questions/*.json\ncategories + ABCD\nquestion bank",
+      "text": "data/trivia/questions/*.json\ncategories + ABCD\nquestion bank",
       "fontSize": 17,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": null,
-      "originalText": "data/questions/*.json\ncategories + ABCD\nquestion bank",
+      "originalText": "data/trivia/questions/*.json\ncategories + ABCD\nquestion bank",
       "lineHeight": 1.25,
       "baseline": 56
     },
