@@ -62,4 +62,5 @@
 - [x] M6: dodano zapis zakończonej sesji do SQLite, endpoint `/api/history/sessions` i stronę historii w UI
 - [x] M6: uzupełniono README o uruchomienie backendu, frontendu i lokalny zapis historii
 - [x] UI slice: dodano Motion, Material UI i Zustand bez pełnej migracji całego frontendu
+- [x] UI: dodano wybór gry w menu; aktywna jest `Trivia ABCD`, przyszłe gry są nieaktywne
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

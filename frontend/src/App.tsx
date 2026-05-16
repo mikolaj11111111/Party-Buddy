@@ -17,7 +17,9 @@ function App() {
   const {
     openHistory,
     resetToMenu: setMenuView,
+    selectGame,
     selectMode,
+    selectedGame,
     setView,
     setupMode,
     view,
@@ -67,7 +69,12 @@ function App() {
           transition={{ duration: 0.18, ease: 'easeOut' }}
         >
           {displayedView === 'menu' ? (
-            <MenuPage onOpenHistory={openHistory} onSelectMode={selectMode} />
+            <MenuPage
+              onOpenHistory={openHistory}
+              onSelectGame={selectGame}
+              onSelectMode={selectMode}
+              selectedGame={selectedGame}
+            />
           ) : null}
           {displayedView === 'setup' ? (
             <SetupPage mode={setupMode} onBack={resetToMenu} onStart={startGame} />
