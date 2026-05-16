@@ -124,6 +124,7 @@ export type GameServerEvent =
   | GameErrorEvent
 
 export type GameSessionConfig = {
+  categories?: string[]
   players: string[]
   roundCount: number
   roundSeconds: number

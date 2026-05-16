@@ -71,6 +71,7 @@ export function useGameSocket(options: UseGameSocketOptions = {}) {
         socket.send(
           JSON.stringify({
             type: 'start_session',
+            categories: config.categories,
             players: config.players,
             round_count: config.roundCount,
             round_seconds: config.roundSeconds,

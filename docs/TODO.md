@@ -63,4 +63,5 @@
 - [x] M6: uzupełniono README o uruchomienie backendu, frontendu i lokalny zapis historii
 - [x] UI slice: dodano Motion, Material UI i Zustand bez pełnej migracji całego frontendu
 - [x] UI: dodano wybór gry w menu; aktywna jest `Trivia ABCD`, przyszłe gry są nieaktywne
+- [x] UI: dodano wybór kategorii dla `Trivia ABCD` i przekazywanie ich do `/ws/game`
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest
