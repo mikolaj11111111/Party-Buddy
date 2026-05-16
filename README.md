@@ -2,12 +2,12 @@
 
 Webowa platforma imprezowych gier z AI prowadzącym.
 
-**Status:** wczesny development, M5 zakończone technicznie; game engine, `/ws/game`, timer i podstawowe UI gotowe.
+**Status:** wczesny development, M6 rozpoczęte; historia sesji zapisuje wyniki do SQLite i ma ekran w UI.
 
 ## Stack MVP
 
 - Backend: Python 3.11 + FastAPI + SQLite
-- Frontend: React + Vite + TypeScript
+- Frontend: React + Vite + TypeScript + Motion + Material UI + Zustand
 - STT: Groq Whisper API
 - TTS: Piper (lokalnie)
 
@@ -26,6 +26,13 @@ Backend:
 
 ```powershell
 .\venv\Scripts\python.exe -m uvicorn backend.app.main:app --reload
+```
+
+Frontend uruchom w drugim terminalu:
+
+```powershell
+cd frontend
+npm.cmd run dev
 ```
 
 STT wymaga zmiennej w `.env`:
@@ -49,12 +56,7 @@ Pregeneracja komentarzy:
 .\venv\Scripts\python.exe scripts\pregenerate_tts.py
 ```
 
-Frontend:
-
-```powershell
-cd frontend
-npm.cmd run dev
-```
+Historia zakończonych sesji zapisuje się lokalnie w `data/part_buddy.db`.
 
 ## Quality checks
 
@@ -72,6 +74,7 @@ Frontend:
 cd frontend
 npm.cmd run lint
 npm.cmd run format:check
+npm.cmd run build
 ```
 
 ## Licencja

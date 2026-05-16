@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "gen_001",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile dni ma rok przestępny?",
+    "options": {
+      "A": "365",
+      "B": "366",
+      "C": "364",
+      "D": "367"
+    },
+    "correct_answer": "B",
+    "explanation": "Rok przestępny ma 366 dni, bo luty ma wtedy 29 dni.",
+    "aliases": {
+      "A": [
+        "365"
+      ],
+      "B": [
+        "366"
+      ],
+      "C": [
+        "364"
+      ],
+      "D": [
+        "367"
+      ]
+    }
+  },
+  {
+    "id": "gen_002",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa się największy ocean na Ziemi?",
+    "options": {
+      "A": "Atlantycki",
+      "B": "Indyjski",
+      "C": "Spokojny",
+      "D": "Arktyczny"
+    },
+    "correct_answer": "C",
+    "explanation": "Ocean Spokojny, czyli Pacyfik, jest największym oceanem świata.",
+    "aliases": {
+      "A": [
+        "Atlantycki",
+        "atlantycki"
+      ],
+      "B": [
+        "Indyjski",
+        "indyjski"
+      ],
+      "C": [
+        "Spokojny",
+        "spokojny",
+        "pacyfik",
+        "ocean pacyficzny"
+      ],
+      "D": [
+        "Arktyczny",
+        "arktyczny"
+      ]
+    }
+  },
+  {
+    "id": "gen_003",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Który kolor powstaje z połączenia niebieskiego i żółtego?",
+    "options": {
+      "A": "Czerwony",
+      "B": "Fioletowy",
+      "C": "Pomarańczowy",
+      "D": "Zielony"
+    },
+    "correct_answer": "D",
+    "explanation": "Połączenie niebieskiego i żółtego daje kolor zielony w tradycyjnym mieszaniu farb.",
+    "aliases": {
+      "A": [
+        "Czerwony",
+        "czerwony"
+      ],
+      "B": [
+        "Fioletowy",
+        "fioletowy"
+      ],
+      "C": [
+        "Pomarańczowy",
+        "pomaralczowy"
+      ],
+      "D": [
+        "Zielony",
+        "zielony"
+      ]
+    }
+  },
+  {
+    "id": "gen_004",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Ile kontynentów ma Ziemia?",
+    "options": {
+      "A": "60",
+      "B": "90",
+      "C": "100",
+      "D": "45"
+    },
+    "correct_answer": "A",
+    "explanation": "Jedna godzina składa się z 60 minut.",
+    "aliases": {
+      "A": [
+        "60"
+      ],
+      "B": [
+        "90"
+      ],
+      "C": [
+        "100"
+      ],
+      "D": [
+        "45"
+      ]
+    }
+  },
+  {
+    "id": "gen_005",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Które zwierzę jest symbolem organizacji WWF?",
+    "options": {
+      "A": "Tygrys",
+      "B": "Panda wielka",
+      "C": "Orzeł",
+      "D": "Delfin"
+    },
+    "correct_answer": "B",
+    "explanation": "Logo WWF przedstawia pandę wielką.",
+    "aliases": {
+      "A": [
+        "Tygrys",
+        "tygrys"
+      ],
+      "B": [
+        "Panda wielka",
+        "panda wielka"
+      ],
+      "C": [
+        "Orzeł",
+        "orzeł"
+      ],
+      "D": [
+        "Delfin",
+        "delfin"
+      ]
+    }
+  },
+  {
+    "id": "gen_006",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa się waluta używana w Japonii?",
+    "options": {
+      "A": "Won",
+      "B": "Juan",
+      "C": "Jen",
+      "D": "Ringgit"
+    },
+    "correct_answer": "C",
+    "explanation": "Walutą Japonii jest jen.",
+    "aliases": {
+      "A": [
+        "Won",
+        "won"
+      ],
+      "B": [
+        "Juan",
+        "juan"
+      ],
+      "C": [
+        "Jen",
+        "jen",
+        "yen",
+        "jpy"
+      ],
+      "D": [
+        "Ringgit",
+        "ringgit"
+      ]
+    }
+  },
+  {
+    "id": "gen_007",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Który miesięc ma zwykle 28 dni?",
+    "options": {
+      "A": "Styczeń",
+      "B": "Marzec",
+      "C": "Kwiecień",
+      "D": "Luty"
+    },
+    "correct_answer": "D",
+    "explanation": "Luty ma zwykle 28 dni, a w roku przestępnym 29.",
+    "aliases": {
+      "A": [
+        "Styczeń",
+        "styczeń"
+      ],
+      "B": [
+        "Marzec",
+        "marzec"
+      ],
+      "C": [
+        "Kwiecień",
+        "kwiecień"
+      ],
+      "D": [
+        "Luty",
+        "luty"
+      ]
+    }
+  },
+  {
+    "id": "gen_008",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "Który pierwiastek chemiczny ma symbol Au?",
+    "options": {
+      "A": "Złoto",
+      "B": "Srebro",
+      "C": "Miedź",
+      "D": "Glin"
+    },
+    "correct_answer": "A",
+    "explanation": "Symbol Au pochodzi od łacińskiej nazwy złota: aurum.",
+    "aliases": {
+      "A": [
+        "Złoto",
+        "zloto",
+        "aurum"
+      ],
+      "B": [
+        "Srebro",
+        "srebro"
+      ],
+      "C": [
+        "Miedź",
+        "miedź"
+      ],
+      "D": [
+        "Glin",
+        "glin"
+      ]
+    }
+  },
+  {
+    "id": "gen_009",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Ile boków ma sześciokąt?",
+    "options": {
+      "A": "Pięć",
+      "B": "Sześć",
+      "C": "Siedem",
+      "D": "Osiem"
+    },
+    "correct_answer": "B",
+    "explanation": "Sześciokąt to figura o sześciu bokach.",
+    "aliases": {
+      "A": [
+        "Pięć",
+        "pięć"
+      ],
+      "B": [
+        "Sześć",
+        "sześć"
+      ],
+      "C": [
+        "Siedem",
+        "siedem"
+      ],
+      "D": [
+        "Osiem",
+        "osiem"
+      ]
+    }
+  },
+  {
+    "id": "gen_010",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Który kontynent leży na biegunie południowym?",
+    "options": {
+      "A": "Australia",
+      "B": "Europa",
+      "C": "Antarktyda",
+      "D": "Azja"
+    },
+    "correct_answer": "C",
+    "explanation": "Biegun południowy znajduje się na Antarktydzie.",
+    "aliases": {
+      "A": [
+        "Australia",
+        "australia"
+      ],
+      "B": [
+        "Europa",
+        "europa"
+      ],
+      "C": [
+        "Antarktyda",
+        "antarktyda"
+      ],
+      "D": [
+        "Azja",
+        "azja"
+      ]
+    }
+  },
+  {
+    "id": "gen_011",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa się proces zamiany cieczy w gaz?",
+    "options": {
+      "A": "Topnienie",
+      "B": "Krzepnięcie",
+      "C": "Skraplanie",
+      "D": "Parowanie"
+    },
+    "correct_answer": "D",
+    "explanation": "Parowanie to przechodzenie cieczy w stan gazowy.",
+    "aliases": {
+      "A": [
+        "Topnienie",
+        "topnienie"
+      ],
+      "B": [
+        "Krzepnięcie",
+        "krzepnilcie"
+      ],
+      "C": [
+        "Skraplanie",
+        "skraplanie"
+      ],
+      "D": [
+        "Parowanie",
+        "parowanie"
+      ]
+    }
+  },
+  {
+    "id": "gen_012",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Który dzień tygodnia następuje po piątku?",
+    "options": {
+      "A": "Sobota",
+      "B": "Czwartek",
+      "C": "Niedziela",
+      "D": "Poniedziałek"
+    },
+    "correct_answer": "A",
+    "explanation": "Po piątku następuje sobota.",
+    "aliases": {
+      "A": [
+        "Sobota",
+        "sobota"
+      ],
+      "B": [
+        "Czwartek",
+        "czwartek"
+      ],
+      "C": [
+        "Niedziela",
+        "niedziela"
+      ],
+      "D": [
+        "Poniedziałek",
+        "poniedzialek"
+      ]
+    }
+  },
+  {
+    "id": "gen_013",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa się urządzenie do pomiaru temperatury?",
+    "options": {
+      "A": "Barometr",
+      "B": "Termometr",
+      "C": "Higrometr",
+      "D": "Anemometr"
+    },
+    "correct_answer": "B",
+    "explanation": "Termometr służy do mierzenia temperatury.",
+    "aliases": {
+      "A": [
+        "Barometr",
+        "barometr"
+      ],
+      "B": [
+        "Termometr",
+        "termometr"
+      ],
+      "C": [
+        "Higrometr",
+        "higrometr"
+      ],
+      "D": [
+        "Anemometr",
+        "anemometr"
+      ]
+    }
+  },
+  {
+    "id": "gen_014",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "Która gra planszowa ma pola z nazwami ulic i kupowaniem nieruchomości?",
+    "options": {
+      "A": "Scrabble",
+      "B": "Cluedo",
+      "C": "Monopoly",
+      "D": "Catan"
+    },
+    "correct_answer": "C",
+    "explanation": "Monopoly opiera się na kupowaniu nieruchomości i pobieraniu czynszu.",
+    "aliases": {
+      "A": [
+        "Scrabble",
+        "scrabble"
+      ],
+      "B": [
+        "Cluedo",
+        "cluedo"
+      ],
+      "C": [
+        "Monopoly",
+        "monopoly"
+      ],
+      "D": [
+        "Catan",
+        "catan"
+      ]
+    }
+  },
+  {
+    "id": "gen_015",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Która pora roku następuje po zimie?",
+    "options": {
+      "A": "Lato",
+      "B": "Jesień",
+      "C": "Zima",
+      "D": "Wiosna"
+    },
+    "correct_answer": "D",
+    "explanation": "Po zimie następuje wiosna.",
+    "aliases": {
+      "A": [
+        "Lato",
+        "lato"
+      ],
+      "B": [
+        "Jesień",
+        "jesień"
+      ],
+      "C": [
+        "Zima",
+        "zima"
+      ],
+      "D": [
+        "Wiosna",
+        "wiosna"
+      ]
+    }
+  },
+  {
+    "id": "gen_016",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Ile wynosi suma kątów w trójkącie płaskim?",
+    "options": {
+      "A": "180 stopni",
+      "B": "90 stopni",
+      "C": "270 stopni",
+      "D": "360 stopni"
+    },
+    "correct_answer": "A",
+    "explanation": "Suma kątów wewnętrznych trójkąta w geometrii euklidesowej wynosi 180 stopni.",
+    "aliases": {
+      "A": [
+        "180 stopni"
+      ],
+      "B": [
+        "90 stopni"
+      ],
+      "C": [
+        "270 stopni"
+      ],
+      "D": [
+        "360 stopni"
+      ]
+    }
+  },
+  {
+    "id": "gen_017",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "Jak nazywa się najmniejsza liczba pierwsza?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "correct_answer": "B",
+    "explanation": "Najmniejszą liczbę pierwszą jest 2; liczba 1 nie jest pierwsza.",
+    "aliases": {
+      "A": [
+        "1"
+      ],
+      "B": [
+        "2"
+      ],
+      "C": [
+        "3"
+      ],
+      "D": [
+        "0"
+      ]
+    }
+  },
+  {
+    "id": "gen_018",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile minut ma jedna godzina?",
+    "options": {
+      "A": "7",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "A",
+    "explanation": "Ziemię najczęściej dzieli się na 7 kontynentów."
+  },
+  {
+    "id": "gen_019",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Która planeta jest znana jako Błękitna Planeta?",
+    "options": {
+      "A": "Mars",
+      "B": "Ziemia",
+      "C": "Wenus",
+      "D": "Neptun"
+    },
+    "correct_answer": "B",
+    "explanation": "Ziemia bywa nazywana Błękitną Planetą ze względu na oceany."
+  },
+  {
+    "id": "gen_020",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jaki kolor powstaje po zmieszaniu niebieskiego i żółtego?",
+    "options": {
+      "A": "Fioletowy",
+      "B": "Pomarańczowy",
+      "C": "Zielony",
+      "D": "Różowy"
+    },
+    "correct_answer": "C",
+    "explanation": "Niebieski i żółty dają kolor zielony."
+  },
+  {
+    "id": "gen_021",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Który miesiąc jako jedyny kończy się po 28 dniach w zwykłym roku?",
+    "options": {
+      "A": "Marzec",
+      "B": "Kwiecień",
+      "C": "Styczeń",
+      "D": "Luty"
+    },
+    "correct_answer": "D",
+    "explanation": "W roku nieprzestępnym luty ma 28 dni."
+  },
+  {
+    "id": "gen_022",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile boków ma trójkąt?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "A",
+    "explanation": "Trójkąt ma trzy boki."
+  },
+  {
+    "id": "gen_023",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Który znak interpunkcyjny kończy zdanie pytające?",
+    "options": {
+      "A": "Kropka",
+      "B": "Znak zapytania",
+      "C": "Przecinek",
+      "D": "Dwukropek"
+    },
+    "correct_answer": "B",
+    "explanation": "Zdanie pytające kończy znak zapytania."
+  },
+  {
+    "id": "gen_024",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Ile liter ma polski alfabet?",
+    "options": {
+      "A": "26",
+      "B": "30",
+      "C": "32",
+      "D": "34"
+    },
+    "correct_answer": "C",
+    "explanation": "Polski alfabet ma 32 litery."
+  },
+  {
+    "id": "gen_025",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Które urządzenie służy do pomiaru temperatury?",
+    "options": {
+      "A": "Barometr",
+      "B": "Kompas",
+      "C": "Linijka",
+      "D": "Termometr"
+    },
+    "correct_answer": "D",
+    "explanation": "Termometr służy do pomiaru temperatury."
+  },
+  {
+    "id": "gen_026",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się zamrożona woda?",
+    "options": {
+      "A": "Lód",
+      "B": "Para",
+      "C": "Piasek",
+      "D": "Sól"
+    },
+    "correct_answer": "A",
+    "explanation": "Zamrożona woda to lód."
+  },
+  {
+    "id": "gen_027",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile sekund ma jedna minuta?",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "90",
+      "D": "100"
+    },
+    "correct_answer": "B",
+    "explanation": "Jedna minuta ma 60 sekund."
+  },
+  {
+    "id": "gen_028",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Która figura ma wszystkie boki równe i cztery kąty proste?",
+    "options": {
+      "A": "Trójkąt",
+      "B": "Koło",
+      "C": "Kwadrat",
+      "D": "Pięciokąt"
+    },
+    "correct_answer": "C",
+    "explanation": "Kwadrat ma cztery równe boki i cztery kąty proste."
+  },
+  {
+    "id": "gen_029",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jaki gaz jest niezbędny człowiekowi do oddychania?",
+    "options": {
+      "A": "Hel",
+      "B": "Neon",
+      "C": "Argon",
+      "D": "Tlen"
+    },
+    "correct_answer": "D",
+    "explanation": "Człowiek potrzebuje tlenu do oddychania."
+  },
+  {
+    "id": "gen_030",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Który miesiąc zaczyna rok kalendarzowy?",
+    "options": {
+      "A": "Styczeń",
+      "B": "Luty",
+      "C": "Marzec",
+      "D": "Grudzień"
+    },
+    "correct_answer": "A",
+    "explanation": "Rok kalendarzowy zaczyna się w styczniu."
+  },
+  {
+    "id": "gen_031",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jaki kształt ma pełna tarcza zegara?",
+    "options": {
+      "A": "Koło",
+      "B": "Trójkąt",
+      "C": "Kwadrat",
+      "D": "Linia"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Koło."
+  },
+  {
+    "id": "gen_032",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się przeciwieństwo dnia?",
+    "options": {
+      "A": "Noc",
+      "B": "Południe",
+      "C": "Poranek",
+      "D": "Wieczór"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Noc."
+  },
+  {
+    "id": "gen_033",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile tygodni ma zwykle rok kalendarzowy w przybliżeniu?",
+    "options": {
+      "A": "52",
+      "B": "12",
+      "C": "24",
+      "D": "100"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to 52."
+  },
+  {
+    "id": "gen_034",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Która jednostka służy do mierzenia masy?",
+    "options": {
+      "A": "Kilogram",
+      "B": "Metr",
+      "C": "Sekunda",
+      "D": "Litr"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Kilogram."
+  },
+  {
+    "id": "gen_035",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się osoba kierująca autobusem?",
+    "options": {
+      "A": "Kierowca",
+      "B": "Pilot",
+      "C": "Maszynista",
+      "D": "Kapitan"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Kierowca."
+  },
+  {
+    "id": "gen_036",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Co zwykle pokazuje kompas?",
+    "options": {
+      "A": "Kierunki świata",
+      "B": "Temperaturę",
+      "C": "Godzinę",
+      "D": "Ciśnienie"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Kierunki świata."
+  },
+  {
+    "id": "gen_037",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się narzędzie do cięcia papieru z dwoma ostrzami?",
+    "options": {
+      "A": "Nożyczki",
+      "B": "Młotek",
+      "C": "Śrubokręt",
+      "D": "Pędzel"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Nożyczki."
+  },
+  {
+    "id": "gen_038",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile miesięcy ma rok?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "24",
+      "D": "6"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to 12."
+  },
+  {
+    "id": "gen_039",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się urządzenie do ważenia?",
+    "options": {
+      "A": "Termometr",
+      "B": "Waga",
+      "C": "Kompas",
+      "D": "Zegar"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Waga."
+  },
+  {
+    "id": "gen_040",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Co oznacza skrót kg?",
+    "options": {
+      "A": "Kilometr",
+      "B": "Kilogram",
+      "C": "Kilowat",
+      "D": "Kąt"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Kilogram."
+  },
+  {
+    "id": "gen_041",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Która pora roku następuje po lecie?",
+    "options": {
+      "A": "Wiosna",
+      "B": "Jesień",
+      "C": "Zima",
+      "D": "Lato"
+    },
+    "correct_answer": "B",
+    "explanation": "Po lecie następuje jesień."
+  },
+  {
+    "id": "gen_042",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się dokument potwierdzający tożsamość za granicą?",
+    "options": {
+      "A": "Bilet",
+      "B": "Paszport",
+      "C": "Paragon",
+      "D": "Recepta"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Paszport."
+  },
+  {
+    "id": "gen_043",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile kwartałów ma rok?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to 4."
+  },
+  {
+    "id": "gen_044",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Która skala temperatur jest najczęściej używana w Polsce na co dzień?",
+    "options": {
+      "A": "Fahrenheit",
+      "B": "Celsjusza",
+      "C": "Kelvin",
+      "D": "Rankine"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Celsjusza."
+  },
+  {
+    "id": "gen_045",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile godzin ma doba?",
+    "options": {
+      "A": "12",
+      "B": "48",
+      "C": "24",
+      "D": "60"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to 24."
+  },
+  {
+    "id": "gen_046",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się miejsce, gdzie wypożycza się książki?",
+    "options": {
+      "A": "Kino",
+      "B": "Apteka",
+      "C": "Biblioteka",
+      "D": "Bank"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Biblioteka."
+  },
+  {
+    "id": "gen_047",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Co służy do pisania po tablicy szkolnej?",
+    "options": {
+      "A": "Widelec",
+      "B": "Klucz",
+      "C": "Kreda",
+      "D": "Moneta"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Kreda."
+  },
+  {
+    "id": "gen_048",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się osoba lecząca zęby?",
+    "options": {
+      "A": "Pediatra",
+      "B": "Weterynarz",
+      "C": "Dentysta",
+      "D": "Kardiolog"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Dentysta."
+  },
+  {
+    "id": "gen_049",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile stron ma moneta?",
+    "options": {
+      "A": "Jedną",
+      "B": "Trzy",
+      "C": "Dwie",
+      "D": "Cztery"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Dwie."
+  },
+  {
+    "id": "gen_050",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Które słowo oznacza bardzo małą ilość?",
+    "options": {
+      "A": "Ogrom",
+      "B": "Mnóstwo",
+      "C": "Odrobina",
+      "D": "Masa"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Odrobina."
+  },
+  {
+    "id": "gen_051",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Jak nazywa się zbiór map w formie książki?",
+    "options": {
+      "A": "Słownik",
+      "B": "Album",
+      "C": "Atlas",
+      "D": "Kalendarz"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Atlas."
+  },
+  {
+    "id": "gen_052",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jaki przedmiot pomaga chronić głowę podczas jazdy rowerem?",
+    "options": {
+      "A": "Szalik",
+      "B": "Plecak",
+      "C": "Kask",
+      "D": "Rękawiczka"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Kask."
+  },
+  {
+    "id": "gen_053",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się osoba ucząca w szkole?",
+    "options": {
+      "A": "Lekarz",
+      "B": "Piekarz",
+      "C": "Kierowca",
+      "D": "Nauczyciel"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Nauczyciel."
+  },
+  {
+    "id": "gen_054",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Co pokazuje kalendarz?",
+    "options": {
+      "A": "Smak",
+      "B": "Ciężar",
+      "C": "Kolor",
+      "D": "Daty"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Daty."
+  },
+  {
+    "id": "gen_055",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się miejsce, gdzie kupuje się leki?",
+    "options": {
+      "A": "Kino",
+      "B": "Dworzec",
+      "C": "Stadion",
+      "D": "Apteka"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Apteka."
+  },
+  {
+    "id": "gen_056",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Ile palców ma zwykle jedna ludzka dłoń?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "5"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to 5."
+  },
+  {
+    "id": "gen_057",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Czym mierzy się długość krótkich przedmiotów w szkole?",
+    "options": {
+      "A": "Termometrem",
+      "B": "Wagą",
+      "C": "Zegarem",
+      "D": "Linijką"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Linijką."
+  },
+  {
+    "id": "gen_058",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się mała jednostka monetarna w Polsce?",
+    "options": {
+      "A": "Korona",
+      "B": "Euro",
+      "C": "Dolar",
+      "D": "Grosz"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Grosz."
+  },
+  {
+    "id": "gen_059",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Co zwykle zakłada się na stopy do butów?",
+    "options": {
+      "A": "Czapkę",
+      "B": "Rękawiczki",
+      "C": "Pasek",
+      "D": "Skarpety"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Skarpety."
+  },
+  {
+    "id": "gen_060",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Jak nazywa się miejsce, gdzie pociągi zatrzymują się dla pasażerów?",
+    "options": {
+      "A": "Port",
+      "B": "Lotnisko",
+      "C": "Kino",
+      "D": "Stacja"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Stacja."
+  }
+]

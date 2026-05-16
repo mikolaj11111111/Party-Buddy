@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "geo_001",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Do którego królestwa należy Grenlandia?",
+    "options": {
+      "A": "Dania",
+      "B": "Szwecja",
+      "C": "Norwegia",
+      "D": "Wielka Brytania"
+    },
+    "correct_answer": "A",
+    "explanation": "Grenlandia jest autonomicznym terytorium wchodzącym w skład Królestwa Danii.",
+    "aliases": {
+      "A": [
+        "dania",
+        "królestwo danii",
+        "krolestwo danii"
+      ],
+      "B": [
+        "szwecja"
+      ],
+      "C": [
+        "norwegia"
+      ],
+      "D": [
+        "wielka brytania",
+        "uk",
+        "zjednoczone królestwo",
+        "zjednoczone krolestwo"
+      ]
+    }
+  },
+  {
+    "id": "geo_002",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "W którym mieście w Kalifornii znajduje się siedziba sieci Panda Express?",
+    "options": {
+      "A": "Sacramento",
+      "B": "Rosemead",
+      "C": "Fresno",
+      "D": "San Diego"
+    },
+    "correct_answer": "B",
+    "explanation": "Panda Express ma siedzibę w Rosemead w stanie Kalifornia.",
+    "aliases": {
+      "A": [
+        "sacramento"
+      ],
+      "B": [
+        "rosemead",
+        "rosemead kalifornia"
+      ],
+      "C": [
+        "fresno"
+      ],
+      "D": [
+        "san diego"
+      ]
+    }
+  },
+  {
+    "id": "geo_003",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "W którym z tych państw afrykańskich językiem urzędowym jest portugalski?",
+    "options": {
+      "A": "Botswana",
+      "B": "Gabon",
+      "C": "Mozambik",
+      "D": "Togo"
+    },
+    "correct_answer": "C",
+    "explanation": "Mozambik był kolonią portugalską, dlatego portugalski pozostaje tam językiem urzędowym.",
+    "aliases": {
+      "A": [
+        "botswana"
+      ],
+      "B": [
+        "gabon"
+      ],
+      "C": [
+        "mozambik",
+        "mozambique"
+      ],
+      "D": [
+        "togo"
+      ]
+    }
+  },
+  {
+    "id": "geo_004",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Jak brzmi tytuł hymnu narodowego Kanady?",
+    "options": {
+      "A": "O Red Maple",
+      "B": "Leaf-Spangled Banner",
+      "C": "March of the Puck Drop",
+      "D": "O Canada"
+    },
+    "correct_answer": "D",
+    "explanation": "Hymn Kanady nosi tytuł \"O Canada\".",
+    "aliases": {
+      "A": [
+        "o red maple"
+      ],
+      "B": [
+        "leaf spangled banner"
+      ],
+      "C": [
+        "march of the puck drop"
+      ],
+      "D": [
+        "o canada",
+        "oh canada",
+        "hymn kanady"
+      ]
+    }
+  },
+  {
+    "id": "geo_005",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Która z tych wysp Morza Śródziemnego należy do Francji?",
+    "options": {
+      "A": "Korsyka",
+      "B": "Majorka",
+      "C": "Sardynia",
+      "D": "Malta"
+    },
+    "correct_answer": "A",
+    "explanation": "Korsyka jest francuską wyspą i regionem administracyjnym Francji.",
+    "aliases": {
+      "A": [
+        "korsyka",
+        "corsica"
+      ],
+      "B": [
+        "majorka",
+        "mallorca"
+      ],
+      "C": [
+        "sardynia",
+        "sardinia"
+      ],
+      "D": [
+        "malta"
+      ]
+    }
+  },
+  {
+    "id": "geo_006",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jaka cieśnina łączy Ocean Atlantycki z Morzem Śródziemnym?",
+    "options": {
+      "A": "Cieśnina Bosfor",
+      "B": "Cieśnina Gibraltarska",
+      "C": "Cieśnina Dardanelska",
+      "D": "Kanał Sueski"
+    },
+    "correct_answer": "B",
+    "explanation": "Cieśnina Gibraltarska leży między Hiszpanią a Marokiem i łączy Atlantyk z Morzem Śródziemnym.",
+    "aliases": {
+      "A": [
+        "bosfor",
+        "cieśnina bosfor",
+        "ciesnina bosfor"
+      ],
+      "B": [
+        "cieśnina gibraltarska",
+        "ciesnina gibraltarska",
+        "gibraltar",
+        "strait of gibraltar"
+      ],
+      "C": [
+        "dardanele",
+        "cieśnina dardanelska",
+        "ciesnina dardanelska"
+      ],
+      "D": [
+        "kanał sueski",
+        "kanal sueski",
+        "suez"
+      ]
+    }
+  },
+  {
+    "id": "geo_007",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym kraju leży Rio de Janeiro?",
+    "options": {
+      "A": "Peru",
+      "B": "Chile",
+      "C": "Brazylia",
+      "D": "Wenezuela"
+    },
+    "correct_answer": "C",
+    "explanation": "Rio de Janeiro jest jednym z najbardziej znanych miast Brazylii.",
+    "aliases": {
+      "A": [
+        "peru"
+      ],
+      "B": [
+        "chile"
+      ],
+      "C": [
+        "brazylia",
+        "brasil",
+        "brazil"
+      ],
+      "D": [
+        "wenezuela",
+        "venezuela"
+      ]
+    }
+  },
+  {
+    "id": "geo_008",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Która z głównych wysp Japonii jest największa?",
+    "options": {
+      "A": "Hokkaido",
+      "B": "Sikoku",
+      "C": "Kiusiu",
+      "D": "Honsiu"
+    },
+    "correct_answer": "D",
+    "explanation": "Honsiu jest największą i najludniejszą wyspą Japonii.",
+    "aliases": {
+      "A": [
+        "hokkaido"
+      ],
+      "B": [
+        "sikoku",
+        "shikoku"
+      ],
+      "C": [
+        "kiusiu",
+        "kyushu"
+      ],
+      "D": [
+        "honsiu",
+        "honshu"
+      ]
+    }
+  },
+  {
+    "id": "geo_009",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Które miasto w Teksasie jest znane jako \"Światowa Stolica Róż\"?",
+    "options": {
+      "A": "Tyler",
+      "B": "Austin",
+      "C": "Dallas",
+      "D": "Houston"
+    },
+    "correct_answer": "A",
+    "explanation": "Tyler w Teksasie jest kojarzone z uprawą róż i corocznym festiwalem róż.",
+    "aliases": {
+      "A": [
+        "tyler",
+        "tyler teksas",
+        "tyler texas"
+      ],
+      "B": [
+        "austin"
+      ],
+      "C": [
+        "dallas"
+      ],
+      "D": [
+        "houston"
+      ]
+    }
+  },
+  {
+    "id": "geo_010",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Jaka jest stolica Rumunii?",
+    "options": {
+      "A": "Bratysława",
+      "B": "Bukareszt",
+      "C": "Belgrad",
+      "D": "Budapeszt"
+    },
+    "correct_answer": "B",
+    "explanation": "Stolicą Rumunii jest Bukareszt.",
+    "aliases": {
+      "A": [
+        "bratysława",
+        "bratyslawa",
+        "bratislava"
+      ],
+      "B": [
+        "bukareszt",
+        "bucharest"
+      ],
+      "C": [
+        "belgrad",
+        "belgrade"
+      ],
+      "D": [
+        "budapeszt",
+        "budapest"
+      ]
+    }
+  },
+  {
+    "id": "geo_011",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Która rzeka przepływa przez Warszawę?",
+    "options": {
+      "A": "Wisąa",
+      "B": "Odra",
+      "C": "Warta",
+      "D": "Bug"
+    },
+    "correct_answer": "A",
+    "explanation": "Warszawa leży nad Wisłą, najdłuższą rzeką Polski.",
+    "aliases": {
+      "A": [
+        "Wisąa",
+        "wisla"
+      ],
+      "B": [
+        "Odra",
+        "odra"
+      ],
+      "C": [
+        "Warta",
+        "warta"
+      ],
+      "D": [
+        "Bug",
+        "bug"
+      ]
+    }
+  },
+  {
+    "id": "geo_012",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Które państwo ma najdłuższą linię brzegową na świecie?",
+    "options": {
+      "A": "Australia",
+      "B": "Kanada",
+      "C": "Indonezja",
+      "D": "Rosja"
+    },
+    "correct_answer": "B",
+    "explanation": "Najdłuższą linię brzegową ma Kanada, głównie dzięki wyspom Arktyki.",
+    "aliases": {
+      "A": [
+        "Australia",
+        "australia"
+      ],
+      "B": [
+        "Kanada",
+        "kanada"
+      ],
+      "C": [
+        "Indonezja",
+        "indonezja"
+      ],
+      "D": [
+        "Rosja",
+        "rosja"
+      ]
+    }
+  },
+  {
+    "id": "geo_013",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Stolicą którego państwa jest Praga?",
+    "options": {
+      "A": "Słowacji",
+      "B": "Węgier",
+      "C": "Czech",
+      "D": "Austrii"
+    },
+    "correct_answer": "C",
+    "explanation": "Praga jest stolicą Czech.",
+    "aliases": {
+      "A": [
+        "Słowacji",
+        "slowacji"
+      ],
+      "B": [
+        "Węgier",
+        "wlgier"
+      ],
+      "C": [
+        "Czech",
+        "czech",
+        "czechy",
+        "republika czeska"
+      ],
+      "D": [
+        "Austrii",
+        "austrii"
+      ]
+    }
+  },
+  {
+    "id": "geo_014",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Które morze oddziela Europę od Afryki Północnej?",
+    "options": {
+      "A": "Morze Czarne",
+      "B": "Morze Północne",
+      "C": "Morze Bałtyckie",
+      "D": "Morze Śródziemne"
+    },
+    "correct_answer": "D",
+    "explanation": "Morze Śródziemne leży między południową Europę a północną Afrykę.",
+    "aliases": {
+      "A": [
+        "Morze Czarne",
+        "morze czarne"
+      ],
+      "B": [
+        "Morze Północne",
+        "morze pllnocne"
+      ],
+      "C": [
+        "Morze Bałtyckie",
+        "morze baltyckie"
+      ],
+      "D": [
+        "Morze Śródziemne",
+        "morze lrldziemne"
+      ]
+    }
+  },
+  {
+    "id": "geo_015",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "W którym kraju znajduje się pustynia Atakama?",
+    "options": {
+      "A": "Chile",
+      "B": "Peru",
+      "C": "Boliwia",
+      "D": "Argentyna"
+    },
+    "correct_answer": "A",
+    "explanation": "Pustynia Atakama leży przede wszystkim w północnym Chile.",
+    "aliases": {
+      "A": [
+        "Chile",
+        "chile"
+      ],
+      "B": [
+        "Peru",
+        "peru"
+      ],
+      "C": [
+        "Boliwia",
+        "boliwia"
+      ],
+      "D": [
+        "Argentyna",
+        "argentyna"
+      ]
+    }
+  },
+  {
+    "id": "geo_016",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Które miasto jest stolicą Nowej Zelandii?",
+    "options": {
+      "A": "Auckland",
+      "B": "Wellington",
+      "C": "Christchurch",
+      "D": "Dunedin"
+    },
+    "correct_answer": "B",
+    "explanation": "Stolicą Nowej Zelandii jest Wellington, choć Auckland jest większe.",
+    "aliases": {
+      "A": [
+        "Auckland",
+        "auckland"
+      ],
+      "B": [
+        "Wellington",
+        "wellington"
+      ],
+      "C": [
+        "Christchurch",
+        "christchurch"
+      ],
+      "D": [
+        "Dunedin",
+        "dunedin"
+      ]
+    }
+  },
+  {
+    "id": "geo_017",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Który kontynent leży całkowicie wokół bieguna południowego?",
+    "options": {
+      "A": "Europa",
+      "B": "Azja",
+      "C": "Antarktyda",
+      "D": "Afryka"
+    },
+    "correct_answer": "C",
+    "explanation": "Australia jest najmniejszym kontynentem według klasycznego podziału szkolnego.",
+    "aliases": {
+      "A": [
+        "Europa",
+        "europa"
+      ],
+      "B": [
+        "Antarktyda",
+        "antarktyda"
+      ],
+      "C": [
+        "Australia",
+        "australia"
+      ],
+      "D": [
+        "Ameryka Południowa",
+        "ameryka poludniowa"
+      ]
+    }
+  },
+  {
+    "id": "geo_018",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto jest stolicą Czech?",
+    "options": {
+      "A": "Praga",
+      "B": "Brno",
+      "C": "Ostrawa",
+      "D": "Pilzno"
+    },
+    "correct_answer": "A",
+    "explanation": "Stolicą Czech jest Praga."
+  },
+  {
+    "id": "geo_019",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Która rzeka jest najdłuższa w Polsce?",
+    "options": {
+      "A": "Odra",
+      "B": "Wisła",
+      "C": "Warta",
+      "D": "Bug"
+    },
+    "correct_answer": "B",
+    "explanation": "Wisła jest najdłuższą rzeką Polski."
+  },
+  {
+    "id": "geo_020",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Który kontynent jest najmniejszy pod względem powierzchni?",
+    "options": {
+      "A": "Europa",
+      "B": "Antarktyda",
+      "C": "Australia",
+      "D": "Ameryka Południowa"
+    },
+    "correct_answer": "C",
+    "explanation": "Antarktyda leży wokół bieguna południowego."
+  },
+  {
+    "id": "geo_021",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "W którym kraju leży Machu Picchu?",
+    "options": {
+      "A": "Boliwia",
+      "B": "Chile",
+      "C": "Ekwador",
+      "D": "Peru"
+    },
+    "correct_answer": "D",
+    "explanation": "Machu Picchu znajduje się w Peru."
+  },
+  {
+    "id": "geo_022",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Jakie morze oblewa północną Polskę?",
+    "options": {
+      "A": "Morze Bałtyckie",
+      "B": "Morze Czarne",
+      "C": "Morze Północne",
+      "D": "Morze Śródziemne"
+    },
+    "correct_answer": "A",
+    "explanation": "Północną Polskę oblewa Morze Bałtyckie."
+  },
+  {
+    "id": "geo_023",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Które miasto jest stolicą Kanady?",
+    "options": {
+      "A": "Toronto",
+      "B": "Ottawa",
+      "C": "Montreal",
+      "D": "Vancouver"
+    },
+    "correct_answer": "B",
+    "explanation": "Stolicą Kanady jest Ottawa."
+  },
+  {
+    "id": "geo_024",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które państwo na mapie Europy często porównuje się do buta?",
+    "options": {
+      "A": "Grecja",
+      "B": "Portugalia",
+      "C": "Włochy",
+      "D": "Chorwacja"
+    },
+    "correct_answer": "C",
+    "explanation": "Charakterystyczny kształt Włoch często porównuje się do buta."
+  },
+  {
+    "id": "geo_025",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Który ocean leży między Afryką a Australią?",
+    "options": {
+      "A": "Atlantycki",
+      "B": "Spokojny",
+      "C": "Arktyczny",
+      "D": "Indyjski"
+    },
+    "correct_answer": "D",
+    "explanation": "Ocean Indyjski leży między Afryką a Australią."
+  },
+  {
+    "id": "geo_026",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jaki jest najwyższy szczyt Polski?",
+    "options": {
+      "A": "Rysy",
+      "B": "Śnieżka",
+      "C": "Giewont",
+      "D": "Babia Góra"
+    },
+    "correct_answer": "A",
+    "explanation": "Najwyższym szczytem Polski są Rysy."
+  },
+  {
+    "id": "geo_027",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym kraju leży Barcelona?",
+    "options": {
+      "A": "Portugalia",
+      "B": "Hiszpania",
+      "C": "Francja",
+      "D": "Włochy"
+    },
+    "correct_answer": "B",
+    "explanation": "Barcelona leży w Hiszpanii."
+  },
+  {
+    "id": "geo_028",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto jest stolicą Japonii?",
+    "options": {
+      "A": "Osaka",
+      "B": "Kioto",
+      "C": "Tokio",
+      "D": "Nagoja"
+    },
+    "correct_answer": "C",
+    "explanation": "Stolicą Japonii jest Tokio."
+  },
+  {
+    "id": "geo_029",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Która pustynia jest największą gorącą pustynią świata?",
+    "options": {
+      "A": "Gobi",
+      "B": "Kalahari",
+      "C": "Atakama",
+      "D": "Sahara"
+    },
+    "correct_answer": "D",
+    "explanation": "Sahara jest największą gorącą pustynią świata."
+  },
+  {
+    "id": "geo_030",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Która rzeka przepływa przez Londyn?",
+    "options": {
+      "A": "Sekwana",
+      "B": "Ren",
+      "C": "Dunaj",
+      "D": "Tamiza"
+    },
+    "correct_answer": "D",
+    "explanation": "Przez Londyn przepływa Tamiza."
+  },
+  {
+    "id": "geo_031",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto jest stolicą Niemiec?",
+    "options": {
+      "A": "Berlin",
+      "B": "Monachium",
+      "C": "Hamburg",
+      "D": "Frankfurt"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Berlin."
+  },
+  {
+    "id": "geo_032",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Który ocean jest największy na Ziemi?",
+    "options": {
+      "A": "Spokojny",
+      "B": "Atlantycki",
+      "C": "Indyjski",
+      "D": "Arktyczny"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Spokojny."
+  },
+  {
+    "id": "geo_033",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym kraju leży Lizbona?",
+    "options": {
+      "A": "Portugalia",
+      "B": "Hiszpania",
+      "C": "Włochy",
+      "D": "Grecja"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Portugalia."
+  },
+  {
+    "id": "geo_034",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które pasmo górskie leży na południu Polski?",
+    "options": {
+      "A": "Tatry",
+      "B": "Alpy",
+      "C": "Pireneje",
+      "D": "Apeniny"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Tatry."
+  },
+  {
+    "id": "geo_035",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Na którym kontynencie płynie Nil?",
+    "options": {
+      "A": "Afryka",
+      "B": "Europa",
+      "C": "Azja",
+      "D": "Ameryka Północna"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Afryka."
+  },
+  {
+    "id": "geo_036",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym polskim mieście znajduje się Wawel?",
+    "options": {
+      "A": "Kraków",
+      "B": "Poznań",
+      "C": "Lublin",
+      "D": "Szczecin"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Kraków."
+  },
+  {
+    "id": "geo_037",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Które państwo ma stolicę w Reykjaviku?",
+    "options": {
+      "A": "Islandia",
+      "B": "Finlandia",
+      "C": "Irlandia",
+      "D": "Estonia"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Islandia."
+  },
+  {
+    "id": "geo_038",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto jest stolicą Węgier?",
+    "options": {
+      "A": "Praga",
+      "B": "Budapeszt",
+      "C": "Bratysława",
+      "D": "Lublana"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Budapeszt."
+  },
+  {
+    "id": "geo_039",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które państwo jest największe w Ameryce Południowej?",
+    "options": {
+      "A": "Argentyna",
+      "B": "Brazylia",
+      "C": "Chile",
+      "D": "Peru"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Brazylia."
+  },
+  {
+    "id": "geo_040",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym paśmie górskim leży Mount Everest?",
+    "options": {
+      "A": "Andy",
+      "B": "Himalaje",
+      "C": "Alpy",
+      "D": "Kordyliery"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Himalaje."
+  },
+  {
+    "id": "geo_041",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Które miasto jest stolicą Australii?",
+    "options": {
+      "A": "Sydney",
+      "B": "Canberra",
+      "C": "Melbourne",
+      "D": "Perth"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Canberra."
+  },
+  {
+    "id": "geo_042",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym kraju znajdują się piramidy w Gizie?",
+    "options": {
+      "A": "Maroko",
+      "B": "Egipt",
+      "C": "Tunezja",
+      "D": "Libia"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Egipt."
+  },
+  {
+    "id": "geo_043",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Na którym kontynencie leży Argentyna?",
+    "options": {
+      "A": "Europa",
+      "B": "Ameryka Południowa",
+      "C": "Afryka",
+      "D": "Azja"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Ameryka Południowa."
+  },
+  {
+    "id": "geo_044",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które morze leży między Europą a Afryką?",
+    "options": {
+      "A": "Bałtyckie",
+      "B": "Śródziemne",
+      "C": "Czarne",
+      "D": "Północne"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Śródziemne."
+  },
+  {
+    "id": "geo_045",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto jest stolicą Norwegii?",
+    "options": {
+      "A": "Sztokholm",
+      "B": "Kopenhaga",
+      "C": "Oslo",
+      "D": "Helsinki"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Oslo."
+  },
+  {
+    "id": "geo_046",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Przez który kontynent przepływa Amazonka?",
+    "options": {
+      "A": "Afryka",
+      "B": "Europa",
+      "C": "Ameryka Południowa",
+      "D": "Australia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Ameryka Południowa."
+  },
+  {
+    "id": "geo_047",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które państwo wyspiarskie ma stolicę w Dublinie?",
+    "options": {
+      "A": "Malta",
+      "B": "Cypr",
+      "C": "Irlandia",
+      "D": "Islandia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Irlandia."
+  },
+  {
+    "id": "geo_048",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jakie jest największe jezioro w Polsce?",
+    "options": {
+      "A": "Mamry",
+      "B": "Łebsko",
+      "C": "Śniardwy",
+      "D": "Wigry"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Śniardwy."
+  },
+  {
+    "id": "geo_049",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto słynie z kanałów i gondoli?",
+    "options": {
+      "A": "Paryż",
+      "B": "Amsterdam",
+      "C": "Wenecja",
+      "D": "Wiedeń"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Wenecja."
+  },
+  {
+    "id": "geo_050",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "W którym kraju leżą Ateny?",
+    "options": {
+      "A": "Albania",
+      "B": "Bułgaria",
+      "C": "Grecja",
+      "D": "Chorwacja"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Grecja."
+  },
+  {
+    "id": "geo_051",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "W którym kraju znajduje się wodospad Salto Ángel?",
+    "options": {
+      "A": "Kolumbia",
+      "B": "Ekwador",
+      "C": "Wenezuela",
+      "D": "Brazylia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Wenezuela."
+  },
+  {
+    "id": "geo_052",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto jest stolicą Portugalii?",
+    "options": {
+      "A": "Madryt",
+      "B": "Porto",
+      "C": "Lizbona",
+      "D": "Sewilla"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Lizbona."
+  },
+  {
+    "id": "geo_053",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które miasto jest stolicą Słowacji?",
+    "options": {
+      "A": "Brno",
+      "B": "Koszyce",
+      "C": "Lublana",
+      "D": "Bratysława"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Bratysława."
+  },
+  {
+    "id": "geo_054",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Która rzeka przepływa przez Paryż?",
+    "options": {
+      "A": "Tamiza",
+      "B": "Ren",
+      "C": "Dunaj",
+      "D": "Sekwana"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Sekwana."
+  },
+  {
+    "id": "geo_055",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Na którym kontynencie leżą Andy?",
+    "options": {
+      "A": "Europa",
+      "B": "Afryka",
+      "C": "Azja",
+      "D": "Ameryka Południowa"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Ameryka Południowa."
+  },
+  {
+    "id": "geo_056",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które państwo ma stolicę w Helsinkach?",
+    "options": {
+      "A": "Norwegia",
+      "B": "Szwecja",
+      "C": "Dania",
+      "D": "Finlandia"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Finlandia."
+  },
+  {
+    "id": "geo_057",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Jaka jest największa wyspa świata?",
+    "options": {
+      "A": "Madagaskar",
+      "B": "Borneo",
+      "C": "Nowa Gwinea",
+      "D": "Grenlandia"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Grenlandia."
+  },
+  {
+    "id": "geo_058",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Które państwo ma stolicę w Nairobi?",
+    "options": {
+      "A": "Etiopia",
+      "B": "Tanzania",
+      "C": "Uganda",
+      "D": "Kenia"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Kenia."
+  },
+  {
+    "id": "geo_059",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Jaka cieśnina oddziela Europę od Afryki przy Hiszpanii?",
+    "options": {
+      "A": "Bosfor",
+      "B": "Magellana",
+      "C": "Malakka",
+      "D": "Gibraltarska"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Gibraltarska."
+  },
+  {
+    "id": "geo_060",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Które państwo leży na Półwyspie Iberyjskim?",
+    "options": {
+      "A": "Węgry",
+      "B": "Szwajcaria",
+      "C": "Austria",
+      "D": "Hiszpania"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Hiszpania."
+  }
+]

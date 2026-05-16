@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "pop_001",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która bohaterka jest główną postacią serii \"Igrzyska śmierci\"?",
+    "options": {
+      "A": "Hermiona Granger",
+      "B": "Katniss Everdeen",
+      "C": "Bella Swan",
+      "D": "Arya Stark"
+    },
+    "correct_answer": "B",
+    "explanation": "Katniss Everdeen jest narratorką i główną bohaterką serii Suzanne Collins.",
+    "aliases": {
+      "A": [
+        "Hermiona Granger",
+        "hermiona granger"
+      ],
+      "B": [
+        "Katniss Everdeen",
+        "katniss everdeen"
+      ],
+      "C": [
+        "Bella Swan",
+        "bella swan"
+      ],
+      "D": [
+        "Arya Stark",
+        "arya stark"
+      ]
+    }
+  },
+  {
+    "id": "pop_002",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Który zespół wykonuje piosenkę \"Bohemian Rhapsody\"?",
+    "options": {
+      "A": "Queen",
+      "B": "The Beatles",
+      "C": "Pink Floyd",
+      "D": "ABBA"
+    },
+    "correct_answer": "A",
+    "explanation": "\"Bohemian Rhapsody\" to jeden z najbardziej znanych utworów zespołu Queen.",
+    "aliases": {
+      "A": [
+        "Queen",
+        "queen"
+      ],
+      "B": [
+        "The Beatles",
+        "the beatles"
+      ],
+      "C": [
+        "Pink Floyd",
+        "pink floyd"
+      ],
+      "D": [
+        "ABBA",
+        "abba"
+      ]
+    }
+  },
+  {
+    "id": "pop_003",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się szkoła magii z serii o Harrym Potterze?",
+    "options": {
+      "A": "Beauxbatons",
+      "B": "Durmstrang",
+      "C": "Hogwart",
+      "D": "Ilvermorny"
+    },
+    "correct_answer": "C",
+    "explanation": "Harry Potter uczy się w Szkole Magii i Czarodziejstwa Hogwart.",
+    "aliases": {
+      "A": [
+        "Beauxbatons",
+        "beauxbatons"
+      ],
+      "B": [
+        "Durmstrang",
+        "durmstrang"
+      ],
+      "C": [
+        "Hogwart",
+        "hogwart"
+      ],
+      "D": [
+        "Ilvermorny",
+        "ilvermorny"
+      ]
+    }
+  },
+  {
+    "id": "pop_004",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Który serial animowany przedstawia rodzinę z miasta Springfield?",
+    "options": {
+      "A": "Family Guy",
+      "B": "Futurama",
+      "C": "Rick i Morty",
+      "D": "Simpsonowie"
+    },
+    "correct_answer": "D",
+    "explanation": "\"Simpsonowie\" opowiadają o rodzinie Simpsonów mieszkającej w Springfield.",
+    "aliases": {
+      "A": [
+        "Family Guy",
+        "family guy"
+      ],
+      "B": [
+        "Futurama",
+        "futurama"
+      ],
+      "C": [
+        "Rick i Morty",
+        "rick i morty"
+      ],
+      "D": [
+        "Simpsonowie",
+        "simpsonowie"
+      ]
+    }
+  },
+  {
+    "id": "pop_005",
+    "category": "popculture",
+    "difficulty": "hard",
+    "question": "Który artysta jest znany jako twórca alter ego Ziggy Stardust?",
+    "options": {
+      "A": "David Bowie",
+      "B": "Prince",
+      "C": "Elton John",
+      "D": "Freddie Mercury"
+    },
+    "correct_answer": "A",
+    "explanation": "Ziggy Stardust to sceniczne alter ego Davida Bowiego z początku lat 70.",
+    "aliases": {
+      "A": [
+        "David Bowie",
+        "david bowie"
+      ],
+      "B": [
+        "Prince",
+        "prince"
+      ],
+      "C": [
+        "Elton John",
+        "elton john"
+      ],
+      "D": [
+        "Freddie Mercury",
+        "freddie mercury"
+      ]
+    }
+  },
+  {
+    "id": "pop_006",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się niebieski jeż z gier Segi?",
+    "options": {
+      "A": "Crash",
+      "B": "Sonic",
+      "C": "Spyro",
+      "D": "Kirby"
+    },
+    "correct_answer": "B",
+    "explanation": "Sonic the Hedgehog jest maskotką firmy Sega.",
+    "aliases": {
+      "A": [
+        "Crash",
+        "crash"
+      ],
+      "B": [
+        "Sonic",
+        "sonic"
+      ],
+      "C": [
+        "Spyro",
+        "spyro"
+      ],
+      "D": [
+        "Kirby",
+        "kirby"
+      ]
+    }
+  },
+  {
+    "id": "pop_007",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Która marka zabawek jest znana z klocków składanych z wypustkami?",
+    "options": {
+      "A": "Hot Wheels",
+      "B": "Barbie",
+      "C": "LEGO",
+      "D": "Playmobil"
+    },
+    "correct_answer": "C",
+    "explanation": "LEGO produkuje charakterystyczne plastikowe klocki łączone wypustkami.",
+    "aliases": {
+      "A": [
+        "Hot Wheels",
+        "hot wheels"
+      ],
+      "B": [
+        "Barbie",
+        "barbie"
+      ],
+      "C": [
+        "LEGO",
+        "lego"
+      ],
+      "D": [
+        "Playmobil",
+        "playmobil"
+      ]
+    }
+  },
+  {
+    "id": "pop_008",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Który superbohater mieszka fikcyjnie w Gotham City?",
+    "options": {
+      "A": "Superman",
+      "B": "Iron Man",
+      "C": "Spider-Man",
+      "D": "Batman"
+    },
+    "correct_answer": "D",
+    "explanation": "Gotham City jest miastem Batmana w komiksach DC.",
+    "aliases": {
+      "A": [
+        "Superman",
+        "superman"
+      ],
+      "B": [
+        "Iron Man",
+        "iron man"
+      ],
+      "C": [
+        "Spider-Man",
+        "spider-man"
+      ],
+      "D": [
+        "Batman",
+        "batman"
+      ]
+    }
+  },
+  {
+    "id": "pop_009",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Kto prowadził fikcyjny talk-show \"The Muppet Show\" jako zielona żaba?",
+    "options": {
+      "A": "Kermit",
+      "B": "Elmo",
+      "C": "Gonzo",
+      "D": "Fozzie"
+    },
+    "correct_answer": "A",
+    "explanation": "Kermit Żaba był gospodarzem wielu segmentów \"The Muppet Show\".",
+    "aliases": {
+      "A": [
+        "Kermit",
+        "kermit",
+        "kermit żaba",
+        "kermit zaba"
+      ],
+      "B": [
+        "Elmo",
+        "elmo"
+      ],
+      "C": [
+        "Gonzo",
+        "gonzo"
+      ],
+      "D": [
+        "Fozzie",
+        "fozzie"
+      ]
+    }
+  },
+  {
+    "id": "pop_010",
+    "category": "popculture",
+    "difficulty": "hard",
+    "question": "Która franczyza kojarzy się z hasłem \"May the Force be with you\"?",
+    "options": {
+      "A": "Star Trek",
+      "B": "Star Wars",
+      "C": "Matrix",
+      "D": "Avatar"
+    },
+    "correct_answer": "B",
+    "explanation": "Fraza \"Niech Moc będzie z tobą\" pochodzi z uniwersum Star Wars.",
+    "aliases": {
+      "A": [
+        "Star Trek",
+        "star trek"
+      ],
+      "B": [
+        "Star Wars",
+        "star wars"
+      ],
+      "C": [
+        "Matrix",
+        "matrix"
+      ],
+      "D": [
+        "Avatar",
+        "avatar"
+      ]
+    }
+  },
+  {
+    "id": "pop_011",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która postać Disneya jest myszą w czerwonych spodenkach?",
+    "options": {
+      "A": "Kaczor Donald",
+      "B": "Goofy",
+      "C": "Myszka Miki",
+      "D": "Pluto"
+    },
+    "correct_answer": "C",
+    "explanation": "Myszka Miki jest jedną z najbardziej rozpoznawalnych postaci Disneya.",
+    "aliases": {
+      "A": [
+        "Kaczor Donald",
+        "kaczor donald"
+      ],
+      "B": [
+        "Goofy",
+        "goofy"
+      ],
+      "C": [
+        "Myszka Miki",
+        "myszka miki"
+      ],
+      "D": [
+        "Pluto",
+        "pluto"
+      ]
+    }
+  },
+  {
+    "id": "pop_012",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Który reality show polega na śledzeniu uczestników mieszkających w jednym domu?",
+    "options": {
+      "A": "MasterChef",
+      "B": "Mam talent!",
+      "C": "The Voice",
+      "D": "Big Brother"
+    },
+    "correct_answer": "D",
+    "explanation": "\"Big Brother\" opiera się na obserwowaniu uczestników zamkniętych w domu.",
+    "aliases": {
+      "A": [
+        "MasterChef",
+        "masterchef"
+      ],
+      "B": [
+        "Mam talent!",
+        "mam talent"
+      ],
+      "C": [
+        "The Voice",
+        "the voice"
+      ],
+      "D": [
+        "Big Brother",
+        "big brother"
+      ]
+    }
+  },
+  {
+    "id": "pop_013",
+    "category": "popculture",
+    "difficulty": "hard",
+    "question": "Która piosenkarka wydała album \"1989\"?",
+    "options": {
+      "A": "Taylor Swift",
+      "B": "Adele",
+      "C": "Billie Eilish",
+      "D": "Lady Gaga"
+    },
+    "correct_answer": "A",
+    "explanation": "\"1989\" to album Taylor Swift wydany w 2014 roku.",
+    "aliases": {
+      "A": [
+        "Taylor Swift",
+        "taylor swift"
+      ],
+      "B": [
+        "Adele",
+        "adele"
+      ],
+      "C": [
+        "Billie Eilish",
+        "billie eilish"
+      ],
+      "D": [
+        "Lady Gaga",
+        "lady gaga"
+      ]
+    }
+  },
+  {
+    "id": "pop_014",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Który komiksowy świat tworzy Avengers?",
+    "options": {
+      "A": "DC Comics",
+      "B": "Marvel",
+      "C": "Image Comics",
+      "D": "Dark Horse"
+    },
+    "correct_answer": "B",
+    "explanation": "Avengers są drużyną superbohaterów z komiksów Marvela.",
+    "aliases": {
+      "A": [
+        "DC Comics",
+        "dc comics"
+      ],
+      "B": [
+        "Marvel",
+        "marvel",
+        "marvel comics"
+      ],
+      "C": [
+        "Image Comics",
+        "image comics"
+      ],
+      "D": [
+        "Dark Horse",
+        "dark horse"
+      ]
+    }
+  },
+  {
+    "id": "pop_015",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się żółta rodzina z kreskówki Matta Groeninga?",
+    "options": {
+      "A": "Flintstonowie",
+      "B": "Jetsonowie",
+      "C": "Simpsonowie",
+      "D": "Griffinowie"
+    },
+    "correct_answer": "C",
+    "explanation": "Rodzina Simpsonów jest znana z żółtego wyglądu postaci.",
+    "aliases": {
+      "A": [
+        "Flintstonowie",
+        "flintstonowie"
+      ],
+      "B": [
+        "Jetsonowie",
+        "jetsonowie"
+      ],
+      "C": [
+        "Simpsonowie",
+        "simpsonowie"
+      ],
+      "D": [
+        "Griffinowie",
+        "griffinowie"
+      ]
+    }
+  },
+  {
+    "id": "pop_016",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Która platforma spopularyzowała krótkie pionowe filmiki z trendami tanecznymi?",
+    "options": {
+      "A": "Netflix",
+      "B": "Twitch",
+      "C": "Spotify",
+      "D": "TikTok"
+    },
+    "correct_answer": "D",
+    "explanation": "TikTok jest kojarzony z krótkimi pionowymi filmami i viralowymi trendami.",
+    "aliases": {
+      "A": [
+        "Netflix",
+        "netflix"
+      ],
+      "B": [
+        "Twitch",
+        "twitch"
+      ],
+      "C": [
+        "Spotify",
+        "spotify"
+      ],
+      "D": [
+        "TikTok",
+        "tiktok"
+      ]
+    }
+  },
+  {
+    "id": "pop_017",
+    "category": "popculture",
+    "difficulty": "hard",
+    "question": "Który reżyser stworzył serial \"Twin Peaks\" razem z Markiem Frostem?",
+    "options": {
+      "A": "David Lynch",
+      "B": "Steven Spielberg",
+      "C": "Tim Burton",
+      "D": "Christopher Nolan"
+    },
+    "correct_answer": "A",
+    "explanation": "\"Twin Peaks\" stworzyli David Lynch i Mark Frost.",
+    "aliases": {
+      "A": [
+        "David Lynch",
+        "david lynch"
+      ],
+      "B": [
+        "Steven Spielberg",
+        "steven spielberg"
+      ],
+      "C": [
+        "Tim Burton",
+        "tim burton"
+      ],
+      "D": [
+        "Christopher Nolan",
+        "christopher nolan"
+      ]
+    }
+  },
+  {
+    "id": "pop_018",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która lalka ma partnera o imieniu Ken?",
+    "options": {
+      "A": "Barbie",
+      "B": "Bratz",
+      "C": "Elsa",
+      "D": "Polly Pocket"
+    },
+    "correct_answer": "A",
+    "explanation": "Ken jest partnerem Barbie w tej linii zabawek."
+  },
+  {
+    "id": "pop_019",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która seria książek opowiada o uczniu szkoły magii w Hogwarcie?",
+    "options": {
+      "A": "Percy Jackson",
+      "B": "Harry Potter",
+      "C": "Igrzyska śmierci",
+      "D": "Opowieści z Narnii"
+    },
+    "correct_answer": "B",
+    "explanation": "Harry Potter uczy się w Szkole Magii i Czarodziejstwa w Hogwarcie."
+  },
+  {
+    "id": "pop_020",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się żółta rodzina z serialu animowanego stworzonego przez Matta Groeninga?",
+    "options": {
+      "A": "Flintstonowie",
+      "B": "Jetsonowie",
+      "C": "Simpsonowie",
+      "D": "Griffinowie"
+    },
+    "correct_answer": "C",
+    "explanation": "Simpsonowie to rodzina z serialu stworzonego przez Matta Groeninga."
+  },
+  {
+    "id": "pop_021",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Które uniwersum ma superbohaterów takich jak Iron Man i Thor?",
+    "options": {
+      "A": "DC",
+      "B": "Star Wars",
+      "C": "Pixar",
+      "D": "Marvel"
+    },
+    "correct_answer": "D",
+    "explanation": "Iron Man i Thor należą do uniwersum Marvela."
+  },
+  {
+    "id": "pop_022",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jaki kolor najmocniej kojarzy się z logo Coca-Coli?",
+    "options": {
+      "A": "Czerwony",
+      "B": "Zielony",
+      "C": "Niebieski",
+      "D": "Fioletowy"
+    },
+    "correct_answer": "A",
+    "explanation": "Logo Coca-Coli jest powszechnie kojarzone z czerwienią."
+  },
+  {
+    "id": "pop_023",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Który fikcyjny detektyw mieszkał przy Baker Street 221B?",
+    "options": {
+      "A": "Hercule Poirot",
+      "B": "Sherlock Holmes",
+      "C": "Philip Marlowe",
+      "D": "Columbo"
+    },
+    "correct_answer": "B",
+    "explanation": "Sherlock Holmes jest kojarzony z adresem Baker Street 221B."
+  },
+  {
+    "id": "pop_024",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się żółte elektryczne stworzenie z serii Pokémon?",
+    "options": {
+      "A": "Bulbasaur",
+      "B": "Charmander",
+      "C": "Pikachu",
+      "D": "Squirtle"
+    },
+    "correct_answer": "C",
+    "explanation": "Pikachu jest najbardziej rozpoznawalnym elektrycznym Pokémonem."
+  },
+  {
+    "id": "pop_025",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Który bohater popkultury zjada szpinak, by zyskać siłę?",
+    "options": {
+      "A": "Garfield",
+      "B": "Asteriks",
+      "C": "Obeliks",
+      "D": "Popeye"
+    },
+    "correct_answer": "D",
+    "explanation": "Popeye jest znany z jedzenia szpinaku dla siły."
+  },
+  {
+    "id": "pop_026",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się platforma znana z krótkich pionowych filmów?",
+    "options": {
+      "A": "TikTok",
+      "B": "LinkedIn",
+      "C": "Wikipedia",
+      "D": "Dropbox"
+    },
+    "correct_answer": "A",
+    "explanation": "TikTok jest znany z krótkich pionowych materiałów wideo."
+  },
+  {
+    "id": "pop_027",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Który zespół nagrał utwór Bohemian Rhapsody?",
+    "options": {
+      "A": "The Rolling Stones",
+      "B": "Queen",
+      "C": "U2",
+      "D": "ABBA"
+    },
+    "correct_answer": "B",
+    "explanation": "Bohemian Rhapsody to jeden z najbardziej znanych utworów zespołu Queen."
+  },
+  {
+    "id": "pop_028",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Jak nazywa się czarodziej z brodą z Władcy Pierścieni?",
+    "options": {
+      "A": "Saruman",
+      "B": "Radagast",
+      "C": "Gandalf",
+      "D": "Elrond"
+    },
+    "correct_answer": "C",
+    "explanation": "Gandalf jest czarodziejem z Władcy Pierścieni."
+  },
+  {
+    "id": "pop_029",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która marka sportowa używa hasła Just Do It?",
+    "options": {
+      "A": "Adidas",
+      "B": "Puma",
+      "C": "Reebok",
+      "D": "Nike"
+    },
+    "correct_answer": "D",
+    "explanation": "Hasło Just Do It jest kojarzone z marką Nike."
+  },
+  {
+    "id": "pop_030",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Który serial spopularyzował hasło Winter is coming?",
+    "options": {
+      "A": "Breaking Bad",
+      "B": "Gra o tron",
+      "C": "Lost",
+      "D": "Przyjaciele"
+    },
+    "correct_answer": "B",
+    "explanation": "Winter is coming to znane hasło z serialu Gra o tron."
+  },
+  {
+    "id": "pop_031",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "W jakim podwodnym mieście mieszka SpongeBob Kanciastoporty?",
+    "options": {
+      "A": "Bikini Dolne",
+      "B": "Atlantyda",
+      "C": "Agrabah",
+      "D": "Narnia"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Bikini Dolne."
+  },
+  {
+    "id": "pop_032",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się świetlna broń rycerzy Jedi?",
+    "options": {
+      "A": "Miecz świetlny",
+      "B": "Różdżka",
+      "C": "Batarang",
+      "D": "Lasso prawdy"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Miecz świetlny."
+  },
+  {
+    "id": "pop_033",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Która firma stworzyła postać Hello Kitty?",
+    "options": {
+      "A": "Sanrio",
+      "B": "Mattel",
+      "C": "Lego",
+      "D": "Hasbro"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Sanrio."
+  },
+  {
+    "id": "pop_034",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Z którą wytwórnią kojarzy się Myszka Miki?",
+    "options": {
+      "A": "Disney",
+      "B": "Warner Bros",
+      "C": "Universal",
+      "D": "Paramount"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Disney."
+  },
+  {
+    "id": "pop_035",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "W której serii gier występuje Lara Croft?",
+    "options": {
+      "A": "Tomb Raider",
+      "B": "Uncharted",
+      "C": "Halo",
+      "D": "Resident Evil"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Tomb Raider."
+  },
+  {
+    "id": "pop_036",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Który zespół K-popowy ma fanów nazywanych ARMY?",
+    "options": {
+      "A": "BTS",
+      "B": "Blackpink",
+      "C": "EXO",
+      "D": "Twice"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to BTS."
+  },
+  {
+    "id": "pop_037",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Jak nazywa się mała zielona postać z serialu The Mandalorian?",
+    "options": {
+      "A": "Grogu",
+      "B": "Yoda",
+      "C": "Jabba",
+      "D": "Ewok"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Grogu."
+  },
+  {
+    "id": "pop_038",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się kawiarnia z serialu Przyjaciele?",
+    "options": {
+      "A": "Monk's Cafe",
+      "B": "Central Perk",
+      "C": "MacLaren's",
+      "D": "Paddy's Pub"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Central Perk."
+  },
+  {
+    "id": "pop_039",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Gdzie pracuje Homer Simpson?",
+    "options": {
+      "A": "W szkole",
+      "B": "W elektrowni atomowej",
+      "C": "W banku",
+      "D": "W muzeum"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to W elektrowni atomowej."
+  },
+  {
+    "id": "pop_040",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Który superbohater jest znany jako Mroczny Rycerz?",
+    "options": {
+      "A": "Superman",
+      "B": "Batman",
+      "C": "Spider-Man",
+      "D": "Aquaman"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Batman."
+  },
+  {
+    "id": "pop_041",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Czym było Tamagotchi?",
+    "options": {
+      "A": "Grą planszową",
+      "B": "Wirtualnym zwierzątkiem",
+      "C": "Konsolą do gier",
+      "D": "Telefonem"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Wirtualnym zwierzątkiem."
+  },
+  {
+    "id": "pop_042",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Z której serii filmów pochodzą Minionki?",
+    "options": {
+      "A": "Shrek",
+      "B": "Jak ukraść księżyc",
+      "C": "Madagascar",
+      "D": "Epoka lodowcowa"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Jak ukraść księżyc."
+  },
+  {
+    "id": "pop_043",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak ma na imię siostra Luke'a Skywalkera?",
+    "options": {
+      "A": "Padmé",
+      "B": "Leia",
+      "C": "Rey",
+      "D": "Jyn"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Leia."
+  },
+  {
+    "id": "pop_044",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jaki numer kodowy ma James Bond?",
+    "options": {
+      "A": "911",
+      "B": "007",
+      "C": "101",
+      "D": "404"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to 007."
+  },
+  {
+    "id": "pop_045",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Który serwis jest najbardziej kojarzony z filmami tworzonymi przez użytkowników?",
+    "options": {
+      "A": "Spotify",
+      "B": "Reddit",
+      "C": "YouTube",
+      "D": "Slack"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to YouTube."
+  },
+  {
+    "id": "pop_046",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Z jakiego kraju pochodzi manga?",
+    "options": {
+      "A": "Chiny",
+      "B": "Korea Południowa",
+      "C": "Japonia",
+      "D": "Tajlandia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Japonia."
+  },
+  {
+    "id": "pop_047",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Kto jest twórcą kostki Rubika?",
+    "options": {
+      "A": "Nikola Tesla",
+      "B": "Alan Turing",
+      "C": "Ernő Rubik",
+      "D": "Thomas Edison"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Ernő Rubik."
+  },
+  {
+    "id": "pop_048",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się rodzinna planeta Supermana?",
+    "options": {
+      "A": "Mars",
+      "B": "Asgard",
+      "C": "Krypton",
+      "D": "Vulcan"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Krypton."
+  },
+  {
+    "id": "pop_049",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która seria używa hasła Złap je wszystkie?",
+    "options": {
+      "A": "Digimon",
+      "B": "Dragon Ball",
+      "C": "Pokémon",
+      "D": "Naruto"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Pokémon."
+  },
+  {
+    "id": "pop_050",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Jaki format udaje serial The Office?",
+    "options": {
+      "A": "Telenowelę",
+      "B": "Turniej",
+      "C": "Mockument",
+      "D": "Słuchowisko"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Mockument."
+  },
+  {
+    "id": "pop_051",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak nazywa się graficzny zapis wypowiedzi postaci w komiksie?",
+    "options": {
+      "A": "Plansza",
+      "B": "Kadr",
+      "C": "Dymek",
+      "D": "Okładka"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Dymek."
+  },
+  {
+    "id": "pop_052",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Co zbiera Pac-Man w klasycznej grze?",
+    "options": {
+      "A": "Monety",
+      "B": "Diamenty",
+      "C": "Kropki",
+      "D": "Karty"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Kropki."
+  },
+  {
+    "id": "pop_053",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Który złoczyńca Marvela używa Rękawicy Nieskończoności?",
+    "options": {
+      "A": "Loki",
+      "B": "Ultron",
+      "C": "Venom",
+      "D": "Thanos"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Thanos."
+  },
+  {
+    "id": "pop_054",
+    "category": "popculture",
+    "difficulty": "medium",
+    "question": "Która postać ze Star Treka kojarzy się z pozdrowieniem Live long and prosper?",
+    "options": {
+      "A": "Kirk",
+      "B": "Picard",
+      "C": "Data",
+      "D": "Spock"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Spock."
+  },
+  {
+    "id": "pop_055",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która firma stworzyła konsolę PlayStation?",
+    "options": {
+      "A": "Nintendo",
+      "B": "Microsoft",
+      "C": "Sega",
+      "D": "Sony"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Sony."
+  },
+  {
+    "id": "pop_056",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Która bohaterka Disneya zgubiła szklany pantofelek?",
+    "options": {
+      "A": "Aurora",
+      "B": "Ariel",
+      "C": "Jasmina",
+      "D": "Kopciuszek"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Kopciuszek."
+  },
+  {
+    "id": "pop_057",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak ma na imię przyjaciel Asteriksa?",
+    "options": {
+      "A": "Tintin",
+      "B": "Gaston",
+      "C": "Lucky Luke",
+      "D": "Obeliks"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Obeliks."
+  },
+  {
+    "id": "pop_058",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "W jakim mieście działa Batman?",
+    "options": {
+      "A": "Metropolis",
+      "B": "Smallville",
+      "C": "Star City",
+      "D": "Gotham"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Gotham."
+  },
+  {
+    "id": "pop_059",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jak ma na imię brat Mario?",
+    "options": {
+      "A": "Wario",
+      "B": "Toad",
+      "C": "Yoshi",
+      "D": "Luigi"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Luigi."
+  },
+  {
+    "id": "pop_060",
+    "category": "popculture",
+    "difficulty": "easy",
+    "question": "Jaki kolor najmocniej kojarzy się z postacią Sonic?",
+    "options": {
+      "A": "Czerwony",
+      "B": "Zielony",
+      "C": "Żółty",
+      "D": "Niebieski"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Niebieski."
+  }
+]

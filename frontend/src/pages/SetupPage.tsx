@@ -5,6 +5,21 @@ import type { GameSessionConfig } from '../types/game'
 const MAX_PLAYERS = 6
 const DEFAULT_ROUND_COUNT = 10
 const DEFAULT_ROUND_SECONDS = 15
+const CATEGORY_OPTIONS = [
+  { id: 'geography', label: 'Geografia' },
+  { id: 'history', label: 'Historia' },
+  { id: 'popculture', label: 'Popkultura' },
+  { id: 'movies', label: 'Filmy' },
+  { id: 'music', label: 'Muzyka' },
+  { id: 'science', label: 'Nauka' },
+  { id: 'internet_games', label: 'Internet i gry' },
+  { id: 'sport', label: 'Sport' },
+  { id: 'technology', label: 'Technologia' },
+  { id: 'language_literature', label: 'Język i literatura' },
+  { id: 'general', label: 'Ogólne' },
+] as const
+
+type CategoryId = (typeof CATEGORY_OPTIONS)[number]['id']
 
 type SetupMode = 'solo' | 'hotseat'
 
@@ -21,13 +36,15 @@ export function SetupPage({ mode, onBack, onStart }: SetupPageProps) {
   const [playerNames, setPlayerNames] = useState(() =>
     Array.from({ length: MAX_PLAYERS }, (_, index) => `Gracz ${index + 1}`),
   )
+  const [selectedCategories, setSelectedCategories] = useState<CategoryId[]>([])
 
   const visibleNames = useMemo(
     () => playerNames.slice(0, playerCount).map((name) => name.trim()),
     [playerCount, playerNames],
   )
-  const canStart = visibleNames.every(Boolean)
+  const canStart = visibleNames.every(Boolean) && selectedCategories.length > 0
   const modeTitle = mode === 'solo' ? 'Solo' : 'Hotseat'
+  const areAllCategoriesSelected = selectedCategories.length === CATEGORY_OPTIONS.length
 
   const updatePlayerCount = (nextCount: number) => {
     if (mode === 'solo') {
@@ -44,12 +61,27 @@ export function SetupPage({ mode, onBack, onStart }: SetupPageProps) {
     )
   }
 
+  const toggleCategory = (categoryId: CategoryId) => {
+    setSelectedCategories((current) =>
+      current.includes(categoryId)
+        ? current.filter((selectedCategory) => selectedCategory !== categoryId)
+        : [...current, categoryId],
+    )
+  }
+
+  const toggleAllCategories = () => {
+    setSelectedCategories(
+      areAllCategoriesSelected ? [] : CATEGORY_OPTIONS.map((category) => category.id),
+    )
+  }
+
   const startGame = () => {
     if (!canStart) {
       return
     }
 
     onStart({
+      categories: selectedCategories,
       players: visibleNames,
       roundCount: DEFAULT_ROUND_COUNT,
       roundSeconds: DEFAULT_ROUND_SECONDS,
@@ -106,6 +138,41 @@ export function SetupPage({ mode, onBack, onStart }: SetupPageProps) {
             </label>
           ))}
         </div>
+
+        <section className="category-section" aria-labelledby="category-title">
+          <div className="category-row">
+            <div>
+              <h2 id="category-title">Kategorie</h2>
+              <p>{selectedCategories.length} z 11 wybranych</p>
+            </div>
+            <button
+              type="button"
+              className="secondary-button"
+              onClick={toggleAllCategories}
+            >
+              {areAllCategoriesSelected ? 'Odznacz' : 'Wszystkie'}
+            </button>
+          </div>
+
+          <div className="category-grid" aria-label="Wybierz kategorie pytań">
+            {CATEGORY_OPTIONS.map((category) => {
+              const isSelected = selectedCategories.includes(category.id)
+              return (
+                <button
+                  type="button"
+                  className={`category-button ${
+                    isSelected ? 'category-button--active' : ''
+                  }`}
+                  key={category.id}
+                  onClick={() => toggleCategory(category.id)}
+                  aria-pressed={isSelected}
+                >
+                  {category.label}
+                </button>
+              )
+            })}
+          </div>
+        </section>
       </div>
 
       <div className="setup-actions">

@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "excalidraw",
   "version": 2,
   "source": "https://excalidraw.com",
@@ -195,13 +195,13 @@
       "updated": 1,
       "link": null,
       "locked": false,
-      "text": "test_questions/\ngeography.json\nlegacy/smoke fixture",
+      "text": "data/trivia/test_questions/\ngeography.json\nlegacy/smoke fixture",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": null,
-      "originalText": "test_questions/\ngeography.json\nlegacy/smoke fixture",
+      "originalText": "data/trivia/test_questions/\ngeography.json\nlegacy/smoke fixture",
       "lineHeight": 1.25,
       "baseline": 61
     },

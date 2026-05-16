@@ -2,7 +2,7 @@
 
 ## Otwarte — MVP
 
-- [ ] Zdecydować, czy zostawić `data/test_questions/` po przejściu loadera i judge na `data/questions/`
+- [ ] Zdecydować, czy zostawić `data/trivia/test_questions/` po przejściu loadera i judge na `data/trivia/questions/`
 - [ ] Limit długości nagrania głosowego (np. 5s — twardy cut)
 - [ ] Usunąć tymczasowy endpoint/model `Ping` po dodaniu prawdziwych modeli domenowych
 
@@ -39,12 +39,12 @@
 - [x] Decyzja: TTS Piper lokalnie
 - [x] Decyzja: bez spaCy na MVP (ABCD nie wymaga)
 - [x] Decyzja: SQLModel zamiast czystego SQLAlchemy (lepsza integracja z FastAPI)
-- [x] Decyzja: dataset pytań w `data/questions/<category>.json` (per kategoria) zamiast jednego pliku
+- [x] Decyzja: dataset pytań trivia w `data/trivia/questions/<category>.json` (per kategoria) zamiast jednego pliku
 - [x] Utworzenie struktury docs/
 - [x] M1: venv, requirements.txt, FastAPI hello-world, CORS, SQLite/SQLModel smoke test, Ruff, Vite React TS, Prettier, git init + remote
-- [x] M2: wybrano mały ręczny dataset smoke-testowy i dodano `data/test_questions/geography.json` (10 pytań)
-- [x] M2: dodano pierwszy docelowy batch `data/questions/` (geography/history/science, 30 pytań)
-- [x] M2: rozszerzono `data/questions/` do pełnej pierwszej partii (11 kategorii, 181 pytań)
+- [x] M2: wybrano mały ręczny dataset smoke-testowy i dodano `data/trivia/test_questions/geography.json` (10 pytań)
+- [x] M2: dodano pierwszy docelowy batch `data/trivia/questions/` (geography/history/science, 30 pytań)
+- [x] M2: rozszerzono `data/trivia/questions/` do pełnej pierwszej partii (11 kategorii, 181 pytań)
 - [x] Decyzja: audio z frontendu wysyłamy do STT jako `multipart/form-data`
 - [x] M3: STT E2E działa lokalnie (mikrofon → backend → Groq Whisper → tekst w frontendzie)
 - [x] Decyzja: Piper używamy przez `piper-tts==1.4.2` i CLI `python -m piper` z forka `OHF-Voice/piper1-gpl`
@@ -58,5 +58,12 @@
 - [x] M5: dodano frontendowe strony Menu, Setup, Game i Results pod `/ws/game`
 - [x] M5: dodano 15s timer pytania, 3s intro/outro i 3s przejścia między rundami
 - [x] M5: dodano ekran wyników z rankingiem hotseat
-- [x] M5: naprawiono polskie znaki w `data/questions/` i dodano test jakości datasetu na utracone markery `?`
+- [x] M5: naprawiono polskie znaki w `data/trivia/questions/` i dodano test jakości datasetu na utracone markery `?`
+- [x] M6: dodano zapis zakończonej sesji do SQLite, endpoint `/api/history/sessions` i stronę historii w UI
+- [x] M6: uzupełniono README o uruchomienie backendu, frontendu i lokalny zapis historii
+- [x] UI slice: dodano Motion, Material UI i Zustand bez pełnej migracji całego frontendu
+- [x] UI: dodano wybór gry w menu; aktywna jest `Trivia ABCD`, przyszłe gry są nieaktywne
+- [x] UI: dodano wybór kategorii dla `Trivia ABCD` i przekazywanie ich do `/ws/game`
+- [x] Trivia: zwiększono bazę pytań do 660 pytań, po 60 na każdą kategorię
+- [x] Trivia: przeniesiono dane do `data/trivia/questions/`, a smoke-testowe pytania do `data/trivia/test_questions/`
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

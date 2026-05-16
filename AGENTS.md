@@ -12,13 +12,13 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 - Wejście: klik myszą + push-to-talk (głos rozpoznaje literę "A/B/C/D" lub treść odpowiedzi)
 - AI prowadzący: predefiniowane szablony komentarzy + pre-generowane TTS z dysku
 - Sędzia: deterministyczny algorytm (porównanie litery + matching treści przez `rapidfuzz`)
-- Baza pytań: `data/questions/<category>.json` (jeden plik na kategorię — `geography.json`, `history.json`, ...) na MVP. Migracja do SQLite + admin UI w v0.5.
+- Baza pytań trivia: `data/trivia/questions/<category>.json` (jeden plik na kategorię — `geography.json`, `history.json`, ...) na MVP. Testowe pytania trivia są w `data/trivia/test_questions/`. Migracja do SQLite + admin UI w v0.5.
 - Historia: jeden globalny profil w SQLite
 
 ## Stack
 
 - **Backend:** Python 3.11+ (venv), FastAPI, SQLModel, SQLite
-- **Frontend:** React + Vite + TypeScript
+- **Frontend:** React + Vite + TypeScript, Motion, Material UI, Zustand
 - **STT:** Groq Whisper API (tani, słaby sprzęt OK)
 - **TTS:** Piper lokalnie (darmowy, offline, polski głos)
 - **Matching:** `rapidfuzz` + stdlib (bez spaCy na MVP — ABCD nie wymaga lematyzacji)

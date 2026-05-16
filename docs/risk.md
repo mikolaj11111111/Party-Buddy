@@ -22,13 +22,13 @@ Tech debt, ryzyka i workaroundy. Format wpisu:
 
 ## Subagent Write blocked
 - **Lokalizacja:** historyczne ustawienia poprzedniego narzędzia
-- **Problem:** Subagenci `general-purpose` nie mogli używać `Write` na `data/questions/*.json` mimo że parent mógł.
+- **Problem:** Subagenci `general-purpose` nie mogli używać `Write` na `data/trivia/questions/*.json` mimo że parent mógł.
 - **Wpływ:** niski — projekt przeszedł na lokalne skille/rules dla Codex; dataset M2 zacznie się od małego ręcznego smoke-testu.
 - **Propozycja:** jeśli pełny dataset będzie generowany agentowo, robić to etapami w aktualnym workflow.
 - **Status:** fixed (2026-05-12, migracja do `AGENTS.md` + `.codex/skills/`)
 
 ## Licencja Open Trivia DB
-- **Lokalizacja:** `data/questions/SOURCES.md`
+- **Lokalizacja:** `data/trivia/questions/SOURCES.md`
 - **Problem:** Pierwszy batch pytań bazuje na Open Trivia DB, które deklaruje CC BY-SA 4.0.
 - **Wpływ:** średni — publiczne użycie datasetu może wymagać atrybucji i zgodności z warunkami ShareAlike.
 - **Propozycja:** trzymać źródła w `SOURCES.md`; przed publikacją portfolio zdecydować, czy zostawić ten dataset, czy zastąpić pytaniami autorskimi.

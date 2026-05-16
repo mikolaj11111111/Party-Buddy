@@ -6,7 +6,7 @@ from backend.app.core.question_loader import load_questions_from_directory
 from backend.app.db import PROJECT_ROOT
 from backend.app.models.answer import AnswerRequest, AnswerResponse
 
-QUESTIONS_DIRECTORY = PROJECT_ROOT / "data" / "questions"
+QUESTIONS_DIRECTORY = PROJECT_ROOT / "data" / "trivia" / "questions"
 
 
 class AnswerServiceError(ValueError):

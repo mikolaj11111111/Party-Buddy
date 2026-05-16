@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "sport_001",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Ilu zawodników jednej drużyny gra jednocześnie na boisku w piłce nożnej?",
+    "options": {
+      "A": "11",
+      "B": "7",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_answer": "A",
+    "explanation": "W piłce nożnej drużyna gra jedenastoma zawodnikami, wliczając bramkarza.",
+    "aliases": {
+      "A": [
+        "11"
+      ],
+      "B": [
+        "7"
+      ],
+      "C": [
+        "9"
+      ],
+      "D": [
+        "5"
+      ]
+    }
+  },
+  {
+    "id": "sport_002",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Który turniej tenisowy rozgrywany jest na kortach ziemnych w Paryżu?",
+    "options": {
+      "A": "Wimbledon",
+      "B": "Roland Garros",
+      "C": "US Open",
+      "D": "Australian Open"
+    },
+    "correct_answer": "B",
+    "explanation": "Wimbledon jest londyńskim turniejem wielkoszlemowym rozgrywanym na trawie.",
+    "aliases": {
+      "A": [
+        "Roland Garros",
+        "roland garros"
+      ],
+      "B": [
+        "Wimbledon",
+        "wimbledon"
+      ],
+      "C": [
+        "US Open",
+        "us open"
+      ],
+      "D": [
+        "Australian Open",
+        "australian open"
+      ]
+    }
+  },
+  {
+    "id": "sport_003",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "W jakim sporcie używa się krążka zwanego puckiem?",
+    "options": {
+      "A": "Koszykówka",
+      "B": "Siatkówka",
+      "C": "Hokej na lodzie",
+      "D": "Baseball"
+    },
+    "correct_answer": "C",
+    "explanation": "Krążek, czyli puck, jest używany w hokeju na lodzie.",
+    "aliases": {
+      "A": [
+        "Koszykówka",
+        "koszyklwka"
+      ],
+      "B": [
+        "Siatkówka",
+        "siatklwka"
+      ],
+      "C": [
+        "Hokej na lodzie",
+        "hokej na lodzie"
+      ],
+      "D": [
+        "Baseball",
+        "baseball"
+      ]
+    }
+  },
+  {
+    "id": "sport_004",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Ile punktów jest wart rzut za linię 6,75 m w koszykówce FIBA?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "3"
+    },
+    "correct_answer": "D",
+    "explanation": "Rzut zza linii rzutów za trzy punkty jest wart 3 punkty.",
+    "aliases": {
+      "A": [
+        "1"
+      ],
+      "B": [
+        "2"
+      ],
+      "C": [
+        "4"
+      ],
+      "D": [
+        "3"
+      ]
+    }
+  },
+  {
+    "id": "sport_005",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Który kraj wygrać piłkarskie mistrzostwa świata młączyzn w 2014 roku?",
+    "options": {
+      "A": "Niemcy",
+      "B": "Argentyna",
+      "C": "Brazylia",
+      "D": "Hiszpania"
+    },
+    "correct_answer": "A",
+    "explanation": "Niemcy pokonały Argentynę w finale mundialu 2014.",
+    "aliases": {
+      "A": [
+        "Niemcy",
+        "niemcy"
+      ],
+      "B": [
+        "Argentyna",
+        "argentyna"
+      ],
+      "C": [
+        "Brazylia",
+        "brazylia"
+      ],
+      "D": [
+        "Hiszpania",
+        "hiszpania"
+      ]
+    }
+  },
+  {
+    "id": "sport_006",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jak nazywa się polski skoczek narciarski, czterokrotny mistrz olimpijski?",
+    "options": {
+      "A": "Kamil Stoch",
+      "B": "Robert Lewandowski",
+      "C": "Adam Małysz",
+      "D": "Piotr Żyła"
+    },
+    "correct_answer": "A",
+    "explanation": "Kamil Stoch zdobył cztery złote medale olimpijskie w skokach narciarskich.",
+    "aliases": {
+      "A": [
+        "Kamil Stoch",
+        "kamil stoch"
+      ],
+      "B": [
+        "Robert Lewandowski",
+        "robert lewandowski"
+      ],
+      "C": [
+        "Adam Małysz",
+        "adam malysz"
+      ],
+      "D": [
+        "Piotr Żyła",
+        "piotr lyla"
+      ]
+    }
+  },
+  {
+    "id": "sport_007",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Który sport kojarzy się z Tour de France?",
+    "options": {
+      "A": "Lekkoatletyka",
+      "B": "Kolarstwo",
+      "C": "Narciarstwo",
+      "D": "Żeglarstwo"
+    },
+    "correct_answer": "B",
+    "explanation": "Tour de France to najsąynniejszy wieloetapowy wyścig kolarski.",
+    "aliases": {
+      "A": [
+        "Lekkoatletyka",
+        "lekkoatletyka"
+      ],
+      "B": [
+        "Kolarstwo",
+        "kolarstwo"
+      ],
+      "C": [
+        "Narciarstwo",
+        "narciarstwo"
+      ],
+      "D": [
+        "Żeglarstwo",
+        "leglarstwo"
+      ]
+    }
+  },
+  {
+    "id": "sport_008",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Ile setów trzeba zwykle wygrać w siatkarskim meczu do trzech wygranych setów?",
+    "options": {
+      "A": "Dwa",
+      "B": "Cztery",
+      "C": "Trzy",
+      "D": "Pięć"
+    },
+    "correct_answer": "C",
+    "explanation": "W typowym meczu siatkarskim wygrywa drużyna, która pierwsza zdobędzie trzy sety.",
+    "aliases": {
+      "A": [
+        "Dwa",
+        "dwa"
+      ],
+      "B": [
+        "Cztery",
+        "cztery"
+      ],
+      "C": [
+        "Trzy",
+        "trzy"
+      ],
+      "D": [
+        "Pięć",
+        "pięć"
+      ]
+    }
+  },
+  {
+    "id": "sport_009",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Który kierowca Formuły 1 zdobył siedem tytułów mistrza świata?",
+    "options": {
+      "A": "Fernando Alonso",
+      "B": "Sebastian Vettel",
+      "C": "Max Verstappen",
+      "D": "Lewis Hamilton"
+    },
+    "correct_answer": "D",
+    "explanation": "Lewis Hamilton ma siedem tytułów mistrza świata F1.",
+    "aliases": {
+      "A": [
+        "Fernando Alonso",
+        "fernando alonso"
+      ],
+      "B": [
+        "Sebastian Vettel",
+        "sebastian vettel"
+      ],
+      "C": [
+        "Max Verstappen",
+        "max verstappen"
+      ],
+      "D": [
+        "Lewis Hamilton",
+        "lewis hamilton"
+      ]
+    }
+  },
+  {
+    "id": "sport_010",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "W którym sporcie występują style klasyczny i wolny?",
+    "options": {
+      "A": "Zapasy",
+      "B": "Boks",
+      "C": "Judo",
+      "D": "Szermierka"
+    },
+    "correct_answer": "A",
+    "explanation": "Zapasy olimpijskie dzielą się m.in. na styl klasyczny i wolny.",
+    "aliases": {
+      "A": [
+        "Zapasy",
+        "zapasy"
+      ],
+      "B": [
+        "Boks",
+        "boks"
+      ],
+      "C": [
+        "Judo",
+        "judo"
+      ],
+      "D": [
+        "Szermierka",
+        "szermierka"
+      ]
+    }
+  },
+  {
+    "id": "sport_011",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Która dyscyplina używa rakiety, lotki i siatki?",
+    "options": {
+      "A": "Squash",
+      "B": "Badminton",
+      "C": "Tenis stołowy",
+      "D": "Krykiet"
+    },
+    "correct_answer": "B",
+    "explanation": "Badminton polega na odbijaniu lotki rakietami przez siatkę.",
+    "aliases": {
+      "A": [
+        "Squash",
+        "squash"
+      ],
+      "B": [
+        "Badminton",
+        "badminton"
+      ],
+      "C": [
+        "Tenis stołowy",
+        "tenis stolowy"
+      ],
+      "D": [
+        "Krykiet",
+        "krykiet"
+      ]
+    }
+  },
+  {
+    "id": "sport_012",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Która reprezentacja piłkarska jest znana jako \"Canarinhos\"?",
+    "options": {
+      "A": "Włochy",
+      "B": "Francja",
+      "C": "Brazylia",
+      "D": "Portugalia"
+    },
+    "correct_answer": "C",
+    "explanation": "Przydomek \"Canarinhos\" odnosi się do reprezentacji Brazylii.",
+    "aliases": {
+      "A": [
+        "Włochy",
+        "wlochy"
+      ],
+      "B": [
+        "Francja",
+        "francja"
+      ],
+      "C": [
+        "Brazylia",
+        "brazylia"
+      ],
+      "D": [
+        "Portugalia",
+        "portugalia"
+      ]
+    }
+  },
+  {
+    "id": "sport_013",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Jak nazywa się wyścig konny wchodzący w amerykańską Potrójną Koronę, rozgrywany w Louisville?",
+    "options": {
+      "A": "Preakness Stakes",
+      "B": "Belmont Stakes",
+      "C": "Prix de l'Arc de Triomphe",
+      "D": "Kentucky Derby"
+    },
+    "correct_answer": "D",
+    "explanation": "Kentucky Derby odbywa się w Louisville i jest częścią amerykańskiej Potrójnej Korony.",
+    "aliases": {
+      "A": [
+        "Preakness Stakes",
+        "preakness stakes"
+      ],
+      "B": [
+        "Belmont Stakes",
+        "belmont stakes"
+      ],
+      "C": [
+        "Prix de l'Arc de Triomphe",
+        "prix de llarc de triomphe"
+      ],
+      "D": [
+        "Kentucky Derby",
+        "kentucky derby"
+      ]
+    }
+  },
+  {
+    "id": "sport_014",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "W którym sporcie Robert Lewandowski jest napastnikiem?",
+    "options": {
+      "A": "Piłka nożna",
+      "B": "Piłka ręczna",
+      "C": "Koszykówka",
+      "D": "Hokej"
+    },
+    "correct_answer": "A",
+    "explanation": "Robert Lewandowski jest piłkarzem grającym na pozycji napastnika.",
+    "aliases": {
+      "A": [
+        "Piłka nożna",
+        "pilka nolna"
+      ],
+      "B": [
+        "Piłka ręczna",
+        "pilka rlczna"
+      ],
+      "C": [
+        "Koszykówka",
+        "koszyklwka"
+      ],
+      "D": [
+        "Hokej",
+        "hokej"
+      ]
+    }
+  },
+  {
+    "id": "sport_015",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jak nazywa się najważniejszy finał ligi NFL?",
+    "options": {
+      "A": "World Series",
+      "B": "Super Bowl",
+      "C": "Stanley Cup",
+      "D": "NBA Finals"
+    },
+    "correct_answer": "B",
+    "explanation": "Super Bowl jest finałowym meczem sezonu NFL.",
+    "aliases": {
+      "A": [
+        "World Series",
+        "world series"
+      ],
+      "B": [
+        "Super Bowl",
+        "super bowl"
+      ],
+      "C": [
+        "Stanley Cup",
+        "stanley cup"
+      ],
+      "D": [
+        "NBA Finals",
+        "nba finals"
+      ]
+    }
+  },
+  {
+    "id": "sport_016",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Który sport olimpijski łączy pżywanie, kolarstwo i bieg?",
+    "options": {
+      "A": "Pięciobój nowoczesny",
+      "B": "Biathlon",
+      "C": "Triathlon",
+      "D": "Decathlon"
+    },
+    "correct_answer": "C",
+    "explanation": "Triathlon składa się z pżywania, jazdy na rowerze i biegu.",
+    "aliases": {
+      "A": [
+        "Pięciobój nowoczesny",
+        "pilcioblj nowoczesny"
+      ],
+      "B": [
+        "Biathlon",
+        "biathlon"
+      ],
+      "C": [
+        "Triathlon",
+        "triathlon"
+      ],
+      "D": [
+        "Decathlon",
+        "decathlon"
+      ]
+    }
+  },
+  {
+    "id": "sport_017",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Ilu zawodników jednej drużyny gra na boisku w piłce nożnej?",
+    "options": {
+      "A": "11",
+      "B": "7",
+      "C": "9",
+      "D": "15"
+    },
+    "correct_answer": "A",
+    "explanation": "W piłce nożnej jedna drużyna ma na boisku 11 zawodników."
+  },
+  {
+    "id": "sport_018",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "W którym sporcie używa się rakiety i lotki?",
+    "options": {
+      "A": "Tenis",
+      "B": "Badminton",
+      "C": "Squash",
+      "D": "Hokej"
+    },
+    "correct_answer": "B",
+    "explanation": "W badmintonie używa się rakiety i lotki."
+  },
+  {
+    "id": "sport_019",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jak nazywa się najważniejszy wyścig kolarski rozgrywany we Francji?",
+    "options": {
+      "A": "Giro d'Italia",
+      "B": "Vuelta a España",
+      "C": "Tour de France",
+      "D": "Paris-Roubaix"
+    },
+    "correct_answer": "C",
+    "explanation": "Tour de France to najbardziej znany wieloetapowy wyścig kolarski we Francji."
+  },
+  {
+    "id": "sport_020",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Ile setów trzeba wygrać w meczu siatkówki granym do trzech wygranych setów?",
+    "options": {
+      "A": "Jeden",
+      "B": "Dwa",
+      "C": "Cztery",
+      "D": "Trzy"
+    },
+    "correct_answer": "D",
+    "explanation": "Mecz siatkówki do trzech wygranych setów wygrywa zespół z trzema setami."
+  },
+  {
+    "id": "sport_021",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "W którym sporcie wykonuje się rzuty osobiste?",
+    "options": {
+      "A": "Koszykówka",
+      "B": "Piłka ręczna",
+      "C": "Rugby",
+      "D": "Siatkówka"
+    },
+    "correct_answer": "A",
+    "explanation": "Rzuty osobiste są elementem koszykówki."
+  },
+  {
+    "id": "sport_022",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jak nazywa się zimowy sport z kamieniami przesuwanymi po lodzie?",
+    "options": {
+      "A": "Bobsleje",
+      "B": "Curling",
+      "C": "Skeleton",
+      "D": "Łyżwiarstwo"
+    },
+    "correct_answer": "B",
+    "explanation": "Curling polega na precyzyjnym przesuwaniu kamieni po lodzie."
+  },
+  {
+    "id": "sport_023",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Który kraj najbardziej kojarzy się z sumo?",
+    "options": {
+      "A": "Chiny",
+      "B": "Korea Południowa",
+      "C": "Japonia",
+      "D": "Mongolia"
+    },
+    "correct_answer": "C",
+    "explanation": "Sumo jest tradycyjnie kojarzone z Japonią."
+  },
+  {
+    "id": "sport_024",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Ile punktów daje przyłożenie w futbolu amerykańskim?",
+    "options": {
+      "A": "Trzy",
+      "B": "Cztery",
+      "C": "Siedem",
+      "D": "Sześć"
+    },
+    "correct_answer": "D",
+    "explanation": "Przyłożenie w futbolu amerykańskim jest warte sześć punktów."
+  },
+  {
+    "id": "sport_025",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Na czym toczy się walka bokserska?",
+    "options": {
+      "A": "Ring",
+      "B": "Tor",
+      "C": "Kort",
+      "D": "Basen"
+    },
+    "correct_answer": "A",
+    "explanation": "Walka bokserska toczy się na ringu."
+  },
+  {
+    "id": "sport_026",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Który turniej tenisowy rozgrywany jest na trawiastych kortach w Londynie?",
+    "options": {
+      "A": "Roland Garros",
+      "B": "Wimbledon",
+      "C": "US Open",
+      "D": "Australian Open"
+    },
+    "correct_answer": "B",
+    "explanation": "Roland Garros jest paryskim turniejem rozgrywanym na kortach ziemnych."
+  },
+  {
+    "id": "sport_027",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "W którym sporcie rywalizuje się na dołkach i używa kijów?",
+    "options": {
+      "A": "Krykiet",
+      "B": "Baseball",
+      "C": "Golf",
+      "D": "Hokej"
+    },
+    "correct_answer": "C",
+    "explanation": "Golf polega na trafianiu piłki do kolejnych dołków przy użyciu kijów."
+  },
+  {
+    "id": "sport_028",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jak nazywa się polski skoczek narciarski, mistrz olimpijski z Soczi?",
+    "options": {
+      "A": "Adam Małysz",
+      "B": "Piotr Żyła",
+      "C": "Dawid Kubacki",
+      "D": "Kamil Stoch"
+    },
+    "correct_answer": "D",
+    "explanation": "Kamil Stoch zdobywał olimpijskie złoto w Soczi."
+  },
+  {
+    "id": "sport_029",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Ile minut trwa regulaminowy mecz piłki nożnej bez doliczonego czasu?",
+    "options": {
+      "A": "60",
+      "B": "90",
+      "C": "80",
+      "D": "100"
+    },
+    "correct_answer": "B",
+    "explanation": "Regulaminowy mecz piłki nożnej trwa 90 minut bez doliczonego czasu."
+  },
+  {
+    "id": "sport_030",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "W którym sporcie używa się krążka i kijów na lodowisku?",
+    "options": {
+      "A": "Curling",
+      "B": "Łyżwiarstwo",
+      "C": "Bandy",
+      "D": "Hokej na lodzie"
+    },
+    "correct_answer": "D",
+    "explanation": "Hokej na lodzie wykorzystuje krążek i kije."
+  },
+  {
+    "id": "sport_031",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Co ile lat odbywają się letnie igrzyska olimpijskie?",
+    "options": {
+      "A": "Co 4 lata",
+      "B": "Co rok",
+      "C": "Co 2 lata",
+      "D": "Co 10 lat"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Co 4 lata."
+  },
+  {
+    "id": "sport_032",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Który zawodnik w piłce nożnej może łapać piłkę rękami we własnym polu karnym?",
+    "options": {
+      "A": "Bramkarz",
+      "B": "Napastnik",
+      "C": "Obrońca",
+      "D": "Sędzia"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Bramkarz."
+  },
+  {
+    "id": "sport_033",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jaka jest standardowa wysokość kosza w koszykówce?",
+    "options": {
+      "A": "3,05 metra",
+      "B": "2 metry",
+      "C": "4 metry",
+      "D": "1,5 metra"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to 3,05 metra."
+  },
+  {
+    "id": "sport_034",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jakie dwie konkurencje łączy biathlon?",
+    "options": {
+      "A": "Biegi narciarskie i strzelanie",
+      "B": "Bieg i pływanie",
+      "C": "Kolarstwo i bieg",
+      "D": "Skok i rzut"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Biegi narciarskie i strzelanie."
+  },
+  {
+    "id": "sport_035",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Z jakim sportem kojarzy się Formuła 1?",
+    "options": {
+      "A": "Wyścigi samochodowe",
+      "B": "Tenis",
+      "C": "Narciarstwo",
+      "D": "Golf"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Wyścigi samochodowe."
+  },
+  {
+    "id": "sport_036",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Ile turniejów tworzy tenisowy Wielki Szlem?",
+    "options": {
+      "A": "Cztery",
+      "B": "Trzy",
+      "C": "Pięć",
+      "D": "Sześć"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Cztery."
+  },
+  {
+    "id": "sport_037",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Ile tercji ma standardowy mecz hokeja na lodzie?",
+    "options": {
+      "A": "Trzy",
+      "B": "Dwie",
+      "C": "Cztery",
+      "D": "Pięć"
+    },
+    "correct_answer": "A",
+    "explanation": "Poprawna odpowiedź to Trzy."
+  },
+  {
+    "id": "sport_038",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jaki dystans ma maraton?",
+    "options": {
+      "A": "21,097 km",
+      "B": "42,195 km",
+      "C": "50 km",
+      "D": "10 km"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to 42,195 km."
+  },
+  {
+    "id": "sport_039",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Co oznacza żółta koszulka w Tour de France?",
+    "options": {
+      "A": "Najlepszego sprintera",
+      "B": "Lidera klasyfikacji generalnej",
+      "C": "Najmłodszego zawodnika",
+      "D": "Najlepszego górala"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Lidera klasyfikacji generalnej."
+  },
+  {
+    "id": "sport_040",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jaka liga koszykarska jest oznaczana skrótem NBA?",
+    "options": {
+      "A": "Europejska liga",
+      "B": "Amerykańska liga zawodowa",
+      "C": "Polska liga akademicka",
+      "D": "Australijska liga"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Amerykańska liga zawodowa."
+  },
+  {
+    "id": "sport_041",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jak inaczej potocznie nazywa się tenis stołowy?",
+    "options": {
+      "A": "Badminton",
+      "B": "Ping-pong",
+      "C": "Squash",
+      "D": "Krykiet"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Ping-pong."
+  },
+  {
+    "id": "sport_042",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Z czym wiąże się punkt K w skokach narciarskich?",
+    "options": {
+      "A": "Z linią startu",
+      "B": "Z rozmiarem skoczni",
+      "C": "Z numerem zawodnika",
+      "D": "Z wagą nart"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Z rozmiarem skoczni."
+  },
+  {
+    "id": "sport_043",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Ile kroków bez kozłowania można zwykle zrobić w piłce ręcznej?",
+    "options": {
+      "A": "Jeden",
+      "B": "Trzy",
+      "C": "Pięć",
+      "D": "Siedem"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Trzy."
+  },
+  {
+    "id": "sport_044",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jaki kształt ma piłka do rugby?",
+    "options": {
+      "A": "Okrągły",
+      "B": "Owalny",
+      "C": "Płaski",
+      "D": "Kwadratowy"
+    },
+    "correct_answer": "B",
+    "explanation": "Poprawna odpowiedź to Owalny."
+  },
+  {
+    "id": "sport_045",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jak nazywa się zdobycie punktu po wybiciu piłki poza boisko w baseballu?",
+    "options": {
+      "A": "Rzut wolny",
+      "B": "As serwisowy",
+      "C": "Home run",
+      "D": "Touchdown"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Home run."
+  },
+  {
+    "id": "sport_046",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Z jakiego kraju pochodzi judo?",
+    "options": {
+      "A": "Chiny",
+      "B": "Korea",
+      "C": "Japonia",
+      "D": "Brazylia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Japonia."
+  },
+  {
+    "id": "sport_047",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jaki styl pływacki jest często najszybszy w zawodach dowolnych?",
+    "options": {
+      "A": "Klasyczny",
+      "B": "Grzbietowy",
+      "C": "Kraul",
+      "D": "Motylkowy"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Kraul."
+  },
+  {
+    "id": "sport_048",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Ilu zawodników jednej drużyny jest na boisku w siatkówce halowej?",
+    "options": {
+      "A": "Czterech",
+      "B": "Pięciu",
+      "C": "Sześciu",
+      "D": "Siedmiu"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Sześciu."
+  },
+  {
+    "id": "sport_049",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Jak nazywa się tor kolarski?",
+    "options": {
+      "A": "Kort",
+      "B": "Ring",
+      "C": "Welodrom",
+      "D": "Bieżnia"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Welodrom."
+  },
+  {
+    "id": "sport_050",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Która broń należy do szermierki sportowej?",
+    "options": {
+      "A": "Kij golfowy",
+      "B": "Paletka",
+      "C": "Floret",
+      "D": "Krążek"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Floret."
+  },
+  {
+    "id": "sport_051",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jakie trzy konkurencje obejmuje triathlon?",
+    "options": {
+      "A": "Bieg, skok i rzut",
+      "B": "Pływanie, skok i bieg",
+      "C": "Pływanie, rower i bieg",
+      "D": "Rower, boks i tenis"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Pływanie, rower i bieg."
+  },
+  {
+    "id": "sport_052",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Gdzie w piłce nożnej trzeba skierować piłkę, aby zdobyć gola?",
+    "options": {
+      "A": "W aut",
+      "B": "Na ławkę",
+      "C": "Do bramki",
+      "D": "Na środek boiska"
+    },
+    "correct_answer": "C",
+    "explanation": "Poprawna odpowiedź to Do bramki."
+  },
+  {
+    "id": "sport_053",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Ile rund ma standardowa mistrzowska walka bokserska w wielu federacjach?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to 12."
+  },
+  {
+    "id": "sport_054",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Jak nazywa się wynik 40:40 w tenisie?",
+    "options": {
+      "A": "As",
+      "B": "Gem",
+      "C": "Set",
+      "D": "Równowaga"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Równowaga."
+  },
+  {
+    "id": "sport_055",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Co zapala się podczas ceremonii rozpoczęcia igrzysk olimpijskich?",
+    "options": {
+      "A": "Reflektor",
+      "B": "Rakietę",
+      "C": "Świecę",
+      "D": "Znicz olimpijski"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Znicz olimpijski."
+  },
+  {
+    "id": "sport_056",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Na czym gra się w snookera?",
+    "options": {
+      "A": "Na korcie",
+      "B": "Na lodzie",
+      "C": "Na bieżni",
+      "D": "Na stole bilardowym"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Na stole bilardowym."
+  },
+  {
+    "id": "sport_057",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "W którym sporcie używa się wioseł?",
+    "options": {
+      "A": "Golf",
+      "B": "Boks",
+      "C": "Siatkówka",
+      "D": "Wioślarstwo"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Wioślarstwo."
+  },
+  {
+    "id": "sport_058",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Co wykorzystuje żeglarstwo do poruszania łodzi?",
+    "options": {
+      "A": "Silnik odrzutowy",
+      "B": "Pedały",
+      "C": "Magnesy",
+      "D": "Wiatr"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Wiatr."
+  },
+  {
+    "id": "sport_059",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Czym jest karate?",
+    "options": {
+      "A": "Sportem motorowym",
+      "B": "Grą karcianą",
+      "C": "Konkurencją pływacką",
+      "D": "Sztuką walki"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to Sztuką walki."
+  },
+  {
+    "id": "sport_060",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Z jakiej odległości wykonuje się rzut karny w piłce nożnej?",
+    "options": {
+      "A": "7 metrów",
+      "B": "9 metrów",
+      "C": "10 metrów",
+      "D": "11 metrów"
+    },
+    "correct_answer": "D",
+    "explanation": "Poprawna odpowiedź to 11 metrów."
+  }
+]
