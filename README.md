@@ -7,7 +7,7 @@ Webowa platforma imprezowych gier z AI prowadzącym.
 ## Stack MVP
 
 - Backend: Python 3.11 + FastAPI + SQLite
-- Frontend: React + Vite + TypeScript
+- Frontend: React + Vite + TypeScript + Motion + Material UI + Zustand
 - STT: Groq Whisper API
 - TTS: Piper (lokalnie)
 

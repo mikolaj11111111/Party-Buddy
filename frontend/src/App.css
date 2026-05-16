@@ -3,6 +3,10 @@
   padding: 28px;
 }
 
+.view-motion {
+  min-height: calc(100svh - 56px);
+}
+
 .menu-layout,
 .setup-layout,
 .game-layout,

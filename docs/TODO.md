@@ -61,4 +61,5 @@
 - [x] M5: naprawiono polskie znaki w `data/questions/` i dodano test jakości datasetu na utracone markery `?`
 - [x] M6: dodano zapis zakończonej sesji do SQLite, endpoint `/api/history/sessions` i stronę historii w UI
 - [x] M6: uzupełniono README o uruchomienie backendu, frontendu i lokalny zapis historii
+- [x] UI slice: dodano Motion, Material UI i Zustand bez pełnej migracji całego frontendu
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

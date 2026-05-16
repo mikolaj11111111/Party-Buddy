@@ -1,4 +1,5 @@
-import { useCallback, useState } from 'react'
+import { useCallback } from 'react'
+import { AnimatePresence, motion } from 'motion/react'
 
 import './App.css'
 import { useGameSocket } from './hooks/useGameSocket'
@@ -8,15 +9,19 @@ import { HistoryPage } from './pages/HistoryPage'
 import { MenuPage } from './pages/MenuPage'
 import { ResultsPage } from './pages/ResultsPage'
 import { SetupPage } from './pages/SetupPage'
+import { useAppStore } from './stores/appStore'
 import type { GameSessionConfig, SubmitAnswerPayload } from './types/game'
-
-type AppView = 'menu' | 'setup' | 'game' | 'results' | 'history'
-type SetupMode = 'solo' | 'hotseat'
 
 /** Root game app that switches between MVP screens. */
 function App() {
-  const [view, setView] = useState<AppView>('menu')
-  const [setupMode, setSetupMode] = useState<SetupMode>('hotseat')
+  const {
+    openHistory,
+    resetToMenu: setMenuView,
+    selectMode,
+    setView,
+    setupMode,
+    view,
+  } = useAppStore()
   const audioPlayer = useAudioPlayer()
   const { error: audioError, isPlaying, playKey, stop } = audioPlayer
   const playComment = useCallback(
@@ -28,15 +33,6 @@ function App() {
   const gameSocket = useGameSocket({ onCommentKey: playComment })
 
   const displayedView = gameSocket.snapshot.status === 'finished' ? 'results' : view
-
-  const selectMode = (mode: SetupMode) => {
-    setSetupMode(mode)
-    setView('setup')
-  }
-
-  const openHistory = () => {
-    setView('history')
-  }
 
   const startGame = (config: GameSessionConfig) => {
     gameSocket.startSession(config)
@@ -50,7 +46,7 @@ function App() {
   const resetToMenu = () => {
     stop()
     gameSocket.reset()
-    setView('menu')
+    setMenuView()
   }
 
   const playAgain = () => {
@@ -61,29 +57,40 @@ function App() {
 
   return (
     <main className="app-shell">
-      {displayedView === 'menu' ? (
-        <MenuPage onOpenHistory={openHistory} onSelectMode={selectMode} />
-      ) : null}
-      {displayedView === 'setup' ? (
-        <SetupPage mode={setupMode} onBack={resetToMenu} onStart={startGame} />
-      ) : null}
-      {displayedView === 'game' ? (
-        <GamePage
-          audioError={audioError}
-          game={gameSocket.snapshot}
-          isAudioPlaying={isPlaying}
-          onLeave={resetToMenu}
-          onSubmitAnswer={submitAnswer}
-        />
-      ) : null}
-      {displayedView === 'results' ? (
-        <ResultsPage
-          game={gameSocket.snapshot}
-          onBackToMenu={resetToMenu}
-          onPlayAgain={playAgain}
-        />
-      ) : null}
-      {displayedView === 'history' ? <HistoryPage onBack={resetToMenu} /> : null}
+      <AnimatePresence mode="wait">
+        <motion.div
+          animate={{ opacity: 1, y: 0 }}
+          className="view-motion"
+          exit={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 10 }}
+          key={displayedView}
+          transition={{ duration: 0.18, ease: 'easeOut' }}
+        >
+          {displayedView === 'menu' ? (
+            <MenuPage onOpenHistory={openHistory} onSelectMode={selectMode} />
+          ) : null}
+          {displayedView === 'setup' ? (
+            <SetupPage mode={setupMode} onBack={resetToMenu} onStart={startGame} />
+          ) : null}
+          {displayedView === 'game' ? (
+            <GamePage
+              audioError={audioError}
+              game={gameSocket.snapshot}
+              isAudioPlaying={isPlaying}
+              onLeave={resetToMenu}
+              onSubmitAnswer={submitAnswer}
+            />
+          ) : null}
+          {displayedView === 'results' ? (
+            <ResultsPage
+              game={gameSocket.snapshot}
+              onBackToMenu={resetToMenu}
+              onPlayAgain={playAgain}
+            />
+          ) : null}
+          {displayedView === 'history' ? <HistoryPage onBack={resetToMenu} /> : null}
+        </motion.div>
+      </AnimatePresence>
     </main>
   )
 }

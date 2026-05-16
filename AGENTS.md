@@ -18,7 +18,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 ## Stack
 
 - **Backend:** Python 3.11+ (venv), FastAPI, SQLModel, SQLite
-- **Frontend:** React + Vite + TypeScript
+- **Frontend:** React + Vite + TypeScript, Motion, Material UI, Zustand
 - **STT:** Groq Whisper API (tani, słaby sprzęt OK)
 - **TTS:** Piper lokalnie (darmowy, offline, polski głos)
 - **Matching:** `rapidfuzz` + stdlib (bez spaCy na MVP — ABCD nie wymaga lematyzacji)

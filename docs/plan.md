@@ -67,7 +67,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [ ] Nagranie krótkiego demo-video do portfolio
 - [ ] Tag `v0.1.0-mvp`
 
-- [] zaimplementowac ui do animacji: motion, komponenty ui: material ui, state management: zustand
+- [x] zaimplementowac ui do animacji: motion, komponenty ui: material ui, state management: zustand (mały slice: przejścia ekranów, MUI theme/przyciski menu, Zustand dla nawigacji)
 - [] dodac wybor gry
 - [] potem kategorii(jesli gra tego wymaga)
 - [] popracowac nad dzwiekem game mastera
