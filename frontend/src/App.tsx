@@ -4,6 +4,9 @@ import { AnimatePresence, motion } from 'motion/react'
 import './App.css'
 import { useGameSocket } from './hooks/useGameSocket'
 import { useAudioPlayer } from './hooks/useAudioPlayer'
+import { useFiveSecondsGame } from './hooks/useFiveSecondsGame'
+import { FiveSecondsGamePage } from './pages/FiveSecondsGamePage'
+import { FiveSecondsResultsPage } from './pages/FiveSecondsResultsPage'
 import { GamePage } from './pages/GamePage'
 import { HistoryPage } from './pages/HistoryPage'
 import { MenuPage } from './pages/MenuPage'
@@ -33,10 +36,22 @@ function App() {
     [playKey],
   )
   const gameSocket = useGameSocket({ onCommentKey: playComment })
+  const fiveSecondsGame = useFiveSecondsGame()
 
-  const displayedView = gameSocket.snapshot.status === 'finished' ? 'results' : view
+  const displayedView =
+    fiveSecondsGame.snapshot.status === 'finished'
+      ? 'five_seconds_results'
+      : gameSocket.snapshot.status === 'finished'
+        ? 'results'
+        : view
 
   const startGame = (config: GameSessionConfig) => {
+    if (selectedGame === 'five_seconds') {
+      void fiveSecondsGame.startSession(config)
+      setView('five_seconds_game')
+      return
+    }
+
     gameSocket.startSession(config)
     setView('game')
   }
@@ -48,12 +63,14 @@ function App() {
   const resetToMenu = () => {
     stop()
     gameSocket.reset()
+    fiveSecondsGame.reset()
     setMenuView()
   }
 
   const playAgain = () => {
     stop()
     gameSocket.reset()
+    fiveSecondsGame.reset()
     setView('setup')
   }
 
@@ -77,7 +94,12 @@ function App() {
             />
           ) : null}
           {displayedView === 'setup' ? (
-            <SetupPage mode={setupMode} onBack={resetToMenu} onStart={startGame} />
+            <SetupPage
+              game={selectedGame}
+              mode={setupMode}
+              onBack={resetToMenu}
+              onStart={startGame}
+            />
           ) : null}
           {displayedView === 'game' ? (
             <GamePage
@@ -88,9 +110,23 @@ function App() {
               onSubmitAnswer={submitAnswer}
             />
           ) : null}
+          {displayedView === 'five_seconds_game' ? (
+            <FiveSecondsGamePage
+              game={fiveSecondsGame.snapshot}
+              onLeave={resetToMenu}
+              onScoreRound={fiveSecondsGame.scoreRound}
+            />
+          ) : null}
           {displayedView === 'results' ? (
             <ResultsPage
               game={gameSocket.snapshot}
+              onBackToMenu={resetToMenu}
+              onPlayAgain={playAgain}
+            />
+          ) : null}
+          {displayedView === 'five_seconds_results' ? (
+            <FiveSecondsResultsPage
+              game={fiveSecondsGame.snapshot}
               onBackToMenu={resetToMenu}
               onPlayAgain={playAgain}
             />

@@ -1,4 +1,5 @@
 from backend.app.models.answer import AnswerRequest, AnswerResponse
+from backend.app.models.five_seconds import FiveSecondsPrompt
 from backend.app.models.game_ws import (
     GameAnswerResultEvent,
     GameErrorEvent,
@@ -21,6 +22,7 @@ from backend.app.models.stt import SttResponse
 __all__ = [
     "AnswerRequest",
     "AnswerResponse",
+    "FiveSecondsPrompt",
     "GameAnswerResultEvent",
     "GameErrorEvent",
     "GameHistoryScore",

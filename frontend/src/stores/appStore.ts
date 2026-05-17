@@ -1,7 +1,14 @@
 import { create } from 'zustand'
 
-export type AppView = 'menu' | 'setup' | 'game' | 'results' | 'history'
-export type GameType = 'trivia'
+export type AppView =
+  | 'menu'
+  | 'setup'
+  | 'game'
+  | 'results'
+  | 'history'
+  | 'five_seconds_game'
+  | 'five_seconds_results'
+export type GameType = 'trivia' | 'five_seconds'
 export type SetupMode = 'solo' | 'hotseat'
 
 type AppState = {
