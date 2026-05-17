@@ -5,9 +5,12 @@ import './App.css'
 import { useGameSocket } from './hooks/useGameSocket'
 import { useAudioPlayer } from './hooks/useAudioPlayer'
 import { useFiveSecondsGame } from './hooks/useFiveSecondsGame'
+import { useHangmanGame } from './hooks/useHangmanGame'
 import { FiveSecondsGamePage } from './pages/FiveSecondsGamePage'
 import { FiveSecondsResultsPage } from './pages/FiveSecondsResultsPage'
 import { GamePage } from './pages/GamePage'
+import { HangmanGamePage } from './pages/HangmanGamePage'
+import { HangmanResultsPage } from './pages/HangmanResultsPage'
 import { HistoryPage } from './pages/HistoryPage'
 import { MenuPage } from './pages/MenuPage'
 import { ResultsPage } from './pages/ResultsPage'
@@ -37,18 +40,27 @@ function App() {
   )
   const gameSocket = useGameSocket({ onCommentKey: playComment })
   const fiveSecondsGame = useFiveSecondsGame()
+  const hangmanGame = useHangmanGame()
 
   const displayedView =
-    fiveSecondsGame.snapshot.status === 'finished'
-      ? 'five_seconds_results'
-      : gameSocket.snapshot.status === 'finished'
-        ? 'results'
-        : view
+    hangmanGame.snapshot.status === 'finished'
+      ? 'hangman_results'
+      : fiveSecondsGame.snapshot.status === 'finished'
+        ? 'five_seconds_results'
+        : gameSocket.snapshot.status === 'finished'
+          ? 'results'
+          : view
 
   const startGame = (config: GameSessionConfig) => {
     if (selectedGame === 'five_seconds') {
       void fiveSecondsGame.startSession(config)
       setView('five_seconds_game')
+      return
+    }
+
+    if (selectedGame === 'hangman') {
+      void hangmanGame.startSession(config)
+      setView('hangman_game')
       return
     }
 
@@ -64,6 +76,7 @@ function App() {
     stop()
     gameSocket.reset()
     fiveSecondsGame.reset()
+    hangmanGame.reset()
     setMenuView()
   }
 
@@ -71,6 +84,7 @@ function App() {
     stop()
     gameSocket.reset()
     fiveSecondsGame.reset()
+    hangmanGame.reset()
     setView('setup')
   }
 
@@ -117,6 +131,14 @@ function App() {
               onScoreRound={fiveSecondsGame.scoreRound}
             />
           ) : null}
+          {displayedView === 'hangman_game' ? (
+            <HangmanGamePage
+              game={hangmanGame.snapshot}
+              onAdvanceRound={hangmanGame.advanceRound}
+              onGuessLetter={hangmanGame.guessLetter}
+              onLeave={resetToMenu}
+            />
+          ) : null}
           {displayedView === 'results' ? (
             <ResultsPage
               game={gameSocket.snapshot}
@@ -127,6 +149,13 @@ function App() {
           {displayedView === 'five_seconds_results' ? (
             <FiveSecondsResultsPage
               game={fiveSecondsGame.snapshot}
+              onBackToMenu={resetToMenu}
+              onPlayAgain={playAgain}
+            />
+          ) : null}
+          {displayedView === 'hangman_results' ? (
+            <HangmanResultsPage
+              game={hangmanGame.snapshot}
               onBackToMenu={resetToMenu}
               onPlayAgain={playAgain}
             />

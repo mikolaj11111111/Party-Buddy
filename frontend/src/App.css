@@ -76,6 +76,7 @@
 .mode-button,
 .answer-button,
 .category-button,
+.hangman-key,
 .primary-button,
 .secondary-button,
 .ghost-button,
@@ -96,6 +97,7 @@
 .mode-button:hover:not(:disabled),
 .answer-button:hover:not(:disabled),
 .category-button:hover:not(:disabled),
+.hangman-key:hover:not(:disabled),
 .primary-button:hover:not(:disabled),
 .secondary-button:hover:not(:disabled),
 .ghost-button:hover:not(:disabled),
@@ -109,6 +111,7 @@
 .mode-button:focus-visible,
 .answer-button:focus-visible,
 .category-button:focus-visible,
+.hangman-key:focus-visible,
 .primary-button:focus-visible,
 .secondary-button:focus-visible,
 .ghost-button:focus-visible,
@@ -123,6 +126,7 @@ input:focus-visible {
 .mode-button:disabled,
 .answer-button:disabled,
 .category-button:disabled,
+.hangman-key:disabled,
 .primary-button:disabled,
 .secondary-button:disabled,
 .ghost-button:disabled,
@@ -429,6 +433,90 @@ input:focus-visible {
   font-weight: 750;
 }
 
+.hangman-panel {
+  min-height: 560px;
+}
+
+.hangman-progress {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--text-strong);
+  font-weight: 850;
+}
+
+.hangman-word {
+  min-height: 74px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 8px;
+}
+
+.hangman-letter {
+  width: 40px;
+  height: 54px;
+  display: inline-grid;
+  place-items: center;
+  border-bottom: 4px solid var(--text-strong);
+  color: var(--text-strong);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.hangman-letter--space {
+  width: 22px;
+  border-bottom: 0;
+}
+
+.hangman-keyboard {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.hangman-key {
+  min-height: 44px;
+  color: var(--text-strong);
+  font-weight: 850;
+}
+
+.hangman-key:disabled {
+  color: var(--muted);
+  background: #eef2f7;
+}
+
+.hangman-key--wrong:disabled {
+  color: var(--danger);
+  background: #fff1f2;
+  opacity: 1;
+}
+
+.hangman-misses {
+  display: grid;
+  grid-template-columns: repeat(3, 38px);
+  gap: 8px;
+}
+
+.hangman-misses span {
+  width: 38px;
+  height: 38px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  background: #ffffff;
+  font-weight: 900;
+}
+
+.hangman-misses .hangman-miss--active {
+  border-color: rgba(190, 18, 60, 0.32);
+  color: var(--danger);
+  background: #fff1f2;
+}
+
 .answer-letter,
 .result-rank {
   width: 42px;
@@ -705,6 +793,7 @@ input:focus-visible {
   .game-choice-grid,
   .player-form,
   .answer-grid,
+  .hangman-keyboard,
   .side-panel,
   .category-grid {
     grid-template-columns: 1fr;
@@ -727,6 +816,16 @@ input:focus-visible {
 
   .five-seconds-panel h2 {
     font-size: 30px;
+  }
+
+  .hangman-keyboard {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .hangman-letter {
+    width: 30px;
+    height: 44px;
+    font-size: 24px;
   }
 
   .answer-button {

@@ -11,6 +11,7 @@ from backend.app.models.game_ws import (
     GameStartSessionMessage,
     GameSubmitAnswerMessage,
 )
+from backend.app.models.hangman import HangmanWord
 from backend.app.models.history import GameHistoryScore, GameHistorySession
 from backend.app.models.ping import Ping
 from backend.app.models.profile import Profile
@@ -34,6 +35,7 @@ __all__ = [
     "GameSessionStartedEvent",
     "GameStartSessionMessage",
     "GameSubmitAnswerMessage",
+    "HangmanWord",
     "Ping",
     "Profile",
     "Question",

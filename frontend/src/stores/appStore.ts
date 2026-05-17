@@ -8,7 +8,9 @@ export type AppView =
   | 'history'
   | 'five_seconds_game'
   | 'five_seconds_results'
-export type GameType = 'trivia' | 'five_seconds'
+  | 'hangman_game'
+  | 'hangman_results'
+export type GameType = 'trivia' | 'five_seconds' | 'hangman'
 export type SetupMode = 'solo' | 'hotseat'
 
 type AppState = {
