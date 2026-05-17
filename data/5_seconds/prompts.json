@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "fs_everyday_001",
+    "category": "everyday",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które zwykle nosi się w kieszeni.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "telefon",
+      "klucze",
+      "portfel",
+      "chusteczki",
+      "monety"
+    ]
+  },
+  {
+    "id": "fs_everyday_002",
+    "category": "everyday",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które robisz rano.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "mycie zębów",
+      "ubieranie się",
+      "śniadanie",
+      "budzenie się",
+      "pakowanie plecaka"
+    ]
+  },
+  {
+    "id": "fs_everyday_003",
+    "category": "everyday",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można kupić w kiosku.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "gazeta",
+      "bilet",
+      "guma do żucia",
+      "napój",
+      "magazyn"
+    ]
+  },
+  {
+    "id": "fs_everyday_004",
+    "category": "everyday",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które bierze się na spacer.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "telefon",
+      "klucze",
+      "woda",
+      "kurtka",
+      "słuchawki"
+    ]
+  },
+  {
+    "id": "fs_everyday_005",
+    "category": "everyday",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można zgubić.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "klucze",
+      "portfel",
+      "telefon",
+      "dokumenty",
+      "bilet"
+    ]
+  },
+  {
+    "id": "fs_everyday_006",
+    "category": "everyday",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 sytuacje, w których trzeba czekać w kolejce.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "sklep",
+      "urząd",
+      "poczta",
+      "lotnisko",
+      "przychodnia"
+    ]
+  },
+  {
+    "id": "fs_everyday_007",
+    "category": "everyday",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które mogą rozładować się w złym momencie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "telefon",
+      "laptop",
+      "słuchawki",
+      "powerbank",
+      "pilot"
+    ]
+  },
+  {
+    "id": "fs_everyday_008",
+    "category": "everyday",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 powody, przez które można spóźnić się na spotkanie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "korki",
+      "budzik",
+      "opóźniony autobus",
+      "zgubione klucze",
+      "zła pogoda"
+    ]
+  },
+  {
+    "id": "fs_everyday_009",
+    "category": "everyday",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 rzeczy, które często odkłada się na później.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "sprzątanie",
+      "nauka",
+      "rachunki",
+      "telefon do urzędu",
+      "trening"
+    ]
+  },
+  {
+    "id": "fs_everyday_010",
+    "category": "everyday",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można znaleźć w plecaku.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "zeszyt",
+      "długopis",
+      "butelka wody",
+      "laptop",
+      "kanapka"
+    ]
+  },
+  {
+    "id": "fs_food_001",
+    "category": "food",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 owoce.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "jabłko",
+      "banan",
+      "gruszka",
+      "pomarańcza",
+      "truskawka"
+    ]
+  },
+  {
+    "id": "fs_food_002",
+    "category": "food",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 warzywa.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "marchew",
+      "pomidor",
+      "ogórek",
+      "papryka",
+      "cebula"
+    ]
+  },
+  {
+    "id": "fs_food_003",
+    "category": "food",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 napoje bezalkoholowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "woda",
+      "sok",
+      "herbata",
+      "kawa",
+      "lemoniada"
+    ]
+  },
+  {
+    "id": "fs_food_004",
+    "category": "food",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy jedzone na śniadanie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "jajka",
+      "kanapka",
+      "owsianka",
+      "płatki",
+      "jogurt"
+    ]
+  },
+  {
+    "id": "fs_food_005",
+    "category": "food",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 składniki pizzy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "ser",
+      "sos pomidorowy",
+      "pieczarki",
+      "szynka",
+      "oliwki"
+    ]
+  },
+  {
+    "id": "fs_food_006",
+    "category": "food",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 dania kuchni włoskiej.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "pizza",
+      "spaghetti",
+      "risotto",
+      "lasagne",
+      "ravioli"
+    ]
+  },
+  {
+    "id": "fs_food_007",
+    "category": "food",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 przyprawy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "sól",
+      "pieprz",
+      "papryka",
+      "bazylia",
+      "oregano"
+    ]
+  },
+  {
+    "id": "fs_food_008",
+    "category": "food",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 desery.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "lody",
+      "sernik",
+      "szarlotka",
+      "budyń",
+      "tiramisu"
+    ]
+  },
+  {
+    "id": "fs_food_009",
+    "category": "food",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 potrawy, które je się łyżką.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "zupa",
+      "budyń",
+      "owsianka",
+      "gulasz",
+      "risotto"
+    ]
+  },
+  {
+    "id": "fs_food_010",
+    "category": "food",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można grillować.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "kiełbasa",
+      "warzywa",
+      "ser",
+      "szaszłyki",
+      "pieczywo"
+    ]
+  },
+  {
+    "id": "fs_geography_001",
+    "category": "geography",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 państwa w Europie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Polska",
+      "Niemcy",
+      "Francja",
+      "Hiszpania",
+      "Włochy"
+    ]
+  },
+  {
+    "id": "fs_geography_002",
+    "category": "geography",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 stolice europejskie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Warszawa",
+      "Berlin",
+      "Paryż",
+      "Rzym",
+      "Madryt"
+    ]
+  },
+  {
+    "id": "fs_geography_003",
+    "category": "geography",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 polskie miasta.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Kraków",
+      "Warszawa",
+      "Gdańsk",
+      "Wrocław",
+      "Poznań"
+    ]
+  },
+  {
+    "id": "fs_geography_004",
+    "category": "geography",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 morza.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Bałtyckie",
+      "Śródziemne",
+      "Czarne",
+      "Północne",
+      "Adriatyckie"
+    ]
+  },
+  {
+    "id": "fs_geography_005",
+    "category": "geography",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 kontynenty.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Europa",
+      "Azja",
+      "Afryka",
+      "Australia",
+      "Ameryka Południowa"
+    ]
+  },
+  {
+    "id": "fs_geography_006",
+    "category": "geography",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeki w Polsce.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Wisła",
+      "Odra",
+      "Warta",
+      "Bug",
+      "San"
+    ]
+  },
+  {
+    "id": "fs_geography_007",
+    "category": "geography",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 państwa graniczące z Polską.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Niemcy",
+      "Czechy",
+      "Słowacja",
+      "Ukraina",
+      "Litwa"
+    ]
+  },
+  {
+    "id": "fs_geography_008",
+    "category": "geography",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 regiony turystyczne w Polsce.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Mazury",
+      "Tatry",
+      "Pomorze",
+      "Bieszczady",
+      "Sudety"
+    ]
+  },
+  {
+    "id": "fs_geography_009",
+    "category": "geography",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 państwa wyspiarskie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Islandia",
+      "Japonia",
+      "Irlandia",
+      "Malta",
+      "Cypr"
+    ]
+  },
+  {
+    "id": "fs_geography_010",
+    "category": "geography",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 miejsca, gdzie można pojechać na wakacje.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "morze",
+      "góry",
+      "jezioro",
+      "miasto",
+      "wieś"
+    ]
+  },
+  {
+    "id": "fs_sport_001",
+    "category": "sport",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 sporty drużynowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "piłka nożna",
+      "koszykówka",
+      "siatkówka",
+      "piłka ręczna",
+      "hokej"
+    ]
+  },
+  {
+    "id": "fs_sport_002",
+    "category": "sport",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 sporty zimowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "narciarstwo",
+      "łyżwiarstwo",
+      "snowboard",
+      "biathlon",
+      "hokej"
+    ]
+  },
+  {
+    "id": "fs_sport_003",
+    "category": "sport",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy potrzebne na siłowni.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "woda",
+      "ręcznik",
+      "buty",
+      "strój",
+      "karnet"
+    ]
+  },
+  {
+    "id": "fs_sport_004",
+    "category": "sport",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 sporty z piłką.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "tenis",
+      "koszykówka",
+      "piłka nożna",
+      "siatkówka",
+      "golf"
+    ]
+  },
+  {
+    "id": "fs_sport_005",
+    "category": "sport",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 miejsca, gdzie można uprawiać sport.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "stadion",
+      "hala",
+      "siłownia",
+      "boisko",
+      "basen"
+    ]
+  },
+  {
+    "id": "fs_sport_006",
+    "category": "sport",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 pozycje w piłce nożnej.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "bramkarz",
+      "obrońca",
+      "pomocnik",
+      "napastnik",
+      "skrzydłowy"
+    ]
+  },
+  {
+    "id": "fs_sport_007",
+    "category": "sport",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 sprzęty używane w sportach zimowych.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "narty",
+      "łyżwy",
+      "kask",
+      "gogle",
+      "deska snowboardowa"
+    ]
+  },
+  {
+    "id": "fs_sport_008",
+    "category": "sport",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 dyscypliny lekkoatletyczne.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "bieg",
+      "skok wzwyż",
+      "rzut oszczepem",
+      "pchnięcie kulą",
+      "skok w dal"
+    ]
+  },
+  {
+    "id": "fs_sport_009",
+    "category": "sport",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 sporty, w których liczy się czas przejazdu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "narciarstwo alpejskie",
+      "Formuła 1",
+      "kolarstwo",
+      "kajakarstwo",
+      "biegi narciarskie"
+    ]
+  },
+  {
+    "id": "fs_sport_010",
+    "category": "sport",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które robi kibic.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "dopinguje",
+      "klaszcze",
+      "śpiewa",
+      "ogląda mecz",
+      "nosi szalik"
+    ]
+  },
+  {
+    "id": "fs_popculture_001",
+    "category": "popculture",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 superbohaterów.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Spider-Man",
+      "Batman",
+      "Superman",
+      "Iron Man",
+      "Wonder Woman"
+    ]
+  },
+  {
+    "id": "fs_popculture_002",
+    "category": "popculture",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 znane platformy streamingowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Netflix",
+      "Disney Plus",
+      "HBO Max",
+      "Prime Video",
+      "Apple TV"
+    ]
+  },
+  {
+    "id": "fs_popculture_003",
+    "category": "popculture",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 postacie z bajek Disneya.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Miki",
+      "Elsa",
+      "Simba",
+      "Ariel",
+      "Kopciuszek"
+    ]
+  },
+  {
+    "id": "fs_popculture_004",
+    "category": "popculture",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 znane serie filmowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Gwiezdne wojny",
+      "Harry Potter",
+      "Władca Pierścieni",
+      "Matrix",
+      "Piraci z Karaibów"
+    ]
+  },
+  {
+    "id": "fs_popculture_005",
+    "category": "popculture",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 marki gier lub zabawek.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Lego",
+      "Barbie",
+      "Hot Wheels",
+      "Play-Doh",
+      "Monopoly"
+    ]
+  },
+  {
+    "id": "fs_popculture_006",
+    "category": "popculture",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 fikcyjne szkoły lub uczelnie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Hogwart",
+      "Akademia Pana Kleksa",
+      "Xavier Institute",
+      "Brakebills",
+      "Nevermore"
+    ]
+  },
+  {
+    "id": "fs_popculture_007",
+    "category": "popculture",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 hasła lub cytaty kojarzone z popkulturą.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "May the Force be with you",
+      "I'll be back",
+      "Winter is coming",
+      "Hakuna Matata",
+      "Just do it"
+    ]
+  },
+  {
+    "id": "fs_popculture_008",
+    "category": "popculture",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 postacie z komiksów.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Joker",
+      "Batman",
+      "Spider-Man",
+      "Garfield",
+      "Asteriks"
+    ]
+  },
+  {
+    "id": "fs_popculture_009",
+    "category": "popculture",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 fikcyjne miejsca z filmów lub książek.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Hogwart",
+      "Śródziemie",
+      "Narnia",
+      "Wakanda",
+      "Gotham"
+    ]
+  },
+  {
+    "id": "fs_popculture_010",
+    "category": "popculture",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 znane nagrody filmowe lub muzyczne.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Oscar",
+      "Grammy",
+      "Emmy",
+      "Złoty Glob",
+      "BAFTA"
+    ]
+  },
+  {
+    "id": "fs_internet_games_001",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 gry komputerowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Minecraft",
+      "Fortnite",
+      "The Sims",
+      "Tetris",
+      "League of Legends"
+    ]
+  },
+  {
+    "id": "fs_internet_games_002",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 aplikacje społecznościowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Instagram",
+      "TikTok",
+      "Facebook",
+      "X",
+      "Snapchat"
+    ]
+  },
+  {
+    "id": "fs_internet_games_003",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można robić w internecie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "czytać",
+      "oglądać filmy",
+      "rozmawiać",
+      "grać",
+      "robić zakupy"
+    ]
+  },
+  {
+    "id": "fs_internet_games_004",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 urządzenia do grania.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "komputer",
+      "konsola",
+      "telefon",
+      "tablet",
+      "Steam Deck"
+    ]
+  },
+  {
+    "id": "fs_internet_games_005",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 gatunki gier.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "RPG",
+      "strategia",
+      "platformówka",
+      "strzelanka",
+      "symulator"
+    ]
+  },
+  {
+    "id": "fs_internet_games_006",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które mogą powodować lagi.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "słaby internet",
+      "wysoki ping",
+      "stary komputer",
+      "duże obciążenie serwera",
+      "pobieranie plików"
+    ]
+  },
+  {
+    "id": "fs_internet_games_007",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 role w grach drużynowych.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "tank",
+      "support",
+      "snajper",
+      "healer",
+      "carry"
+    ]
+  },
+  {
+    "id": "fs_internet_games_008",
+    "category": "internet_games",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 elementy profilu gracza.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "nick",
+      "avatar",
+      "ranking",
+      "poziom",
+      "osiągnięcia"
+    ]
+  },
+  {
+    "id": "fs_internet_games_009",
+    "category": "internet_games",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 skróty używane w grach online.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "GG",
+      "AFK",
+      "NPC",
+      "DPS",
+      "PvP"
+    ]
+  },
+  {
+    "id": "fs_internet_games_010",
+    "category": "internet_games",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można mieć w ekwipunku gry.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "miecz",
+      "apteczka",
+      "klucz",
+      "monety",
+      "mapa"
+    ]
+  },
+  {
+    "id": "fs_technology_001",
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 elementy komputera.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "procesor",
+      "pamięć RAM",
+      "dysk",
+      "monitor",
+      "klawiatura"
+    ]
+  },
+  {
+    "id": "fs_technology_002",
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 języki programowania.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "C#",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": "fs_technology_003",
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 urządzenia z ekranem.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "telefon",
+      "laptop",
+      "tablet",
+      "telewizor",
+      "monitor"
+    ]
+  },
+  {
+    "id": "fs_technology_004",
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 formaty plików.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "JSON",
+      "PDF",
+      "PNG",
+      "MP3",
+      "DOCX"
+    ]
+  },
+  {
+    "id": "fs_technology_005",
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy potrzebne do wideorozmowy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "kamera",
+      "mikrofon",
+      "internet",
+      "głośniki",
+      "aplikacja"
+    ]
+  },
+  {
+    "id": "fs_technology_006",
+    "category": "technology",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 sposoby zabezpieczenia konta.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "silne hasło",
+      "2FA",
+      "menedżer haseł",
+      "aktualizacje",
+      "nieudostępnianie hasła"
+    ]
+  },
+  {
+    "id": "fs_technology_007",
+    "category": "technology",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 pojęcia związane z bazami danych.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "tabela",
+      "rekord",
+      "kolumna",
+      "indeks",
+      "zapytanie"
+    ]
+  },
+  {
+    "id": "fs_technology_008",
+    "category": "technology",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 narzędzia używane przez programistę.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "edytor kodu",
+      "terminal",
+      "Git",
+      "debugger",
+      "przeglądarka"
+    ]
+  },
+  {
+    "id": "fs_technology_009",
+    "category": "technology",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 protokoły internetowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP",
+      "DNS"
+    ]
+  },
+  {
+    "id": "fs_technology_010",
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można ładować kablem USB.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "telefon",
+      "słuchawki",
+      "powerbank",
+      "tablet",
+      "klawiatura"
+    ]
+  },
+  {
+    "id": "fs_language_001",
+    "category": "language",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 części mowy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "rzeczownik",
+      "czasownik",
+      "przymiotnik",
+      "przysłówek",
+      "zaimek"
+    ]
+  },
+  {
+    "id": "fs_language_002",
+    "category": "language",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 znaki interpunkcyjne.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "kropka",
+      "przecinek",
+      "znak zapytania",
+      "dwukropek",
+      "średnik"
+    ]
+  },
+  {
+    "id": "fs_language_003",
+    "category": "language",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 języki obce uczone w szkole.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "angielski",
+      "niemiecki",
+      "hiszpański",
+      "francuski",
+      "włoski"
+    ]
+  },
+  {
+    "id": "fs_language_004",
+    "category": "language",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 gatunki literackie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "powieść",
+      "bajka",
+      "dramat",
+      "sonet",
+      "reportaż"
+    ]
+  },
+  {
+    "id": "fs_language_005",
+    "category": "language",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 polskich pisarzy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "Adam Mickiewicz",
+      "Henryk Sienkiewicz",
+      "Bolesław Prus",
+      "Juliusz Słowacki",
+      "Wisława Szymborska"
+    ]
+  },
+  {
+    "id": "fs_language_006",
+    "category": "language",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 środki stylistyczne.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "metafora",
+      "epitet",
+      "porównanie",
+      "onomatopeja",
+      "apostrofa"
+    ]
+  },
+  {
+    "id": "fs_language_007",
+    "category": "language",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które można znaleźć w książce.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "rozdział",
+      "bohater",
+      "dialog",
+      "okładka",
+      "spis treści"
+    ]
+  },
+  {
+    "id": "fs_language_008",
+    "category": "language",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 słowa, które są grzecznościowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "proszę",
+      "dziękuję",
+      "przepraszam",
+      "dzień dobry",
+      "do widzenia"
+    ]
+  },
+  {
+    "id": "fs_language_009",
+    "category": "language",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 języki używające alfabetu łacińskiego.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "polski",
+      "angielski",
+      "hiszpański",
+      "francuski",
+      "niemiecki"
+    ]
+  },
+  {
+    "id": "fs_language_010",
+    "category": "language",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które robi się z tekstem.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "czyta",
+      "pisze",
+      "poprawia",
+      "tłumaczy",
+      "drukuje"
+    ]
+  },
+  {
+    "id": "fs_school_work_001",
+    "category": "school_work",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 przedmioty szkolne.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "matematyka",
+      "polski",
+      "historia",
+      "biologia",
+      "geografia"
+    ]
+  },
+  {
+    "id": "fs_school_work_002",
+    "category": "school_work",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy leżące na biurku.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "długopis",
+      "notes",
+      "laptop",
+      "kubek",
+      "lampka"
+    ]
+  },
+  {
+    "id": "fs_school_work_003",
+    "category": "school_work",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 zawody.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "lekarz",
+      "nauczyciel",
+      "programista",
+      "kierowca",
+      "kucharz"
+    ]
+  },
+  {
+    "id": "fs_school_work_004",
+    "category": "school_work",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy potrzebne na lekcji.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "zeszyt",
+      "długopis",
+      "podręcznik",
+      "linijka",
+      "plecak"
+    ]
+  },
+  {
+    "id": "fs_school_work_005",
+    "category": "school_work",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 miejsca pracy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "biuro",
+      "szkoła",
+      "sklep",
+      "szpital",
+      "warsztat"
+    ]
+  },
+  {
+    "id": "fs_school_work_006",
+    "category": "school_work",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 powody, dla których robi się notatki.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "nauka",
+      "zapamiętanie",
+      "organizacja",
+      "powtórka",
+      "planowanie"
+    ]
+  },
+  {
+    "id": "fs_school_work_007",
+    "category": "school_work",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 umiejętności przydatne w pracy zespołowej.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "komunikacja",
+      "punktualność",
+      "słuchanie",
+      "odpowiedzialność",
+      "współpraca"
+    ]
+  },
+  {
+    "id": "fs_school_work_008",
+    "category": "school_work",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które mogą być na spotkaniu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "agenda",
+      "prezentacja",
+      "notatki",
+      "pytania",
+      "decyzje"
+    ]
+  },
+  {
+    "id": "fs_school_work_009",
+    "category": "school_work",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 sposoby na organizację czasu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "kalendarz",
+      "lista zadań",
+      "priorytety",
+      "blokowanie czasu",
+      "przypomnienia"
+    ]
+  },
+  {
+    "id": "fs_school_work_010",
+    "category": "school_work",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można zapisać w kalendarzu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "spotkanie",
+      "urodziny",
+      "termin",
+      "egzamin",
+      "wizyta"
+    ]
+  },
+  {
+    "id": "fs_travel_001",
+    "category": "travel",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 środki transportu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "samochód",
+      "pociąg",
+      "autobus",
+      "samolot",
+      "rower"
+    ]
+  },
+  {
+    "id": "fs_travel_002",
+    "category": "travel",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które pakuje się do walizki.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "ubrania",
+      "ładowarka",
+      "kosmetyki",
+      "buty",
+      "ręcznik"
+    ]
+  },
+  {
+    "id": "fs_travel_003",
+    "category": "travel",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 miejsca na dworcu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "peron",
+      "kasa",
+      "poczekalnia",
+      "tablica odjazdów",
+      "wejście"
+    ]
+  },
+  {
+    "id": "fs_travel_004",
+    "category": "travel",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 dokumenty lub bilety potrzebne w podróży.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "dowód osobisty",
+      "paszport",
+      "bilet",
+      "prawo jazdy",
+      "karta pokładowa"
+    ]
+  },
+  {
+    "id": "fs_travel_005",
+    "category": "travel",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które robi się przed wyjazdem.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "pakowanie",
+      "sprawdzenie trasy",
+      "kupno biletu",
+      "zamknięcie drzwi",
+      "ładowanie telefonu"
+    ]
+  },
+  {
+    "id": "fs_travel_006",
+    "category": "travel",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 problemy, które mogą zdarzyć się w podróży.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "opóźnienie",
+      "zgubiony bagaż",
+      "korek",
+      "odwołany lot",
+      "brak miejsca"
+    ]
+  },
+  {
+    "id": "fs_travel_007",
+    "category": "travel",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 miejsca, gdzie można spać w podróży.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "hotel",
+      "hostel",
+      "apartament",
+      "pensjonat",
+      "kemping"
+    ]
+  },
+  {
+    "id": "fs_travel_008",
+    "category": "travel",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które sprawdza się na mapie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "trasa",
+      "odległość",
+      "czas przejazdu",
+      "ulica",
+      "przystanek"
+    ]
+  },
+  {
+    "id": "fs_travel_009",
+    "category": "travel",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 rzeczy, które warto mieć w bagażu podręcznym.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "dokumenty",
+      "ładowarka",
+      "woda",
+      "leki",
+      "słuchawki"
+    ]
+  },
+  {
+    "id": "fs_travel_010",
+    "category": "travel",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 osoby, które można spotkać na lotnisku.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "pilot",
+      "pasażer",
+      "stewardesa",
+      "celnik",
+      "pracownik odprawy"
+    ]
+  },
+  {
+    "id": "fs_home_001",
+    "category": "home",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 pomieszczenia w domu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "kuchnia",
+      "łazienka",
+      "sypialnia",
+      "salon",
+      "przedpokój"
+    ]
+  },
+  {
+    "id": "fs_home_002",
+    "category": "home",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 sprzęty kuchenne.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "lodówka",
+      "kuchenka",
+      "czajnik",
+      "mikrofalówka",
+      "toster"
+    ]
+  },
+  {
+    "id": "fs_home_003",
+    "category": "home",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy do sprzątania.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "miotła",
+      "odkurzacz",
+      "ściereczka",
+      "mop",
+      "płyn"
+    ]
+  },
+  {
+    "id": "fs_home_004",
+    "category": "home",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 meble.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "stół",
+      "krzesło",
+      "szafa",
+      "kanapa",
+      "łóżko"
+    ]
+  },
+  {
+    "id": "fs_home_005",
+    "category": "home",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można znaleźć w łazience.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "ręcznik",
+      "mydło",
+      "szczoteczka",
+      "szampon",
+      "lustro"
+    ]
+  },
+  {
+    "id": "fs_home_006",
+    "category": "home",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 awarie, które mogą zdarzyć się w mieszkaniu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "brak prądu",
+      "zalanie",
+      "zepsuty zamek",
+      "cieknący kran",
+      "brak internetu"
+    ]
+  },
+  {
+    "id": "fs_home_007",
+    "category": "home",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które robi się podczas remontu.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "malowanie",
+      "wiercenie",
+      "sprzątanie",
+      "mierzenie",
+      "układanie podłogi"
+    ]
+  },
+  {
+    "id": "fs_home_008",
+    "category": "home",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które można schować w szafie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "ubrania",
+      "buty",
+      "pościel",
+      "walizka",
+      "pudełka"
+    ]
+  },
+  {
+    "id": "fs_home_009",
+    "category": "home",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 rachunki domowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "prąd",
+      "gaz",
+      "woda",
+      "internet",
+      "czynsz"
+    ]
+  },
+  {
+    "id": "fs_home_010",
+    "category": "home",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które włącza się pilotem.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "telewizor",
+      "dekoder",
+      "klimatyzacja",
+      "projektor",
+      "radio"
+    ]
+  },
+  {
+    "id": "fs_party_001",
+    "category": "party",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy potrzebne na domówkę.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "muzyka",
+      "przekąski",
+      "napoje",
+      "gry",
+      "kubki"
+    ]
+  },
+  {
+    "id": "fs_party_002",
+    "category": "party",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 gry imprezowe.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "kalambury",
+      "karaoke",
+      "quiz",
+      "planszówki",
+      "5 sekund"
+    ]
+  },
+  {
+    "id": "fs_party_003",
+    "category": "party",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 powody do świętowania.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "urodziny",
+      "awans",
+      "sylwester",
+      "rocznica",
+      "zdany egzamin"
+    ]
+  },
+  {
+    "id": "fs_party_004",
+    "category": "party",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można zrobić na imprezie.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "tańczyć",
+      "rozmawiać",
+      "grać",
+      "śpiewać",
+      "jeść"
+    ]
+  },
+  {
+    "id": "fs_party_005",
+    "category": "party",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 przekąski na imprezę.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "chipsy",
+      "paluszki",
+      "orzeszki",
+      "kanapki",
+      "krakersy"
+    ]
+  },
+  {
+    "id": "fs_party_006",
+    "category": "party",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które psują atmosferę imprezy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "spóźnienie",
+      "brak muzyki",
+      "kłótnia",
+      "bałagan",
+      "nudne rozmowy"
+    ]
+  },
+  {
+    "id": "fs_party_007",
+    "category": "party",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 role gospodarza imprezy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "witanie gości",
+      "podawanie jedzenia",
+      "włączanie muzyki",
+      "pilnowanie czasu",
+      "organizacja gier"
+    ]
+  },
+  {
+    "id": "fs_party_008",
+    "category": "party",
+    "difficulty": "medium",
+    "prompt": "Wymień 3 rzeczy, które można przygotować przed przyjściem gości.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "muzykę",
+      "przekąski",
+      "napoje",
+      "miejsca siedzące",
+      "gry"
+    ]
+  },
+  {
+    "id": "fs_party_009",
+    "category": "party",
+    "difficulty": "hard",
+    "prompt": "Wymień 3 sposoby na rozkręcenie cichej imprezy.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "puścić muzykę",
+      "zacząć grę",
+      "zadać pytanie",
+      "włączyć karaoke",
+      "zmienić ustawienie miejsc"
+    ]
+  },
+  {
+    "id": "fs_party_010",
+    "category": "party",
+    "difficulty": "easy",
+    "prompt": "Wymień 3 rzeczy, które można robić po północy na sylwestrze.",
+    "expected_answer_count": 3,
+    "sample_answers": [
+      "oglądać fajerwerki",
+      "składać życzenia",
+      "tańczyć",
+      "robić zdjęcia",
+      "śpiewać"
+    ]
+  }
+]

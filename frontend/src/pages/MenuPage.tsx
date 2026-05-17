@@ -5,7 +5,7 @@ import heroImage from '../assets/hero.png'
 import type { GameType } from '../stores/appStore'
 
 type GameOption = {
-  game: GameType | 'five_seconds' | 'hangman'
+  game: GameType | 'hangman'
   label: string
   meta: string
   disabled?: boolean
@@ -14,14 +14,13 @@ type GameOption = {
 const GAME_OPTIONS: GameOption[] = [
   {
     game: 'trivia',
-    label: 'Trivia ABCD',
+    label: 'Trivia',
     meta: 'dostępne',
   },
   {
     game: 'five_seconds',
     label: '5 sekund',
-    meta: 'później',
-    disabled: true,
+    meta: 'dostępne',
   },
   {
     game: 'hangman',
@@ -63,7 +62,7 @@ export function MenuPage({
                 disabled={option.disabled}
                 key={option.game}
                 onClick={() => {
-                  if (option.game === 'trivia') {
+                  if (option.game !== 'hangman') {
                     onSelectGame(option.game)
                   }
                 }}

@@ -5,7 +5,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 
 ## Aktualny scope MVP
 
-- Jedna gra: trivia ABCD
+- Gry: trivia ABCD + pierwszy lokalny slice gry 5 sekund
 - Tryby: solo + hotseat lokalny (kilku graczy, jedno urządzenie, jeden globalny profil)
 - 10 rund / sesja, 4 odpowiedzi (ABCD), 15 sekund na odpowiedź
 - Punkty tylko za poprawność (nie za szybkość)
@@ -13,6 +13,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 - AI prowadzący: predefiniowane szablony komentarzy + pre-generowane TTS z dysku
 - Sędzia: deterministyczny algorytm (porównanie litery + matching treści przez `rapidfuzz`)
 - Baza pytań trivia: `data/trivia/questions/<category>.json` (jeden plik na kategorię — `geography.json`, `history.json`, ...) na MVP. Testowe pytania trivia są w `data/trivia/test_questions/`. Migracja do SQLite + admin UI w v0.5.
+- Baza promptów gry 5 sekund: `data/5_seconds/prompts.json` (prompt + kategoria + trudność + przykładowe odpowiedzi).
 - Historia: jeden globalny profil w SQLite
 
 ## Stack
@@ -34,7 +35,7 @@ MVP: portfolio-first, lokalne, niskokosztowe, polski język.
 - Multiplayer online, auth, konta email
 - VAD, streaming STT
 - Analiza emocji / twarzy / tonu
-- Inne gry niż trivia (5 sekund, wisielec, państwa-miasta, czółko, kalambury)
+- Inne gry poza obecnym slice'em trivia / 5 sekund (wisielec, państwa-miasta, czółko, kalambury)
 - Desktop app, Electron
 - Deploy publiczny
 
@@ -86,7 +87,7 @@ Logika biznesowa nigdy w endpointach. Integracje (STT/TTS/DB) w osobnych moduła
 
 - **MVP** — opisany wyżej (3-4 tyg)
 - **v0.5** — admin UI dla bazy pytań, migracja JSON → SQLite
-- **v1** — druga gra (5 sekund lub wisielec), wybór głosu (2-3 opcje)
+- **v1** — rozbudowa drugiej gry albo wisielec, wybór głosu (2-3 opcje)
 - **v2** — opcjonalny LLM layer (sędzia hybrydowy, dynamiczne komentarze), embeddingi przy słabym matchingu
 - **v3** — deploy publiczny + auth + monetyzacja (jeśli potencjał)
 - **v4** — multiplayer online

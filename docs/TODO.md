@@ -19,7 +19,7 @@
 
 - [ ] [post-MVP] Admin UI do edycji pytań (v0.5)
 - [ ] [post-MVP] Migracja questions.json → SQLite (v0.5)
-- [ ] [post-MVP] Druga gra: 5 sekund lub wisielec (v1)
+- [ ] [post-MVP] Rozbudowa gry 5 sekund albo dodanie wisielca (v1)
 - [ ] [post-MVP] Wybór głosu z 2-3 opcji (v1)
 - [ ] [post-MVP] LLM jako sędzia hybrydowy (fallback dla niepewnych) (v2)
 - [ ] [post-MVP] LLM-generowane komentarze kontekstowe (v2)
@@ -62,8 +62,10 @@
 - [x] M6: dodano zapis zakończonej sesji do SQLite, endpoint `/api/history/sessions` i stronę historii w UI
 - [x] M6: uzupełniono README o uruchomienie backendu, frontendu i lokalny zapis historii
 - [x] UI slice: dodano Motion, Material UI i Zustand bez pełnej migracji całego frontendu
-- [x] UI: dodano wybór gry w menu; aktywna jest `Trivia ABCD`, przyszłe gry są nieaktywne
-- [x] UI: dodano wybór kategorii dla `Trivia ABCD` i przekazywanie ich do `/ws/game`
+- [x] UI: dodano wybór gry w menu; aktywna jest `Trivia`
+- [x] UI: dodano wybór kategorii dla `Trivia` i przekazywanie ich do `/ws/game`
 - [x] Trivia: zwiększono bazę pytań do 660 pytań, po 60 na każdą kategorię
 - [x] Trivia: przeniesiono dane do `data/trivia/questions/`, a smoke-testowe pytania do `data/trivia/test_questions/`
+- [x] 5 sekund: dodano bazę 120 promptów w `data/5_seconds/prompts.json`
+- [x] 5 sekund: dodano wybór gry, setup kategorii i lokalny ekran rozgrywki z timerem 5s
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

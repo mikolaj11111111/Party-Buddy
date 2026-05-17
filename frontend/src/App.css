@@ -398,6 +398,37 @@ input:focus-visible {
   overflow-wrap: anywhere;
 }
 
+.five-seconds-panel {
+  min-height: 520px;
+}
+
+.five-seconds-panel h2 {
+  max-width: 860px;
+  font-size: 42px;
+}
+
+.judge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.prompt-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.prompt-examples span {
+  min-height: 32px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-strong);
+  background: #ffffff;
+  font-weight: 750;
+}
+
 .answer-letter,
 .result-rank {
   width: 42px;
@@ -692,6 +723,10 @@ input:focus-visible {
 
   .question-panel h2 {
     font-size: 24px;
+  }
+
+  .five-seconds-panel h2 {
+    font-size: 30px;
   }
 
   .answer-button {

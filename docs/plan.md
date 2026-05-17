@@ -31,7 +31,7 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 
 ### M2 — Sędzia i baza pytań (3-4 dni)
 - [x] Schema pytania w JSON (`id`, `category`, `difficulty`, `question`, `options{A..D}`, `correct_answer`, `explanation?`, `aliases?`)
-- [x] `data/questions/<category>.json` — 11 plików per kategoria (geography, popculture, history, movies, music, science, internet_games, sport, technology, language_literature, general). Pierwsza partia: ~180 pytań. Docelowo 600-800 w kolejnych iteracjach.
+- [x] `data/trivia/questions/<category>.json` — 11 plików per kategoria (geography, popculture, history, movies, music, science, internet_games, sport, technology, language_literature, general). Pierwsza partia: ~180 pytań. Docelowo 600-800 w kolejnych iteracjach.
 - [x] Loader pytań z katalogu (zbiera wszystkie kategorie, waliduje schemat, wykrywa duplikaty `id`)
 - [x] `core/judge.py`: porównanie litery + matching treści (rapidfuzz)
 - [x] Testy jednostkowe sędziego (poprawne, błędne, literówki, wielkość liter, aliasy)
@@ -78,8 +78,8 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 
 
 ### 5 sekund
-- [] dodać baze do gry 5 sekund
-- [] dodać ui do gry 5 sekund
+- [x] dodać baze do gry 5 sekund (`data/5_seconds/prompts.json`, 120 promptów)
+- [x] dodać ui do gry 5 sekund
 
 ### Wisielec
 - [] dodać baze do gry wisielec
