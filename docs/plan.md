@@ -82,10 +82,17 @@ Działająca lokalnie webowa gra trivia ABCD z AI prowadzącym (TTS + szablony),
 - [x] dodać ui do gry 5 sekund
 
 ### Wisielec
-- [] dodać baze do gry wisielec
-- [] dodać ui do gry wisielec
+- [x] dodać baze do gry wisielec (`data/hangman/words.json`, 195 haseł)
+- [x] dodać API/loader bazy wisielca (`GET /api/hangman/words`)
+- [x] dodać ui do gry wisielec
 
+### Dodanie testow pytest-cov dla % pokrycia kodu
+- [] implementacja pytest-cov
+
+### Kolejne poprawki
 - [] popracowac nad dzwiekem game mastera
+- [] ui 5 sekund
+- [ ] zapisać pełny log rund/odpowiedzi do DB dla wszystkich gier (`game_type`, `round_number`, `player_id`, `question_id/prompt_id/word_id`, `submitted_answer`, `is_correct`, `score_delta`)
 
 ## Zasady pracy w trakcie MVP
 

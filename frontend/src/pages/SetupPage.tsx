@@ -8,6 +8,7 @@ const DEFAULT_ROUND_COUNT = 10
 const GAME_SETTINGS: Record<GameType, { label: string; roundSeconds: number }> = {
   trivia: { label: 'Trivia', roundSeconds: 15 },
   five_seconds: { label: '5 sekund', roundSeconds: 5 },
+  hangman: { label: 'Wisielec', roundSeconds: 0 },
 }
 const TRIVIA_CATEGORY_OPTIONS = [
   { id: 'geography', label: 'Geografia' },
@@ -35,6 +36,21 @@ const FIVE_SECONDS_CATEGORY_OPTIONS = [
   { id: 'travel', label: 'Podróże' },
   { id: 'home', label: 'Dom' },
   { id: 'party', label: 'Impreza' },
+] as const
+const HANGMAN_CATEGORY_OPTIONS = [
+  { id: 'names', label: 'Imiona' },
+  { id: 'countries', label: 'Państwa' },
+  { id: 'cities', label: 'Miasta' },
+  { id: 'objects', label: 'Przedmioty' },
+  { id: 'animals', label: 'Zwierzęta' },
+  { id: 'plants', label: 'Rośliny' },
+  { id: 'food', label: 'Jedzenie' },
+  { id: 'jobs', label: 'Zawody' },
+  { id: 'sports', label: 'Sport' },
+  { id: 'nature', label: 'Natura' },
+  { id: 'technology', label: 'Technologia' },
+  { id: 'popculture', label: 'Popkultura' },
+  { id: 'abstract', label: 'Abstrakcyjne' },
 ] as const
 
 type CategoryOption = {
@@ -182,7 +198,7 @@ export function SetupPage({ game, mode, onBack, onStart }: SetupPageProps) {
             </button>
           </div>
 
-          <div className="category-grid" aria-label="Wybierz kategorie pytań">
+          <div className="category-grid" aria-label="Wybierz kategorie">
             {categoryOptions.map((category) => {
               const isSelected = selectedCategories.includes(category.id)
               return (
@@ -217,6 +233,15 @@ export function SetupPage({ game, mode, onBack, onStart }: SetupPageProps) {
   )
 }
 
+/** Return category choices for the selected game type. */
 function getCategoryOptions(game: GameType): readonly CategoryOption[] {
-  return game === 'trivia' ? TRIVIA_CATEGORY_OPTIONS : FIVE_SECONDS_CATEGORY_OPTIONS
+  if (game === 'trivia') {
+    return TRIVIA_CATEGORY_OPTIONS
+  }
+
+  if (game === 'five_seconds') {
+    return FIVE_SECONDS_CATEGORY_OPTIONS
+  }
+
+  return HANGMAN_CATEGORY_OPTIONS
 }

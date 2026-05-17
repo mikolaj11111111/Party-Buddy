@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "hangman_names_001",
+    "category": "names",
+    "difficulty": "easy",
+    "word": "anna",
+    "hint": "Popularne imię żeńskie"
+  },
+  {
+    "id": "hangman_names_002",
+    "category": "names",
+    "difficulty": "easy",
+    "word": "jan",
+    "hint": "Krótkie imię męskie"
+  },
+  {
+    "id": "hangman_names_003",
+    "category": "names",
+    "difficulty": "easy",
+    "word": "piotr",
+    "hint": "Popularne imię męskie"
+  },
+  {
+    "id": "hangman_names_004",
+    "category": "names",
+    "difficulty": "easy",
+    "word": "maria",
+    "hint": "Klasyczne imię żeńskie"
+  },
+  {
+    "id": "hangman_names_005",
+    "category": "names",
+    "difficulty": "easy",
+    "word": "kacper",
+    "hint": "Imię jednego z trzech króli"
+  },
+  {
+    "id": "hangman_names_006",
+    "category": "names",
+    "difficulty": "easy",
+    "word": "zosia",
+    "hint": "Zdrobnienie od Zofia"
+  },
+  {
+    "id": "hangman_names_007",
+    "category": "names",
+    "difficulty": "medium",
+    "word": "aleksander",
+    "hint": "Długie imię męskie"
+  },
+  {
+    "id": "hangman_names_008",
+    "category": "names",
+    "difficulty": "medium",
+    "word": "małgorzata",
+    "hint": "Długie imię żeńskie"
+  },
+  {
+    "id": "hangman_names_009",
+    "category": "names",
+    "difficulty": "medium",
+    "word": "krzysztof",
+    "hint": "Imię z trudnym zbitkiem liter"
+  },
+  {
+    "id": "hangman_names_010",
+    "category": "names",
+    "difficulty": "medium",
+    "word": "agnieszka",
+    "hint": "Popularne polskie imię żeńskie"
+  },
+  {
+    "id": "hangman_names_011",
+    "category": "names",
+    "difficulty": "medium",
+    "word": "wojciech",
+    "hint": "Imię z literą j"
+  },
+  {
+    "id": "hangman_names_012",
+    "category": "names",
+    "difficulty": "medium",
+    "word": "grzegorz",
+    "hint": "Imię z dwoma rz"
+  },
+  {
+    "id": "hangman_names_013",
+    "category": "names",
+    "difficulty": "hard",
+    "word": "przemysław",
+    "hint": "Długie imię męskie z polskimi znakami"
+  },
+  {
+    "id": "hangman_names_014",
+    "category": "names",
+    "difficulty": "hard",
+    "word": "żaneta",
+    "hint": "Imię zaczynające się od ż"
+  },
+  {
+    "id": "hangman_names_015",
+    "category": "names",
+    "difficulty": "hard",
+    "word": "władysław",
+    "hint": "Historyczne imię królewskie"
+  },
+  {
+    "id": "hangman_countries_001",
+    "category": "countries",
+    "difficulty": "easy",
+    "word": "polska",
+    "hint": "Państwo w Europie Środkowej"
+  },
+  {
+    "id": "hangman_countries_002",
+    "category": "countries",
+    "difficulty": "easy",
+    "word": "niemcy",
+    "hint": "Zachodni sąsiad Polski"
+  },
+  {
+    "id": "hangman_countries_003",
+    "category": "countries",
+    "difficulty": "easy",
+    "word": "francja",
+    "hint": "Państwo ze stolicą w Paryżu"
+  },
+  {
+    "id": "hangman_countries_004",
+    "category": "countries",
+    "difficulty": "easy",
+    "word": "włochy",
+    "hint": "Państwo w kształcie buta"
+  },
+  {
+    "id": "hangman_countries_005",
+    "category": "countries",
+    "difficulty": "easy",
+    "word": "hiszpania",
+    "hint": "Państwo na Półwyspie Iberyjskim"
+  },
+  {
+    "id": "hangman_countries_006",
+    "category": "countries",
+    "difficulty": "easy",
+    "word": "japonia",
+    "hint": "Wyspiarskie państwo w Azji"
+  },
+  {
+    "id": "hangman_countries_007",
+    "category": "countries",
+    "difficulty": "medium",
+    "word": "portugalia",
+    "hint": "Państwo ze stolicą w Lizbonie"
+  },
+  {
+    "id": "hangman_countries_008",
+    "category": "countries",
+    "difficulty": "medium",
+    "word": "argentyna",
+    "hint": "Państwo w Ameryce Południowej"
+  },
+  {
+    "id": "hangman_countries_009",
+    "category": "countries",
+    "difficulty": "medium",
+    "word": "islandia",
+    "hint": "Wyspa na północnym Atlantyku"
+  },
+  {
+    "id": "hangman_countries_010",
+    "category": "countries",
+    "difficulty": "medium",
+    "word": "chorwacja",
+    "hint": "Państwo nad Adriatykiem"
+  },
+  {
+    "id": "hangman_countries_011",
+    "category": "countries",
+    "difficulty": "medium",
+    "word": "szwajcaria",
+    "hint": "Państwo Alp i zegarków"
+  },
+  {
+    "id": "hangman_countries_012",
+    "category": "countries",
+    "difficulty": "medium",
+    "word": "finlandia",
+    "hint": "Państwo ze stolicą w Helsinkach"
+  },
+  {
+    "id": "hangman_countries_013",
+    "category": "countries",
+    "difficulty": "hard",
+    "word": "azerbejdżan",
+    "hint": "Państwo na Kaukazie"
+  },
+  {
+    "id": "hangman_countries_014",
+    "category": "countries",
+    "difficulty": "hard",
+    "word": "liechtenstein",
+    "hint": "Małe państwo w Alpach"
+  },
+  {
+    "id": "hangman_countries_015",
+    "category": "countries",
+    "difficulty": "hard",
+    "word": "nowa zelandia",
+    "hint": "Wyspiarskie państwo na Pacyfiku"
+  },
+  {
+    "id": "hangman_cities_001",
+    "category": "cities",
+    "difficulty": "easy",
+    "word": "warszawa",
+    "hint": "Stolica Polski"
+  },
+  {
+    "id": "hangman_cities_002",
+    "category": "cities",
+    "difficulty": "easy",
+    "word": "kraków",
+    "hint": "Miasto z Wawelem"
+  },
+  {
+    "id": "hangman_cities_003",
+    "category": "cities",
+    "difficulty": "easy",
+    "word": "gdańsk",
+    "hint": "Miasto nad Bałtykiem"
+  },
+  {
+    "id": "hangman_cities_004",
+    "category": "cities",
+    "difficulty": "easy",
+    "word": "poznań",
+    "hint": "Miasto z koziołkami"
+  },
+  {
+    "id": "hangman_cities_005",
+    "category": "cities",
+    "difficulty": "easy",
+    "word": "wrocław",
+    "hint": "Miasto nad Odrą"
+  },
+  {
+    "id": "hangman_cities_006",
+    "category": "cities",
+    "difficulty": "easy",
+    "word": "paryż",
+    "hint": "Stolica Francji"
+  },
+  {
+    "id": "hangman_cities_007",
+    "category": "cities",
+    "difficulty": "medium",
+    "word": "barcelona",
+    "hint": "Miasto w Hiszpanii"
+  },
+  {
+    "id": "hangman_cities_008",
+    "category": "cities",
+    "difficulty": "medium",
+    "word": "amsterdam",
+    "hint": "Stolica Holandii"
+  },
+  {
+    "id": "hangman_cities_009",
+    "category": "cities",
+    "difficulty": "medium",
+    "word": "budapeszt",
+    "hint": "Stolica Węgier"
+  },
+  {
+    "id": "hangman_cities_010",
+    "category": "cities",
+    "difficulty": "medium",
+    "word": "lizbona",
+    "hint": "Stolica Portugalii"
+  },
+  {
+    "id": "hangman_cities_011",
+    "category": "cities",
+    "difficulty": "medium",
+    "word": "tokio",
+    "hint": "Stolica Japonii"
+  },
+  {
+    "id": "hangman_cities_012",
+    "category": "cities",
+    "difficulty": "medium",
+    "word": "helsinki",
+    "hint": "Stolica Finlandii"
+  },
+  {
+    "id": "hangman_cities_013",
+    "category": "cities",
+    "difficulty": "hard",
+    "word": "reykjavik",
+    "hint": "Stolica Islandii"
+  },
+  {
+    "id": "hangman_cities_014",
+    "category": "cities",
+    "difficulty": "hard",
+    "word": "buenos aires",
+    "hint": "Stolica Argentyny"
+  },
+  {
+    "id": "hangman_cities_015",
+    "category": "cities",
+    "difficulty": "hard",
+    "word": "kopenhaga",
+    "hint": "Stolica Danii"
+  },
+  {
+    "id": "hangman_objects_001",
+    "category": "objects",
+    "difficulty": "easy",
+    "word": "telefon",
+    "hint": "Urządzenie do rozmów"
+  },
+  {
+    "id": "hangman_objects_002",
+    "category": "objects",
+    "difficulty": "easy",
+    "word": "klucz",
+    "hint": "Otwiera drzwi"
+  },
+  {
+    "id": "hangman_objects_003",
+    "category": "objects",
+    "difficulty": "easy",
+    "word": "kubek",
+    "hint": "Naczynie do picia"
+  },
+  {
+    "id": "hangman_objects_004",
+    "category": "objects",
+    "difficulty": "easy",
+    "word": "krzesło",
+    "hint": "Mebel do siedzenia"
+  },
+  {
+    "id": "hangman_objects_005",
+    "category": "objects",
+    "difficulty": "easy",
+    "word": "plecak",
+    "hint": "Nosi się na plecach"
+  },
+  {
+    "id": "hangman_objects_006",
+    "category": "objects",
+    "difficulty": "easy",
+    "word": "zegar",
+    "hint": "Pokazuje godzinę"
+  },
+  {
+    "id": "hangman_objects_007",
+    "category": "objects",
+    "difficulty": "medium",
+    "word": "latarka",
+    "hint": "Daje światło w ciemności"
+  },
+  {
+    "id": "hangman_objects_008",
+    "category": "objects",
+    "difficulty": "medium",
+    "word": "nożyczki",
+    "hint": "Służą do cięcia"
+  },
+  {
+    "id": "hangman_objects_009",
+    "category": "objects",
+    "difficulty": "medium",
+    "word": "ładowarka",
+    "hint": "Ładuje elektronikę"
+  },
+  {
+    "id": "hangman_objects_010",
+    "category": "objects",
+    "difficulty": "medium",
+    "word": "parasolka",
+    "hint": "Chroni przed deszczem"
+  },
+  {
+    "id": "hangman_objects_011",
+    "category": "objects",
+    "difficulty": "medium",
+    "word": "walizka",
+    "hint": "Bagaż podróżny"
+  },
+  {
+    "id": "hangman_objects_012",
+    "category": "objects",
+    "difficulty": "medium",
+    "word": "słuchawki",
+    "hint": "Zakłada się na uszy"
+  },
+  {
+    "id": "hangman_objects_013",
+    "category": "objects",
+    "difficulty": "hard",
+    "word": "śrubokręt",
+    "hint": "Narzędzie do śrub"
+  },
+  {
+    "id": "hangman_objects_014",
+    "category": "objects",
+    "difficulty": "hard",
+    "word": "termometr",
+    "hint": "Mierzy temperaturę"
+  },
+  {
+    "id": "hangman_objects_015",
+    "category": "objects",
+    "difficulty": "hard",
+    "word": "odkurzacz",
+    "hint": "Sprzęt do sprzątania"
+  },
+  {
+    "id": "hangman_animals_001",
+    "category": "animals",
+    "difficulty": "easy",
+    "word": "kot",
+    "hint": "Domowe zwierzę"
+  },
+  {
+    "id": "hangman_animals_002",
+    "category": "animals",
+    "difficulty": "easy",
+    "word": "pies",
+    "hint": "Czworonożny przyjaciel człowieka"
+  },
+  {
+    "id": "hangman_animals_003",
+    "category": "animals",
+    "difficulty": "easy",
+    "word": "koń",
+    "hint": "Zwierzę do jazdy"
+  },
+  {
+    "id": "hangman_animals_004",
+    "category": "animals",
+    "difficulty": "easy",
+    "word": "lew",
+    "hint": "Król zwierząt"
+  },
+  {
+    "id": "hangman_animals_005",
+    "category": "animals",
+    "difficulty": "easy",
+    "word": "ryba",
+    "hint": "Żyje w wodzie"
+  },
+  {
+    "id": "hangman_animals_006",
+    "category": "animals",
+    "difficulty": "easy",
+    "word": "krowa",
+    "hint": "Daje mleko"
+  },
+  {
+    "id": "hangman_animals_007",
+    "category": "animals",
+    "difficulty": "medium",
+    "word": "żyrafa",
+    "hint": "Ma bardzo długą szyję"
+  },
+  {
+    "id": "hangman_animals_008",
+    "category": "animals",
+    "difficulty": "medium",
+    "word": "pingwin",
+    "hint": "Ptak, który nie lata"
+  },
+  {
+    "id": "hangman_animals_009",
+    "category": "animals",
+    "difficulty": "medium",
+    "word": "wieloryb",
+    "hint": "Ogromny ssak morski"
+  },
+  {
+    "id": "hangman_animals_010",
+    "category": "animals",
+    "difficulty": "medium",
+    "word": "nietoperz",
+    "hint": "Latający ssak"
+  },
+  {
+    "id": "hangman_animals_011",
+    "category": "animals",
+    "difficulty": "medium",
+    "word": "chomik",
+    "hint": "Mały gryzoń domowy"
+  },
+  {
+    "id": "hangman_animals_012",
+    "category": "animals",
+    "difficulty": "medium",
+    "word": "krokodyl",
+    "hint": "Duży gad z mocnymi szczękami"
+  },
+  {
+    "id": "hangman_animals_013",
+    "category": "animals",
+    "difficulty": "hard",
+    "word": "dzięcioł",
+    "hint": "Ptak stukający w drzewa"
+  },
+  {
+    "id": "hangman_animals_014",
+    "category": "animals",
+    "difficulty": "hard",
+    "word": "pancernik",
+    "hint": "Zwierzę z pancerzem"
+  },
+  {
+    "id": "hangman_animals_015",
+    "category": "animals",
+    "difficulty": "hard",
+    "word": "hipopotam",
+    "hint": "Duży ssak żyjący przy wodzie"
+  },
+  {
+    "id": "hangman_plants_001",
+    "category": "plants",
+    "difficulty": "easy",
+    "word": "róża",
+    "hint": "Kwiat z kolcami"
+  },
+  {
+    "id": "hangman_plants_002",
+    "category": "plants",
+    "difficulty": "easy",
+    "word": "tulipan",
+    "hint": "Wiosenny kwiat"
+  },
+  {
+    "id": "hangman_plants_003",
+    "category": "plants",
+    "difficulty": "easy",
+    "word": "dąb",
+    "hint": "Drzewo z żołędziami"
+  },
+  {
+    "id": "hangman_plants_004",
+    "category": "plants",
+    "difficulty": "easy",
+    "word": "sosna",
+    "hint": "Drzewo iglaste"
+  },
+  {
+    "id": "hangman_plants_005",
+    "category": "plants",
+    "difficulty": "easy",
+    "word": "trawa",
+    "hint": "Rośnie na boisku i trawniku"
+  },
+  {
+    "id": "hangman_plants_006",
+    "category": "plants",
+    "difficulty": "easy",
+    "word": "kaktus",
+    "hint": "Roślina z kolcami"
+  },
+  {
+    "id": "hangman_plants_007",
+    "category": "plants",
+    "difficulty": "medium",
+    "word": "słonecznik",
+    "hint": "Żółty kwiat z pestkami"
+  },
+  {
+    "id": "hangman_plants_008",
+    "category": "plants",
+    "difficulty": "medium",
+    "word": "lawenda",
+    "hint": "Fioletowa roślina pachnąca"
+  },
+  {
+    "id": "hangman_plants_009",
+    "category": "plants",
+    "difficulty": "medium",
+    "word": "paprotka",
+    "hint": "Popularna roślina doniczkowa"
+  },
+  {
+    "id": "hangman_plants_010",
+    "category": "plants",
+    "difficulty": "medium",
+    "word": "brzoza",
+    "hint": "Drzewo z białą korą"
+  },
+  {
+    "id": "hangman_plants_011",
+    "category": "plants",
+    "difficulty": "medium",
+    "word": "orchidea",
+    "hint": "Dekoracyjny kwiat doniczkowy"
+  },
+  {
+    "id": "hangman_plants_012",
+    "category": "plants",
+    "difficulty": "medium",
+    "word": "bazylia",
+    "hint": "Zioło do kuchni włoskiej"
+  },
+  {
+    "id": "hangman_plants_013",
+    "category": "plants",
+    "difficulty": "hard",
+    "word": "chryzantema",
+    "hint": "Jesienny kwiat"
+  },
+  {
+    "id": "hangman_plants_014",
+    "category": "plants",
+    "difficulty": "hard",
+    "word": "rododendron",
+    "hint": "Krzew ozdobny"
+  },
+  {
+    "id": "hangman_plants_015",
+    "category": "plants",
+    "difficulty": "hard",
+    "word": "niezapominajka",
+    "hint": "Mały niebieski kwiat"
+  },
+  {
+    "id": "hangman_food_001",
+    "category": "food",
+    "difficulty": "easy",
+    "word": "pizza",
+    "hint": "Danie z serem i sosem"
+  },
+  {
+    "id": "hangman_food_002",
+    "category": "food",
+    "difficulty": "easy",
+    "word": "zupa",
+    "hint": "Je się ją łyżką"
+  },
+  {
+    "id": "hangman_food_003",
+    "category": "food",
+    "difficulty": "easy",
+    "word": "ser",
+    "hint": "Produkt mleczny"
+  },
+  {
+    "id": "hangman_food_004",
+    "category": "food",
+    "difficulty": "easy",
+    "word": "chleb",
+    "hint": "Pieczywo do kanapek"
+  },
+  {
+    "id": "hangman_food_005",
+    "category": "food",
+    "difficulty": "easy",
+    "word": "jabłko",
+    "hint": "Popularny owoc"
+  },
+  {
+    "id": "hangman_food_006",
+    "category": "food",
+    "difficulty": "easy",
+    "word": "pierogi",
+    "hint": "Polskie danie z farszem"
+  },
+  {
+    "id": "hangman_food_007",
+    "category": "food",
+    "difficulty": "medium",
+    "word": "naleśnik",
+    "hint": "Cienkie ciasto z patelni"
+  },
+  {
+    "id": "hangman_food_008",
+    "category": "food",
+    "difficulty": "medium",
+    "word": "spaghetti",
+    "hint": "Makaronowe danie włoskie"
+  },
+  {
+    "id": "hangman_food_009",
+    "category": "food",
+    "difficulty": "medium",
+    "word": "ogórek",
+    "hint": "Zielone warzywo"
+  },
+  {
+    "id": "hangman_food_010",
+    "category": "food",
+    "difficulty": "medium",
+    "word": "czekolada",
+    "hint": "Słodka tabliczka"
+  },
+  {
+    "id": "hangman_food_011",
+    "category": "food",
+    "difficulty": "medium",
+    "word": "jajecznica",
+    "hint": "Śniadanie z jajek"
+  },
+  {
+    "id": "hangman_food_012",
+    "category": "food",
+    "difficulty": "medium",
+    "word": "marchewka",
+    "hint": "Pomarańczowe warzywo"
+  },
+  {
+    "id": "hangman_food_013",
+    "category": "food",
+    "difficulty": "hard",
+    "word": "szarlotka",
+    "hint": "Ciasto z jabłkami"
+  },
+  {
+    "id": "hangman_food_014",
+    "category": "food",
+    "difficulty": "hard",
+    "word": "barszcz",
+    "hint": "Czerwona zupa"
+  },
+  {
+    "id": "hangman_food_015",
+    "category": "food",
+    "difficulty": "hard",
+    "word": "żurek",
+    "hint": "Kwaśna polska zupa"
+  },
+  {
+    "id": "hangman_jobs_001",
+    "category": "jobs",
+    "difficulty": "easy",
+    "word": "lekarz",
+    "hint": "Leczy ludzi"
+  },
+  {
+    "id": "hangman_jobs_002",
+    "category": "jobs",
+    "difficulty": "easy",
+    "word": "kucharz",
+    "hint": "Gotuje zawodowo"
+  },
+  {
+    "id": "hangman_jobs_003",
+    "category": "jobs",
+    "difficulty": "easy",
+    "word": "pilot",
+    "hint": "Prowadzi samolot"
+  },
+  {
+    "id": "hangman_jobs_004",
+    "category": "jobs",
+    "difficulty": "easy",
+    "word": "policjant",
+    "hint": "Pilnuje prawa"
+  },
+  {
+    "id": "hangman_jobs_005",
+    "category": "jobs",
+    "difficulty": "easy",
+    "word": "nauczyciel",
+    "hint": "Uczy w szkole"
+  },
+  {
+    "id": "hangman_jobs_006",
+    "category": "jobs",
+    "difficulty": "easy",
+    "word": "fryzjer",
+    "hint": "Obcina włosy"
+  },
+  {
+    "id": "hangman_jobs_007",
+    "category": "jobs",
+    "difficulty": "medium",
+    "word": "programista",
+    "hint": "Pisze kod"
+  },
+  {
+    "id": "hangman_jobs_008",
+    "category": "jobs",
+    "difficulty": "medium",
+    "word": "architekt",
+    "hint": "Projektuje budynki"
+  },
+  {
+    "id": "hangman_jobs_009",
+    "category": "jobs",
+    "difficulty": "medium",
+    "word": "weterynarz",
+    "hint": "Leczy zwierzęta"
+  },
+  {
+    "id": "hangman_jobs_010",
+    "category": "jobs",
+    "difficulty": "medium",
+    "word": "dziennikarz",
+    "hint": "Przygotowuje informacje"
+  },
+  {
+    "id": "hangman_jobs_011",
+    "category": "jobs",
+    "difficulty": "medium",
+    "word": "mechanik",
+    "hint": "Naprawia auta"
+  },
+  {
+    "id": "hangman_jobs_012",
+    "category": "jobs",
+    "difficulty": "medium",
+    "word": "strażak",
+    "hint": "Gasi pożary"
+  },
+  {
+    "id": "hangman_jobs_013",
+    "category": "jobs",
+    "difficulty": "hard",
+    "word": "psycholog",
+    "hint": "Pomaga z problemami psychicznymi"
+  },
+  {
+    "id": "hangman_jobs_014",
+    "category": "jobs",
+    "difficulty": "hard",
+    "word": "tłumacz",
+    "hint": "Przekłada języki"
+  },
+  {
+    "id": "hangman_jobs_015",
+    "category": "jobs",
+    "difficulty": "hard",
+    "word": "farmaceuta",
+    "hint": "Pracuje z lekami"
+  },
+  {
+    "id": "hangman_sports_001",
+    "category": "sports",
+    "difficulty": "easy",
+    "word": "tenis",
+    "hint": "Sport z rakietą"
+  },
+  {
+    "id": "hangman_sports_002",
+    "category": "sports",
+    "difficulty": "easy",
+    "word": "boks",
+    "hint": "Walka na ringu"
+  },
+  {
+    "id": "hangman_sports_003",
+    "category": "sports",
+    "difficulty": "easy",
+    "word": "golf",
+    "hint": "Sport z dołkami"
+  },
+  {
+    "id": "hangman_sports_004",
+    "category": "sports",
+    "difficulty": "easy",
+    "word": "hokej",
+    "hint": "Sport z krążkiem"
+  },
+  {
+    "id": "hangman_sports_005",
+    "category": "sports",
+    "difficulty": "easy",
+    "word": "siatkówka",
+    "hint": "Gra z siatką"
+  },
+  {
+    "id": "hangman_sports_006",
+    "category": "sports",
+    "difficulty": "easy",
+    "word": "koszykówka",
+    "hint": "Gra do kosza"
+  },
+  {
+    "id": "hangman_sports_007",
+    "category": "sports",
+    "difficulty": "medium",
+    "word": "badminton",
+    "hint": "Sport z lotką"
+  },
+  {
+    "id": "hangman_sports_008",
+    "category": "sports",
+    "difficulty": "medium",
+    "word": "łyżwiarstwo",
+    "hint": "Sport na lodzie"
+  },
+  {
+    "id": "hangman_sports_009",
+    "category": "sports",
+    "difficulty": "medium",
+    "word": "narciarstwo",
+    "hint": "Sport zimowy"
+  },
+  {
+    "id": "hangman_sports_010",
+    "category": "sports",
+    "difficulty": "medium",
+    "word": "pływanie",
+    "hint": "Sport w wodzie"
+  },
+  {
+    "id": "hangman_sports_011",
+    "category": "sports",
+    "difficulty": "medium",
+    "word": "kolarstwo",
+    "hint": "Sport na rowerze"
+  },
+  {
+    "id": "hangman_sports_012",
+    "category": "sports",
+    "difficulty": "medium",
+    "word": "wioślarstwo",
+    "hint": "Sport z wiosłami"
+  },
+  {
+    "id": "hangman_sports_013",
+    "category": "sports",
+    "difficulty": "hard",
+    "word": "lekkoatletyka",
+    "hint": "Zbiór konkurencji biegowych, skocznych i rzutowych"
+  },
+  {
+    "id": "hangman_sports_014",
+    "category": "sports",
+    "difficulty": "hard",
+    "word": "szermierka",
+    "hint": "Sport z bronią białą"
+  },
+  {
+    "id": "hangman_sports_015",
+    "category": "sports",
+    "difficulty": "hard",
+    "word": "jeździectwo",
+    "hint": "Sport z końmi"
+  },
+  {
+    "id": "hangman_nature_001",
+    "category": "nature",
+    "difficulty": "easy",
+    "word": "morze",
+    "hint": "Duży akwen słonej wody"
+  },
+  {
+    "id": "hangman_nature_002",
+    "category": "nature",
+    "difficulty": "easy",
+    "word": "góra",
+    "hint": "Wysokie wzniesienie"
+  },
+  {
+    "id": "hangman_nature_003",
+    "category": "nature",
+    "difficulty": "easy",
+    "word": "las",
+    "hint": "Dużo drzew"
+  },
+  {
+    "id": "hangman_nature_004",
+    "category": "nature",
+    "difficulty": "easy",
+    "word": "rzeka",
+    "hint": "Płynąca woda"
+  },
+  {
+    "id": "hangman_nature_005",
+    "category": "nature",
+    "difficulty": "easy",
+    "word": "jezioro",
+    "hint": "Woda otoczona lądem"
+  },
+  {
+    "id": "hangman_nature_006",
+    "category": "nature",
+    "difficulty": "easy",
+    "word": "chmura",
+    "hint": "Na niebie przed deszczem"
+  },
+  {
+    "id": "hangman_nature_007",
+    "category": "nature",
+    "difficulty": "medium",
+    "word": "pustynia",
+    "hint": "Suche miejsce z piaskiem"
+  },
+  {
+    "id": "hangman_nature_008",
+    "category": "nature",
+    "difficulty": "medium",
+    "word": "wodospad",
+    "hint": "Spadająca woda"
+  },
+  {
+    "id": "hangman_nature_009",
+    "category": "nature",
+    "difficulty": "medium",
+    "word": "jaskinia",
+    "hint": "Naturalna jama w skale"
+  },
+  {
+    "id": "hangman_nature_010",
+    "category": "nature",
+    "difficulty": "medium",
+    "word": "wulkan",
+    "hint": "Góra z lawą"
+  },
+  {
+    "id": "hangman_nature_011",
+    "category": "nature",
+    "difficulty": "medium",
+    "word": "lodowiec",
+    "hint": "Wielka masa lodu"
+  },
+  {
+    "id": "hangman_nature_012",
+    "category": "nature",
+    "difficulty": "medium",
+    "word": "tęcza",
+    "hint": "Kolory po deszczu"
+  },
+  {
+    "id": "hangman_nature_013",
+    "category": "nature",
+    "difficulty": "hard",
+    "word": "archipelag",
+    "hint": "Grupa wysp"
+  },
+  {
+    "id": "hangman_nature_014",
+    "category": "nature",
+    "difficulty": "hard",
+    "word": "półwysep",
+    "hint": "Ląd otoczony wodą z trzech stron"
+  },
+  {
+    "id": "hangman_nature_015",
+    "category": "nature",
+    "difficulty": "hard",
+    "word": "przylądek",
+    "hint": "Wysunięty fragment lądu"
+  },
+  {
+    "id": "hangman_technology_001",
+    "category": "technology",
+    "difficulty": "easy",
+    "word": "komputer",
+    "hint": "Maszyna do pracy i grania"
+  },
+  {
+    "id": "hangman_technology_002",
+    "category": "technology",
+    "difficulty": "easy",
+    "word": "internet",
+    "hint": "Globalna sieć"
+  },
+  {
+    "id": "hangman_technology_003",
+    "category": "technology",
+    "difficulty": "easy",
+    "word": "monitor",
+    "hint": "Ekran komputera"
+  },
+  {
+    "id": "hangman_technology_004",
+    "category": "technology",
+    "difficulty": "easy",
+    "word": "klawiatura",
+    "hint": "Służy do pisania"
+  },
+  {
+    "id": "hangman_technology_005",
+    "category": "technology",
+    "difficulty": "easy",
+    "word": "myszka",
+    "hint": "Steruje kursorem"
+  },
+  {
+    "id": "hangman_technology_006",
+    "category": "technology",
+    "difficulty": "easy",
+    "word": "router",
+    "hint": "Urządzenie sieciowe"
+  },
+  {
+    "id": "hangman_technology_007",
+    "category": "technology",
+    "difficulty": "medium",
+    "word": "procesor",
+    "hint": "Serce komputera"
+  },
+  {
+    "id": "hangman_technology_008",
+    "category": "technology",
+    "difficulty": "medium",
+    "word": "aplikacja",
+    "hint": "Program na telefon lub komputer"
+  },
+  {
+    "id": "hangman_technology_009",
+    "category": "technology",
+    "difficulty": "medium",
+    "word": "algorytm",
+    "hint": "Przepis działania dla komputera"
+  },
+  {
+    "id": "hangman_technology_010",
+    "category": "technology",
+    "difficulty": "medium",
+    "word": "przeglądarka",
+    "hint": "Otwiera strony internetowe"
+  },
+  {
+    "id": "hangman_technology_011",
+    "category": "technology",
+    "difficulty": "medium",
+    "word": "bateria",
+    "hint": "Zasila urządzenie"
+  },
+  {
+    "id": "hangman_technology_012",
+    "category": "technology",
+    "difficulty": "medium",
+    "word": "serwer",
+    "hint": "Obsługuje usługi w sieci"
+  },
+  {
+    "id": "hangman_technology_013",
+    "category": "technology",
+    "difficulty": "hard",
+    "word": "szyfrowanie",
+    "hint": "Ukrywanie treści bez klucza"
+  },
+  {
+    "id": "hangman_technology_014",
+    "category": "technology",
+    "difficulty": "hard",
+    "word": "uwierzytelnianie",
+    "hint": "Potwierdzanie tożsamości"
+  },
+  {
+    "id": "hangman_technology_015",
+    "category": "technology",
+    "difficulty": "hard",
+    "word": "repozytorium",
+    "hint": "Miejsce historii kodu"
+  },
+  {
+    "id": "hangman_popculture_001",
+    "category": "popculture",
+    "difficulty": "easy",
+    "word": "batman",
+    "hint": "Bohater z Gotham"
+  },
+  {
+    "id": "hangman_popculture_002",
+    "category": "popculture",
+    "difficulty": "easy",
+    "word": "barbie",
+    "hint": "Znana lalka"
+  },
+  {
+    "id": "hangman_popculture_003",
+    "category": "popculture",
+    "difficulty": "easy",
+    "word": "pikachu",
+    "hint": "Żółty Pokémon"
+  },
+  {
+    "id": "hangman_popculture_004",
+    "category": "popculture",
+    "difficulty": "easy",
+    "word": "simba",
+    "hint": "Bohater Króla Lwa"
+  },
+  {
+    "id": "hangman_popculture_005",
+    "category": "popculture",
+    "difficulty": "easy",
+    "word": "shrek",
+    "hint": "Zielony ogr"
+  },
+  {
+    "id": "hangman_popculture_006",
+    "category": "popculture",
+    "difficulty": "easy",
+    "word": "mario",
+    "hint": "Hydraulik z gier Nintendo"
+  },
+  {
+    "id": "hangman_popculture_007",
+    "category": "popculture",
+    "difficulty": "medium",
+    "word": "hogwart",
+    "hint": "Szkoła magii"
+  },
+  {
+    "id": "hangman_popculture_008",
+    "category": "popculture",
+    "difficulty": "medium",
+    "word": "gandalf",
+    "hint": "Czarodziej z brodą"
+  },
+  {
+    "id": "hangman_popculture_009",
+    "category": "popculture",
+    "difficulty": "medium",
+    "word": "thanos",
+    "hint": "Złoczyńca z Rękawicą Nieskończoności"
+  },
+  {
+    "id": "hangman_popculture_010",
+    "category": "popculture",
+    "difficulty": "medium",
+    "word": "sherlock",
+    "hint": "Detektyw z Baker Street"
+  },
+  {
+    "id": "hangman_popculture_011",
+    "category": "popculture",
+    "difficulty": "medium",
+    "word": "minionki",
+    "hint": "Żółte postacie filmowe"
+  },
+  {
+    "id": "hangman_popculture_012",
+    "category": "popculture",
+    "difficulty": "medium",
+    "word": "krypton",
+    "hint": "Planeta Supermana"
+  },
+  {
+    "id": "hangman_popculture_013",
+    "category": "popculture",
+    "difficulty": "hard",
+    "word": "śródziemie",
+    "hint": "Świat Władcy Pierścieni"
+  },
+  {
+    "id": "hangman_popculture_014",
+    "category": "popculture",
+    "difficulty": "hard",
+    "word": "wakanda",
+    "hint": "Fikcyjne państwo Czarnej Pantery"
+  },
+  {
+    "id": "hangman_popculture_015",
+    "category": "popculture",
+    "difficulty": "hard",
+    "word": "millennium",
+    "hint": "Sokół z Gwiezdnych wojen"
+  },
+  {
+    "id": "hangman_abstract_001",
+    "category": "abstract",
+    "difficulty": "easy",
+    "word": "radość",
+    "hint": "Pozytywna emocja"
+  },
+  {
+    "id": "hangman_abstract_002",
+    "category": "abstract",
+    "difficulty": "easy",
+    "word": "strach",
+    "hint": "Emocja zagrożenia"
+  },
+  {
+    "id": "hangman_abstract_003",
+    "category": "abstract",
+    "difficulty": "easy",
+    "word": "czas",
+    "hint": "Mierzy przemijanie"
+  },
+  {
+    "id": "hangman_abstract_004",
+    "category": "abstract",
+    "difficulty": "easy",
+    "word": "sen",
+    "hint": "Odpoczynek nocny"
+  },
+  {
+    "id": "hangman_abstract_005",
+    "category": "abstract",
+    "difficulty": "easy",
+    "word": "pomysł",
+    "hint": "Nowa myśl"
+  },
+  {
+    "id": "hangman_abstract_006",
+    "category": "abstract",
+    "difficulty": "easy",
+    "word": "spokój",
+    "hint": "Brak chaosu"
+  },
+  {
+    "id": "hangman_abstract_007",
+    "category": "abstract",
+    "difficulty": "medium",
+    "word": "odwaga",
+    "hint": "Działanie mimo strachu"
+  },
+  {
+    "id": "hangman_abstract_008",
+    "category": "abstract",
+    "difficulty": "medium",
+    "word": "cierpliwość",
+    "hint": "Umiejętność czekania"
+  },
+  {
+    "id": "hangman_abstract_009",
+    "category": "abstract",
+    "difficulty": "medium",
+    "word": "wyobraźnia",
+    "hint": "Tworzenie obrazów w głowie"
+  },
+  {
+    "id": "hangman_abstract_010",
+    "category": "abstract",
+    "difficulty": "medium",
+    "word": "pamięć",
+    "hint": "Przechowuje wspomnienia"
+  },
+  {
+    "id": "hangman_abstract_011",
+    "category": "abstract",
+    "difficulty": "medium",
+    "word": "szczęście",
+    "hint": "Pomyślny los albo dobra emocja"
+  },
+  {
+    "id": "hangman_abstract_012",
+    "category": "abstract",
+    "difficulty": "medium",
+    "word": "nadzieja",
+    "hint": "Wiara, że będzie lepiej"
+  },
+  {
+    "id": "hangman_abstract_013",
+    "category": "abstract",
+    "difficulty": "hard",
+    "word": "odpowiedzialność",
+    "hint": "Gotowość ponoszenia konsekwencji"
+  },
+  {
+    "id": "hangman_abstract_014",
+    "category": "abstract",
+    "difficulty": "hard",
+    "word": "niezależność",
+    "hint": "Samodzielność"
+  },
+  {
+    "id": "hangman_abstract_015",
+    "category": "abstract",
+    "difficulty": "hard",
+    "word": "przyjaźń",
+    "hint": "Bliska relacja"
+  }
+]

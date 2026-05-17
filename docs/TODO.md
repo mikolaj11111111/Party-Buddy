@@ -10,6 +10,7 @@
 
 - [ ] Czy po sesji pokazać statystyki per kategoria pytań
 - [ ] Schema odpowiedzi: `is_correct` jest wyliczane przez backend/sędziego i zwracane w response, nie wysyłane przez klienta
+- [ ] Zapisać pełny log rund/odpowiedzi do DB dla wszystkich gier (`game_type`, `round_number`, `player_id`, `question_id/prompt_id/word_id`, `submitted_answer`, `is_correct`, `score_delta`)
 
 ## Decyzje do podjęcia (blokujące)
 
@@ -19,7 +20,7 @@
 
 - [ ] [post-MVP] Admin UI do edycji pytań (v0.5)
 - [ ] [post-MVP] Migracja questions.json → SQLite (v0.5)
-- [ ] [post-MVP] Rozbudowa gry 5 sekund albo dodanie wisielca (v1)
+- [ ] [post-MVP] Rozbudowa gier 5 sekund / wisielec (v1)
 - [ ] [post-MVP] Wybór głosu z 2-3 opcji (v1)
 - [ ] [post-MVP] LLM jako sędzia hybrydowy (fallback dla niepewnych) (v2)
 - [ ] [post-MVP] LLM-generowane komentarze kontekstowe (v2)
@@ -68,4 +69,7 @@
 - [x] Trivia: przeniesiono dane do `data/trivia/questions/`, a smoke-testowe pytania do `data/trivia/test_questions/`
 - [x] 5 sekund: dodano bazę 120 promptów w `data/5_seconds/prompts.json`
 - [x] 5 sekund: dodano wybór gry, setup kategorii i lokalny ekran rozgrywki z timerem 5s
+- [x] Wisielec: dodano bazę 195 haseł w `data/hangman/words.json`
+- [x] Wisielec: dodano loader i endpoint `GET /api/hangman/words`
+- [x] Wisielec: dodano lokalny ekran gry, wybór kategorii i ekran wyników
 - [x] Decyzja: testy backendu uruchamiamy wyłącznie przez pytest

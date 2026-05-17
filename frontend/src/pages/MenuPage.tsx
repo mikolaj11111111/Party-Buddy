@@ -5,10 +5,9 @@ import heroImage from '../assets/hero.png'
 import type { GameType } from '../stores/appStore'
 
 type GameOption = {
-  game: GameType | 'hangman'
+  game: GameType
   label: string
   meta: string
-  disabled?: boolean
 }
 
 const GAME_OPTIONS: GameOption[] = [
@@ -25,8 +24,7 @@ const GAME_OPTIONS: GameOption[] = [
   {
     game: 'hangman',
     label: 'Wisielec',
-    meta: 'później',
-    disabled: true,
+    meta: 'dostępne',
   },
 ]
 
@@ -37,7 +35,7 @@ type MenuPageProps = {
   selectedGame: GameType
 }
 
-/** First app screen for choosing the local trivia mode. */
+/** First app screen for choosing the local game mode. */
 export function MenuPage({
   onOpenHistory,
   onSelectGame,
@@ -59,13 +57,8 @@ export function MenuPage({
                 className={`game-choice-button ${
                   option.game === selectedGame ? 'game-choice-button--active' : ''
                 }`}
-                disabled={option.disabled}
                 key={option.game}
-                onClick={() => {
-                  if (option.game !== 'hangman') {
-                    onSelectGame(option.game)
-                  }
-                }}
+                onClick={() => onSelectGame(option.game)}
               >
                 <span className="mode-button__title">{option.label}</span>
                 <span className="mode-button__meta">{option.meta}</span>
